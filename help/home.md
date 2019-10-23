@@ -4,7 +4,7 @@ seo-title: Información general de Adobe Places
 description: 'Adobe Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 seo-description: 'Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
 
 ---
 
@@ -30,13 +30,19 @@ Estas son algunas de las formas en que puede utilizar Lugares:
 * Segmente una audiencia según su comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Diríjase a un usuario con una experiencia en la tienda cuando sea pertinente.
 
+## Adición de un marcador de posición para el vídeo "Introducción a lugares" de Brandon
+
+## Casos de uso de lugares
+
+Mejore esta sección con
+
 ## Coloca componentes
 
 Los lugares comprenden los siguientes componentes:
 
 * **Servicio Web de lugares**
 
-   Puede crear y administrar puntos de interés mediante las API de REST. Para obtener más información acerca de las API de REST, consulte [Ubicaciones de servicios](/help/places-rest-apis/api-usage/api-usage.md)web.
+   Puede crear y administrar puntos de interés mediante las API de Places REST. Para obtener más información sobre las API de REST, consulte [Administrar bibliotecas](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) y [Administrar puntos de interés](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **IU de lugares**
 
@@ -44,7 +50,7 @@ Los lugares comprenden los siguientes componentes:
 
 * **SDK de lugares**
 
-   Interfaz de API móvil multiplataforma para integrar el contexto de ubicación en sus aplicaciones móviles. Para obtener más información sobre los SDK, consulte Extensión [](/help/configure-places-in-the-sdk/places-extension/places-extension.md)Places.
+   Interfaz de API móvil multiplataforma para integrar el contexto de ubicación en sus aplicaciones móviles. Para obtener más información sobre los SDK, consulte Extensión [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 * **Coloca las reglas**
 
@@ -52,7 +58,7 @@ Los lugares comprenden los siguientes componentes:
 
 * **Monitor de lugares**
 
-   El SDK móvil multiplataforma que se puede integrar en la aplicación móvil para supervisar automáticamente los cambios de ubicación del usuario y activar las reglas de lugares. Para obtener más información, consulte [Extensión](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)del monitor de lugares.
+   El SDK móvil multiplataforma que se puede integrar en la aplicación móvil para supervisar automáticamente los cambios de ubicación del usuario y activar las reglas de lugares. Para obtener más información, consulte [Extensión](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)del monitor de lugares.
 
 ## Terminología
 
@@ -87,23 +93,3 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
    For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
-
-## Explicación de la interfaz de usuario de lugares
-
-Para acceder a la interfaz de usuario de Lugares, en un navegador, vaya a la interfaz de usuario de [Lugares](https://places.adobe.com) e inicie sesión con su Adobe ID.
-
-A continuación se proporciona información básica para familiarizarse con la interfaz de usuario:
-
-* En la esquina superior derecha, hay botones en los que puede hacer clic para crear una biblioteca, puntos de interés y filtrar la búsqueda.
-* En la esquina inferior derecha de la pantalla, hay botones para acercar y alejar, centrándose en la ubicación actual **[!UICONTROL Find Me]** y cambiando entre la vista de mapa y la vista de satélite.
-* Haga doble clic para acercar o haga clic y arrastre para volver a escribir el mapa.
-* También puede utilizar las teclas de flecha para desplazarse por el mapa.
-
-![](assets/location-services.png)
-
-
-## Flujo de trabajo de lugares
-
-Esta es una vista de alto nivel del flujo de trabajo de lugares:
-
-![](/help/assets/places-workflow-diagram-lc-1.png)
