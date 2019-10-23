@@ -4,7 +4,7 @@ seo-title: Notas de la versión de Adobe Places.
 description: Notas de la versión de Adobe Places.
 seo-description: Notas de la versión de Adobe Places.
 translation-type: tm+mt
-source-git-commit: 60d72318db5f19646bca8870cec33979934593a7
+source-git-commit: a9aacd39be486195159b163b2c5969cb8b82b51b
 
 ---
 
@@ -183,7 +183,7 @@ iOS Places Monitor 1.0.0
 
 Versión inicial del monitor de lugares para iOS.
 
-El monitor de lugares administra las API de ubicación de nivel de SO y se comunica directamente con la extensión Lugares. Con ambas extensiones instaladas, los clientes pueden tener una supervisión de región lista para usar en su aplicación. Para obtener más información sobre el Monitor de lugares, consulte Extensión [Monitor de](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)lugares.
+El monitor de lugares administra las API de ubicación de nivel de SO y se comunica directamente con la extensión Lugares. Con ambas extensiones instaladas, los clientes pueden tener una supervisión de región lista para usar en su aplicación. Para obtener más información sobre el Monitor de lugares, consulte Extensión [Monitor de](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)lugares.
 
 ## 28 de febrero de 2019
 
@@ -212,7 +212,7 @@ En la extensión Places:
 * Eventos de regla que se activan al entrar o salir del punto de interés.
 * Cree elementos de datos que apunten al punto de interés actual del usuario.
 
-Para obtener más información sobre la extensión Places, consulte [Extensión]Places (/help/configure-places-in-the sdk/places-extension/places-extension.md).
+Para obtener más información sobre la extensión Places, consulte [Extensión](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 #### API de lugares
 
@@ -224,7 +224,7 @@ Puede utilizar las API de Places para lo siguiente:
 
    Las API proporcionan una utilidad python.
 
-Para obtener más información sobre las API de lugares, consulte [Colocaciones de servicios](/help/places-rest-apis/places-web-services.md)web.
+Para obtener más información sobre las API de lugares, consulte [Colocaciones de servicios](/help/places-web-service-api/places-web-services.md)web.
 
 ### Muy pronto
 
