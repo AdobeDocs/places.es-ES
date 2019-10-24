@@ -4,7 +4,7 @@ seo-title: Configuración del SDK con la extensión Places
 description: 'Puede configurar el SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil. '
 seo-description: 'Puede configurar el SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -19,15 +19,15 @@ Para configurar la extensión Places:
 
 1. Configure la extensión Places en Launch.
 
-   Para obtener más información, consulte *Configurar la extensión Places en Launch*.
+   Para obtener más información, consulte *Configurar la extensión Places en Iniciar* en la extensión [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 1. Agregue la extensión Lugares a la aplicación móvil.
 
-   Para obtener más información, consulte *Agregar la extensión Places a la aplicación*.
+   Para obtener más información, consulte *Agregar la extensión Places a la aplicación* en la extensión [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 1. Registrar lugares con la extensión Mobile Core.
 
-   Para obtener más información, consulte *Registro de Adobe Places con Mobile Core*.
+   Para obtener más información, consulte *Registrar lugares con núcleo* móvil en la extensión [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Lugares.
 
 ## Configuración de la extensión del monitor de lugares
 
