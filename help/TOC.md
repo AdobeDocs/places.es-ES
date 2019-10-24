@@ -1,16 +1,16 @@
 ---
-product: lugares
+product: Lugares de Adobe Experience Platform
 audience: end-user
-user-guide-title: Ayuda de Adobe Places
+user-guide-title: Ayuda de Adobe Experience Platform Places
 translation-type: tm+mt
-source-git-commit: cc5162bd71a22eec1ca8645a351e11695fd5eb16
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
 
-# Ayuda de Adobe Places {#using}
+# Ayuda de Adobe Experience Platform Places {#using}
 
-+ [Información general de Adobe Places](home.md)
++ [Información general sobre los lugares de Adobe Experience Platform](home.md)
 + [Notas de la versión](release-notes.md)
 + [Primeros pasos](getting-started.md)
 + Ubicación de la interfaz de administración de puntos de interés {#poi-mgmt-ui}
