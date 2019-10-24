@@ -1,17 +1,17 @@
 ---
-title: Notas de la versión
+title: Notas de la versión para los lugares de Adobe Experience Platform
 seo-title: Notas de la versión de Adobe Experience Platform Places.
 description: Notas de la versión de Adobe Experience Platform Places.
 seo-description: Notas de la versión de Adobe Experience Platform Places.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
 ---
 
 
 # Notas de la versión {#release-notes}
 
-Estas son las notas de la versión de Lugares:
+Estas son las notas de la versión de los sitios de Adobe Experience Platform (Lugares):
 
 ## 9 de octubre de 2019
 
