@@ -1,10 +1,10 @@
 ---
 title: Notas de la versión
-seo-title: Notas de la versión de Adobe Places.
-description: Notas de la versión de Adobe Places.
-seo-description: Notas de la versión de Adobe Places.
+seo-title: Notas de la versión de Adobe Experience Platform Places.
+description: Notas de la versión de Adobe Experience Platform Places.
+seo-description: Notas de la versión de Adobe Experience Platform Places.
 translation-type: tm+mt
-source-git-commit: a9aacd39be486195159b163b2c5969cb8b82b51b
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
