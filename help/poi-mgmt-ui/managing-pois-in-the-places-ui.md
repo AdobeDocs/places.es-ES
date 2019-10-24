@@ -4,7 +4,7 @@ seo-title: Administrar puntos de interés en la interfaz de usuario de lugares
 description: Utilice la IU de lugares para administrar los puntos de interés.
 seo-description: Utilice la IU de lugares para administrar los puntos de interés.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -37,7 +37,7 @@ Las geofences son un tipo de POI y se definen en la base de datos según las sig
 ## Editar un punto de interés
 
 1. Inicie sesión en lugares con su Adobe ID.
-1. Inicie sesión en el servicio Adobe Places con su Adobe ID.
+1. Inicie sesión en el servicio de lugares con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono que parece una lista con viñetas.
 1. Busque el punto de interés que desea editar.
 1. Haga clic **[!UICONTROL ...]** y seleccione **[!UICONTROL View Details]**.
@@ -46,14 +46,14 @@ Las geofences son un tipo de POI y se definen en la base de datos según las sig
 ## Eliminar un punto de interés
 
 1. Inicie sesión en lugares con su Adobe ID.
-1. Inicie sesión en el servicio Adobe Places con su Adobe ID.
+1. Inicie sesión en el servicio de lugares con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono que parece una lista con viñetas.
 1. Busque el punto de interés que desea eliminar.
 1. Haga clic **[!UICONTROL ...]** y seleccione **[!UICONTROL Delete]**.
 
 ## Filtrar puntos de interés por ciudad, estado, país o metadatos
 
-1. Inicie sesión en el servicio Adobe Places con su Adobe ID.
+1. Inicie sesión en el servicio de lugares con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono de filtrado.
 1. Puede filtrar los puntos de interés de una de las siguientes formas:
 
