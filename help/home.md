@@ -1,19 +1,19 @@
 ---
-title: Lugares de Adobe Experience Platform
-seo-title: Lugares de Adobe Experience Platform
-description: 'Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
-seo-description: 'Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
+title: Servicio de ubicación de Adobe Experience Platform
+seo-title: Servicio de ubicación de Adobe Experience Platform
+description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
+seo-description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
 
 ---
 
 
 # Información general {#home}
 
-Los lugares de Adobe Experience Platform (lugares) son un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. Places es un servicio de geolocalización que permite a los desarrolladores de aplicaciones móviles comprender el contexto de la ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
+El servicio de ubicación de Adobe Experience Platform (servicio de ubicación) es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. Places es un servicio de geolocalización que permite a los desarrolladores de aplicaciones móviles comprender el contexto de la ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
 
-Los lugares le permiten lograr lo siguiente:
+El servicio de ubicación le permite lograr lo siguiente:
 
 * Cree y administre una base de datos de puntos de interés que se puede aprovechar con otras soluciones de Adobe Experience Cloud.
 * Adjunte metadatos personalizados a los puntos de interés para hacerlos más ricos y significativos mediante la especificación de atributos adicionales.
@@ -30,21 +30,21 @@ Estas son algunas de las formas en que puede utilizar Lugares:
 * Segmente una audiencia según su comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Diríjase a un usuario con una experiencia en la tienda cuando sea pertinente.
 
-## Adición de un marcador de posición para el vídeo "Introducción a lugares" de Brandon
+## Adición de un marcador de posición para el vídeo "Introducción al servicio de ubicación" de Brandon
 
-## Casos de uso de lugares
+## Casos de uso del servicio de ubicación
 
 Mejore esta sección con
 
-## Coloca componentes
+## Componentes del servicio de ubicación
 
-Los lugares comprenden los siguientes componentes:
+El servicio de ubicación comprende los siguientes componentes:
 
 * **Servicio Web de lugares**
 
    Puede crear y administrar puntos de interés mediante las API de Places REST. Para obtener más información sobre las API de REST, consulte [Administrar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) y [Administrar puntos de interés](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **IU de lugares**
+* **Interfaz de usuario del servicio de ubicación**
 
    Visualice los puntos de interés en un mapa para comprender el contexto espacial y añadir/editar los puntos de interés y sus metadatos personalizados.
 
