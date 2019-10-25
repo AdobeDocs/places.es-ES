@@ -1,35 +1,35 @@
 ---
 title: Primeros pasos
 seo-title: Primeros pasos
-description: Introducción a Places.
-seo-description: Introducción a Places.
+description: Introducción al servicio de ubicación.
+seo-description: Introducción al servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
 
 # Primeros pasos {#getting-started}
 
-Este es un vídeo que le ayuda a empezar a usar Places:
+Este es un vídeo que le ayuda a iniciarse en el servicio de ubicación:
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
-Para utilizar Lugares, realice las siguientes tareas:
+Para utilizar el servicio de ubicación, realice las siguientes tareas:
 
-## 1. Aprovisionar para usar lugares
+## 1. Obtener aprovisionamiento para utilizar el servicio de ubicación
 
-Los lugares requieren un contexto de aprovisionamiento especial con el contexto de aprovisionamiento normal de Adobe Experience Platform.
+El servicio de ubicación requiere un contexto de aprovisionamiento especial con el contexto de aprovisionamiento normal de Adobe Experience Platform.
 
 Para obtener el aprovisionamiento, realice las siguientes tareas:
 
-* En la Consola de administración, asegúrese de que la organización está aprovisionada con Lugares.
+* En la Consola de administración, asegúrese de que la organización está aprovisionada con el servicio de ubicación.
 
-   Si no es el administrador de Adobe, póngase en contacto con el administrador para asegurarse de que el contexto Lugares se encuentra en Admin Console.
+   Si no es el administrador de Adobe, póngase en contacto con el administrador para asegurarse de que el contexto del servicio de ubicación se encuentra en Admin Console.
 
-* Asegúrese de que aparece como usuario en los contextos de producto de los lugares y del lanzamiento de la plataforma de experiencia en Admin Console.
+* Asegúrese de que aparece como usuario en los contextos de producto Servicio de ubicación e Inicio de plataforma de experiencia en Admin Console.
 
-   Para obtener más información, consulte *Adición de un usuario a Experience Platform Launch y Places* in [Places Preguntas más frecuentes](/help/places-faqs.md).
+   Para obtener más información, consulte *Adición de un usuario al servicio* de inicio y ubicación de la plataforma de experiencia en preguntas [más](/help/places-faqs.md)frecuentes.
 
 * Asegúrese de que la propiedad de la aplicación móvil está configurada en Inicio de plataforma de experiencia con la extensión Places instalada.
 
@@ -49,7 +49,7 @@ Puede crear bibliotecas y puntos de interés de una de las siguientes formas:
 
 * Mediante los servicios Web.
 
-   Para obtener más información, consulte [Ubicaciones de servicios](/help/places-web-service-api/places-web-services.md)Web.
+   Para obtener más información, consulte [Web Service API](/help/web-service-api/places-web-services.md).
 
 * Mediante la IU de lugares.
 
