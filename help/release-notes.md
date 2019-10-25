@@ -1,17 +1,17 @@
 ---
-title: Notas de la versión para los lugares de Adobe Experience Platform
-seo-title: Notas de la versión de Adobe Experience Platform Places.
-description: Notas de la versión de Adobe Experience Platform Places.
-seo-description: Notas de la versión de Adobe Experience Platform Places.
+title: Notas de la versión
+seo-title: Notas de la versión
+description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
+seo-description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
 
 # Notas de la versión {#release-notes}
 
-Estas son las notas de la versión de los sitios de Adobe Experience Platform (Lugares):
+Estas son las notas de la versión:
 
 ## 9 de octubre de 2019
 
@@ -31,7 +31,7 @@ Estas son las notas de la versión de los sitios de Adobe Experience Platform (L
 
 En esta versión se realizaron las siguientes actualizaciones:
 
-### Actualizaciones de la interfaz de usuario de lugares
+### Actualizaciones de la interfaz de usuario
 
 Esta es una lista de las actualizaciones de la interfaz de usuario de Lugares:
 
@@ -54,7 +54,7 @@ Esta es una lista de las actualizaciones de la interfaz de usuario de Lugares:
 
 En esta versión se realizaron las siguientes actualizaciones:
 
-### Places Monitor Launch Extension 2.0.0
+### Monitor Launch Extension 2.0.0
 
 * Se han actualizado las instrucciones de instalación de Android e iOS para Places Monitor 2.0.
 
@@ -72,7 +72,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
    Nueva API: `public static void stop (final boolean clearData);`
 
-* Se ha actualizado el uso de la API de lugares `getNearbyPointsOfInterest` para gestionar los escenarios de error de forma más eficaz.
+* Se ha actualizado el uso de la `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
 
 ## 25 de julio de 2019
 
@@ -195,12 +195,12 @@ Esta es la primera versión de Places, un conjunto de herramientas que permite a
 
 Estas son las funciones clave de esta versión:
 
-#### IU de lugares
+#### Interfaz de usuario del servicio de ubicación
 
 Hemos lanzado una interfaz de usuario de administración en la que puede ver y administrar sus puntos de interés (POI). También puede organizar sus puntos de interés en bibliotecas. Además de los metadatos estándar como ciudad, estado y categoría, también se admite la capacidad de agregar metadatos personalizados a los puntos de interés.
 
-* Para ver la IU de lugares, vaya a [https://places.adobe.com](https://places.adobe.com).
-* Para empezar a utilizar la interfaz de usuario de Lugares, consulte [Introducción](/help/getting-started.md).
+* Para ver la interfaz de usuario, vaya a [https://places.adobe.com](https://places.adobe.com).
+* Para empezar a usar la interfaz de usuario, consulte [Introducción](/help/getting-started.md).
 
 #### Extensión de lugares
 
@@ -224,7 +224,7 @@ Puede utilizar las API de Places para lo siguiente:
 
    Las API proporcionan una utilidad python.
 
-Para obtener más información sobre las API de lugares, consulte [Colocaciones de servicios](/help/places-web-service-api/places-web-services.md)web.
+Para obtener más información sobre las API de lugares, consulte API [de servicio](/help/web-service-api/places-web-services.md)web.
 
 ### Muy pronto
 
