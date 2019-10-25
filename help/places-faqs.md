@@ -1,17 +1,17 @@
 ---
-title: Preguntas más frecuentes sobre lugares
-seo-title: Preguntas más frecuentes sobre lugares
-description: En este tema se proporciona información adicional sobre algunas preguntas más frecuentes sobre los lugares.
-seo-description: En este tema se proporciona información adicional sobre algunas preguntas más frecuentes sobre los lugares.
+title: Preguntas frecuentes
+seo-title: Preguntas frecuentes
+description: Este tema proporciona información adicional sobre algunas preguntas más frecuentes.
+seo-description: Este tema proporciona información adicional sobre algunas preguntas más frecuentes.
 translation-type: tm+mt
-source-git-commit: 26b0cab7bdada26a7598b20623095b72f7c8d334
+source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 ---
 
 
-# Preguntas más frecuentes sobre lugares
+# Preguntas frecuentes
 
-A continuación encontrará información y preguntas más frecuentes sobre los lugares.
+A continuación encontrará información y preguntas más frecuentes sobre el servicio de ubicación.
 
 ## Tamaño y fiabilidad
 
@@ -25,7 +25,7 @@ Cuando el Monitor de lugares (SDK) obtiene una nueva lista de puntos de interés
 
 Si el sistema operativo no puede entregar un evento de salida cuando el dispositivo abandona una región, es más seguro que el SDK simplemente omita el evento de salida. Si el SDK fabrica un evento de salida sin que el sistema operativo active el evento, existe el riesgo de que el evento de salida se procese bien fuera del período de tiempo durante el cual el dispositivo estaba cerca del punto de interés.
 
-## Adición de un usuario al lanzamiento de lugares y plataformas de experiencia {#adding-user-launch-places}
+## Adición de un usuario al servicio de ubicación e inicio de la plataforma de experiencia {#adding-user-launch-places}
 
 Para permitir que los usuarios tengan acceso a la interfaz de usuario [del servicio de](https://places.adobe.com)inicio, deben agregarse a Places Core Service en Admin Console como usuarios. Para permitir que los usuarios tengan acceso al lanzamiento de la plataforma de experiencia, configurar propiedades móviles y utilizar Lugares con el SDK de la plataforma de experiencia de Adobe, deben agregarse al inicio de la plataforma de experiencia en Admin Console y se les deben otorgar los siguientes permisos para el lanzamiento de la plataforma de experiencia:
 
@@ -37,15 +37,15 @@ Para permitir que los usuarios tengan acceso a la interfaz de usuario [del servi
    * Administrar entornos
 * Administrar el permiso Propiedades en Derechos de la empresa
 
-Si es la primera vez que agrega un usuario, complete los siguientes pasos para agregar usuarios a Inicio y lugares de la plataforma de experiencia. Si ya ha agregado usuarios, es posible que se muestren varios perfiles, por lo que debe seleccionar el perfil correcto.
+Si es la primera vez que agrega un usuario, complete los siguientes pasos para agregar usuarios al servicio de inicio y ubicación de la plataforma de experiencia. Si ya ha agregado usuarios, es posible que se muestren varios perfiles, por lo que debe seleccionar el perfil correcto.
 
 >[!IMPORTANT]
 >
 >Solo los administradores de organización pueden acceder a Admin Console y agregar los usuarios.
 
-### 1. Verifique que los lugares y el inicio de la plataforma de experiencia estén aprovisionados
+### 1. Compruebe que el servicio de ubicación y el inicio de la plataforma de experiencia están aprovisionados
 
-Para verificar que se aprovisionan los lugares y el inicio de la plataforma de experiencia:
+Para verificar que el servicio de ubicación y el inicio de la plataforma de experiencia están aprovisionados:
 
 1. Inicie sesión en su organización de Experience Cloud.
 1. En la parte superior derecha, haga clic en el conmutador de shell de Experience Cloud.
@@ -70,7 +70,7 @@ Para verificar que se aprovisionan los lugares y el inicio de la plataforma de e
 
    ![](/help/assets/places_provisioned1.png)
 
-   Si se muestran, los lugares y el inicio de la plataforma de experiencia se han aprovisionado para su organización. Si no se muestran, deben aprovisionarse para su organización.
+   Si se muestran, el servicio de ubicación y el inicio de la plataforma de experiencia se han aprovisionado para su organización. Si no se muestran, deben aprovisionarse para su organización.
 
    >[!IMPORTANT]
    >
@@ -111,17 +111,17 @@ Para configurar el perfil y agregar los permisos:
 
 >[!IMPORTANT]
 >
->Para Lugares, hay un perfil predeterminado, pero no es necesario agregar permisos.
+>Para el servicio de ubicación, hay un perfil predeterminado, pero no tiene que agregar permisos.
 
 Ha agregado permisos correctamente al perfil que ha creado.
 
-### 3. Agregar un usuario o un desarrollador a los perfiles de inicio de lugares y plataformas de experiencia
+### 3. Agregue un usuario o un desarrollador a sus perfiles Servicio de ubicación y Inicio de plataforma de experiencia
 
-Puede agregar un usuario o un desarrollador a sus perfiles de inicio de lugares y plataformas de experiencia.
+Puede agregar un usuario y/o un desarrollador a sus perfiles de Servicio de ubicación e Inicio de plataforma de experiencia.
 
 ### Agregación de un usuario
 
-Para agregar un usuario a sus perfiles de inicio de lugares y plataformas de experiencia:
+Para agregar un usuario a sus perfiles de Servicio de ubicación y Inicio de plataforma de experiencia:
 
 1. Agregue un usuario al perfil Inicio de plataforma de experiencia.
 
@@ -149,7 +149,7 @@ Para agregar un usuario a sus perfiles de inicio de lugares y plataformas de exp
 
    >[!TIP]
    >
-   >Actualmente, todos los usuarios de Lugares tienen los mismos permisos, por lo que no es necesario editar los permisos.
+   >Actualmente, todos los usuarios del servicio de ubicación tienen los mismos permisos, por lo que no es necesario editarlos.
 
    a.En la **[!UICONTROL Places Core Services]** tarjeta, compruebe lo siguiente:
 
@@ -169,7 +169,7 @@ Para agregar un usuario a sus perfiles de inicio de lugares y plataformas de exp
 
 ### Agregar un desarrollador
 
-Para los usuarios que también necesitan acceder a la API de REST de Places, debe agregarlos como programadores.
+Para los usuarios que también necesitan acceder a la API de servicio Web, debe agregarlos como programadores.
 
 Para agregar un desarrollador:
 
