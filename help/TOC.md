@@ -3,7 +3,7 @@ product: Servicio de ubicación de Adobe Experience Platform
 audience: end-user
 user-guide-title: Servicio de ubicación de Adobe Experience Platform
 translation-type: tm+mt
-source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
    + [Crear un nuevo POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Administrar puntos de interés creados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Estrategias para utilizar metadatos con puntos de interés](poi-mgmt-ui/metadata-with-pois.md)
-   + [Puntos de interés de carga masiva](poi-mgmt-ui/bulk-upload-pois.md)
+   + [Carga masiva de puntos de interés](poi-mgmt-ui/bulk-upload-pois.md)
    + [Administrar varias bibliotecas](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + API de servicio Web {#web-service-api}
    + [Información general sobre la API de servicio Web](web-service-api/places-web-services.md)
