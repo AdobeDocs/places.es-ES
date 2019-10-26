@@ -4,10 +4,88 @@ seo-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
 description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 seo-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
 
 ---
 
 
 # Ejecutar informes en Adobe Analytics que incluyan datos de lugares {#run-reports-aa-locserv-data}
 
+>[!IMPORTANT]
+>
+>Este documento asume que tiene Adobe Places implementados en la aplicación. Para obtener más información sobre la implementación de Adobe Places, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
+
+Después de que Places envíe los eventos de entrada y salida, puede crear reglas en Inicio de plataforma de experiencia y adjuntar los datos de Lugares a todos los eventos de Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
+
+## 1. Crear una regla
+
+1. En la **[!UICONTROL Rules]** ficha, haga clic en **[!UICONTROL Create New Rule]**.
+
+   Recuerde la información siguiente:
+   * Si no tiene reglas existentes para esta propiedad, el botón estará en medio de la pantalla.
+   * Si la propiedad tiene reglas, el botón estará en la parte superior derecha de la pantalla.
+
+## 1. Seleccionar un evento
+
+1. Asigne un nombre significativo a la regla para que se pueda reconocer fácilmente en la lista de reglas.
+
+   En este ejemplo, la regla se denomina **Adjuntar datos de lugares a eventos** de seguimiento de Analytics.
+
+2. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
+
+3. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+
+4. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Track Action]**.
+
+Ahora puede determinar los activadores que desea incluir para esta regla. En este ejemplo, el activador se basa en todas las `TrackAction` llamadas. Después de configurar el evento, haga clic en **[!UICONTROL Keep Changes]**.
+
+!["crear un evento"](/help/assets/ad-setEvent.png)
+
+
+## 2. Agregar condiciones
+
+>[!IMPORTANT]
+>
+>Complete este paso si desea agregar Condiciones a la regla. De lo contrario, vaya a la sección *Definir la acción* que aparece a continuación.
+
+En este ejemplo, se crea una condición que hace que la regla se active solo para clientes de AT&amp;T.
+
+1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
+
+2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTORL Mobile Core]**.
+
+3. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Carrier Name]**.
+
+4. En la ventana de la derecha, seleccione la casilla de verificación **[!UICONTROL AT&T]** .
+
+5. Haga clic en **[!UICONTROL Keep Changes]**.
+
+!["crear una condición"](/help/assets/ad-setCondition.png)
+
+## 3. Definir la acción
+
+1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
+
+2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+
+3. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
+
+4. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
+
+5. Haga clic en **[!UICONTROL Keep Changes]**.
+
+En el panel derecho, puede agregar una carga útil JSON improvisada que agregue datos a un evento SDK antes de que una extensión que esté escuchando este evento pueda oír el evento. En este ejemplo, se agregan algunos datos de contexto a este evento antes de que la extensión de Analytics lo procese. Los datos de contexto agregados estarán ahora en la visita saliente de Analytics.
+
+En el siguiente ejemplo, se agregan `poi.city` y `poi.name` valores a los datos de contexto del evento de Analytics. El SDK determina de forma dinámica los valores de las nuevas claves cuando se procesa este evento.
+
+!["crear una acción"](/help/assets/pt-setAction.png)
+
+## 4. Guarde la regla y vuelva a crear la propiedad
+
+Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
+
+!["la regla está completa."](/help/assets/pt-ruleComplete.png)
+
+1. Haga clic en **[!UICONTROL Save]**
+
+2. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
