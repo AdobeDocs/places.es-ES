@@ -4,12 +4,32 @@ seo-title: Información general sobre la integración de Adobe I/O
 description: Información sobre la creación de una integración de Adobe I/O.
 seo-description: Información sobre la creación de una integración de Adobe I/O.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
 
-# Información general sobre la integración de Adobe I/O {#adobeio-integration}
+# Integración de Adobe I/O {#adobeio-integration}
+
+Esta información le muestra cómo crear una integración de Adobe I/O y Places.
+
+## Requisitos previos para el acceso de los usuarios
+
+Compruebe con el administrador del sistema de su organización que se han completado las siguientes tareas:
+
+* Los lugares de servicio principal aparecen en la consola de administración de la organización.
+* Ha sido agregado a la organización.
+* Se le ha agregado como usuario al servicio principal de lugares de su organización.
+
+   Para obtener más información, consulte *Agregar un usuario o un desarrollador a los perfiles* Servicio de ubicación y Inicio de plataforma de experiencia en preguntas [](/help/places-faqs.md)frecuentes.
+
+* Ha sido agregado como desarrollador a los servicios principales de lugares de su organización.
+
+   Para obtener más información sobre cómo agregar desarrolladores, consulte *Agregar un usuario o un desarrollador a sus perfiles* Servicio de ubicación y Lanzamiento de plataforma de experiencia en preguntas [](/help/places-faqs.md)más frecuentes.
+
+   Para obtener más información sobre la función de desarrollador, consulte [Administrar desarrolladores](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+
+### Solicitudes de API REST
 
 Cada solicitud a la API de REST de lugares requiere los siguientes elementos:
 
@@ -19,8 +39,6 @@ Cada solicitud a la API de REST de lugares requiere los siguientes elementos:
 
 Una integración con Adobe I/O proporciona estos elementos y una forma de solicitar el token de portador mediante un token web JSON (JWT).
 
-## Información adicional
-
 * Para obtener más información sobre JWT, consulte [Introducción a los tokens](https://jwt.io/introduction/)web JSON.
 * Para crear una integración para lugares, consulte la sección *Creación de una integración* de lugares más abajo.
 * Para comprender la integración de claves de API, la generación de un JWT y los certificados de claves públicas, consulte Información general sobre la autenticación de [Adobe I/O](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
@@ -29,7 +47,7 @@ Una integración con Adobe I/O proporciona estos elementos y una forma de solici
 >
 >Si no puede iniciar sesión en la consola de Adobe I/O o si el servicio de ubicación de la plataforma de experiencia no es una opción de la página ** Crear integraciones, consulte Requisitos *de* organización en Información general [de la API de servicios](/help/web-service-api/places-web-services.md)Web.
 
-## Creación de una integración de lugares {#create-places-integration}
+## Creación de una integración de lugares
 
 Para crear una integración de lugares, realice las siguientes tareas:
 
@@ -75,7 +93,7 @@ Para generar sus propias claves con firma personal:
 
 El siguiente vídeo le guía a través del proceso de generación del par de claves:
 
-![](/help/assets/places_integration_video.gif)
+![vídeo de integración](/help/assets/places_integration_video.gif)
 
 ### Creación de una integración de Places en la consola de Adobe I/O
 
@@ -125,4 +143,3 @@ Para generar un token de JWT:
 >[!IMPORTANT]
 >
 >Los tokens de acceso de Adobe **solo** son válidos durante 24 horas, por lo que guarde el comando CURL de ejemplo (paso 5). Si el autentificador de acceso ya no es válido, debe volver a generar el autentificador.
-
