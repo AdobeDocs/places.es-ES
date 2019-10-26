@@ -4,7 +4,7 @@ seo-title: 'Información general sobre la API de servicios Web '
 description: Places es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Experience Cloud y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada en el momento y en el lugar adecuados.
 seo-description: Places es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Experience Cloud y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada en el momento y en el lugar adecuados.
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: e899cde6230353c8b34090c793983dc570e8115e
 
 ---
 
@@ -39,17 +39,3 @@ Información adicional:
 
 * Para obtener más información sobre las API disponibles y cómo utilizarlas, consulte [Administrar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) y [Administrar puntos de interés](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 * Para obtener más información sobre los encabezados y parámetros de estas API, consulte [Encabezados y parámetros](/help/web-service-api/api-usage/headers-and-parameters.md).
-
-## Requisitos de organización {#org-requirements}
-
-Para acceder a las API de REST de servicios Web, compruebe con el administrador del sistema que se han completado las siguientes tareas:
-
-* Los lugares se han aprovisionado y aparecen en la organización.
-* Ha sido agregado a la organización.
-* Ha sido agregado a Lugares en su organización.
-
-   Para obtener más información, consulte *Adición de un usuario a lugares y al inicio* de la plataforma de experiencia en preguntas [más](/help/places-faqs.md)frecuentes.
-
-* Ha sido agregado como desarrollador de Places a su organización.
-
-   Para obtener más información sobre la función de desarrollador, consulte [Administrar desarrolladores](https://helpx.adobe.com/enterprise/using/manage-developers.html).
