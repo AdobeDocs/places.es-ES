@@ -4,15 +4,13 @@ seo-title: Enviar datos de lugares a Adobe Analytics
 description: Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics.
 seo-description: 'Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics. '
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
 
 # Enviar datos de lugares a Adobe Analytics {#places-data-analytics}
 
-
-(Marcador de posición para el vídeo de Steve.)
 
 >[!IMPORTANT]
 >
