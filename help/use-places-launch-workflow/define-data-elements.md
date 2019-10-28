@@ -4,7 +4,7 @@ seo-title: Definir elementos de datos
 description: Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares.
 seo-description: 'Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
 
 ---
 
@@ -30,10 +30,10 @@ Con la extensión Places, puede hacer referencia a valores de los siguientes des
 Cada punto de interés contiene las siguientes referencias de datos:
 
 * **[!UICONTROL Category]**:: categoría del POI
-* **[!IUICONTROL Ciudad]**: ciudad del POI
+* **[!UICONTROL City]**:: ciudad del POI
 * **[!UICONTROL Country]**:: país del POI
-* **[Latitud]** UICONTROL: latitud del POI
-* **[Longitud]** UICONTROL: longitud del punto de interés
+* **[!UICONTROL Latitude]**:: latitud del POI
+* **[!UICONTROL Longitude]**:: longitud del punto de interés
 * **[!UICONTROL Metadata]**:: metadatos personalizados del punto de interés
 * **[!UICONTROL Name]**:: región del POI
 * **[!UICONTROL Radius]**:: radio del punto de interés
