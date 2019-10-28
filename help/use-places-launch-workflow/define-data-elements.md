@@ -4,7 +4,7 @@ seo-title: Definir elementos de datos
 description: Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares.
 seo-description: 'Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares. '
 translation-type: tm+mt
-source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
+source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
 
 ---
 
@@ -45,8 +45,6 @@ Cada punto de interés contiene las siguientes referencias de datos:
 1. En la página Propiedad de la aplicación, haga clic en la **[!UICONTROL Data Elements]** ficha.
 
 2. Haga clic en **[!UICONTROL Create New Data Element]**.
-
-   ![Crear elemento de datos](/help/assets/create-de-2-v3.png)
 
 3. En la lista de extensiones instaladas, busque **[!UICONTROL Places]**.
 
