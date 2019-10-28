@@ -4,7 +4,7 @@ seo-title: Servicio de ubicación de Adobe Experience Platform
 description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 seo-description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
@@ -29,8 +29,6 @@ Estas son algunas de las formas en que puede utilizar Lugares:
 * Analizar el tráfico de pies de sus propias tiendas en comparación con las de su competidor.
 * Segmente una audiencia según su comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Diríjase a un usuario con una experiencia en la tienda cuando sea pertinente.
-
-## Adición de un marcador de posición para el vídeo "Introducción al servicio de ubicación" de Brandon
 
 ## Casos de uso del servicio de ubicación
 
