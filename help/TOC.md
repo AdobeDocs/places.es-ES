@@ -3,7 +3,7 @@ product: Servicio de ubicación de Adobe Experience Platform
 audience: end-user
 user-guide-title: Servicio de ubicación de Adobe Experience Platform
 translation-type: tm+mt
-source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
+source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
 
 ---
 
@@ -66,10 +66,10 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
    + Adobe Analytics {#places-adobe-analytics}
       + [Envío de datos del servicio de ubicación a Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Ejecutar informes en Adobe Analytics que incluyan datos del servicio de ubicación](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
-   + Mobile Services para mensajería {#places-mobile-svcs-messaging}
-      + [Mobile Services para mensajería](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
-      + [Mensajería push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
-      + [Mensajería en la aplicación](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
+   + Adobe Mobile Services {#places-mobile-svcs-messaging}
+      + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
+      + [Notificaciones push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
+      + [Notificaciones en la aplicación](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
       + [Notificaciones push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Mensajes en la aplicación](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
