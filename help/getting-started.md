@@ -4,7 +4,7 @@ seo-title: Primeros pasos
 description: Introducción al servicio de ubicación.
 seo-description: Introducción al servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: fb8bfc92f7af5ee30da395b7ee2d9c4eb2a87c09
+source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
 
 ---
 
@@ -15,9 +15,11 @@ Este es un vídeo útil para obtener una descripción general de los servicios d
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
+## Uso del servicio de ubicación
+
 Para utilizar el servicio de ubicación, realice las siguientes tareas:
 
-## 1. Asegúrese de que el usuario esté aprovisionado para utilizar el servicio de ubicación
+### 1. Asegúrese de que el usuario esté aprovisionado para utilizar el servicio de ubicación
 
 El contexto de producto del servicio de ubicación está disponible en todas las organizaciones de Experience Cloud.
 
@@ -30,7 +32,7 @@ El contexto de producto del servicio de ubicación está disponible en todas las
    Para utilizar la supervisión regional proporcionada por Adobe para sus geolocalizaciones, instale la extensión Monitor de lugares. Para obtener más información, consulte Extensión [del monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Lugares.
 
 
-## 2. Crear sus puntos de interés
+### 2. Crear sus puntos de interés
 
 Los puntos de interés (POI) son áreas geográficas que se crean para las organizaciones y que se pueden crear de una de las siguientes maneras:
 
@@ -43,7 +45,7 @@ Los puntos de interés (POI) son áreas geográficas que se crean para las organ
    Para obtener más información, consulte [Web Service API](/help/web-service-api/places-web-services.md).
 
 
-## 3. Configurar la extensión Places y la extensión Places Monitor
+### 3. Configurar la extensión Places y la extensión Places Monitor
 
 Para obtener más información sobre la configuración de la extensión Places y la extensión Monitor, consulte la siguiente información:
 
