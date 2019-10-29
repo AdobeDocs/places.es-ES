@@ -4,7 +4,7 @@ seo-title: Mensajes en la aplicación con el servicio de ubicación
 description: Esta sección proporciona información sobre cómo utilizar la mensajería push en Campaign Standard con mensajes en la aplicación en Campaign Standard.
 seo-description: 'Esta sección proporciona información sobre cómo utilizar la "mensajería push en Campaign Standard" con mensajes en la aplicación en Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
@@ -54,6 +54,4 @@ Esta información le ayuda a comprender cómo puede utilizar la información del
 
 El uso de los servicios de ubicación con Adobe Campaign Standard le proporciona una poderosa herramienta para segmentar y dirigir sus mensajes a los usuarios en función de las entradas y salidas de la valla geográfica. Esta sencilla integración abre la puerta para crear casos de uso más personalizados y contextuales.
 
-## Crear diferentes activadores en Campaign Standard en función de los metadatos de lugares
-
-(¿Viene esta información?)
+>[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
