@@ -10,7 +10,7 @@ tutorials-url: https://experienceleague.adobe.com/
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: true
 translation-type: tm+mt
-source-git-commit: 35353d02b791bcb234a45b612b0bc481b604afdf
+source-git-commit: 8b9b84a12c40e93ecd1aea1cee5d44c37dc439e8
 
 ---
 
@@ -31,7 +31,7 @@ El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la 
 | tutorials-title | Apenas se utiliza, no es adecuado para los Tutoriales |
 | tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de helpx o tutoriales KT |
 | mini-toc-levels | Determina el número de niveles de encabezados que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | Especifica la ubicación del repositorio de colaboración. Use el github.com de Adobe para documentos públicos |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | índice | establecer índice=no es para inicio flexible |
 
 En el archivo TOC.md
