@@ -4,7 +4,7 @@ seo-title: Servicio de ubicación de Adobe Experience Platform
 description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 seo-description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: a5eee2378475885a2aef9867ff2c38a8881c9bbe
 
 ---
 
@@ -19,7 +19,7 @@ El servicio de ubicación le permite lograr lo siguiente:
 * Adjunte metadatos personalizados a los puntos de interés para hacerlos más ricos y significativos mediante la especificación de atributos adicionales.
 * Visualice los puntos de interés en un mapa para comprender fácilmente el contexto espacial y añadir/editar atributos de metadatos.
 * Configure el SDK en Adobe Experience Platform Launch para definir las reglas activadas por la ubicación y las condiciones basadas en metadatos.
-* Reduzca el código que necesita escribir en la ubicación de un dispositivo de supervisión y utilice el monitor de ubicación de Adobe para activar automáticamente las reglas específicas de la ubicación.
+* Reduzca el código que necesita escribir en la ubicación de un dispositivo de monitor y utilice la extensión Places para activar automáticamente las reglas específicas de la ubicación.
 
 Esto le permitirá realizar acciones desde las señales de ubicación en tiempo real, cuándo y dónde es importante. El contexto adecuado ofrece una experiencia de compromiso móvil más enriquecedora.
 
@@ -76,7 +76,7 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
 * Una **biblioteca** es una colección de puntos de interés, que se agrupan para adjuntar fácilmente reglas a un conjunto en lugar de un punto de interés.
 
-* Una **extensión** SDK es la extensión Inicio de plataforma de experiencia necesaria para integrar el SDK de lugares en las aplicaciones móviles.
+* La **extensión** Places SDK es la extensión Experience Platform Launch necesaria para integrar el SDK de Places en sus aplicaciones móviles.
 
    Extensión utilizada con otros SDK móviles para añadir contexto de ubicación a sus experiencias.
 
