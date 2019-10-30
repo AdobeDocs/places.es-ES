@@ -4,7 +4,7 @@ seo-title: API de consulta
 description: Explicación y uso de las API de consulta.
 seo-description: Explicación y uso de las API de consulta.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
 
 ---
 
@@ -45,7 +45,7 @@ Los argumentos se proporcionan como los siguientes parámetros de consulta:
 
    ID de la biblioteca que se va a consultar. Para consultar varias bibliotecas, asegúrese de incluir varias copias del parámetro library en la consulta.
 
-A continuación se muestra un ejemplo del formato JSON devuelto correctamente:
+Este es un ejemplo del formato JSON devuelto correctamente:
 
 ```markup
 {
