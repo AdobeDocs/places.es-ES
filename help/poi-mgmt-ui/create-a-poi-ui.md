@@ -4,25 +4,34 @@ seo-title: Crear un POI
 description: Cree un punto de interés mediante la interfaz de usuario de lugares.
 seo-description: Cree un punto de interés mediante la interfaz de usuario de lugares.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 
 ---
 
 
 # Crear un POI {#create-a-poi}
 
-Un punto de interés (POI) es una ubicación o un punto en un mapa que le interesa. Puede incluir ubicaciones como cafeterías, restaurantes, etc.
+Un punto de interés \(POI\) es una ubicación o un punto del mapa que es importante para su organización o empresa. Puede incluir ubicaciones como cafés, restaurantes, tiendas, estadios, etc. Las empresas pueden definir puntos de interés para ayudar a personalizar la experiencia móvil de un usuario cuando ha entrado en una región con protección geográfica para un punto de interés determinado. Más allá de las experiencias personalizadas, las empresas también pueden crear puntos de interés para ayudarles a analizar y comprender mejor los patrones de tráfico de la ubicación. Una gran cadena minorista puede elegir crear puntos de interés para todas sus ubicaciones de tiendas a fin de obtener análisis de los usuarios que tienen su aplicación móvil Y visitar una ubicación de tienda.
 
-1. Inicie sesión en lugares con su Adobe ID.
-2. En la parte superior derecha, haga clic en el icono que parece una lista con viñetas y, a continuación, haga clic en **[!UICONTROL New]**.
+1. Inicie sesión en el servicio de ubicación con su Adobe ID.
+2. En la parte superior derecha, haga clic en **[!UICONTROL New]**.
 3. Escriba un nombre para el punto de interés.
-4. Seleccione o agregue una biblioteca.
+4.  Seleccione una biblioteca.
 5. Introduzca o seleccione un radio.
 
-   a. Seleccione un icono para el punto de interés.
-b.b. Seleccione un color para el icono.
+   El radio es la distancia mínima y el valor recomendado es de 100 metros.
 
-6. Expanda la **[!UICONTROL Location]** sección.
+   ![definir un punto de interés](/help/assets/define_poi.png)
+
+6. Los siguientes pasos son opcionales:
+
+   a. Seleccione un icono para el punto de interés.
+
+   b. Seleccione un color para el icono.
+
+   c. Especifique una categoría para el punto de interés.
+
+7. Expanda la **[!UICONTROL Location]** sección.
 
    a. Escriba una dirección.
 
@@ -36,10 +45,14 @@ b.b. Seleccione un color para el icono.
 
    f.Haga clic en **[!UICONTROL Drop Pin on Map]**.
 
-7. Expanda la **[!UICONTROL Metadata]** sección y haga clic en **[!UICONTROL Add Metadata]**.
+   Si no conoce la latitud y longitud exactas, es útil soltar un pin.
+
+8. Expanda la **[!UICONTROL Metadata]** sección y haga clic en **[!UICONTROL Add Metadata]**.
+
+   Los metadatos pueden ayudarle a definir aún más una ubicación y se pueden utilizar en otros flujos de trabajo de soluciones de Adobe para reducir aún más la audiencia.
 
    a. Escriba el nombre de la clave.
 
    b. Escriba el valor clave.
 
-8. Haga clic **[!UICONTROL Confirm]** y luego **[!UICONTROL  Save]**.
+9. Haga clic **[!UICONTROL Confirm]** y luego **[!UICONTROL  Save]**.
