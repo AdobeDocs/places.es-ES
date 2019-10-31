@@ -4,7 +4,7 @@ seo-title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 seo-description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 translation-type: tm+mt
-source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
 Se ha creado un conjunto de secuencias de comandos Python para simplificar la importación por lotes de puntos de interés desde un archivo .csv a una base de datos de puntos de interés mediante las API de servicios Web. Estos scripts se pueden descargar desde esta repo [git](https://github.com/adobe/places-scripts)de código abierto.
 
-Antes de ejecutar estas secuencias de comandos, para acceder a las API de servicio web, consulte Requisitos *previos para el acceso* de los usuarios en la descripción general [de la integración de](/help/web-service-api/adobe-i-o-integration.md)Adobe I/O.
+Antes de ejecutar estas secuencias de comandos, para acceder a las API de servicio Web, consulte Requisitos *previos para el acceso* del usuario en Información general sobre la [integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
 
 A continuación se proporciona información sobre los scripts:
 
@@ -52,7 +52,7 @@ Esta es una lista de las columnas y los valores que debe utilizar:
 Los valores de las siguientes columnas se utilizan en la interfaz de usuario del servicio de ubicación:
 
 * color, que se utiliza como color del pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de ubicación.
-   * Los valores válidos son "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B y #3DC8DE.
+   * Los valores válidos son "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, y #3DC8DE, y "".
    * Si el valor se deja en blanco, la interfaz de usuario del servicio de ubicación utiliza el azul como color predeterminado.
 
       Los valores corresponden a azul (#3E76D0), púrpura (#AA99E8), fuschia (#DC2ABA), naranja (#FC685B), naranja claro (#FC962E), amarillo (#F6C436), verde claro (#BECE5D), verde (#61E 56B) y azul claro (#3DC8DE), respectivamente.
@@ -60,6 +60,11 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 * icono, que se utiliza como icono en el pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de ubicación
 
    * Los valores válidos son "", tienda, hotelbed, auto, avión, tren, barco, estadio, parque de atracciones, anclaje, panadero, campana, puja, libro, caja, maletín, examinar, cepillo, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promoción, cinta comprasCarro, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave.
+
+      Los valores de los iconos se muestran en el orden en que aparecen en la siguiente ilustración:
+
+      ![iconos en la interfaz de usuario](/help/assets/UI_icons.png)
+
    * Si el valor se deja en blanco, la interfaz de usuario utiliza la estrella como icono predeterminado.
 
 * Las columnas que no se mencionan pueden dejarse en blanco.
@@ -73,19 +78,19 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `csv_file_path`
 
-      Ruta de acceso al `.csv` archivo.
+      Ésta es la ruta del `.csv` archivo.
 
    * `access_code`
 
-      Este es el código de acceso que obtuvo de la llamada a Adobe IMS. Para obtener información sobre cómo obtener este código de acceso, consulte [Requisitos previos para el acceso](/help/web-service-api/adobe-i-o-integration.md) del usuario.
+      Este es el código de acceso que obtuvo de la llamada a Adobe IMS. Para obtener información sobre cómo obtener este código de acceso, consulte *Requisitos previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
-      El identificador de organización de Experience Cloud en el que se importarán los puntos de interés. Para obtener información sobre cómo obtener el identificador de organización, consulte [Requisitos previos para el acceso del usuario.](/help/web-service-api/adobe-i-o-integration.md).
+      El identificador de organización de Experience Cloud en el que se importarán los puntos de interés. Para obtener información sobre cómo obtener el ID de organización, consulte *Requisitos previos para el acceso* del usuario en la descripción general de [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Esta es la clave de API de Places REST que obtuvo de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos [previos para el acceso del usuario.](/help/web-service-api/adobe-i-o-integration.md).
+      Esta es la clave de API de Places REST que obtuvo de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
    b.Guarde los cambios.
 
 1. En una ventana de terminal, vaya al `…/places-scripts/import/` directorio.
