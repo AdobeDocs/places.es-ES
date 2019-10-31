@@ -4,14 +4,14 @@ seo-title: Creación de una regla para la propiedad Places
 description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 seo-description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 translation-type: tm+mt
-source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
 # Crear reglas de entrada y salida {#create-entry-exit-rules}
 
-Con las extensiones del monitor de lugares y lugares instaladas en la aplicación móvil, puede crear reglas en Adobe Experience Platform Launch que se activen o condicionen los datos de ubicación, incluidos los eventos de entrada y salida de ubicación de lugares.
+Con las extensiones del monitor de lugares y lugares instaladas en la aplicación móvil, puede crear reglas en Adobe Experience Platform Launch que se activen o condicionen los datos de ubicación, incluidos los eventos de entrada y salida de ubicación.
 
 ## Reglas
 
@@ -54,7 +54,7 @@ Las acciones definen lo que la aplicación hará en respuesta a la condición de
 
 >[!CAUTION]
 >
->En este ejemplo se asume que ha creado una biblioteca de puntos de interés de todas las cafeterías de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Creación de un punto de interés](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) y [Creación de una biblioteca](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+>En este ejemplo se asume que ha creado una biblioteca de puntos de interés de todas las cafeterías de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Creación de un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Creación de una biblioteca* en [Gestión de varias bibliotecas](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 El siguiente procedimiento es un ejemplo de cómo crear una regla que devuelve un anuncio a Slack cuando se entra en una cafetería en San Francisco.
 
@@ -128,6 +128,6 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
 ### Pensar más allá de las entradas y salidas
 
-El uso de entradas y salidas de geo-valla de Lugares para activar reglas en Launch es increíblemente potente, pero también puede utilizar los datos de ubicación como condición para que otros eventos se activen. Por ejemplo, puede tener un activador de evento de seguimiento de Mobile Core Action listo para activarse en función de un evento de llamada trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales en el evento antes de realizar una acción. Por ejemplo, abra un estudio en la aplicación cuando se produzca un evento de compra, pero `trackAction` solo **** si la ubicación actual del usuario incluye metadatos específicos del servicio de ubicación.
+El uso de las entradas y salidas del servicio de ubicación para activar las reglas en Inicio de plataforma de experiencia es increíblemente potente, pero también puede utilizar los datos de ubicación como condición para que otros eventos se activen. Por ejemplo, puede tener un activador de evento de seguimiento de Mobile Core Action listo para activarse en función de un evento de llamada trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales en el evento antes de realizar una acción. Por ejemplo, abra un estudio en la aplicación cuando se produzca un evento de compra, pero `trackAction` solo **** si la ubicación actual del usuario incluye metadatos específicos del servicio de ubicación.
 
 ![crear una condición](/help/assets/places-condition.png)
