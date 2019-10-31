@@ -4,14 +4,14 @@ seo-title: Creación de una regla para la propiedad Places
 description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 seo-description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
 
 ---
 
 
-# Crear una regla para la propiedad Places {#creating-rule-places-property}
+# Crear reglas de entrada y salida {#create-entry-exit-rules}
 
-El SDK del servicio de ubicación realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés.
+Con las extensiones del monitor de lugares y lugares instaladas en la aplicación móvil, puede crear reglas en Adobe Experience Platform Launch que se activen o condicionen los datos de ubicación, incluidos los eventos de entrada y salida de ubicación de lugares.
 
 ## Reglas
 
@@ -21,18 +21,18 @@ Puede configurar una regla, compuesta por un evento, una condición y una acció
 * (Opcional) condiciones
 * Una o más acciones
 
-### Eventos
+### Coloca eventos
 
 Places ofrece los siguientes eventos en los que puede ejecutar una regla:
 
-* **[!UICONTROL Enter POI]**, que se activa mediante el SDK de lugares cuando el cliente entra en el punto de interés que ha configurado.
-* **[!UICONTROL Exit POI]**, que se activa mediante el SDK de lugares cuando el cliente sale del punto de interés configurado.
+* **Introduzca el punto de interés**, que se activa con el SDK de lugares cuando el cliente entra en el punto de interés configurado.
+* **Salir del punto de interés**, que se activa mediante el SDK de lugares cuando el cliente sale del punto de interés que ha configurado.
 
-### Condiciones
+### Condiciones de ubicación
 
 Las condiciones definen los criterios que deben cumplir los datos asociados con el evento o el estado compartido de una extensión en esa instancia para que se realice la acción. Por ejemplo, puede establecer una condición para activar una acción en una entrada a una cafetería solo en la ciudad de San Francisco.
 
-El SDK del servicio de ubicación mantiene los siguientes estados:
+El SDK de lugares mantiene los siguientes estados:
 
 * El punto de interés actual, que hace referencia al punto de interés en el que se encuentra su cliente.
 * Último punto de interés de salida, que hace referencia al punto de interés más reciente que salió su cliente.
@@ -54,37 +54,37 @@ Las acciones definen lo que la aplicación hará en respuesta a la condición de
 
 >[!CAUTION]
 >
->En este ejemplo se asume que ha creado una biblioteca de puntos de interés de todas las cafeterías de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Creación de un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) y consulte *Creación de una biblioteca* en [Administrar bibliotecas en la interfaz de usuario](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md)de Lugares.
+>En este ejemplo se asume que ha creado una biblioteca de puntos de interés de todas las cafeterías de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Creación de un punto de interés](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) y [Creación de una biblioteca](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
 
 El siguiente procedimiento es un ejemplo de cómo crear una regla que devuelve un anuncio a Slack cuando se entra en una cafetería en San Francisco.
 
 El evento, la condición y la acción se definen de las siguientes maneras:
 
-* **Evento**: Evento de entrada del servicio de ubicación.
+* **Evento**: Coloca el evento de entrada.
 * **Condición**: Ciudad para el **actual punto de interés** es San Francisco
 * **Acción**: Envíe un postback a Slack el nombre de la cafetería en la que entró su cliente.
 
 ### Requisitos previos
 
-Antes de crear una regla, debe crear un elemento de datos en Inicio de plataforma de experiencia. Los elementos de datos rellenan automáticamente la información necesaria sobre el punto de interés en el mensaje de postback.
+Antes de crear una regla, debe crear un elemento de datos en Adobe Experience Platform Launch. Los elementos de datos rellenan automáticamente la información necesaria sobre el punto de interés en el mensaje de postback.
 
 Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
-1. Click the **[!UICONTROL Data Elements]** tab.
-2. Haga clic en **[!UICONTROL Add Data Element]**.
-3. Type a name, for example, **[!UICONTROL Current coffee shop name]**.
-4. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
-5. En **[!UICONTROL Data Element]**, seleccione **[!UICONTROL City]**.
+1. Haga clic en la ficha Elementos **de datos** .
+2. Click **Add Data Element**.
+3. Escriba un nombre, por ejemplo, **Nombre** de la cafetería actual.
+4. En la lista desplegable **Extensión** , seleccione **Lugares - Beta**.
+5. En Elemento **** de datos, seleccione **Ciudad**.
 6. En el panel derecho, seleccione el punto de interés **actual**.
-7. Haga clic en **[!UICONTROL Save]**.
+7. Haga clic en **Guardar**.
 
-### Creación de una regla en Inicio de plataforma de experiencia para el servicio de ubicación
+### Crear una regla en Inicio de plataforma de experiencia para lugares
 
-![](//help/assets/create-a-rule.png)
+![el proceso de creación de una regla](/help/assets/placesrule.png)
 
 1. En Inicio de plataforma de experiencia, haga clic en la **[!UICONTROL Rules]** ficha .
-2. Haga clic en **Agregar regla**.
-3. Escriba un nombre para la regla, por ejemplo, Entrada de **seguimiento para cafetería en SF**.
+2. Haga clic en **[!UICONTROL Add Rule]**.
+3. Escriba un nombre para la regla, por ejemplo **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Cree un evento
 
@@ -98,7 +98,7 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
 1. En la sección Condiciones, haga clic en **[!UICONTROL +Add]**. Las condiciones determinan los criterios que deben cumplirse para la adopción de medidas.
 2. En **[!UICONTROL Logic Type]**, seleccione Regular, que permite que las acciones se ejecuten si se cumple la condición.
-3. En la lista desplegable **Extensión** , seleccione **[!UICONTROL Places – Beta]**.
+3. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
 4. En **[!UICONTROL Condition Type]**, seleccione **[!UICONTROL City]**.
 5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
 6. En el panel derecho, haga clic en **[!UICONTROL Current POI]** y, en la lista desplegable, seleccione **[!UICONTROL San Francisco]** como una de sus ciudades.
@@ -106,22 +106,28 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
 ### Creación de una acción
 
-1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTRO+ Agregar]**.
-2. En la lista desplegable **[!UICONTRO Extensión]** , deje seleccionada la opción predeterminada **[!UICONTRO Núcleo]** móvil.
-3. Seleccione un tipo de acción, por ejemplo, **[!UICONTRO Enviar postback]**.
+1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
+2. En la lista **[!UICONTROL Extension]** desplegable, deje seleccionada la **[!UICONTROL Mobile Core]** opción predeterminada.
+3. Seleccione un tipo de acción, por ejemplo **[!UICONTROL Send Postback]**.
 
    a. En **[!UICONTROL URL]**, escriba la URL de postback para Slack, por ejemplo, `https://hooks.slack.com/services/`.
 
-   b. Para enviar un cuerpo de anuncio, active la casilla de verificación **[!UICONTRO Agregar cuerpo]** de anuncio.
+   b. Para enviar un cuerpo de anuncio, active la **[!UICONTROL Add Post Body]** casilla de verificación.
 
-   c. En **[!UICONTRO Cuerpo]** de la publicación, agregue el cuerpo de la publicación, por ejemplo: `{ "text": "A customer has entered" }`
+   c. En **[!UICONTROL Post Body]**, agregue el cuerpo de la publicación, por ejemplo: `{ "text": "A customer has entered" }`
 
-   c. Escriba un tipo de contenido como, por ejemplo, **[!UICONTRO application/json]**.
+   c. Escriba un tipo de contenido, por ejemplo **[!UICONTROL application/json]**.
 
-   d. Seleccione un valor de tiempo de espera, por ejemplo, **5**.
+   d. Seleccione un valor de tiempo de espera, por ejemplo, **[!UICONTROL 5]**.
 
-4. Click **[!UICONTRO Keep Changes]**.
+4. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ### Publicar la regla
 
 1. Para activar la regla, debe publicarla. Para obtener más información sobre la publicación de la regla en Inicio de plataforma de experiencia, consulte [Publicación](https://docs.adobelaunch.com/launch-reference/publishing).
+
+### Pensar más allá de las entradas y salidas
+
+El uso de entradas y salidas de geo-valla de Lugares para activar reglas en Launch es increíblemente potente, pero también puede utilizar los datos de ubicación como condición para que otros eventos se activen. Por ejemplo, puede tener un activador de evento de seguimiento de Mobile Core Action listo para activarse en función de un evento de llamada trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales en el evento antes de realizar una acción. Por ejemplo, abra un estudio en la aplicación cuando se produzca un evento de compra, pero `trackAction` solo **** si la ubicación actual del usuario incluye metadatos específicos del servicio de ubicación.
+
+![crear una condición](/help/assets/places-condition.png)
