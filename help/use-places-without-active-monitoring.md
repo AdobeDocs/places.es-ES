@@ -1,21 +1,23 @@
 ---
-title: 'Usar lugares sin supervisión de región activa '
-seo-title: 'Usar lugares sin supervisión de región activa '
-description: Esta sección proporciona información sobre cómo usar lugares sin supervisión de región activa.
-seo-description: Esta sección proporciona información sobre cómo usar lugares sin supervisión de región activa.
+title: 'Usar el servicio de ubicación sin supervisión de región activa '
+seo-title: 'Usar el servicio de ubicación sin supervisión de región activa '
+description: En esta sección se proporciona información sobre cómo utilizar Location ServicePlaces sin supervisión de región activa.
+seo-description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación sin supervisión de región activa.
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# Usar lugares sin supervisión de región activa {#use-places-without-active-monitoring}
+# Usar el servicio de ubicación sin supervisión de región activa {#use-places-without-active-monitoring}
 
-Es posible que los casos de uso de la aplicación no requieran un control de región activa. Adobe Places se puede seguir utilizando para integrar los datos de ubicación de los usuarios con otros productos de la plataforma de experiencias.
+Es posible que los casos de uso de la aplicación no requieran supervisión de región activa. Adobe Places se puede seguir utilizando para integrar los datos de ubicación de los usuarios con otros productos de la plataforma de experiencias.
 
 En esta sección se explica cómo completar una comprobación de pertenencia a un punto de interés solo en el momento de recopilar la ubicación del usuario (latitud y longitud).
 
-****Requisito previo:
+## Requisitos previos
+
+
 El desarrollador recopilará la ubicación del dispositivo mediante las API proporcionadas por el sistema operativo de la plataforma de destino.
 
 >[!TIP]
@@ -81,7 +83,6 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-
 
 ### Objective-C
 
@@ -230,9 +231,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Implementación de muestra completa
 
-Los siguientes ejemplos de código muestran cómo recuperar la ubicación actual del dispositivo, activar los eventos necesarios y asegurarse de que no se obtienen varias entradas para la misma ubicación en una visita:
+Los siguientes ejemplos de código muestran cómo recuperar la ubicación actual del dispositivo, activar los eventos necesarios y asegurarse de que no se obtienen varias entradas para la misma ubicación en una visita.
 
 >[!IMPORTANT]
+>
+>
 Estos fragmentos son **sólo** ejemplos. Los desarrolladores deben determinar cómo desean implementar la funcionalidad, y la decisión debe tener en cuenta las optimizaciones recomendadas por el sistema operativo de destino.
 
 ### Android
