@@ -4,7 +4,7 @@ seo-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
 description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 seo-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -39,7 +39,7 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
 Ahora puede determinar los activadores que desea incluir para esta regla. En este ejemplo, el activador se basa en todas las `TrackAction` llamadas. Después de configurar el evento, haga clic en **[!UICONTROL Keep Changes]**.
 
-!["crear un evento"](/help/assets/ad-setEvent.png)
+!["crear un evento"](/help/assets/pt-selectEvent.png)
 
 
 ## 2. Agregar condiciones
@@ -60,7 +60,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 5. Haga clic en **[!UICONTROL Keep Changes]**.
 
-!["crear una condición"](/help/assets/ad-setCondition.png)
+!["crear una condición"](/help/assets/pt-setCondition.png)
 
 ## 3. Definir la acción
 
