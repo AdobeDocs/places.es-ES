@@ -4,7 +4,7 @@ seo-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
 description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 seo-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 translation-type: tm+mt
-source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -25,7 +25,7 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
    * Si no tiene reglas existentes para esta propiedad, el **[!UICONTROL Create New Rule]** botón estará en medio de la pantalla.
    * Si la propiedad tiene reglas, el **[!UICONTROL Create New Rule]** botón estará en la parte superior derecha de la pantalla.
 
-## 1. Seleccionar un evento
+## 2. Seleccionar un evento
 
 1. Asigne un nombre significativo a la regla para que se pueda reconocer fácilmente en la lista de reglas.
 
@@ -42,7 +42,7 @@ Ahora puede determinar los activadores que desea incluir para esta regla. En est
 !["crear un evento"](/help/assets/pt-selectEvent.png)
 
 
-## 2. Agregar condiciones
+## 3. Agregar condiciones
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 !["crear una condición"](/help/assets/pt-setCondition.png)
 
-## 3. Definir la acción
+## 4. Definir la acción
 
 1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
 
@@ -80,7 +80,7 @@ En el siguiente ejemplo, se agregan `poi.city` y `poi.name` valores a los datos 
 
 !["crear una acción"](/help/assets/pt-setAction.png)
 
-## 4. Guarde la regla y vuelva a crear la propiedad
+## 5. Guarde la regla y vuelva a crear la propiedad
 
 Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
 
