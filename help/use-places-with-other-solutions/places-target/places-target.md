@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 seo-description: 'Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target. '
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -38,7 +38,7 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
 5. Haga clic en **[!UICONTROL Keep Changes]**.
 
-![agregar un evento](/help/assets/ad-addEvent.png)
+![agregar un evento](/help/assets/ad-setEvent_target.png)
 
 ## 3. Agregar condiciones
 
@@ -58,7 +58,7 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 5. Haga clic en **[!UICONTROL Keep Changes]**.
 
-![agregar un evento](/help/assets/ad-setCondition.png)
+![agregar un evento](/help/assets/ad-setCondition_target.png)
 
 ## 4. Definir la acción
 
@@ -82,13 +82,13 @@ En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores a la s
 >
 >La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la `request` matriz.
 
-![agregar un evento](/help/assets/ad-setAction.png)
+![agregar un evento](/help/assets/ad-setCondition_target.png)
 
 ## 5. Guarde la regla y vuelva a crear la propiedad
 
 Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
 
-![regla completada](/help/assets/ad-ruleComplete.png)
+![regla completada](/help/assets/ad-ruleComplete_target.png)
 
 1. Haga clic en **[!UICONTROL Save]**
 
