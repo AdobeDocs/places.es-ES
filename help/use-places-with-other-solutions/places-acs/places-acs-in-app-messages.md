@@ -4,7 +4,7 @@ seo-title: Mensajes en la aplicación con el servicio de ubicación
 description: Esta sección proporciona información sobre cómo utilizar la mensajería push en Campaign Standard con mensajes en la aplicación en Campaign Standard.
 seo-description: 'Esta sección proporciona información sobre cómo utilizar la "mensajería push en Campaign Standard" con mensajes en la aplicación en Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -29,9 +29,9 @@ Antes de comenzar, complete las siguientes tareas:
 ## Envío de un mensaje en la aplicación basado en una entrada o salida de una cerca geográfica
 
 1. En la instancia de Adobe Campaign Standard, haga clic en **[!UICONTROL Create In-App message]**.
-2. Para el tipo de mensaje, seleccione **[!UICONTROL Target all users of a Mobile application]**.
-3. Haga clic **[!UICONTROL Next]** y escriba los detalles generales.
-4. En el panel izquierdo, compruebe que puede utilizar varios activadores relacionados con los servicios de ubicación.
+1. Para el tipo de mensaje, seleccione **[!UICONTROL Target all users of a Mobile application]**.
+1. Haga clic **[!UICONTROL Next]** y escriba los detalles generales.
+1. En el panel izquierdo, compruebe que puede utilizar varios activadores relacionados con los servicios de ubicación.
 
    * Puede elegir que se muestre el mensaje en la aplicación si el usuario ha introducido una cerca geográfica de puntos de interés.
    * También puede utilizar metadatos definidos en la interfaz de usuario de los servicios de ubicación para filtrar la audiencia.
@@ -39,7 +39,7 @@ Antes de comenzar, complete las siguientes tareas:
 
    !["Metadatos de lugares de mensajes en la aplicación"](/help/assets/last-entered-vacation.png)
 
-5. Haga clic en el botón **[!UICONTROL Next]** para finalizar la creación del mensaje en la aplicación para la entrega.
+1. Haga clic en el botón **[!UICONTROL Next]** para finalizar la creación del mensaje en la aplicación para la entrega.
 
    !["crear un evento"](/help/assets/prepare-ACS.png)
 
