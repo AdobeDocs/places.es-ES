@@ -4,12 +4,12 @@ seo-title: Notificaciones push
 description: Esta sección le muestra cómo utilizar los lugares con notificaciones push.
 seo-description: Esta sección le muestra cómo utilizar los lugares con notificaciones push.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 60c274c309a2c86b67d6c19ea28ae300a37d723a
 
 ---
 
 
-# Notificaciones push (#places-push-messaging)
+# Notificaciones push
 
 Mobile Services permite enviar notificaciones push a segmentos de Adobe Analytics. En el servicio de ubicación, puede segmentar la audiencia del mensaje push mediante sus interacciones históricas con los puntos de interés. Por ejemplo, puede enviar un mensaje a los usuarios que hayan estado en una de sus tiendas en los últimos 30 días.
 
