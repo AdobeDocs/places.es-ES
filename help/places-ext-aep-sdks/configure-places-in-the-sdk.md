@@ -4,7 +4,7 @@ seo-title: Configuración del SDK con la extensión Places
 description: 'Puede configurar el SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil. '
 seo-description: 'Puede configurar el SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil. '
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -37,14 +37,14 @@ Para configurar la extensión Monitor de lugares en Launch:
 
    Para obtener más información, consulte *Configurar la extensión de control de lugares en Launch*.
 
-2. Agregue la extensión del monitor de lugares a la aplicación móvil.
+1. Agregue la extensión del monitor de lugares a la aplicación móvil.
 
    Para obtener más información, consulte *Adición de la extensión Monitor de lugares a la aplicación*.
 
-3. Registre el Monitor de lugares con la extensión Mobile Core.
+1. Registre el Monitor de lugares con la extensión Mobile Core.
 
    Para obtener más información, consulte Registrar el monitor de *lugares con núcleo* móvil.
 
-4. Habilitar las actualizaciones de ubicación en segundo plano.
+1. Habilitar las actualizaciones de ubicación en segundo plano.
 
    Para obtener más información, consulte *Habilitar actualizaciones de ubicación en segundo plano*.
