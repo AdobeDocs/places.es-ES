@@ -4,7 +4,7 @@ seo-title: Definir elementos de datos
 description: Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares.
 seo-description: 'Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares. '
 translation-type: tm+mt
-source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -44,17 +44,17 @@ Cada punto de interés contiene las siguientes referencias de datos:
 
 1. En la página Propiedad de la aplicación, haga clic en la **[!UICONTROL Data Elements]** ficha.
 
-2. Haga clic en **[!UICONTROL Create New Data Element]**.
+1. Haga clic en **[!UICONTROL Create New Data Element]**.
 
-3. En la lista de extensiones instaladas, busque **[!UICONTROL Places]**.
+1. En la lista de extensiones instaladas, busque **[!UICONTROL Places]**.
 
-4. En la lista **[!UICONTROL Data Element Type]** desplegable, seleccione una referencia de datos para este elemento de datos.
+1. En la lista **[!UICONTROL Data Element Type]** desplegable, seleccione una referencia de datos para este elemento de datos.
 
-5. Seleccione un objetivo de puntos de interés.
+1. Seleccione un objetivo de puntos de interés.
 
-6. Si este elemento de datos es una referencia de metadatos personalizada, seleccione una clave de metadatos.
+1. Si este elemento de datos es una referencia de metadatos personalizada, seleccione una clave de metadatos.
 
-7. Escriba un nombre para el elemento de datos y haga clic en **[!UICONTROL Save]**.
+1. Escriba un nombre para el elemento de datos y haga clic en **[!UICONTROL Save]**.
 
    ![Crear elemento de datos](/help/assets/create-de-7-v3.png)
 
