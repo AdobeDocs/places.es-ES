@@ -4,7 +4,7 @@ seo-title: Creación de una regla para la propiedad Places
 description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 seo-description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -71,44 +71,44 @@ Antes de crear una regla, debe crear un elemento de datos en Adobe Experience Pl
 Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
 1. Haga clic en la ficha Elementos **de datos** .
-2. Click **Add Data Element**.
-3. Escriba un nombre, por ejemplo, **Nombre** de la cafetería actual.
-4. En la lista desplegable **Extensión** , seleccione **Lugares - Beta**.
-5. En Elemento **** de datos, seleccione **Ciudad**.
-6. En el panel derecho, seleccione el punto de interés **actual**.
-7. Haga clic en **Guardar**.
+1. Click **Add Data Element**.
+1. Escriba un nombre, por ejemplo, **Nombre** de la cafetería actual.
+1. En la lista desplegable **Extensión** , seleccione **Lugares - Beta**.
+1. En Elemento **** de datos, seleccione **Ciudad**.
+1. En el panel derecho, seleccione el punto de interés **actual**.
+1. Haga clic en **Guardar**.
 
 ### Crear una regla en Inicio de plataforma de experiencia para lugares
 
 ![el proceso de creación de una regla](/help/assets/placesrule.png)
 
 1. En Inicio de plataforma de experiencia, haga clic en la **[!UICONTROL Rules]** ficha .
-2. Haga clic en **[!UICONTROL Add Rule]**.
-3. Escriba un nombre para la regla, por ejemplo **[!UICONTROL Track entry for coffee shop in SF]**.
+1. Haga clic en **[!UICONTROL Add Rule]**.
+1. Escriba un nombre para la regla, por ejemplo **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Cree un evento
 
 1. En la sección Eventos, haga clic en **[!UICONTROL + Add]**. Los eventos determinan cuándo desea que se active la regla.
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
-3. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Enter POI]**.
-4. En **[!UICONTROL Name]**, introduzca un nombre para el evento, por ejemplo, **[!UICONTROL Entering a coffee shop]**.
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
+1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Enter POI]**.
+1. En **[!UICONTROL Name]**, introduzca un nombre para el evento, por ejemplo, **[!UICONTROL Entering a coffee shop]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ### Creación de una condición
 
 1. En la sección Condiciones, haga clic en **[!UICONTROL +Add]**. Las condiciones determinan los criterios que deben cumplirse para la adopción de medidas.
-2. En **[!UICONTROL Logic Type]**, seleccione Regular, que permite que las acciones se ejecuten si se cumple la condición.
-3. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
-4. En **[!UICONTROL Condition Type]**, seleccione **[!UICONTROL City]**.
-5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-6. En el panel derecho, haga clic en **[!UICONTROL Current POI]** y, en la lista desplegable, seleccione **[!UICONTROL San Francisco]** como una de sus ciudades.
-7. Haga clic en **[!UICONTROL Keep Changes]**.
+1. En **[!UICONTROL Logic Type]**, seleccione Regular, que permite que las acciones se ejecuten si se cumple la condición.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
+1. En **[!UICONTROL Condition Type]**, seleccione **[!UICONTROL City]**.
+1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
+1. En el panel derecho, haga clic en **[!UICONTROL Current POI]** y, en la lista desplegable, seleccione **[!UICONTROL San Francisco]** como una de sus ciudades.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ### Creación de una acción
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-2. En la lista **[!UICONTROL Extension]** desplegable, deje seleccionada la **[!UICONTROL Mobile Core]** opción predeterminada.
-3. Seleccione un tipo de acción, por ejemplo **[!UICONTROL Send Postback]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, deje seleccionada la **[!UICONTROL Mobile Core]** opción predeterminada.
+1. Seleccione un tipo de acción, por ejemplo **[!UICONTROL Send Postback]**.
 
    a. En **[!UICONTROL URL]**, escriba la URL de postback para Slack, por ejemplo, `https://hooks.slack.com/services/`.
 
@@ -120,7 +120,7 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
    d. Seleccione un valor de tiempo de espera, por ejemplo, **[!UICONTROL 5]**.
 
-4. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ### Publicar la regla
 
