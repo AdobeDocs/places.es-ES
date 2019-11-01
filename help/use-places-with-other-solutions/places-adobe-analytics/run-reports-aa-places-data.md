@@ -4,7 +4,7 @@ seo-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
 description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 seo-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -31,11 +31,11 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
    En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
-2. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
 
-3. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
 
-4. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Track Action]**.
+1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Track Action]**.
 
 Ahora puede determinar los activadores que desea incluir para esta regla. En este ejemplo, el activador se basa en todas las `TrackAction` llamadas. Después de configurar el evento, haga clic en **[!UICONTROL Keep Changes]**.
 
@@ -52,13 +52,13 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
 
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTORL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTORL Mobile Core]**.
 
-3. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Carrier Name]**.
+1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Carrier Name]**.
 
-4. En la ventana de la derecha, seleccione la casilla de verificación **[!UICONTROL AT&T]** .
+1. En la ventana de la derecha, seleccione la casilla de verificación **[!UICONTROL AT&T]** .
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 !["crear una condición"](/help/assets/pt-setCondition.png)
 
@@ -66,13 +66,13 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
 
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
 
-3. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
+1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
 
-4. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
+1. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 En el panel derecho, puede agregar una carga útil JSON improvisada que agregue datos a un evento SDK antes de que una extensión que esté escuchando este evento pueda oír el evento. En este ejemplo, se agregan algunos datos de contexto a este evento antes de que la extensión de Analytics lo procese. Los datos de contexto agregados estarán ahora en la visita saliente de Analytics.
 
@@ -88,4 +88,4 @@ Después de completar la configuración, compruebe que la regla tenga el aspecto
 
 1. Haga clic en **[!UICONTROL Save]**
 
-2. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
+1. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
