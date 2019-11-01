@@ -4,14 +4,12 @@ seo-title: Notas de la versión
 description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 seo-description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
 
 ---
 
 
 # Notas de la versión {#release-notes}
-
-Estas son las notas de la versión:
 
 ## 9 de octubre de 2019
 
@@ -167,7 +165,7 @@ Para obtener más información sobre el Monitor de lugares, haga clic aquí.
 * El almacenamiento de la última ubicación conocida ahora respeta correctamente el estado de privacidad del usuario
 
 
-## martes, 9 de abril de 2019
+## 9 de abril de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
