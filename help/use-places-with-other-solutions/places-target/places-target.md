@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 seo-description: 'Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -30,13 +30,13 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
    En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-2. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
 
-3. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Target]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Target]**.
 
-4. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Content Requested]**.
+1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Content Requested]**.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ![agregar un evento](/help/assets/ad-setEvent_target.png)
 
@@ -50,13 +50,13 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
 
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
 
-3. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Launches]**.
+1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Launches]**.
 
-4. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición indique **[!UICONTROL El usuario ha iniciado la aplicación más o menos 5 veces**.
+1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición indique **[!UICONTROL El usuario ha iniciado la aplicación más o menos 5 veces**.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ![agregar un evento](/help/assets/ad-setCondition_target.png)
 
@@ -64,13 +64,13 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
 
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
 
-3. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
+1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
 
-4. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
+1. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 En el panel derecho, puede agregar una carga útil JSON de forma libre que agregue datos a un evento SDK antes de que las extensiones que escuchen este evento lo oigan.
 
@@ -92,4 +92,4 @@ Después de completar la configuración, compruebe que la regla tenga el aspecto
 
 1. Haga clic en **[!UICONTROL Save]**
 
-2. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
+1. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
