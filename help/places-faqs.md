@@ -4,7 +4,7 @@ seo-title: Preguntas frecuentes
 description: Este tema proporciona información adicional sobre algunas preguntas más frecuentes.
 seo-description: Este tema proporciona información adicional sobre algunas preguntas más frecuentes.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -91,7 +91,7 @@ Para configurar el perfil y agregar los permisos:
 
       Si agregó usuarios anteriormente a Inicio de plataforma de experiencia, es posible que vea varios perfiles en la lista.
 
-2. Seleccione el perfil correcto:
+1. Seleccione el perfil correcto:
 
    a. Haga clic en el nombre del perfil predeterminado.
 
@@ -145,7 +145,7 @@ Para agregar un usuario a sus perfiles de Servicio de ubicación y Inicio de pla
 
    g.Haga clic en **[!UICONTROL Save]**.
 
-2. Agregue un usuario a **[!UICONTROL Places Core Services]**.
+1. Agregue un usuario a **[!UICONTROL Places Core Services]**.
 
    >[!TIP]
    >
