@@ -4,7 +4,7 @@ seo-title: Uso de su propio monitor
 description: 'También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places. '
 seo-description: 'También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places. '
 translation-type: tm+mt
-source-git-commit: 5d558755d816f4aa05a7a76cad12bab45c1dc282
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -23,7 +23,7 @@ En iOS, complete los siguientes pasos:
 
 1. Pase las actualizaciones de ubicación obtenidas de los servicios de ubicación principales de iOS a la extensión Places.
 
-2. Utilice la API de extensión `getNearbyPointsOfInterest` Places para obtener la matriz de *n* `ACPPlacesPoi` objetos alrededor de la ubicación actual.
+1. Utilice la API de extensión `getNearbyPointsOfInterest` Places para obtener la matriz de *n* `ACPPlacesPoi` objetos alrededor de la ubicación actual.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -35,7 +35,7 @@ En iOS, complete los siguientes pasos:
    }
    ```
 
-3. Extraiga la información de los `ACPPlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
+1. Extraiga la información de los `ACPPlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -60,7 +60,7 @@ En iOS, complete los siguientes pasos:
 
 1. Pase las actualizaciones de ubicación obtenidas de los servicios Google Play o de los servicios de ubicación de Android a Places Extension.
 
-2. Utilice la API de `getNearbyPointsOfInterest` ubicación para obtener la lista de n `PlacesPoi` objetos alrededor de la ubicación actual.
+1. Utilice la API de `getNearbyPointsOfInterest` ubicación para obtener la lista de n `PlacesPoi` objetos alrededor de la ubicación actual.
 
    ```java
        LocationCallback callback = new LocationCallback() {
@@ -79,7 +79,7 @@ En iOS, complete los siguientes pasos:
            };
    ```
 
-3. Extraiga los datos de los `PlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
+1. Extraiga los datos de los `PlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
