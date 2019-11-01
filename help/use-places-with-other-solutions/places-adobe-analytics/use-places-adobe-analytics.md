@@ -4,7 +4,7 @@ seo-title: Enviar datos de lugares a Adobe Analytics
 description: Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics.
 seo-description: 'Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics. '
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -33,13 +33,13 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
    De este modo, la regla será fácilmente reconocible en la lista de reglas. En este ejemplo, el nombre de la regla es **[!UICONTROL Send Data to Analytics]**.
 
-2. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-3. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places]**.
 
-4. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Enter POI]**.
+1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Enter POI]**.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
    !["seleccionar un evento"](/help/assets/ad-setEvent_use-analytics-data.png)
 
@@ -54,13 +54,13 @@ En este ejemplo, se crea una condición que hace que la regla se active solo cua
 
 1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
 
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places]**.
 
-3. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Name]**.
+1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Name]**.
 
-4. En el panel derecho, en el campo de texto, introduzca **[!UICONTROL My POI]**.
+1. En el panel derecho, en el campo de texto, introduzca **[!UICONTROL My POI]**.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
    !["establecer una condición"](/help/assets/ad-setCondition_use-analytics-data.png)
 
@@ -69,15 +69,15 @@ En este ejemplo, se crea una condición que hace que la regla se active solo cua
 
 1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
 
-2. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Analytics]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Analytics]**.
 
-3. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Track]**.
+1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Track]**.
 
-4. En el panel derecho, agregue la acción o el estado que desee enviar a Analytics.
+1. En el panel derecho, agregue la acción o el estado que desee enviar a Analytics.
 
    También puede elegir agregar cualquier dato de contexto adicional a esta solicitud. Recuerde que puede utilizar elementos de datos para obtener estos datos de forma dinámica desde el SDK.
 
-5. Haga clic en **[!UICONTROL Keep Changes]**.
+1. Haga clic en **[!UICONTROL Keep Changes]**.
 
    En el ejemplo siguiente, se envía una `TrackAction` llamada a Analytics con datos de contexto adicionales `poi.name` iguales al nombre del punto de interés que activó este evento de entrada:
 
@@ -91,5 +91,5 @@ Después de completar la configuración, compruebe que la regla tenga el aspecto
 
 1. Haga clic en **[!UICONTROL Save]**
 
-2. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
+1. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
 
