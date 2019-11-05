@@ -4,7 +4,7 @@ seo-title: Uso de su propio monitor
 description: También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places.
 seo-description: También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
 
 ---
 
@@ -23,16 +23,15 @@ En iOS, complete los siguientes pasos:
 
 1. Pase las actualizaciones de ubicación obtenidas de los servicios de ubicación principales de iOS a la extensión Places.
 
-1. Utilice la API de extensión `getNearbyPointsOfInterest` Places para obtener la matriz de *n* `ACPPlacesPoi` objetos alrededor de la ubicación actual.
+1. Utilice la API de extensión `getNearbyPointsOfInterest` Places para obtener la matriz de `ACPPlacesPoi` objetos alrededor de la ubicación actual.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
        [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
            [self startMonitoringGeoFences:nearbyPoi];
        }];
-   }
-   ```
-
+   }```
+   
 1. Extraiga la información de los `ACPPlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
 
    ```objective-c
