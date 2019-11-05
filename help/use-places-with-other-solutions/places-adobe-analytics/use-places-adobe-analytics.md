@@ -2,9 +2,9 @@
 title: Enviar datos de lugares a Adobe Analytics
 seo-title: Enviar datos de lugares a Adobe Analytics
 description: Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics.
-seo-description: 'Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics. '
+seo-description: Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -41,7 +41,7 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
-   !["seleccionar un evento"](/help/assets/ad-setEvent_use-analytics-data.png)
+   !["seleccionar un evento"](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Agregar condiciones
@@ -62,7 +62,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo cua
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
-   !["establecer una condición"](/help/assets/ad-setCondition_use-analytics-data.png)
+   !["establecer una condición"](/help/assets/pt-setCondition.png)
 
 
 ## 4. Definir la acción
@@ -81,15 +81,14 @@ En este ejemplo, se crea una condición que hace que la regla se active solo cua
 
    En el ejemplo siguiente, se envía una `TrackAction` llamada a Analytics con datos de contexto adicionales `poi.name` iguales al nombre del punto de interés que activó este evento de entrada:
 
-   !["establecer una acción"](/help/assets/ad-setAction_use-analytics-data.png)
+   !["establecer una acción"](/help/assets/pt-setAction.png)
 
 ## 5. Guarde la regla y vuelva a crear la propiedad
 
 Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
 
-!["la regla se crea"](/help/assets/ad-ruleComplete_use-analytics-data.png)
+!["la regla se crea"](/help/assets/pt-ruleComplete.png)
 
 1. Haga clic en **[!UICONTROL Save]**
 
 1. Vuelva a compilar la propiedad Launch e impleméntelo en el entorno correcto.
-
