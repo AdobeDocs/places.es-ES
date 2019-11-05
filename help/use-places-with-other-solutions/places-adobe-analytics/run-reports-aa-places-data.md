@@ -4,7 +4,7 @@ seo-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
 description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 seo-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -39,7 +39,7 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
 Ahora puede determinar los activadores que desea incluir para esta regla. En este ejemplo, el activador se basa en todas las `TrackAction` llamadas. Después de configurar el evento, haga clic en **[!UICONTROL Keep Changes]**.
 
-!["crear un evento"](/help/assets/pt-selectEvent.png)
+!["crear un evento"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Agregar condiciones
@@ -60,7 +60,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
-!["crear una condición"](/help/assets/pt-setCondition.png)
+!["crear una condición"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. Definir la acción
 
@@ -78,13 +78,13 @@ En el panel derecho, puede agregar una carga útil JSON improvisada que agregue 
 
 En el siguiente ejemplo, se agregan `poi.city` y `poi.name` valores a los datos de contexto del evento de Analytics. El SDK determina de forma dinámica los valores de las nuevas claves cuando se procesa este evento.
 
-!["crear una acción"](/help/assets/pt-setAction.png)
+!["crear una acción"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Guarde la regla y vuelva a crear la propiedad
 
 Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
 
-!["la regla está completa."](/help/assets/pt-ruleComplete.png)
+!["la regla está completa."](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Haga clic en **[!UICONTROL Save]**
 
