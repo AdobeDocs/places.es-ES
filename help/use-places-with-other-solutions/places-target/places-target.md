@@ -2,9 +2,9 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
-seo-description: 'Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target. '
+seo-description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -54,7 +54,7 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Launches]**.
 
-1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición indique **[!UICONTROL El usuario ha iniciado la aplicación más o menos 5 veces**.
+1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición se lea **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
@@ -76,11 +76,11 @@ En el panel derecho, puede agregar una carga útil JSON de forma libre que agreg
 
 En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores a la solicitud **[!UICONTROL mboxparameters]** para cada solicitud procesada en el evento de Target. El SDK determina los valores de las nuevas claves de forma dinámica en el momento en que se procesa este evento.
 
->[!TIP
->]
+>[!TIP]
+>
 >Esta carga útil JSON utiliza una notación especial para el `request` objeto. En el evento original, `request` es una matriz de objetos anónimos. Cuando se adjuntan datos a todos los objetos de una matriz mediante Adjuntar datos, la `[*]` anotación en una clave que contenga una matriz hace que la carga útil se aplique a todos los objetos de esa matriz.
 >
->La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la `request` matriz.
+>La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la`request`matriz_.
 
 ![agregar un evento](/help/assets/ad-setAction_target.png)
 
