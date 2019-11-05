@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 seo-description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
 
 ---
 
@@ -58,7 +58,7 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
-![agregar un evento](/help/assets/ad-setCondition_target.png)
+![agregar una condición](/help/assets/ad-setCondition_target.png)
 
 ## 4. Definir la acción
 
@@ -82,7 +82,7 @@ En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores a la s
 >
 >La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la`request`matriz_.
 
-![agregar un evento](/help/assets/ad-setAction_target.png)
+![definir la acción](/help/assets/ad-setAction_target.png)
 
 ## 5. Guarde la regla y vuelva a crear la propiedad
 
