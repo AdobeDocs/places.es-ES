@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 seo-description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 2169bcdc5957c2542dd11875223ea96c3d10b0bc
+source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
 
 ---
 
@@ -82,7 +82,7 @@ En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores a la s
 >
 >La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la`request`matriz_.
 
-![definir la acción](/help/assets/ad-setAction_target.png)
+![definir la acción](/help/assets/ad-setAction-target.png)
 
 ## 5. Guarde la regla y vuelva a crear la propiedad
 
