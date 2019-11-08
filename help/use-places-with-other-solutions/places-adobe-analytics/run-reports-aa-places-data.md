@@ -1,15 +1,15 @@
 ---
-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
-seo-title: Ejecutar informes en Adobe Analytics que incluyan datos de lugares
-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
-seo-description: Esta sección proporciona información sobre cómo ejecutar informes en Analytics que incluya datos de Lugares.
+title: Agregar contexto de ubicación a solicitudes de Analytics
+seo-title: Agregar contexto de ubicación a solicitudes de Analytics
+description: Esta sección proporciona información sobre cómo agregar contexto de ubicación a solicitudes de Analytics.
+seo-description: Esta sección proporciona información sobre cómo agregar contexto de ubicación a solicitudes de Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Ejecutar informes en Adobe Analytics que incluyan datos de lugares {#run-reports-aa-locserv-data}
+# Agregar contexto de ubicación a solicitudes de Analytics {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
@@ -76,7 +76,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 En el panel derecho, puede agregar una carga útil JSON improvisada que agregue datos a un evento SDK antes de que una extensión que esté escuchando este evento pueda oír el evento. En este ejemplo, se agregan algunos datos de contexto a este evento antes de que la extensión de Analytics lo procese. Los datos de contexto agregados estarán ahora en la visita saliente de Analytics.
 
-En el siguiente ejemplo, se agregan `poi.city` y `poi.name` valores a los datos de contexto del evento de Analytics. El SDK determina de forma dinámica los valores de las nuevas claves cuando se procesa este evento.
+En el ejemplo siguiente, se añaden `poi.city` y `poi.name` valores a los datos de contexto del evento de Analytics. El SDK determina de forma dinámica los valores de las nuevas claves cuando se procesa este evento.
 
 !["crear una acción"](/help/assets/ad-setAction_use-analytics-data.png)
 
