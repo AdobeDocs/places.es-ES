@@ -1,10 +1,10 @@
 ---
 title: Referencia de la API de Places Monitor
 seo-title: Referencia de la API de Places Monitor
-description: 'Una lista de las API para el Monitor de lugares. '
+description: Una lista de las API para el Monitor de lugares.
 seo-description: 'Una lista de las API para el Monitor de lugares.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -323,7 +323,7 @@ El nivel de autorización se puede establecer en uno de los siguientes valores:
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   Utilice esta enumeración para solicitar servicios de ubicación incluso cuando la aplicación esté en segundo plano. Debe tener las `NSLocationAlwaysUsageDescription` teclas y `NSLocationWhenInUseUsageDescription` en Info.plist de la aplicación. Estas teclas definen el texto que aparecerá durante el mensaje del usuario. Para obtener más información, consulte la documentación de [Apple sobre requestalwayspermission](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   Utilice esta enumeración para solicitar servicios de ubicación incluso cuando la aplicación esté en segundo plano. Debe tener las `NSLocationAlwaysUsageDescription` teclas y `NSLocationWhenInUseUsageDescription` en Info.plist de la aplicación. Estas teclas definen el texto que aparecerá durante el mensaje del usuario. Para obtener más información, consulte la documentación de [Apple en requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` es el valor de autorización de solicitud predeterminado.
 
@@ -336,7 +336,7 @@ Esta es la sintaxis y el código de ejemplo de esta API:
 #### Sintaxis
 
 ```objective-c
-+ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel
++ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel;
 ```
 
 #### Ejemplo
@@ -354,7 +354,7 @@ Para actualizar a `ACPPlacesRequestAuthorizationLevelAlways` autorización:
 
 ```objective-c
 // set the request authorization level
-[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways]
+[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways];
 ```
 
 ## Modo de supervisión (solo iOS)
