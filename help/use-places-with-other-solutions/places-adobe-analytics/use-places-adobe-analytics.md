@@ -1,15 +1,15 @@
 ---
-title: Enviar datos de lugares a Adobe Analytics
-seo-title: Enviar datos de lugares a Adobe Analytics
-description: Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics.
-seo-description: Esta sección proporciona información sobre cómo enviar datos de lugares a Analytics.
+title: Envío de datos de entrada y salida de puntos de interés a Analytics
+seo-title: Envío de datos de entrada y salida de puntos de interés a Analytics
+description: Esta sección proporciona información sobre cómo enviar datos de entrada y salida de puntos de interés a Analytics.
+seo-description: Esta sección proporciona información sobre cómo enviar datos de entrada y salida de puntos de interés a Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Enviar datos de lugares a Adobe Analytics {#places-data-analytics}
+# Envío de datos de entrada y salida de puntos de interés a Analytics {#places-data-analytics}
 
 
 >[!IMPORTANT]
