@@ -4,7 +4,7 @@ seo-title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 seo-description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
 
 ---
 
@@ -45,7 +45,7 @@ Esta es una lista de las columnas y los valores que debe utilizar:
 
 * `radius`
 
-   Un valor entre 10 y 2000.
+   Un valor entre 10 y 20.000.
 
 ### Valores de columna
 
@@ -69,7 +69,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
 * Las columnas que no se mencionan pueden dejarse en blanco.
 
-## Ejecución del script
+## Ejecución de la secuencia de comandos
 
 1. Descargue archivos de la repo [git](https://github.com/adobe/places-scripts) en su directorio local.
 1. En un editor de texto, abra el `config.py` archivo y realice las siguientes tareas:
@@ -90,8 +90,8 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `api_key`
 
-      Esta es la clave de API de Places REST que obtuvo de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
-   b.Guarde los cambios.
+      Ésta es la clave de API de Places REST que se obtiene de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
+   b. Guarde los cambios.
 
 1. En una ventana de terminal, vaya al `…/places-scripts/import/` directorio.
 1. Introduzca `python ./places_import.py` y pulse la **[!UICONTROL enter]** (**[!UICONTROL return]**) tecla.
