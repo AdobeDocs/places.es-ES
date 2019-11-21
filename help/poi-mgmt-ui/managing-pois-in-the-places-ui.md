@@ -4,12 +4,12 @@ seo-title: Administrar puntos de interés existentes
 description: En la interfaz de usuario del servicio de ubicación, puede editar, eliminar o filtrar los puntos de interés existentes.
 seo-description: En la interfaz de usuario del servicio de ubicación, puede editar, eliminar o filtrar los puntos de interés existentes.
 translation-type: tm+mt
-source-git-commit: 32c670773421406591ba85a628760553ce6ad840
+source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
 
 ---
 
 
-# Administrar puntos de interés existentes
+# Administrar puntos de interés existentes {#managing-existing-pois}
 
 Los puntos de interés y las bibliotecas se crean y administran en la base de datos de Lugares mediante la interfaz de usuario de Lugares.
 
@@ -56,7 +56,7 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 
 ## Definición de un punto de interés de geofence
 
-Las geofences son un tipo de POI y se definen en la base de datos según las siguientes claves:
+Las geofences son un tipo de punto de interés y se definen en la base de datos según las siguientes claves:
 
 | Claves | Descripción | Requerido? |
 | :--- | :--- | :--- |
@@ -70,6 +70,6 @@ Las geofences son un tipo de POI y se definen en la base de datos según las sig
 | Ciudad | Ciudad del POI. | No |
 | Estado/Región | Estado o región del punto de interés. | No |
 | País | País del POI. | No |
-| Latitud | Coordenada Latitude para el centro del punto de interés. | Sí |
+| Latitud | Coordenada de latitud para el centro del punto de interés. | Sí |
 | Longitud | Coordenada de longitud para el centro del punto de interés. | Sí |
-| Metadatos | Par de clave y valor personalizados que se pueden asignar a puntos de interés. Estos metadatos simplifican los futuros flujos de trabajo al permitirle agrupar puntos de interés entre bibliotecas para que cada uno utilice reglas y filtros en los flujos de trabajo descendentes, como enviar una notificación push cuando alguien introduce un punto de interés con el tipo = competidor. | No |
+| Metadatos | Par de clave y valor personalizados que se pueden asignar a puntos de interés. Estos metadatos simplifican los futuros flujos de trabajo al permitirle agrupar puntos de interés entre bibliotecas para que cada uno utilice reglas y filtros en los flujos de trabajo descendentes, como enviar una notificación push cuando alguien entre en un punto de interés con el tipo = competidor. | No |
