@@ -1,9 +1,9 @@
 ---
-product: Servicio de ubicación de Adobe Experience Platform
+product: Adobe Experience Platform Location Service
 audience: end-user
-user-guide-title: Servicio de ubicación de Adobe Experience Platform
+user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: a5ac49b0a18ce52fb71b2920d04918539b35294b
 
 ---
 
@@ -14,7 +14,8 @@ source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 + [Notas de la versión](release-notes.md)
 + [Primeros pasos](getting-started.md)
 + Interfaz de administración de puntos de interés {#poi-mgmt-ui}
-   + [Crear un nuevo POI](poi-mgmt-ui/create-a-poi-ui.md)
+   + [Visión general de la interfaz de administración de puntos de interés](poi-mgmt-ui/poi-mgmt-ui-overview.md)
+   + [Crear un POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Administrar puntos de interés creados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Estrategias para utilizar metadatos con puntos de interés](poi-mgmt-ui/metadata-with-pois.md)
    + [Carga masiva de puntos de interés](poi-mgmt-ui/bulk-upload-pois.md)
@@ -23,9 +24,10 @@ source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
    + [Información general sobre la API de servicio Web](web-service-api/places-web-services.md)
    + [Requisitos previos de integración](web-service-api/adobe-i-o-integration.md)
    + Uso de API {#api-usage}
+      + [Información general sobre el uso de API](web-service-api/api-usage/api-usage-overview.md)
       + [Encabezados y parámetros](web-service-api/api-usage/headers-and-parameters.md)
       + Manage libraries {#manage-libraries}
-         + [Información general sobre administración de bibliotecas](web-service-api/api-usage/manage-libraries/manage-libraries.md)
+         + [Información general sobre la administración de bibliotecas](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [Crear una biblioteca](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Leer una biblioteca](web-service-api/api-usage/manage-libraries/read-a-library.md)
          + [Actualizar una biblioteca](web-service-api/api-usage/manage-libraries/update-a-library.md)
