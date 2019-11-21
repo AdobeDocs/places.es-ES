@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: a5ac49b0a18ce52fb71b2920d04918539b35294b
+source-git-commit: a34c7a43b867b62646a48b457413ccc8fd3672ad
 
 ---
 
@@ -62,6 +62,7 @@ source-git-commit: a5ac49b0a18ce52fb71b2920d04918539b35294b
 + [Utilice el servicio de ubicación con su propia solución de supervisión](using-your-own-monitor.md)
 + [Usar el servicio de ubicación sin supervisión de región activa](use-places-without-active-monitoring.md)
 + Utilizar el servicio de ubicación como parte del flujo de trabajo de inicio de la plataforma de experiencia {#use-places-launch-workflow}
+   + [Utilizar el servicio de ubicación como parte del flujo de trabajo de inicio de la plataforma de experiencia](use-places-launch-workflow/places-launch-workflow.md)
    + [Definir elementos de datos](use-places-launch-workflow/define-data-elements.md)
    + [Crear reglas de entrada y salida](use-places-launch-workflow/create-rule-places-property.md)
 + Usar el servicio de ubicación con otras soluciones de Adobe {#use-places-with-other-solutions}
