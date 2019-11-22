@@ -4,12 +4,21 @@ seo-title: Notas de la versión
 description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 seo-description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
+source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
 
 ---
 
 
 # Notas de la versión {#release-notes}
+
+## 22 de noviembre de 2019
+
+* **PlacesMonitor 2.1.1**
+
+   * **Android**
+
+      * El monitor ahora reconoce el inicio de un dispositivo Android y, si es necesario, vuelve a registrar las geofences con el sistema operativo en función de la ubicación actual del dispositivo.
+      * Se corrigió una condición de carrera que en ocasiones causaba que se descartaran los eventos de entrada y salida.
 
 ## 9 de octubre de 2019
 
@@ -35,7 +44,7 @@ Esta es una lista de las actualizaciones de la interfaz de usuario de Lugares:
 
 #### Nuevas características
 
-* Se agregó una nueva vista de lista que muestra los puntos de interés sin el mapa.
+* Se ha agregado una nueva vista de lista que muestra los puntos de interés sin el mapa.
 * Se agregaron opciones de filtrado de puntos de interés para la ciudad, el estado, el país y los metadatos.
 * La primera biblioteca de una organización se crea automáticamente.
 * Se ha añadido la ordenación de puntos de interés a la vista de lista.
@@ -72,7 +81,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Se ha actualizado el uso de la `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
 
-## 25 de julio de 2019
+## jueves, 25 de julio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
@@ -84,7 +93,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Se ha actualizado el uso de la API de ACPPlaces `getNearbyPointsOfInterest` para gestionar los escenarios de error de forma más eficaz.
 
-## 22 de julio de 2019
+## jueves, 22 de julio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
@@ -95,7 +104,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 * Se corrigió un error en el que `getNearbyPointsOfInterest` la llamada de retorno devolvía código de error `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` en Internet.
 * `getNearbyPointsOfInterest` La API (sin errorCallback) tendrá la `successCallback` llamada con una lista poi vacía, en caso de error al recuperar los puntos de interés cercanos.
 
-## 19 de julio de 2019
+## jueves, 19 de julio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
@@ -119,7 +128,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Se ha agregado una nueva API para devolver un código de error cuando se produce un error al recuperar lugares cercanos.
 * Cuando el estado de privacidad cambia a opt-out, todos los datos relacionados con Places se borrarán del dispositivo.
-* Se ha corregido un problema que, después de un primer inicio, a veces provocaba que los eventos de Lugares se perdieran debido a las malas condiciones de red.
+* Se ha corregido un problema que, después de un primer inicio, a veces provocaba que los eventos de Lugares se perdieran debido a las malas condiciones de la red.
 * Se corrigió un problema en el cual, al procesar eventos de entrada de puntos de interés en una sucesión rápida, el reemplazo de tokens mediante el motor de reglas a veces hacía referencia al punto de interés incorrecto.
 
 ## 30 de mayo de 2019 (Lugares)
@@ -187,7 +196,7 @@ El monitor de lugares administra las API de ubicación de nivel de SO y se comun
 
 ### Versión beta
 
-Esta es la primera versión de Places, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación en el mundo real. Para la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen en función de esos datos mediante Adobe Experience Platform Launch.
+Esta es la primera versión de Places, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación en el mundo real. Para la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen en función de esos datos a través de Adobe Experience Platform Launch.
 
 ### Funciones principales
 
@@ -210,7 +219,7 @@ En la extensión Places:
 * Eventos de regla que se activan al entrar o salir del punto de interés.
 * Cree elementos de datos que apunten al punto de interés actual del usuario.
 
-Para obtener más información sobre la extensión Places, consulte [Extensión](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### API de lugares
 
@@ -228,5 +237,5 @@ Para obtener más información sobre las API de lugares, consulte API [de servic
 
 #### Analytics  de CRM
 
-La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación de la base de datos de lugares a todas las llamadas salientes de Analytics cuando un usuario se encuentra dentro de un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente al entrar o salir del punto de interés (llamadas activas).
+La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación de la base de datos de lugares a todas las llamadas salientes de Analytics cuando un usuario se encuentra dentro de un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente en la entrada o salida del punto de interés (llamadas activas).
 
