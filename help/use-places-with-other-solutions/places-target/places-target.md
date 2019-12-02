@@ -4,12 +4,12 @@ seo-title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 seo-description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Adobe Target {#places-target}
+# Usar el servicio de ubicación con Adobe Target {#places-target}
 
 En este documento se asume que tiene implementada la extensión Places en la aplicación. Si necesita ayuda para implementar la extensión Lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
 
@@ -74,7 +74,7 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 En el panel derecho, puede agregar una carga útil JSON de forma libre que agregue datos a un evento SDK antes de que las extensiones que escuchen este evento lo oigan.
 
-En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores a la solicitud **[!UICONTROL mboxparameters]** para cada solicitud procesada en el evento de Target. El SDK determina los valores de las nuevas claves de forma dinámica en el momento en que se procesa este evento.
+En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores al **[!UICONTROL mboxparameters]** para cada solicitud procesada en el evento de Target. Los valores de las nuevas claves son determinados dinámicamente por el SDK en el momento en que se procesa este evento.
 
 >[!TIP]
 >
