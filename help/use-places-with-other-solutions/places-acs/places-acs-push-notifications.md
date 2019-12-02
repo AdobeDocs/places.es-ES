@@ -4,12 +4,12 @@ seo-title: Notificaciones push
 description: En esta sección se proporciona información sobre cómo utilizar los lugares con notificaciones push en Campaign Standard.
 seo-description: 'En esta sección se proporciona información sobre cómo utilizar los lugares con notificaciones push en Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Notificaciones push con el servicio de ubicación de la plataforma de experiencia {#push-notifications}
+# Notificaciones push con el servicio de ubicación {#push-notifications}
 
 En esta guía, mostraremos cómo puede utilizar la información de ubicación geográfica histórica para dirigir las notificaciones push enviadas a través de Adobe Campaign Standard.
 
@@ -38,11 +38,11 @@ Para crear un elemento de datos:
 1. En la lista **[!UICONTROL Data Element Type]** desplegable, seleccione **[!UICONTROL Name]**.
 1. En el panel del lado derecho, puede seleccionar **[!UICONTROL Current POI]** qué recupera el nombre del punto de interés en el que se encuentra el usuario.
 
-   **[!UICONTROL Last Entered]** recupera el nombre del punto de interés que el usuario introdujo por última vez y **[!UICONTROL Last Exited]** proporciona el nombre del último punto de interés que dejó el usuario. Para este ejemplo, seleccionaremos **[!UICONTROL Last Entered]** y escribiremos un nombre para el elemento de datos, como **[!UICONTROL Last Entered POI Name]** y se hará clic en él **[!UICONTROL Save]**.
+   **[!UICONTROL Last Entered]** recupera el nombre del punto de interés que el usuario introdujo por última vez y **[!UICONTROL Last Exited]** proporciona el nombre del punto de interés que el usuario dejó por última vez. Para este ejemplo, seleccionaremos **[!UICONTROL Last Entered]** y escribiremos un nombre para el elemento de datos, como **[!UICONTROL Last Entered POI Name]** y en el que se hizo clic **[!UICONTROL Save]**.
 
    !["Mensajería push en Campaign Standard"](/help/assets/ACS_Push1.png)
 
-1. Repita los pasos 1 a 4 anteriores y cree elementos de datos para *Última latitud* de puntos de interés introducida, Longitud *de puntos de interés*&#x200B;última entrada y Radio *de puntos de interés*&#x200B;última entrada.
+1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
 Además de los elementos de datos del servicio de ubicación, asegúrese de crear elementos de datos principales de Mobile para el ID *de* aplicación y el ID *de* Experience Cloud.
 
@@ -90,7 +90,7 @@ Asegúrese de utilizar los elementos de datos correctos que creó anteriormente 
 >* Podría ser útil tener una configuración de enlace web de Slack como acción adicional para validar que las entradas se estén activando y que se estén recopilando los datos correctos.
 
 
->* Recuerde publicar los cambios recientes en la aplicación para asegurarse de que la regla y todos los elementos de datos se implementan como parte de la configuración. Tras la publicación, debe volver a iniciar la aplicación móvil para obtener las últimas actualizaciones de configuración.
+>* Recuerde publicar los cambios recientes en la aplicación para asegurarse de que la regla y todos los elementos de datos se implementan como parte de la configuración. Después de la publicación, debe volver a iniciar la aplicación móvil para obtener las últimas actualizaciones de configuración.
 
 
 ## Utilizar los datos de ubicación para dirigir los mensajes de campaña
@@ -120,7 +120,7 @@ Ahora que los datos de ubicación se han rellenado en Campaign, podemos utilizar
 
    Si no ve la actualización de recuento, es posible que haya introducido un nombre de punto de interés para el que ningún dispositivo ha activado una entrada. Tener el enlace web Slack se vuelve valioso en esta situación, ya que puede ver una lista de entradas de POI de varios dispositivos de prueba.
 1. Puede arrastrar filtros de ubicación de puntos de interés adicionales para incluir varios puntos de interés en el mensaje.
-1. Haga clic **[!UICONTROL Next]** para finalizar la creación de la notificación push para la entrega.
+1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
    !["Mensajería push 3 en ACS"](/help/assets/ACS_push3.html)
 
