@@ -4,14 +4,14 @@ seo-title: Informe sobre los datos de ubicación en Analytics Workspace
 description: En esta sección se proporciona información sobre cómo generar informes sobre datos de ubicación en Analysis Workspace.
 seo-description: En esta sección se proporciona información sobre cómo generar informes sobre datos de ubicación en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Informe sobre los datos de ubicación en Analytics Workspace {#places-in-workspace}
+# Informe sobre los datos de ubicación en el espacio de trabajo de Analytics {#places-in-workspace}
 
-Este documento muestra un ejemplo de cómo informar sobre sus datos de ubicación en Analytics Workspace. Cada paso contendrá un resumen de alto nivel, con detalles proporcionados por referencia a otras páginas de documentación.
+Este documento muestra un ejemplo de cómo informar sobre los datos de ubicación en el espacio de trabajo de Analytics. Cada paso contendrá un resumen de alto nivel, con detalles proporcionados por referencias a otras páginas de documentación.
 
 ## Requisitos previos
 
@@ -36,7 +36,7 @@ En este ejemplo, la acción de la regla tiene los siguientes valores definidos p
 
 !["establecer una acción"](/help/assets/pt-setAction.png)
 
-## 2. Crear variables de Analytics
+## 2. Creación de variables de Analytics
 
 Para asignar los datos de contexto (enviados en el paso 1), primero se deben crear variables para el grupo de informes de Analytics. Para obtener más información sobre la creación de variables en Analytics, consulte Variables [de conversión \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
