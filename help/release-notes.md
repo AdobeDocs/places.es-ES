@@ -4,12 +4,20 @@ seo-title: Notas de la versión
 description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 seo-description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
+source-git-commit: ef129b7b168444edaf58ef55331efdf2f55a993f
 
 ---
 
 
 # Notas de la versión {#release-notes}
+
+## 3 de diciembre de 2019
+
+* **ACPPlaces 1.3.0**
+
+   * **iOS**
+
+      * Se ha agregado una nueva API `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para los servicios de ubicación. El valor se almacena y utiliza en el estado compartido Lugares.
 
 ## 22 de noviembre de 2019
 
@@ -223,13 +231,13 @@ For more information about the Places extension, see [Places extension](/help/pl
 
 #### API de lugares
 
-Puede utilizar las API de Places para lo siguiente:
+Puede utilizar las API de lugares para realizar lo siguiente:
 
 * Permita que los desarrolladores rellenen y actualicen su lista de puntos de interés.
 * Cree su propia interfaz de usuario o integre una base de datos de puntos de interés existente.
 * Utilice los extremos de lote de la API de lugares para realizar una importación masiva de puntos de interés.
 
-   Las API proporcionan una utilidad python.
+   Puede utilizar la utilidad Python proporcionada para completar la importación masiva.
 
 Para obtener más información sobre las API de lugares, consulte API [de servicio](/help/web-service-api/places-web-services.md)web.
 
@@ -238,4 +246,3 @@ Para obtener más información sobre las API de lugares, consulte API [de servic
 #### Analytics  de CRM
 
 La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación de la base de datos de lugares a todas las llamadas salientes de Analytics cuando un usuario se encuentra dentro de un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente en la entrada o salida del punto de interés (llamadas activas).
-
