@@ -1,10 +1,8 @@
 ---
 title: Administrar puntos de interés existentes
-seo-title: Administrar puntos de interés existentes
 description: En la interfaz de usuario del servicio de ubicación, puede editar, eliminar o filtrar los puntos de interés existentes.
-seo-description: En la interfaz de usuario del servicio de ubicación, puede editar, eliminar o filtrar los puntos de interés existentes.
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -40,11 +38,11 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 
    * Por biblioteca:
 
-      a. Seleccione una biblioteca.
+       a. Seleccione una biblioteca.
 
    * Por propiedad:
 
-      a. En la lista desplegable Propiedad, seleccione **[!UICONTROL Country]**, **[!UICONTROL State]** o **[!UICONTROL City]**.
+       a. En la lista desplegable Propiedad, seleccione **[!UICONTROL Country]**, **[!UICONTROL State]** o **[!UICONTROL City]**.
 
       b. En la línea siguiente, introduzca un valor.
 
@@ -52,7 +50,7 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 
    * Con metadatos:
 
-      a. Introduzca una clave y un valor.
+       a. Introduzca una clave y un valor.
 
 ## Definición de un punto de interés de geofence
 
