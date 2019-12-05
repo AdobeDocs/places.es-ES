@@ -1,10 +1,8 @@
 ---
 title: Notificaciones en la aplicación
-seo-title: Notificaciones en la aplicación
 description: Esta sección muestra cómo utilizar los mensajes en la aplicación en lugares.
-seo-description: Esta sección muestra cómo utilizar los mensajes en la aplicación en lugares.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -19,7 +17,7 @@ La siguiente información muestra cómo configurar los mensajes en la aplicació
 
 ## Mensaje en la aplicación
 
-Mobile Services le permite utilizar datos de ubicación que se envían a Analytics como evento o condición desencadenador de un mensaje en la aplicación. Si los mensajes en la aplicación se activan desde el SDK y no es necesario esperar a que Analytics procese los datos, los mensajes pueden aparecer en tiempo real en cuanto se produce el activador.
+Mobile Services le permite utilizar los datos de ubicación que se envían a Analytics como evento o condición desencadenador de un mensaje en la aplicación. Si los mensajes en la aplicación se activan desde el SDK y no es necesario esperar a que Analytics procese los datos, los mensajes pueden aparecer en tiempo real en cuanto se produce el activador.
 
 ### Notificaciones locales
 
@@ -62,7 +60,7 @@ Por ejemplo, puede seleccionar `poiname` como clave y `{%%Last Entered POI Name}
 
 >[!TIP]
 >
->Las reglas de procesamiento de Analytics se pueden configurar para recoger estos datos de contexto. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará el `poiname` como contexto para describir el evento de entrada de puntos de interés que se está enviando a Analytics.
+>Las reglas de procesamiento de Analytics se pueden configurar para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará el `poiname` como contexto para describir el evento de entrada de puntos de interés que se está enviando a Analytics.
 
 ![creación de una acción](/help/assets/configure-action.png)
 
