@@ -4,7 +4,7 @@ seo-title: Primeros pasos
 description: Introducción al servicio de ubicación.
 seo-description: Introducción al servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
 
 ---
 
@@ -27,10 +27,6 @@ El contexto de producto del servicio de ubicación está disponible en todas las
 
    Para obtener más información, consulte *Adición de un usuario al servicio* de inicio y ubicación de la plataforma de experiencia en preguntas [más](/help/places-faqs.md)frecuentes.
 
-* Asegúrese de que la extensión Places está instalada en la propiedad de la aplicación móvil en el lanzamiento de la plataforma de experiencia.
-
-   Para utilizar la supervisión regional proporcionada por Adobe para sus geolocalizaciones, instale la extensión Monitor de lugares. Para obtener más información, consulte Extensión [del monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Lugares.
-
 
 ### 2. Crear sus puntos de interés
 
@@ -49,5 +45,5 @@ Los puntos de interés (POI) son áreas geográficas que se crean para las organ
 
 Para obtener más información sobre la configuración de la extensión Places y la extensión Monitor, consulte la siguiente información:
 
-* [Extensión de lugares](/help/places-ext-aep-sdks/places-extension/places-extension.md)
+* [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md)
 * [Coloca la extensión](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Monitor.
