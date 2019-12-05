@@ -1,10 +1,8 @@
 ---
 title: Información general sobre la integración de Adobe I/O
-seo-title: Información general sobre la integración de Adobe I/O
 description: Información sobre la creación de una integración de Adobe I/O.
-seo-description: Información sobre la creación de una integración de Adobe I/O.
 translation-type: tm+mt
-source-git-commit: ec2b0f8ba94cecc5709d4d700490913978454ef1
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -23,7 +21,7 @@ Compruebe con el administrador del sistema de su organización que se han comple
 
    Para obtener más información, consulte *Agregar un usuario o un desarrollador a los perfiles* Servicio de ubicación y Inicio de plataforma de experiencia en preguntas [](/help/places-faqs.md)frecuentes.
 
-* Ha sido agregado como desarrollador a los servicios principales de lugares de su organización.
+* Se le ha agregado como desarrollador a los servicios principales de lugares de su organización.
 
    Para obtener más información sobre cómo agregar desarrolladores, consulte *Agregar un usuario o un desarrollador a sus perfiles* Servicio de ubicación y Lanzamiento de plataforma de experiencia en preguntas [](/help/places-faqs.md)más frecuentes.
 
@@ -40,7 +38,7 @@ Cada solicitud a la API de REST de lugares requiere los siguientes elementos:
 Una integración con Adobe I/O proporciona estos elementos y una forma de solicitar el token de portador mediante un token web JSON (JWT).
 
 * Para obtener más información sobre JWT, consulte [Introducción a los tokens](https://jwt.io/introduction/)web JSON.
-* Para crear una integración para lugares, consulte la sección *Creación de una integración* de lugares más abajo.
+* Para crear una integración para Lugares, consulte la sección *Creación de una integración* de Lugares más abajo.
 * Para comprender la integración de claves de API, la generación de un JWT y los certificados de claves públicas, consulte Información general sobre la autenticación de [Adobe I/O](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
 >[!IMPORTANT]
@@ -106,7 +104,7 @@ Para crear una integración de lugares:
    **[!UICONTROL Access an API]** es la ubicación predeterminada.
 
 1. Si tiene acceso a más de una organización de Experience Cloud, seleccione la organización en la lista desplegable de la parte superior derecha.
-1. En **[!UICONTROL Experience Cloud]**, seleccione **[!UICONTROL Places]** el servicio de Adobe al que desea integrar y haga clic en **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
 1. Seleccione **[!UICONTROL New integration]** y haga clic en **[!UICONTROL Continue]**.
 1. En la pantalla Crear una nueva integración, escriba un nombre y una descripción.
 1. Arrastre y suelte el `xxxx_public.crt` archivo que ha creado arriba en la zona de **[!UICONTROL Public keys certificates]** colocación.
@@ -138,11 +136,11 @@ En la página de detalles de la integración, haga clic en la **[!UICONTROL JWT]
 Para generar un token de JWT:
 
 1. En un editor de texto, abra el `private.key` archivo creado anteriormente.
-1. En la **[!UICONTROL JWT]** ficha, copie el contenido de la clave y péguela en el **[!UICONTROL Paste private key]** campo.
+1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
 1. Haga clic en **[!UICONTROL Generate JWT]**.
-1. En la **[!UICONTROL Sample CURL command]** sección , haga clic **[!UICONTROL Copy]** y pegue el contenido en el símbolo del sistema o en la ventana de terminal.
+1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
 1. Ejecute el comando presionando **[!UICONTROL Enter]** el teclado.
-1. Busque el `"token_type": "bearer"` y el `"access_token"` .
+1. Localice el `"token_type": "bearer"` y el `"access_token"` .
 
    El valor del autentificador de acceso al portador es lo que utilizará en las solicitudes de la API de lugares.
 
