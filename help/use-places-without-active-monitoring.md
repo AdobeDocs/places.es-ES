@@ -1,10 +1,8 @@
 ---
 title: Usar el servicio de ubicación sin supervisión de región activa
-seo-title: Usar el servicio de ubicación sin supervisión de región activa
 description: En esta sección se proporciona información sobre cómo utilizar Location ServicePlaces sin supervisión de región activa.
-seo-description: Esta sección proporciona información sobre cómo utilizar el servicio de ubicación sin supervisión de región activa.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -16,7 +14,6 @@ Es posible que los casos de uso de la aplicación no requieran supervisión de r
 En esta sección se explica cómo completar una comprobación de pertenencia a un punto de interés solo en el momento de recopilar la ubicación del usuario (latitud y longitud).
 
 ## Requisitos previos
-
 
 El desarrollador recopilará la ubicación del dispositivo mediante las API proporcionadas por el sistema operativo de la plataforma de destino.
 
@@ -87,7 +84,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Objective-C
 
-Esta es una implementación de muestra en iOS a partir de un [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) método [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc):
+A continuación se muestra una implementación de muestra en iOS a partir de un [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) método [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -103,7 +100,7 @@ Esta es una implementación de muestra en iOS a partir de un [`CLLocationManager
 
 ### Swift
 
-Esta es una implementación de muestra en iOS a partir de un [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) método [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager):
+A continuación se muestra una implementación de muestra en iOS a partir de un [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) método [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -236,8 +233,7 @@ Los siguientes ejemplos de código muestran cómo recuperar la ubicación actual
 
 >[!IMPORTANT]
 >
->
-Estos fragmentos son **sólo** ejemplos. Los desarrolladores deben determinar cómo desean implementar la funcionalidad, y la decisión debe tener en cuenta las optimizaciones recomendadas por el sistema operativo de destino.
+>Estos fragmentos son **sólo** ejemplos. Los desarrolladores deben determinar cómo desean implementar la funcionalidad, y la decisión debe tener en cuenta las optimizaciones recomendadas por el sistema operativo de destino.
 
 ### Android
 
