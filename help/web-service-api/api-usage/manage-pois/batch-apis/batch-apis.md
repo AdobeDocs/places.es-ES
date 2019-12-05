@@ -1,10 +1,8 @@
 ---
 title: API por lotes
-seo-title: API por lotes
 description: Con las API por lotes, puede crear, actualizar y eliminar varios puntos de interés.
-seo-description: Con las API por lotes, puede crear, actualizar y eliminar varios puntos de interés.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
