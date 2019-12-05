@@ -1,10 +1,8 @@
 ---
 title: Visión general de la interfaz de administración de puntos de interés
-seo-title: Visión general de la interfaz de administración de puntos de interés
 description: Esta sección proporciona información sobre cómo crear y administrar bibliotecas y puntos de interés mediante la interfaz de usuario del servicio de ubicación.
-seo-description: Esta sección proporciona información sobre cómo crear y administrar bibliotecas y puntos de interés mediante la interfaz de usuario del servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
