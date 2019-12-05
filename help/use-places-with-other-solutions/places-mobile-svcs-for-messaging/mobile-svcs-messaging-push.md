@@ -1,17 +1,15 @@
 ---
 title: Notificaciones push
-seo-title: Notificaciones push
 description: Esta sección le muestra cómo utilizar los lugares con notificaciones push.
-seo-description: Esta sección le muestra cómo utilizar los lugares con notificaciones push.
 translation-type: tm+mt
-source-git-commit: 60c274c309a2c86b67d6c19ea28ae300a37d723a
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
 
 # Notificaciones push
 
-Mobile Services permite enviar notificaciones push a segmentos de Adobe Analytics. En el servicio de ubicación, puede segmentar la audiencia del mensaje push mediante sus interacciones históricas con los puntos de interés. Por ejemplo, puede enviar un mensaje a los usuarios que hayan estado en una de sus tiendas en los últimos 30 días.
+Mobile Services le permite enviar notificaciones push a segmentos de Adobe Analytics. En el servicio de ubicación, puede segmentar la audiencia del mensaje push mediante sus interacciones históricas con los puntos de interés. Por ejemplo, puede enviar un mensaje a los usuarios que hayan estado en una de sus tiendas en los últimos 30 días.
 
 Antes de comenzar, asegúrese de haber completado las siguientes tareas:
 
@@ -19,7 +17,7 @@ Antes de comenzar, asegúrese de haber completado las siguientes tareas:
 
    Esto significa que la aplicación móvil ha enviado correctamente los datos del servicio de ubicación a un grupo de informes y que los datos están disponibles para la segmentación.
 
-* El canal de notificaciones push en Mobile Services está configurado.
+* Se ha configurado el canal de notificaciones push en Mobile Services.
 
    Para obtener más información, consulte [Crear un mensaje en la aplicación](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html).
 
