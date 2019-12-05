@@ -1,10 +1,8 @@
 ---
 title: Notificaciones push
-seo-title: Notificaciones push
 description: En esta sección se proporciona información sobre cómo utilizar los lugares con notificaciones push en Campaign Standard.
-seo-description: 'En esta sección se proporciona información sobre cómo utilizar los lugares con notificaciones push en Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
