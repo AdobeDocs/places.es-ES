@@ -1,10 +1,8 @@
 ---
 title: Mensajes en la aplicación con el servicio de ubicación
-seo-title: Mensajes en la aplicación con el servicio de ubicación
 description: Esta sección proporciona información sobre cómo utilizar la mensajería push en Campaign Standard con mensajes en la aplicación en Campaign Standard.
-seo-description: 'Esta sección proporciona información sobre cómo utilizar la "mensajería push en Campaign Standard" con mensajes en la aplicación en Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -39,7 +37,7 @@ Antes de comenzar, complete las siguientes tareas:
 
    !["Metadatos de lugares de mensajes en la aplicación"](/help/assets/last-entered-vacation.png)
 
-1. Haga clic en el botón **[!UICONTROL Next]** para finalizar la creación del mensaje en la aplicación para la entrega.
+1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
    !["crear un evento"](/help/assets/prepare-ACS.png)
 
