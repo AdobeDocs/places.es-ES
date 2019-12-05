@@ -1,26 +1,24 @@
 ---
-title: Extensión de lugares
-seo-title: Extensión de lugares
+title: Extensión Places
 description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
-seo-description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
 
-# Extensión de lugares {#places-extension}
+# Extensión Places {#places-extension}
 
 La extensión Lugares permite actuar en función de la ubicación de los usuarios. Esta extensión es la interfaz de las API de servicio de consulta de lugares. Al escuchar eventos que contienen coordenadas GPS y eventos de región de geofence, esta extensión distribuye nuevos eventos que son procesados por el motor de reglas. La extensión Places también recupera y entrega una lista del punto de interés más cercano para los datos de la aplicación que se recuperan de las API. Las regiones devueltas por las API se almacenan en caché y en persistencia, lo que permite un procesamiento sin conexión limitado.
 
 ## Instalación de la extensión Places en Adobe Experience Platform Launch
 
-1. En Inicio de plataforma de experiencia, haga clic en la **[!UICONTROL Extensions]** ficha .
-1. En la **[!UICONTROL Catalog]** ficha, busque la **[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. En la **[!UICONTROL Catalog]** ficha, ubique la **[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
 1. Seleccione las bibliotecas Lugares que desee utilizar en esta propiedad. Estas son las bibliotecas a las que se podrá acceder desde la aplicación.
 1. Haga clic en **[!UICONTROL Save]**.
 
-   Al hacer clic en **[!UICONTROL Save]**, el SDK de la plataforma de experiencia busca en los servicios de lugares puntos de interés en las bibliotecas seleccionadas. Los datos de puntos de interés no se incluyen en la descarga de la biblioteca al compilar la aplicación, pero se descarga un subconjunto de puntos de interés basado en la ubicación en el dispositivo del usuario final en tiempo de ejecución y se basa en las coordenadas GPS del usuario.
+   Al hacer clic en **[!UICONTROL Save]**, el SDK de la plataforma de experiencia busca en los servicios de lugares puntos de interés en las bibliotecas seleccionadas. Los datos de puntos de interés no se incluyen en la descarga de la biblioteca al compilar la aplicación, pero se descarga un subconjunto de puntos de interés basado en la ubicación en el dispositivo del usuario final en tiempo de ejecución y se basa en las coordenadas de GPS del usuario.
 
 1. Complete el proceso de publicación para actualizar la configuración del SDK.
 
@@ -139,7 +137,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Claves de configuración
 
-Para actualizar la configuración del SDK mediante programación durante la ejecución, utilice la siguiente información para cambiar los valores de configuración de Places. Para obtener más información, consulte Referencia [de API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuración.
+Para actualizar la configuración del SDK mediante programación en tiempo de ejecución, utilice la siguiente información para cambiar los valores de configuración de Places. Para obtener más información, consulte Referencia [de API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuración.
 
 | Clave | Requerido | Descripción |
 | :--- | :--- | :--- |
