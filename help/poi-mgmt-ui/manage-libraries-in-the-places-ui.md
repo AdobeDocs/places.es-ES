@@ -1,10 +1,8 @@
 ---
 title: Administrar bibliotecas en la interfaz de usuario de Lugares
-seo-title: Administrar bibliotecas en la interfaz de usuario de Lugares
 description: Administre sus bibliotecas mediante la IU de lugares.
-seo-description: Administre sus bibliotecas mediante la IU de lugares.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -21,7 +19,7 @@ Las bibliotecas se definen de la siguiente manera:
 | :--- | :--- |
 | ID | un identificador único asignado a la biblioteca en el momento de la creación |
 | Nombre | un nombre descriptivo asignado a una biblioteca |
-| Clasificación | Estas clasificaciones se pueden ignorar si no hay geofences superpuestas en la organización. Si hay puntos de interés superpuestos, le recomendamos que coloque cada una de las geofences en bibliotecas independientes para que se puedan ponderar entre sí. Un usuario solo puede estar en una sola geofencia a la vez. <br><br>La clasificación más alta de las geofences en las que se encuentra un usuario determina su pertenencia a la geografía actual. Si hay geofences con la misma clasificación de biblioteca, la geofence más pequeña es la geofence actual del usuario. <br><br>El SDK también tiene conocimiento de los puntos de interés de *última entrada* y de *última salida* , por lo que dispone de un control completo de cómo desea que se activen las reglas en función de la interacción del usuario con los puntos de interés. |
+| Clasificación | Estas clasificaciones se pueden ignorar si no hay geofences superpuestas en la organización. Si hay puntos de interés superpuestos, le recomendamos que coloque cada una de las geovallas en bibliotecas independientes para que se puedan ponderar entre sí. Un usuario solo puede estar en una sola geovalla a la vez. <br><br>La clasificación más alta de las geovallas en las que se encuentra un usuario determina su pertenencia a la geovalla actual. Si hay geovallas con la misma clasificación de biblioteca, la geovalla más pequeña es la actual del usuario. <br><br>El SDK también tiene conocimiento de los puntos de interés de *Última entrada* y de *Última salida*, por lo que dispone de un control completo de cómo desea que se activen las reglas en función de la interacción del usuario con los puntos de interés. |
 
 ## Crear una biblioteca
 
