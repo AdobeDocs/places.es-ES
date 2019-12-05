@@ -1,10 +1,8 @@
 ---
 title: Información general
-seo-title: API de consulta
 description: Explicación y uso de las API de consulta.
-seo-description: Explicación y uso de las API de consulta.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -108,7 +106,7 @@ Este es un ejemplo del formato JSON devuelto correctamente:
 }
 ```
 
-Los puntos de interés en `places.pois` se ordenan por distancia del llamador al borde de los puntos de interés. Los puntos de interés de debajo `places.userWithin` contienen el llamador y estos puntos de interés se ordenan por clasificación y, a continuación, por radio creciente.
+Los puntos de interés en `places.pois` se ordenan por distancia desde el llamador hasta el borde de los puntos de interés. Los puntos de interés de debajo `places.userWithin` contienen el llamador y estos puntos de interés se ordenan por clasificación y, a continuación, por radio creciente.
 
 ## Llamada de muestra
 
