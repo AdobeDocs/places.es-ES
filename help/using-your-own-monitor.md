@@ -1,10 +1,8 @@
 ---
 title: Uso de su propio monitor
-seo-title: Uso de su propio monitor
 description: También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places.
-seo-description: También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
