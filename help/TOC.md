@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 967726c02b725d8d7aca657754f1ae30f79a665d
 
 ---
 
@@ -13,6 +13,7 @@ source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 + [Descripción general del servicio de ubicación de Adobe Experience Platform](home.md)
 + [Notas de la versión](release-notes.md)
 + [Primeros pasos](getting-started.md)
++ [Obtener acceso al servicio de ubicación](places-gain-access.md)
 + Interfaz de administración de puntos de interés {#poi-mgmt-ui}
    + [Visión general de la interfaz de administración de puntos de interés](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Crear un POI](poi-mgmt-ui/create-a-poi-ui.md)
