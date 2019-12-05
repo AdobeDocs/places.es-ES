@@ -1,10 +1,8 @@
 ---
 title: Visión general del servicio de lugares
-seo-title: Visión general del servicio de lugares
 description: 'Esta sección proporciona información sobre la creación y el uso de puntos de interés (POI). '
-seo-description: 'Esta sección proporciona información sobre la creación y el uso de puntos de interés (POI).  '
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
