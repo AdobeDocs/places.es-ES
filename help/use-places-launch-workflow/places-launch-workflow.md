@@ -1,10 +1,8 @@
 ---
 title: Utilizar el servicio de ubicación como parte del flujo de trabajo de inicio de la plataforma de experiencia
-seo-title: Utilizar el servicio de ubicación como parte del flujo de trabajo de inicio de la plataforma de experiencia
 description: En esta sección se proporciona información sobre cómo definir los elementos de datos y crear reglas de entrada y salida en Experience Platform Launch que se pueden utilizar con el servicio de ubicación.
-seo-description: Esta sección proporciona información sobre cómo definir los elementos de datos y crear reglas de entrada y salida en Experience Platform Launch que se pueden utilizar con el servicio de ubicación
 translation-type: tm+mt
-source-git-commit: 02616ae6fe046fb6f4905283734f72d670b72ec0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
