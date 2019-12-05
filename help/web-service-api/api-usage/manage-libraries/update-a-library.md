@@ -1,10 +1,8 @@
 ---
 title: Actualizar una biblioteca
-seo-title: Actualizar una biblioteca
 description: Actualice una biblioteca mediante la API de REST de lugares.
-seo-description: Actualice una biblioteca mediante la API de REST de lugares.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
