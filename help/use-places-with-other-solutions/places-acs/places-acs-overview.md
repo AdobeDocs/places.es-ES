@@ -1,10 +1,8 @@
 ---
 title: 'Usar el servicio de ubicación con Adobe Campaign Standard '
-seo-title: Usar el servicio de ubicación con Adobe Campaign Standard
 description: 'Esta sección es una descripción general de cómo utilizar el servicio de ubicación con Campaign Standard. '
-seo-description: Esta sección es una descripción general de cómo utilizar el servicio de ubicación con Campaign Standard.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
