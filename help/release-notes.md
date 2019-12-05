@@ -1,10 +1,8 @@
 ---
 title: Notas de la versión
-seo-title: Notas de la versión
 description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
-seo-description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: ef129b7b168444edaf58ef55331efdf2f55a993f
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
