@@ -4,7 +4,7 @@ seo-title: Primeros pasos
 description: Introducción al servicio de ubicación.
 seo-description: Introducción al servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
+source-git-commit: 1c5a63b6f7eb56be2240756c31d6ca03a0bfb0da
 
 ---
 
@@ -25,7 +25,7 @@ El contexto de producto del servicio de ubicación está disponible en todas las
 
 * Asegúrese de que aparece como usuario en los contextos de producto Servicio de ubicación e Inicio de plataforma de experiencia en Admin Console.
 
-   Para obtener más información, consulte *Adición de un usuario al servicio* de inicio y ubicación de la plataforma de experiencia en preguntas [más](/help/places-faqs.md)frecuentes.
+   Para obtener más información, consulte *Adición de un usuario al servicio* de inicio y ubicación de la plataforma de experiencia en [Obtener acceso al servicio](/help/places-gain-access.md)de ubicación.
 
 
 ### 2. Crear sus puntos de interés
