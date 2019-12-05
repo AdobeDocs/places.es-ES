@@ -1,10 +1,8 @@
 ---
 title: Probar y validar lugares
-seo-title: Probar y validar lugares
 description: Esta sección proporciona información sobre cómo probar y validar lugares.
-seo-description: Esta sección proporciona información sobre cómo probar y validar lugares.
 translation-type: tm+mt
-source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -36,7 +34,7 @@ Una vez validados correctamente los eventos de ubicación, se pueden probar las 
 | 8 | Una vez aceptado el permiso de ubicación. El SDK de Places recuperará la ubicación actual del dispositivo y la extensión del monitor de lugares comenzará a supervisar los 20 puntos de interés más cercanos desde la ubicación actual | Consulte el ejemplo de registro debajo de la tabla. |
 | 9 | Cambiar entre diferentes ubicaciones en XCode o estudio de Android debería producir eventos de entrada para puntos de interés específicos. Los siguientes registros se esperan al entrar en un punto de interés. | Consulte el ejemplo de registro debajo de la tabla. |
 | 10 | Después de ver que el Monitor de lugares encuentra puntos de interés cercanos, debe realizar la prueba enviando pings de ubicación. En Iniciar, cree una nueva regla que utilice la extensión Lugares para activarla en función de una entrada de reja geográfica. A continuación, cree una nueva acción utilizando Mobile Core para enviar un postback. La creación de una aplicación de Slack Weblink ayuda a ver las entradas y salidas de la ubicación. Para obtener más información sobre la creación de una aplicación de Slack Webhooks, consulte [Envío de mensajes mediante Webhooks entrantes.](https://api.slack.com/messaging/webhooks) |  |
-| 10a | En Launch, asegúrese de que ha agregado elementos de datos para la extensión Places, incluidos los siguientes: <br>Nombre de punto de interés actual<br>Nombre de punto de interés actual<br>latÚltimo punto de interés actual<br>largo Último<br>nombre especificado Último<br>último<br>último<br>nombre de salida Última salida salir<br>último<br>registro de tiempo de salida |  |
+| 10a | En Launch, asegúrese de que ha agregado elementos de datos para la extensión Places, incluidos los siguientes: <br>Nombre de punto de interés actual<br>Nombre de punto de interés actual<br>latÚltimo punto de interés actual<br>largo Último<br>nombre especificado Último<br>último<br>último<br>nombre de salida Última salida<br>última salida última<br>marca de tiempo de salida |  |
 | 10b | Crear una nueva regla con un Evento = Lugares → Introducir punto de interés |  |
 | 10c | Crear una acción = Núcleo móvil → Postback |  |
 | 10d | Utilice la URL de Weblink para su aplicación de Slack, por ejemplo, https://hooks.slack.com/services/TKN5FKS68/BNFP7SVD..... |  |
