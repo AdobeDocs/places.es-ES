@@ -1,10 +1,8 @@
 ---
 title: Referencia de la API de Places Monitor
-seo-title: Referencia de la API de Places Monitor
 description: Una lista de las API para el Monitor de lugares.
-seo-description: 'Una lista de las API para el Monitor de lugares.  '
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -139,7 +137,7 @@ PlacesMonitor.start();
 
 >[!IMPORTANT]
 >
->Para comenzar la supervisión, el servicio de ubicación debe tener la autorización necesaria:
+>Para comenzar la supervisión, el servicio de ubicación debe contar con la autorización necesaria:
 >
 >* Si no se ha proporcionado la autorización para el servicio de ubicación a la aplicación, la primera llamada a la `start` API solicita la autorización para utilizar el servicio de ubicación configurado para la aplicación.
 >* Según las capacidades del dispositivo, si se ha proporcionado la autorización, el Monitor de lugares rastrea la ubicación del usuario en función del conjunto actual `ACPPlacesMonitorMode`. De forma predeterminada, el monitor utiliza `ACPPlacesMonitorModeSignificantChanges`.
@@ -313,7 +311,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 Esta API establece el tipo de solicitud de autorización de ubicación para la que se solicitará al usuario.
 
-Para configurar que el mensaje de autorización correspondiente se muestre al usuario, llame `SetRequestAuthorizationLevel` antes de llamar `[ACPPlacesMonitor start]`. Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame a esta API antes del `[ACPPlacesMonitor start]`. Al llamar a este método mientras se supervisa activamente, se actualizará el nivel de autorización de ubicación al valor de autorización solicitado. Si el nivel de autorización solicitado ya ha sido proporcionado o denegado por el usuario de la aplicación o si hay una rebaja del permiso de `ACPPlacesRequestAuthorizationLevelAlways` `ACPPlacesRequestAuthorizationLevelWhenInUse` a la autorización, este método no tiene ningún efecto.
+Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame `SetRequestAuthorizationLevel` antes de llamar `[ACPPlacesMonitor start]`. Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame a esta API antes del `[ACPPlacesMonitor start]`. Al llamar a este método mientras se supervisa activamente, se actualizará el nivel de autorización de ubicación al valor de autorización solicitado. Si el nivel de autorización solicitado ya ha sido proporcionado o denegado por el usuario de la aplicación o si hay una rebaja del permiso de `ACPPlacesRequestAuthorizationLevelAlways` `ACPPlacesRequestAuthorizationLevelWhenInUse` a la autorización, este método no tiene ningún efecto.
 
 El nivel de autorización se puede establecer en uno de los siguientes valores:
 
@@ -367,7 +365,7 @@ La supervisión se puede establecer en uno de los siguientes valores:
 
 * `ACPPlacesMonitorModeSignificantChanges`
 
-   La extensión de supervisión solo recibe y procesa actualizaciones de ubicación después de que el dispositivo se haya desplazado una distancia significativa desde la ubicación procesada anteriormente. Esta estrategia de monitoreo consume menos energía que la estrategia de monitoreo continuo. Para obtener más información, consulte la documentación de [Apple sobre supervisión significativa](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
+   La extensión de supervisión solo recibe y procesa las actualizaciones de ubicación después de que el dispositivo se haya desplazado una distancia significativa desde la ubicación procesada anteriormente. Esta estrategia de monitoreo consume menos energía que la estrategia de monitoreo continuo. Para obtener más información, consulte la documentación de [Apple sobre supervisión significativa](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
 
 ### SetPlacesMonitorMode (iOS)
 
