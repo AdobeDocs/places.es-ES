@@ -1,10 +1,8 @@
 ---
 title: Información general sobre la administración de puntos de interés
-seo-title: Información general sobre la administración de puntos de interés
 description: 'Comprender y trabajar con puntos de interés. '
-seo-description: 'Comprender y trabajar con puntos de interés. '
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
