@@ -1,10 +1,8 @@
 ---
 title: Encabezados y parámetros
-seo-title: Encabezados y parámetros
 description: Encabezados y parámetros disponibles en las API de REST de Places.
-seo-description: Encabezados y parámetros disponibles en las API de REST de Places.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -21,7 +19,7 @@ A continuación se proporcionan detalles sobre los encabezados y parámetros dis
 | `x-api-key` | Su clave de API | Todas | `19776964b4cde49e08d8f62e5824f777b` |
 | `x-gw-ims-org-id` | Su ID de organización | Todas | `18FB61145BAC2FFB0A494777@AdobeOrg` |
 | `Content-Type` | Formato del contenido enviado o recibido | PUT, POST | `application/json` |
-| `Accept-Language` | Idioma utilizado para mensajes de error | Opcional | `en-US` |
+| `Accept-Language` | Lenguaje utilizado para mensajes de error | Opcional | `en-US` |
 
 ## Parámetros de biblioteca
 
@@ -51,7 +49,7 @@ A continuación se proporcionan detalles sobre los encabezados y parámetros dis
 | `city` | Ciudad para el punto de interés | string | 32 caracteres | ambos, opcional* | `"city": "San Jose"` |
 | `street` | Dirección de la calle del punto de interés | string | 256 caracteres | ambos, opcional* | `"street": "122 Woz Way"` |
 | `category` | Categoría del punto de interés | string | 100 caracteres | ambos, opcional* | `"category": "cafe"` |
-| `icon` | Icono para el POI | string | 50 caracteres | ambos, opcional* | `"icon": "star"` |
+| `icon` | Icono para el punto de interés | string | 50 caracteres | ambos, opcional* | `"icon": "star"` |
 | `color` | Color del punto de interés | string | 8 caracteres | ambos, opcional* | `"color": "blue"` |
 | `metadata` | Matriz de pares clave/valor para el punto de interés | array(string) | key: 256 caracteres, valor: 256 caracteres, máximo de 10 pares | ambos, opcional* | `"metadata": {"region": "Equator"}` |
 | `lib_id` | ID de la biblioteca en la que está el punto de interés | n.d. | n.d. | ambas, requerido | `"lib_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9"` |
