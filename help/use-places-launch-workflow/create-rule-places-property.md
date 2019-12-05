@@ -1,10 +1,8 @@
 ---
 title: Creación de una regla para la propiedad Places
-seo-title: Creación de una regla para la propiedad Places
 description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
-seo-description: 'El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y rastrea los eventos de entrada y salida de estos puntos de interés. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -54,14 +52,14 @@ Las acciones definen lo que la aplicación hará en respuesta a la condición de
 
 >[!CAUTION]
 >
->En este ejemplo se asume que ha creado una biblioteca de puntos de interés de todas las cafeterías de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Creación de un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Creación de una biblioteca* en [Gestión de varias bibliotecas](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>En este ejemplo se entiende que ha creado una biblioteca de puntos de interés de todos los cafés de Estados Unidos. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 El siguiente procedimiento es un ejemplo de cómo crear una regla que devuelve un anuncio a Slack cuando se entra en una cafetería en San Francisco.
 
 El evento, la condición y la acción se definen de las siguientes maneras:
 
 * **Evento**: Coloca el evento de entrada.
-* **Condición**: Ciudad para el **actual punto de interés** es San Francisco
+* **Condición**: La ciudad del **Punto de interés actual** es San Francisco
 * **Acción**: Envíe un postback a Slack el nombre de la cafetería en la que entró su cliente.
 
 ### Requisitos previos
@@ -74,15 +72,15 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 1. Click **Add Data Element**.
 1. Escriba un nombre, por ejemplo, **Nombre** de la cafetería actual.
 1. En la lista desplegable **Extensión** , seleccione **Lugares - Beta**.
-1. En Elemento **** de datos, seleccione **Ciudad**.
+1. En **Elemento de datos**, seleccione **Ciudad**.
 1. En el panel derecho, seleccione el punto de interés **actual**.
 1. Haga clic en **Guardar**.
 
-### Crear una regla en Inicio de plataforma de experiencia para lugares
+### Creación de una regla en Inicio de plataforma de experiencia para lugares
 
 ![el proceso de creación de una regla](/help/assets/placesrule.png)
 
-1. En Inicio de plataforma de experiencia, haga clic en la **[!UICONTROL Rules]** ficha .
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
 1. Haga clic en **[!UICONTROL Add Rule]**.
 1. Escriba un nombre para la regla, por ejemplo **[!UICONTROL Track entry for coffee shop in SF]**.
 
@@ -97,11 +95,11 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 ### Creación de una condición
 
 1. En la sección Condiciones, haga clic en **[!UICONTROL +Add]**. Las condiciones determinan los criterios que deben cumplirse para la adopción de medidas.
-1. En **[!UICONTROL Logic Type]**, seleccione Regular, que permite que las acciones se ejecuten si se cumple la condición.
+1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
 1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places – Beta]**.
 1. En **[!UICONTROL Condition Type]**, seleccione **[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. En el panel derecho, haga clic en **[!UICONTROL Current POI]** y, en la lista desplegable, seleccione **[!UICONTROL San Francisco]** como una de sus ciudades.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 ### Creación de una acción
@@ -110,7 +108,7 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 1. En la lista **[!UICONTROL Extension]** desplegable, deje seleccionada la **[!UICONTROL Mobile Core]** opción predeterminada.
 1. Seleccione un tipo de acción, por ejemplo **[!UICONTROL Send Postback]**.
 
-   a. En **[!UICONTROL URL]**, escriba la URL de postback para Slack, por ejemplo, `https://hooks.slack.com/services/`.
+    a. En **[!UICONTROL URL]**, escriba la URL de postback para Slack, por ejemplo, `https://hooks.slack.com/services/`.
 
    b. Para enviar un cuerpo de anuncio, active la **[!UICONTROL Add Post Body]** casilla de verificación.
 
@@ -128,6 +126,6 @@ Para crear un elemento de datos en Inicio de plataforma de experiencia:
 
 ### Pensar más allá de las entradas y salidas
 
-El uso de las entradas y salidas del servicio de ubicación para activar las reglas en Inicio de plataforma de experiencia es increíblemente potente, pero también puede utilizar los datos de ubicación como condición para que otros eventos se activen. Por ejemplo, puede tener un activador de evento de seguimiento de Mobile Core Action listo para activarse en función de un evento de llamada trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales en el evento antes de realizar una acción. Por ejemplo, abra un estudio en la aplicación cuando se produzca un evento de compra, pero `trackAction` solo **** si la ubicación actual del usuario incluye metadatos específicos del servicio de ubicación.
+El uso de las entradas y salidas del servicio de ubicación para activar las reglas en Inicio de plataforma de experiencia es increíblemente potente, pero también puede utilizar los datos de ubicación como condición para que otros eventos se activen. Por ejemplo, puede tener un activador de evento de seguimiento de Mobile Core Action listo para activarse en función de un evento de llamada de trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales en el evento antes de realizar una acción. Por ejemplo, abra un estudio en la aplicación cuando se produzca un evento de compra, pero `trackAction` solo **** si la ubicación actual del usuario incluye metadatos específicos del servicio de ubicación.
 
 ![crear una condición](/help/assets/places-condition.png)
