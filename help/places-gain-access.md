@@ -1,10 +1,8 @@
 ---
 title: Acceso al servicio de ubicación de Adobe Experience Platform
-seo-title: Acceso al servicio de ubicación de Adobe Experience Platform
 description: En esta sección se proporciona información sobre cómo agregar un usuario al servicio de ubicación y al inicio de la plataforma de experiencia para que el usuario pueda acceder al servicio de ubicación.
-seo-description: En esta sección se proporciona información sobre cómo agregar un usuario al servicio de ubicación y al inicio de la plataforma de experiencia para que el usuario pueda acceder al servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: 1b4482c8e4cf825c0182421fe00f8b86b411c11b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
