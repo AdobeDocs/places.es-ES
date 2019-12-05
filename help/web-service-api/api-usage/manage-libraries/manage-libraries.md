@@ -1,14 +1,12 @@
 ---
 title: Administrar bibliotecas
-seo-title: Administrar bibliotecas
 description: Administración de las bibliotecas de la API de REST de Places.
-seo-description: Administración de las bibliotecas de la API de REST de Places.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
-# Información general sobre administración de bibliotecas {#manage-libraries}
+# Información general sobre la administración de bibliotecas {#manage-libraries}
 
 Puede utilizar las API de REST de Places para completar las siguientes tareas:
 
