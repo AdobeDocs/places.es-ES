@@ -1,10 +1,8 @@
 ---
 title: Elementos de datos de inicio de plataforma de experiencia con datos de lugares
-seo-title: Elementos de datos de inicio de plataforma de experiencia con datos de lugares
 description: 'Los elementos de datos son los componentes básicos del diccionario de datos (o mapa de datos). '
-seo-description: 'Los elementos de datos son los componentes básicos del diccionario de datos (o mapa de datos). '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
