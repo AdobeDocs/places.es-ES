@@ -4,12 +4,14 @@ seo-title: Servicio de ubicación de Adobe Experience Platform
 description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 seo-description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: 9fd6c1fdd740a021d7612aa33693c392bff53994
+source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
 
 ---
 
 
 # Descripción general del servicio de ubicación de Adobe Experience Platform {#home}
+
+!["Servicio de ubicación de Adobe Experience Platform"](/help/assets/LocationHeader.png)
 
 La ubicación es un contexto importante para comprender y relacionarse con los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva.
 
@@ -40,11 +42,11 @@ El servicio de ubicación comprende los siguientes componentes:
 
    Puede crear y administrar puntos de interés mediante las API de Places REST. Para obtener más información sobre las API de REST, consulte [Administrar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) y [Administrar puntos de interés](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Interfaz de administración de puntos**
+* **Interfaz de administración de puntos de interés**
 
    Visualice los puntos de interés en un mapa para comprender el contexto espacial y añadir/editar los puntos de interés y sus metadatos personalizados.
 
-* **Extensión de lugares**
+* **Extensión Places**
 
    Interfaz de API móvil multiplataforma para integrar el contexto de ubicación en sus aplicaciones móviles. Para obtener más información sobre los SDK, consulte Extensión [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
@@ -72,17 +74,17 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
    Este tipo de POI es un dispositivo físico que representa una ubicación emitiendo una señal Bluetooth de baja potencia. La compatibilidad con las señalizaciones estará disponible en una versión futura.
 
-* Una **biblioteca** es una colección de puntos de interés, que se agrupan para adjuntar fácilmente reglas a un conjunto en lugar de un punto de interés.
+* Una **biblioteca** es una recopilación de puntos de interés, que se agrupan para adjuntar fácilmente reglas a un conjunto en lugar de un punto de interés.
 
 * Una **extensión** es la extensión Inicio de plataforma de experiencia necesaria para integrar el SDK de lugares en las aplicaciones móviles.
 
    Extensión utilizada con otros SDK móviles para añadir contexto de ubicación a sus experiencias.
 
-* Una **organización** es la entidad de Adobe que identifica a su empresa en Adobe Experience Cloud.
+* Una **organización** es la entidad de Adobe que identifica a su compañía en Adobe Experience Cloud.
 
    Normalmente, una organización es el nombre de su empresa. Sin embargo, una empresa puede tener más de una organización. El administrador de la organización puede configurar grupos y usuarios y la funcionalidad de inicio de sesión único.
 
-* El **orgID** es el ID que representa a su organización en la plataforma de Adobe Experience.
+* El **orgID** es el ID que representa a su organización en Adobe Experience Platform.
 
    Para obtener más información, consulte [Búsqueda de su orgID](https://forums.adobe.com/thread/2339895).
 
