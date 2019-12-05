@@ -1,10 +1,8 @@
 ---
 title: Referencia de eventos de lugares
-seo-title: Referencia de eventos de lugares
 description: 'Lista de los eventos que gestiona la extensión Places. '
-seo-description: 'Lista de los eventos que gestiona la extensión Places.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -45,7 +43,7 @@ Este evento es una solicitud para obtener los puntos de interés cercanos tenien
 
 | Clave | Tipo de valor | Requerido | Valor predeterminado | Descripción |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | double | true | n.d. | Contiene el valor de latitud del centro de la búsqueda de puntos de interés cercanos. |
+|  latitude | double | true | n.d. | Contiene el valor de latitud para el centro de la búsqueda de puntos de interés cercanos. |
 | longitud | double | true | n.d. | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
 | radio | integer | false | n.d. | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
 | count | integer | false | 10 | Número máximo de puntos de interés que se devuelven en el evento de respuesta resultante. |
