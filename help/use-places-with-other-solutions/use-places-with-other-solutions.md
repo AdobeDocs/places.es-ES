@@ -1,10 +1,8 @@
 ---
 title: Uso del servicio de ubicación con otras soluciones de Adobe
-seo-title: Uso del servicio de ubicación con otras soluciones de Adobe
 description: Esta sección muestra cómo utilizar el servicio de ubicación con otras soluciones de Adobe.
-seo-description: Esta sección muestra cómo utilizar el servicio de ubicación con otras soluciones de Adobe.
 translation-type: tm+mt
-source-git-commit: 299afc48c5962c3180578d5352b97096ad0395dc
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
