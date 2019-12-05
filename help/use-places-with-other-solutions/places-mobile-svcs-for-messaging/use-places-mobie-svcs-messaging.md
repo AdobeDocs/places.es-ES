@@ -1,10 +1,8 @@
 ---
 title: Uso de lugares con Mobile Services para mensajes
-seo-title: Uso de lugares con Mobile Services para mensajes
 description: En esta sección se muestra cómo utilizar los mensajes en lugares con Mobile Services.
-seo-description: En esta sección se muestra cómo utilizar los mensajes en lugares con Mobile Services.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -41,5 +39,5 @@ Puede ejecutar informes de AMS mediante los datos del servicio de ubicación que
 
 ![Visualización de informes](/help/assets/report-visualize.png)
 
-En las interfaces de Adobe Analytics hay disponible flexibilidad adicional para visualizar datos del servicio de ubicación.
+En las interfaces de Adobe Analytics hay disponible una flexibilidad adicional para visualizar datos del servicio de ubicación.
 
