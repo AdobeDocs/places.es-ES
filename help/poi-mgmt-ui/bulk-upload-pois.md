@@ -1,10 +1,8 @@
 ---
 title: Puntos de interés de carga masiva
-seo-title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
-seo-description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 translation-type: tm+mt
-source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -74,7 +72,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 1. Descargue archivos de la repo [git](https://github.com/adobe/places-scripts) en su directorio local.
 1. En un editor de texto, abra el `config.py` archivo y realice las siguientes tareas:
 
-   a. Edite los siguientes valores de variables como cadenas:
+    a. Edite los siguientes valores de variables como cadenas:
 
    * `csv_file_path`
 
@@ -91,7 +89,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
    * `api_key`
 
       Ésta es la clave de API de Places REST que se obtiene de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
-   b. Guarde los cambios.
+   b.Guarde los cambios.
 
 1. En una ventana de terminal, vaya al `…/places-scripts/import/` directorio.
 1. Introduzca `python ./places_import.py` y pulse la **[!UICONTROL enter]** (**[!UICONTROL return]**) tecla.
