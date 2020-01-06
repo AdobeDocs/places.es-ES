@@ -50,14 +50,14 @@ Esta es una lista de las columnas y los valores que debe utilizar:
 Los valores de las siguientes columnas se utilizan en la interfaz de usuario del servicio de ubicación:
 
 * color, que se utiliza como color del pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de ubicación.
-   * Los valores válidos son "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, y #3DC8DE, y "".
+   * Los valores válidos son &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, y #3DC8DE, y &quot;&quot;.
    * Si el valor se deja en blanco, la interfaz de usuario del servicio de ubicación utiliza el azul como color predeterminado.
 
       Los valores corresponden a azul (#3E76D0), púrpura (#AA99E8), fuschia (#DC2ABA), naranja (#FC685B), naranja claro (#FC962E), amarillo (#F6C436), verde claro (#BECE5D), verde (#61E 56B) y azul claro (#3DC8DE), respectivamente.
 
 * icono, que se utiliza como icono en el pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de ubicación
 
-   * Los valores válidos son "", tienda, hotelbed, auto, avión, tren, barco, estadio, parque de atracciones, anclaje, panadero, campana, puja, libro, caja, maletín, examinar, cepillo, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promoción, cinta comprasCarro, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave.
+   * Los valores válidos son &quot;&quot;, tienda, hotelbed, auto, avión, tren, barco, estadio, parque de atracciones, anclaje, panadero, campana, puja, libro, caja, maletín, examinar, cepillo, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promoción, cinta comprasCarro, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave.
 
       Los valores de los iconos se muestran en el orden en que aparecen en la siguiente ilustración:
 
@@ -72,7 +72,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 1. Descargue archivos de la repo [git](https://github.com/adobe/places-scripts) en su directorio local.
 1. En un editor de texto, abra el `config.py` archivo y realice las siguientes tareas:
 
-    a. Edite los siguientes valores de variables como cadenas:
+   a. Edite los siguientes valores de variables como cadenas:
 
    * `csv_file_path`
 
@@ -89,10 +89,10 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
    * `api_key`
 
       Ésta es la clave de API de Places REST que se obtiene de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
-   b.Guarde los cambios.
+   b. Guarde los cambios.
 
 1. En una ventana de terminal, vaya al `…/places-scripts/import/` directorio.
-1. Introduzca `python ./places_import.py` y pulse la **[!UICONTROL enter]** (**[!UICONTROL return]**) tecla.
+1. Introduzca `python ./places_import.py` y pulse la **[!UICONTROL enter]**(**[!UICONTROL return]**) tecla.
 
 
 ## Comprobaciones CSV previas a la importación
