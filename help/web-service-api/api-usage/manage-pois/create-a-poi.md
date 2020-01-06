@@ -94,4 +94,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-ke
 
 >[!IMPORTANT]
 >
->Recuerde reemplazar `<API KEY>`, `<TOKEN>`, ',' y `<SINGLEPOIDATA>` por valores reales.
+>Recuerde reemplazar `<API KEY>`, `<TOKEN>`, &#39;,&#39; y `<SINGLEPOIDATA>` por valores reales.
