@@ -41,7 +41,7 @@ A continuación se proporcionan detalles sobre los encabezados y parámetros dis
 | `name` | Nombre del punto de interés | string | 512 caracteres | ambos, opcional\* | `"name": "My Favorite Place"` |
 | `description` | Descripción del punto de interés | string | 512 caracteres | ambos, opcional\* | `"description": "This is a very good place."` |
 | `location` | Matriz de tipos y coordenadas de puntos de interés | matriz (mixto) | n.d. | both | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
-| `type` | Tipo de POI | string | solo se admite actualmente "Point" | ambos, requeridos en la solicitud | `"type": "Point"` |
+| `type` | Tipo de POI | string | solo se admite actualmente &quot;Point&quot; | ambos, requeridos en la solicitud | `"type": "Point"` |
 | `coordinates` | Matriz de longitud y latitud del punto de interés | array (float) | longitud: -180 a 180, latitud -85 a 85 | ambos, requeridos en la solicitud | `"coordinates": [-122.201007, 37.604713]` |
 | `radius` | Tamaño de la geofencia circular alrededor del punto de interés | float | 10 - 2000 metros | ambos, requeridos en la solicitud | `"radius": 100` |
 | `country` | País para el punto de interés | string | 32 caracteres | ambos, opcional* | `"country": "United States"` |
