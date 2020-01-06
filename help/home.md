@@ -9,7 +9,7 @@ source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 # Descripción general del servicio de ubicación de Adobe Experience Platform {#home}
 
-!["Servicio de ubicación de Adobe Experience Platform"](/help/assets/LocationHeader.png)
+![&quot;Servicio de ubicación de Adobe Experience Platform&quot;](/help/assets/LocationHeader.png)
 
 La ubicación es un contexto importante para comprender y relacionarse con los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva.
 
@@ -27,7 +27,7 @@ Esto le permitirá realizar acciones desde las señales de ubicación en tiempo 
 
 Estas son algunas de las formas en que puede utilizar Lugares:
 
-* Enviar una notificación en tiempo real cuando alguien entre en un POI, *"Oye...bienvenidos al estadio".*
+* Enviar una notificación en tiempo real cuando alguien entre en un POI, *&quot;Oye...bienvenidos al estadio&quot;.*
 * Analizar el tráfico de pies de sus propias tiendas en comparación con las de su competidor.
 * Segmente una audiencia según su comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Diríjase a un usuario con una experiencia en la tienda cuando sea pertinente.
