@@ -17,11 +17,11 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
 ## 1. Crear una regla
 
-1. En la **[!UICONTROL Rules]** ficha, haga clic en **[!UICONTROL Create New Rule]**.
+1. En la **[!UICONTROL Rules]**ficha, haga clic en**[!UICONTROL Create New Rule]**.
 
    Recuerde la información siguiente:
-   * Si no tiene reglas existentes para esta propiedad, el **[!UICONTROL Create New Rule]** botón estará en medio de la pantalla.
-   * Si la propiedad tiene reglas, el **[!UICONTROL Create New Rule]** botón estará en la parte superior derecha de la pantalla.
+   * Si no tiene reglas existentes para esta propiedad, el **[!UICONTROL Create New Rule]**botón estará en medio de la pantalla.
+   * Si la propiedad tiene reglas, el **[!UICONTROL Create New Rule]**botón estará en la parte superior derecha de la pantalla.
 
 ## 2. Seleccionar un evento
 
@@ -29,15 +29,15 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
    En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
-1. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Events]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Mobile Core]**.
 
-1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Track Action]**.
+1. En la lista **[!UICONTROL Event Type]**desplegable, seleccione**[!UICONTROL Track Action]**.
 
 Ahora puede determinar los activadores que desea incluir para esta regla. En este ejemplo, el activador se basa en todas las `TrackAction` llamadas. Después de configurar el evento, haga clic en **[!UICONTROL Keep Changes]**.
 
-!["crear un evento"](/help/assets/ad-setEvent_use-analytics-data.png)
+![&quot;crear un evento&quot;](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Agregar condiciones
@@ -48,27 +48,27 @@ Ahora puede determinar los activadores que desea incluir para esta regla. En est
 
 En este ejemplo, se crea una condición que hace que la regla se active solo para clientes de AT&amp;T.
 
-1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Conditions]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTORL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTORL  Mobile Core]**.
 
-1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Carrier Name]**.
+1. En la lista **[!UICONTROL Condition Type]**desplegable, seleccione**[!UICONTROL Carrier Name]**.
 
-1. En la ventana de la derecha, seleccione la casilla de verificación **[!UICONTROL AT&T]** .
+1. En la ventana de la derecha, seleccione la casilla de verificación **[!UICONTROL AT&T]**.
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
-!["crear una condición"](/help/assets/ad-setCondition_use-analytics-data.png)
+![&quot;crear una condición&quot;](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. Definir la acción
 
-1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Actions]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Mobile Core]**.
 
-1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
+1. En la lista **[!UICONTROL Action Type]**desplegable, seleccione**[!UICONTROL Attach Data]**.
 
-1. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
+1. En el panel derecho, en el **[!UICONTROL JSON Payload]**campo, escriba los datos que se agregarán a este evento.
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
@@ -76,13 +76,13 @@ En el panel derecho, puede agregar una carga útil JSON improvisada que agregue 
 
 En el ejemplo siguiente, se añaden `poi.city` y `poi.name` valores a los datos de contexto del evento de Analytics. El SDK determina de forma dinámica los valores de las nuevas claves cuando se procesa este evento.
 
-!["crear una acción"](/help/assets/ad-setAction_use-analytics-data.png)
+![&quot;crear una acción&quot;](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Guarde la regla y vuelva a crear la propiedad
 
 Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
 
-!["la regla está completa."](/help/assets/ad-ruleComplete_use-analytics-data.png)
+![&quot;la regla está completa.&quot;](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Haga clic en **[!UICONTROL Save]**
 
