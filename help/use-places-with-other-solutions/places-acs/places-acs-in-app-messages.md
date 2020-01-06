@@ -28,22 +28,22 @@ Antes de comenzar, complete las siguientes tareas:
 
 1. En la instancia de Adobe Campaign Standard, haga clic en **[!UICONTROL Create In-App message]**.
 1. Para el tipo de mensaje, seleccione **[!UICONTROL Target all users of a Mobile application]**.
-1. Haga clic **[!UICONTROL Next]** y escriba los detalles generales.
+1. Haga clic **[!UICONTROL Next]**y escriba los detalles generales.
 1. En el panel izquierdo, compruebe que puede utilizar varios activadores relacionados con los servicios de ubicación.
 
    * Puede elegir que se muestre el mensaje en la aplicación si el usuario ha introducido una cerca geográfica de puntos de interés.
    * También puede utilizar metadatos definidos en la interfaz de usuario de los servicios de ubicación para filtrar la audiencia.
    En el ejemplo siguiente, puede activar un mensaje en la aplicación que se muestra únicamente a los usuarios que acceden a uno de los centros de vacaciones que participan en un programa de bebidas gratuitas y desea enviar un cupón a esos usuarios cuando lleguen.
 
-   !["Metadatos de lugares de mensajes en la aplicación"](/help/assets/last-entered-vacation.png)
+   ![&quot;Metadatos de lugares de mensajes en la aplicación&quot;](/help/assets/last-entered-vacation.png)
 
-1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
+1. Click the **[!UICONTROL Next]**to finish creating the In-app message for delivery.
 
-   !["crear un evento"](/help/assets/prepare-ACS.png)
+   ![&quot;crear un evento&quot;](/help/assets/prepare-ACS.png)
 
    Para probar la entrega de mensajes en la aplicación, inicie la aplicación en el estudio Xcode o Android y utilice el simulador de ubicación para seleccionar un punto de interés que se ajuste a los criterios de mensajería.
 
-   !["cupón de bebida"](/help/assets/drink-coupon-on-app.png)
+   ![&quot;cupón de bebida&quot;](/help/assets/drink-coupon-on-app.png)
 
 El uso de los servicios de ubicación con Adobe Campaign Standard le proporciona una poderosa herramienta para segmentar y dirigir sus mensajes a los usuarios en función de las entradas y salidas de la valla geográfica. Esta integración le permite crear casos de uso más personalizados y contextuales.
 
