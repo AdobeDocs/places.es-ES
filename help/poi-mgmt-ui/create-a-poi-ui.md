@@ -27,7 +27,7 @@ Un punto de interés (POI) es una ubicación o un punto en un mapa que es import
    1. Seleccione un color para el icono.
    1. Especifique una categoría para el punto de interés.
 
-1. Expanda la **[!UICONTROL Location]** sección.
+1. Expand the **[!UICONTROL Location]**section.
 
    1. Escriba una dirección.
    1. Escriba la ciudad.
@@ -37,7 +37,7 @@ Un punto de interés (POI) es una ubicación o un punto en un mapa que es import
    1. Haga clic en **[!UICONTROL Drop Pin on Map]**.
    Si no conoce la latitud y la longitud exactas, es útil soltar un pin.
 
-1. Expanda la **[!UICONTROL Metadata]** sección y haga clic en **[!UICONTROL Add Metadata]**.
+1. Expanda la **[!UICONTROL Metadata]**sección y haga clic en**[!UICONTROL Add Metadata]**.
 
    Los metadatos pueden ayudarle a definir aún más una ubicación y se pueden utilizar en otros flujos de trabajo de soluciones de Adobe para reducir aún más la audiencia.
 
