@@ -13,8 +13,8 @@ La extensión Lugares permite actuar en función de la ubicación de los usuario
 
 ## Instalación de la extensión Places en Adobe Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. En la **[!UICONTROL Catalog]** ficha, ubique la **[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. En la **[!UICONTROL Catalog]**ficha, ubique la**[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
 1. Seleccione las bibliotecas Lugares que desee utilizar en esta propiedad. Estas son las bibliotecas a las que se podrá acceder desde la aplicación.
 1. Haga clic en **[!UICONTROL Save]**.
 
