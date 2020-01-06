@@ -43,7 +43,7 @@ Este evento es una solicitud para obtener los puntos de interés cercanos tenien
 
 | Clave | Tipo de valor | Requerido | Valor predeterminado | Descripción |
 | :--- | :--- | :--- | :--- | :--- |
-|  latitude | double | true | n.d. | Contiene el valor de latitud para el centro de la búsqueda de puntos de interés cercanos. |
+| latitude | double | true | n.d. | Contiene el valor de latitud para el centro de la búsqueda de puntos de interés cercanos. |
 | longitud | double | true | n.d. | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
 | radio | integer | false | n.d. | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
 | count | integer | false | 10 | Número máximo de puntos de interés que se devuelven en el evento de respuesta resultante. |
