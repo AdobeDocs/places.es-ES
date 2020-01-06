@@ -15,7 +15,7 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
 ## 1. Crear una regla
 
-1. En la **[!UICONTROL Rules]** ficha, haga clic en **[!UICONTROL Create New Rule]**.
+1. En la **[!UICONTROL Rules]**ficha, haga clic en**[!UICONTROL Create New Rule]**.
 
    Recuerde la información siguiente:
 
@@ -28,11 +28,11 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
    En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-1. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Events]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Target]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Adobe Target]**.
 
-1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Content Requested]**.
+1. En la lista **[!UICONTROL Event Type]**desplegable, seleccione**[!UICONTROL Content Requested]**.
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
@@ -46,11 +46,11 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
 En el ejemplo siguiente, se crea una condición que hace que la regla se active solo para los usuarios que han iniciado la aplicación cinco o más veces.
 
-1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Conditions]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Mobile Core]**.
 
-1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Launches]**.
+1. En la lista **[!UICONTROL Condition Type]**desplegable, seleccione**[!UICONTROL Launches]**.
 
 1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición se lea **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
@@ -60,19 +60,19 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 ## 4. Definir la acción
 
-1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
+1. En la **[!UICONTROL Actions]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Mobile Core]**.
 
-1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
+1. En la lista **[!UICONTROL Action Type]**desplegable, seleccione**[!UICONTROL Attach Data]**.
 
-1. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este evento.
+1. En el panel derecho, en el **[!UICONTROL JSON Payload]**campo, escriba los datos que se agregarán a este evento.
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
 En el panel derecho, puede agregar una carga útil JSON de forma libre que agregue datos a un evento SDK antes de que las extensiones que escuchen este evento lo oigan.
 
-En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores al **[!UICONTROL mboxparameters]** para cada solicitud procesada en el evento de Target. Los valores de las nuevas claves son determinados dinámicamente por el SDK en el momento en que se procesa este evento.
+En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` valores a la solicitud **[!UICONTROL mboxparameters]**para cada solicitud procesada en el evento de Target. Los valores de las nuevas claves son determinados dinámicamente por el SDK en el momento en que se procesa este evento.
 
 >[!TIP]
 >
