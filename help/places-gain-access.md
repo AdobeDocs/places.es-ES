@@ -1,13 +1,12 @@
 ---
-title: Acceso al servicio de ubicación de Adobe Experience Platform
+title: 'Acceso al servicio de ubicación de Adobe Experience Platform '
 description: En esta sección se proporciona información sobre cómo agregar un usuario al servicio de ubicación y al inicio de la plataforma de experiencia para que el usuario pueda acceder al servicio de ubicación.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: e5d6c7f9ad1e2c9c37c1537aadc309ee20757156
 
 ---
 
-
-# Acceso al servicio de ubicación de Adobe Experience Platform {#adding-user-launch-places}
+# Obtener acceso al servicio de ubicación {#adding-user-launch-places}
 
 Puede acceder al servicio de ubicación de plataforma desde el menú de acceso rápido de la página principal de [Adobe Experience Cloud](https://experience.adobe.com).
 Si su ID de usuario tiene acceso, verá el icono del servicio de ubicación como se indica a continuación:
@@ -47,11 +46,11 @@ Para verificar que el servicio de ubicación y el inicio de la plataforma de exp
 
    ![conmutador de shell](/help/assets/places_shell_switcher1.png)
 
-1. En **[!UICONTROL Platform]**, haga clic en **[!UICONTROL Administration]**.
+1. En **[!UICONTROL Platform]**, haga clic en**[!UICONTROL Administration]**.
 
    Si no ve **Administración** en la lista, no es administrador. Debe ponerse en contacto con el administrador de su organización para completar este procedimiento.
 
-1. En la página Administración de Experience Cloud, en la **[!UICONTROL Admin Console]** tarjeta, haga clic en **[!UICONTROL Take me there]**.
+1. En la página Administración de Experience Cloud, en la **[!UICONTROL Admin Console]**tarjeta, haga clic en**[!UICONTROL Take me there]**.
 
 1. En Admin Console, si tiene acceso a varias organizaciones, compruebe que la organización correcta esté seleccionada en la parte superior derecha de la página.
 
@@ -61,7 +60,7 @@ Para verificar que el servicio de ubicación y el inicio de la plataforma de exp
    >
    >Si no tiene acceso a una organización, significa que no tiene acceso de administrador a esa organización.
 
-1. Verifique que se muestren las tarjetas para **[!UICONTROL Adobe Experience Platform Launch]** y **[!UICONTROL Places Core Services]** .
+1. Verifique que se muestren las tarjetas para **[!UICONTROL Adobe Experience Platform Launch]**y**[!UICONTROL Places Core Services]** .
 
    ![](/help/assets/places_provisioned1.png)
 
@@ -74,7 +73,7 @@ Para configurar el perfil y agregar los permisos:
 
 1. Configure un perfil de inicio de plataforma de experiencia, que permite a los usuarios que se han agregado al perfil utilizar Inicio de plataforma de experiencia y sus propiedades móviles con el SDK de plataforma de experiencia.
 
-    a. En la barra de menús, haga clic en **[!UICONTROL Product]**.
+   a. En la barra de menús, haga clic en **[!UICONTROL Product]**.
 
    b. En el panel izquierdo, en la lista de productos, haga clic en **[!UICONTROL Adobe Experience Platform Launch]**.
 
@@ -85,21 +84,21 @@ Para configurar el perfil y agregar los permisos:
 
 1. Seleccione el perfil correcto:
 
-    a. Haga clic en el nombre del perfil predeterminado.
+   a. Haga clic en el nombre del perfil predeterminado.
 
-   b. Haga clic en la **[!UICONTROL Permissions]** ficha.
+   b. Haga clic en la **[!UICONTROL Permissions]**ficha.
 
-   c. Haga clic en **[!UICONTROL Edit]** junto a **[!UICONTROL Property Rights]**.
+   c. Haga clic en **[!UICONTROL Edit]**junto a**[!UICONTROL Property Rights]**.
 
    d. En el panel izquierdo, haga clic en **[!UICONTROL + Add all]**.
 
    Este paso mueve todos los permisos disponibles a la lista de permisos incluidos.
 
-   e.Haga clic en **[!UICONTROL Company Rights]**.
+   e. Haga clic en **[!UICONTROL Company Rights]**.
 
    f. En el panel izquierdo, haga clic en **[!UICONTROL + Manage Properties]**.
 
-   g.Haga clic en **[!UICONTROL Save]**.
+   g. Haga clic en **[!UICONTROL Save]**.
 
 >[!IMPORTANT]
 >
@@ -117,25 +116,25 @@ Para agregar un usuario a sus perfiles de Servicio de ubicación y Inicio de pla
 
 1. Agregue un usuario al perfil Inicio de plataforma de experiencia.
 
-    a. En la barra de menús, haga clic en **[!UICONTROL Overview]**.
+   a. En la barra de menús, haga clic en **[!UICONTROL Overview]**.
 
-   b. En la **[!UICONTROL Adobe Experience Platform Launch]** tarjeta, compruebe lo siguiente:
+   b. En la **[!UICONTROL Adobe Experience Platform Launch]**tarjeta, compruebe lo siguiente:
 
    * En la parte inferior de la tarjeta se muestran dos puntos.
    * El punto de la izquierda es negro.
 
       Si el punto de la derecha es negro, solo puede agregar desarrolladores. Para agregar un usuario, haga clic en el punto de la izquierda.
-   c.Haga clic en **[!UICONTROL + Add Users]**.
+   c. Haga clic en **[!UICONTROL + Add Users]**.
 
    d. Introduzca el Adobe ID del usuario.
 
    e. Complete uno de los siguientes pasos:
 
-   * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]** y escriba el nombre y los apellidos del usuario.
+   * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]**y escriba el nombre y los apellidos del usuario.
    * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
-   f. En la lista **[!UICONTROL Please select a profile for this product]** desplegable, seleccione el perfil que ha editado anteriormente.
+   f. En la lista **[!UICONTROL Please select a profile for this product]**desplegable, seleccione el perfil que ha editado anteriormente.
 
-   g.Haga clic en **[!UICONTROL Save]**.
+   g. Haga clic en **[!UICONTROL Save]**.
 
 1. Agregue un usuario a **[!UICONTROL Places Core Services]**.
 
@@ -143,21 +142,21 @@ Para agregar un usuario a sus perfiles de Servicio de ubicación y Inicio de pla
    >
    >Actualmente, todos los usuarios del servicio de ubicación tienen los mismos permisos, por lo que no es necesario editarlos.
 
-    a. En la **[!UICONTROL Places Core Services]** tarjeta, compruebe lo siguiente:
+   a. En la **[!UICONTROL Places Core Services]**tarjeta, compruebe lo siguiente:
 
    * En la parte inferior de la tarjeta se muestran dos puntos.
    * El punto de la izquierda es negro.
-   b.Haga clic en **[!UICONTROL + Assign Users]**.
+   b. Haga clic en **[!UICONTROL + Assign Users]**.
 
    c. Introduzca el Adobe ID del usuario.
 
    d. Complete uno de los siguientes pasos:
 
-   * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]** y escriba el nombre y los apellidos del usuario.
+   * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]**y escriba el nombre y los apellidos del usuario.
    * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
-   e. En la lista **[!UICONTROL Please select a profile for this product]** desplegable, seleccione el perfil Lugares.
+   e. En la lista **[!UICONTROL Please select a profile for this product]**desplegable, seleccione el perfil Lugares.
 
-   f.Haga clic en **[!UICONTROL Save]**.
+   f. Haga clic en **[!UICONTROL Save]**.
 
 ### Agregar un desarrollador
 
@@ -165,10 +164,10 @@ Para los usuarios que también necesitan acceder a la API de servicio Web, debe 
 
 Para agregar un desarrollador:
 
-1.  En la **[!UICONTROL Places Core Services]** tarjeta, compruebe lo siguiente:
+1.  En la **[!UICONTROL Places Core Services]**tarjeta, compruebe lo siguiente:
 
    * En la parte inferior de la tarjeta se muestran dos puntos.
-   * Haga clic en el punto de la derecha para que **[!UICONTROL Assign Developers]** aparezca en la parte inferior de la tarjeta.
+   * Haga clic en el punto de la derecha para que **[!UICONTROL Assign Developers]**aparezca en la parte inferior de la tarjeta.
 
 1. Haga clic en **[!UICONTROL + Assign Developers]**.
 
@@ -176,10 +175,10 @@ Para agregar un desarrollador:
 
 1. Complete uno de los siguientes pasos:
 
-   * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]** y escriba el nombre y los apellidos del usuario.
+   * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]**y escriba el nombre y los apellidos del usuario.
    * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
 
-1. En la lista **[!UICONTROL Please select a profile for this product]** desplegable, seleccione el perfil del servicio de ubicación.
+1. En la lista **[!UICONTROL Please select a profile for this product]**desplegable, seleccione el perfil del servicio de ubicación.
 
 1. Haga clic en **Guardar**.
 
