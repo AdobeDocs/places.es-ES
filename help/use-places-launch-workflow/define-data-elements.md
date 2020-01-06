@@ -40,13 +40,13 @@ Cada punto de interés contiene las siguientes referencias de datos:
 
 ### Crear un elemento de datos
 
-1. En la página Propiedad de la aplicación, haga clic en la **[!UICONTROL Data Elements]** ficha.
+1. En la página Propiedad de la aplicación, haga clic en la **[!UICONTROL Data Elements]**ficha.
 
 1. Haga clic en **[!UICONTROL Create New Data Element]**.
 
 1. En la lista de extensiones instaladas, busque **[!UICONTROL Places]**.
 
-1. En la lista **[!UICONTROL Data Element Type]** desplegable, seleccione una referencia de datos para este elemento de datos.
+1. En la lista **[!UICONTROL Data Element Type]**desplegable, seleccione una referencia de datos para este elemento de datos.
 
 1. Seleccione un objetivo de puntos de interés.
 
@@ -63,8 +63,8 @@ Después de crear un elemento de datos, si hay un selector de elementos de datos
 
 ![Usar el elemento de datos](/help/assets/use-de-v2.png)
 
-Si un selector de elementos de datos no está presente en el componente de regla, puede utilizar el elemento de datos ajustando el nombre del elemento de datos con los **[!UICONTROL %%]** tokens.
-Por ejemplo, si el nombre del elemento de datos es **[!UICONTROL Last POI City]**, puede agregarlo **[!UICONTROL LAST POI City]** a una entrada de texto.
+Si un selector de elementos de datos no está presente en el componente de regla, puede utilizar el elemento de datos ajustando el nombre del elemento de datos con los **[!UICONTROL %%]**tokens.
+Por ejemplo, si el nombre del elemento de datos es**[!UICONTROL Last POI City]**, puede agregarlo **[!UICONTROL LAST POI City]**a una entrada de texto.
 
 
 ## Publicación de elementos de datos
