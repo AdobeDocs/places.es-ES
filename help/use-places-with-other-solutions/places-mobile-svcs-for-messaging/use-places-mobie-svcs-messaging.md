@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Antes de poder usar la extensión Mobile Services para la mensajería, revise los siguientes requisitos previos:
 
-* Se han creado puntos de interés en el servicio de ubicación. Consulte Documentación si es necesario. (vínculo para crear un punto de interés)Nota: El servicio de ubicación incluye una nueva y mejorada base de datos de puntos de interés para su organización que existe fuera de la interfaz AMS heredada. Los puntos de interés encontrados en la navegación "Gestionar lugares" de AMS solo funcionarán en la versión 4 del SDK.
+* Se han creado puntos de interés en el servicio de ubicación. Consulte Documentación si es necesario. (vínculo para crear un punto de interés)Nota: El servicio de ubicación incluye una nueva y mejorada base de datos de puntos de interés para su organización que existe fuera de la interfaz AMS heredada. Los puntos de interés encontrados en la navegación &quot;Gestionar lugares&quot; de AMS solo funcionarán en la versión 4 del SDK.
    * Esta es la interfaz de administración de puntos de interés de Places heredada en AMS para versiones anteriores del SDK:
 
       ![Interfaz de usuario heredada](/help/assets/legacy-location-v4-ui.png)
