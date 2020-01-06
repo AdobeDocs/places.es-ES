@@ -55,7 +55,7 @@ Para crear una integración de lugares, necesita un par de claves pública y pri
 
 Para generar sus propias claves con firma personal:
 
-1. En una ventana de terminal, copie y pegue cada una de las líneas siguientes y pulse **[!UICONTROL Enter]** después de pegar cada línea:
+1. En una ventana de terminal, copie y pegue cada una de las líneas siguientes y pulse **[!UICONTROL Enter]**después de pegar cada línea:
 
    ```text
       mkdir keys
@@ -87,7 +87,7 @@ Para generar sus propias claves con firma personal:
 
 1. Desplácese al directorio donde se encuentran los `.key` archivos y `.crt` los archivos.
 
-   Por ejemplo, en iOS, vaya a **[!UICONTROL Macintosh HD]** &gt; **[!UICONTROL users]** &gt; **[!UICONTROL (your user name)]** &gt; **[!UICONTROL Keys]**.
+   Por ejemplo, en iOS, vaya a **[!UICONTROL Macintosh HD]**>**[!UICONTROL users]** > **[!UICONTROL (your user name)]**>**[!UICONTROL Keys]**.
 
 El siguiente vídeo le guía a través del proceso de generación del par de claves:
 
@@ -99,15 +99,15 @@ Para crear una integración de lugares:
 
 1. Vaya a [https://console.adobe.io](https://console.adobe.io) e inicie sesión con su Adobe ID.
 1. En la sección Inicio **** rápido, haga clic en **Crear integración**.
-1. Seleccione **[!UICONTROL Access an API]** y haga clic en **[!UICONTROL Continue]**.
+1. Seleccione **[!UICONTROL Access an API]**y haga clic en**[!UICONTROL Continue]**.
 
-   **[!UICONTROL Access an API]** es la ubicación predeterminada.
+   **[!UICONTROL Access an API]**es la ubicación predeterminada.
 
 1. Si tiene acceso a más de una organización de Experience Cloud, seleccione la organización en la lista desplegable de la parte superior derecha.
-1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
-1. Seleccione **[!UICONTROL New integration]** y haga clic en **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Experience Cloud]**, select**[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
+1. Seleccione **[!UICONTROL New integration]**y haga clic en**[!UICONTROL Continue]**.
 1. En la pantalla Crear una nueva integración, escriba un nombre y una descripción.
-1. Arrastre y suelte el `xxxx_public.crt` archivo que ha creado arriba en la zona de **[!UICONTROL Public keys certificates]** colocación.
+1. Arrastre y suelte el `xxxx_public.crt` archivo que ha creado arriba en la zona de **[!UICONTROL Public keys certificates]**colocación.
 1. Seleccione un perfil de producto.
 
    Si no está seguro de qué perfil seleccionar, póngase en contacto con el administrador del sistema.
@@ -118,12 +118,12 @@ Para crear una integración de lugares:
 
 1. La página de detalles de la integración aparece con el nombre de la integración en la parte superior.
 
-   La ficha **[!UICONTROL Overview]** aparece de forma predeterminada y muestra la clave de API, el ID de organización, el ID de cuenta técnica y otros detalles sobre las integraciones.
+   La ficha **[!UICONTROL Overview]**aparece de forma predeterminada y muestra la clave de API, el ID de organización, el ID de cuenta técnica y otros detalles sobre las integraciones.
 
 ### Registrar el ID de organización y la clave de API
 
-1. En la página de detalles de la integración, haga clic en la **[!UICONTROL Services]** ficha y confirme que **[!UICONTROL Places]** se muestra en **[!UICONTROL Configured Services]**.
-1. En la **[!UICONTROL Overview]** ficha, busque y registre la clave de API (ID de cliente) y el identificador de organización.
+1. En la página de detalles de la integración, haga clic en la **[!UICONTROL Services]**ficha y confirme que**[!UICONTROL Places]** se muestra en **[!UICONTROL Configured Services]**.
+1. En la **[!UICONTROL Overview]**ficha, busque y registre la clave de API (ID de cliente) y el identificador de organización.
 
    Estos ID son necesarios para cada solicitud de API de Places REST.
 
@@ -131,15 +131,15 @@ Para crear una integración de lugares:
 
 ### Generar un token de JWT
 
-En la página de detalles de la integración, haga clic en la **[!UICONTROL JWT]** ficha para poder probar la integración generando un JWT y proporcionando la URL de intercambio.
+En la página de detalles de la integración, haga clic en la **[!UICONTROL JWT]**ficha para poder probar la integración generando un JWT y proporcionando la URL de intercambio.
 
 Para generar un token de JWT:
 
 1. En un editor de texto, abra el `private.key` archivo creado anteriormente.
-1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
+1. On the **[!UICONTROL JWT]**tab, copy the contents of the key and paste it in the**[!UICONTROL Paste private key]** field.
 1. Haga clic en **[!UICONTROL Generate JWT]**.
-1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-1. Ejecute el comando presionando **[!UICONTROL Enter]** el teclado.
+1. In the **[!UICONTROL Sample CURL command]**section, click**[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
+1. Ejecute el comando presionando **[!UICONTROL Enter]**el teclado.
 1. Localice el `"token_type": "bearer"` y el `"access_token"` .
 
    El valor del autentificador de acceso al portador es lo que utilizará en las solicitudes de la API de lugares.
