@@ -311,7 +311,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 Esta API establece el tipo de solicitud de autorización de ubicación para la que se solicitará al usuario.
 
-Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame `SetRequestAuthorizationLevel` antes de llamar `[ACPPlacesMonitor start]`. Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame a esta API antes del `[ACPPlacesMonitor start]`. Al llamar a este método mientras se supervisa activamente, se actualizará el nivel de autorización de ubicación al valor de autorización solicitado. Si el nivel de autorización solicitado ya ha sido proporcionado o denegado por el usuario de la aplicación o si hay una rebaja del permiso de `ACPPlacesRequestAuthorizationLevelAlways` `ACPPlacesRequestAuthorizationLevelWhenInUse` a la autorización, este método no tiene ningún efecto.
+Para configurar que el mensaje de autorización correspondiente se muestre al usuario, llame `SetRequestAuthorizationLevel` antes de llamar `[ACPPlacesMonitor start]`. Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame a esta API antes del `[ACPPlacesMonitor start]`. Al llamar a este método mientras se supervisa activamente, se actualizará el nivel de autorización de ubicación al valor de autorización solicitado. Si el nivel de autorización solicitado ya ha sido proporcionado o denegado por el usuario de la aplicación o si hay una rebaja del permiso de `ACPPlacesRequestAuthorizationLevelAlways` `ACPPlacesRequestAuthorizationLevelWhenInUse` a la autorización, este método no tiene ningún efecto.
 
 El nivel de autorización se puede establecer en uno de los siguientes valores:
 
