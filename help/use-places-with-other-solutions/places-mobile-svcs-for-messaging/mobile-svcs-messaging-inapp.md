@@ -51,8 +51,8 @@ Una vez configurada la regla con los parámetros de condición y evento adecuado
 
 Para crear una acción:
 
-1. Seleccione la extensión **.[!UICONTROL Adobe Analytics]**
-1. En la lista **[!UICONTROL Action type]** desplegable, seleccione **[!UICONTROL Track.]**
+1. Seleccione la extensión **[!UICONTROL Adobe Analytics]**.
+1. En la lista **[!UICONTROL Action type]**desplegable, seleccione**[!UICONTROL Track.]**
 1. Escriba un nombre para la acción.
 1. En el panel derecho, en **[!UICONTROL Context Data]**, seleccione el par clave-valor para establecer los datos de contexto que se enviarán a Analytics.
 
@@ -77,7 +77,7 @@ Como parte de los parámetros de activador, puede crear la audiencia del mensaje
 
    Esta opción se puede utilizar con una acción específica de una ubicación, como entrada, o bien como contexto para otro evento, como un inicio o un clic de botón.
 
-   A continuación se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que especifican un punto de interés que tiene **[!UICONTROL Adobe]** el nombre:
+   A continuación se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que especifican un punto de interés que tiene **[!UICONTROL Adobe]**el nombre:
 
    ![parámetros desencadenadores](/help/assets/trigger-parameters.png)
 
