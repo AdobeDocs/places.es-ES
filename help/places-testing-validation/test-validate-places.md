@@ -45,7 +45,7 @@ Una vez validados correctamente los eventos de ubicación, se pueden probar las 
 |  | **Prueba de la mensajería en la aplicación estándar de Adobe Campaign con el servicio de ubicación.** |  |
 | 12 | En el tablero de campañas principal, configure un nuevo mensaje en la aplicación (tipo = difusión) |  |
 | 12a | En los activadores, seleccione **Colocaciones tipo de evento - Entrada como activador**. |  |
-| 12b | Seleccione **[UICONTROL Coloca los metadatos]**personalizados como un filtro adicional; use el tipo de punto de interés = último punto de interés especificado.<br>Utilizamos**[!UICONTROL Last Entered]** como tipo de punto de interés porque en la mayoría de los casos **[!UICONTROL Last Entered]**será el mismo que**[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** solo debe utilizarse en casos en los que haya rejas geográficas de puntos de interés superpuestas. En este caso, estos puntos de interés deben clasificarse y, a continuación, el **[!UICONTROL Current POI]**mostrará el punto de interés de mayor clasificación de las 2 o 3 rejas geográficas en las que un usuario podría estar actualmente. |  |
+| 12b | Seleccione **[UICONTROL Coloca los metadatos]** personalizados como un filtro adicional; use el tipo de punto de interés = último punto de interés especificado.<br>Utilizamos **[!UICONTROL Last Entered]** como tipo de punto de interés porque en la mayoría de los casos **[!UICONTROL Last Entered]** será el mismo que **[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** solo debe utilizarse en casos en los que haya rejas geográficas de puntos de interés superpuestas. En este caso, estos puntos de interés deben clasificarse y, a continuación, el **[!UICONTROL Current POI]** mostrará el punto de interés de mayor clasificación de las 2 o 3 rejas geográficas en las que un usuario podría estar actualmente. |  |
 | 12c | Seleccione una clave de metadatos personalizada que le ayudará a reducir los puntos de interés que recibirán un mensaje. |  |
 | 12d | Para la frecuencia y la duración, mantenga sólo uno o dos días, de modo que si no le gustan los criterios, puede caducar el activador en un período de tiempo más corto. |  |
 | 12e | Para pulsaciones Siempre/Una o Hasta, seleccione *SIEMPRE* para que pueda realizar pruebas en varias ubicaciones. | SIEMPRE se muestra un mensaje en la aplicación cuando simula un cambio de ubicación que cumple los criterios de metadatos correspondientes. |
@@ -55,14 +55,14 @@ Una vez validados correctamente los eventos de ubicación, se pueden probar las 
 | 14 | En la aplicación de desarrollo, cambie de ubicación utilizando los archivos GPX creados anteriormente. | Debería ver el mensaje en la aplicación en función de los criterios anteriores establecidos. |
 | 15 | Para la siguiente prueba, básicamente copiaremos los mismos pasos que antes, pero esta vez probaremos NOTIFICACIÓN LOCAL. | El resultado esperado es que las notificaciones locales se muestran cada vez que se cumplen los criterios coincidentes. |
 | 16 | Configure un nuevo mensaje en la aplicación (tipo = difusión). |  |
-| 16a | En activadores, seleccione **[!UICONTROL Places event type]**-**[!UICONTROL Entry as the trigger]**. |  |
-| 16b | Seleccione los metadatos personalizados de lugares como filtro adicional; use **[!UICONTROL POI type]**=**[!UICONTROL Last Entered POI]**. |  |
+| 16a | En activadores, seleccione **[!UICONTROL Places event type]** - **[!UICONTROL Entry as the trigger]**. |  |
+| 16b | Seleccione los metadatos personalizados de lugares como filtro adicional; use **[!UICONTROL POI type]** = **[!UICONTROL Last Entered POI]**. |  |
 | 16c | Seleccione una clave de metadatos personalizada que le ayudará a reducir los puntos de interés que recibirán un mensaje. |  |
 | 16d | Para la frecuencia y la duración, mantenga solo uno o dos días, de modo que si no le gustan los criterios, puede caducar el activador en un período de tiempo más corto. |  |
 | 16e | Para pulsaciones Siempre/Una o Hasta, **[!UICONTROL ALWAYS]**. |  |
 | 16f | Para el tipo de visualización, seleccione **[!UICONTROL Local Notification]**. |  |
 | 16g | Prepare/confirme e implemente el mensaje en la aplicación. |  |
-| 17 | En el entorno de desarrollo, conecte el dispositivo y pulse **[!UICONTROL Play]**en la compilación. Una vez que haya establecido que la ubicación funciona, ponga en segundo plano la aplicación y continúe cambiando de ubicación en Xcode o Android Studio. Aún debe ver las lecturas de la consola que indican el cambio de ubicación y también debería ver notificaciones locales en función de los criterios establecidos en el activador. (Puede haber un retraso de 1 a 2 segundos). | El resultado esperado es que se muestran las notificaciones locales cada vez que se cumplen los criterios coincidentes. |
+| 17 | En el entorno de desarrollo, conecte el dispositivo y pulse **[!UICONTROL Play]** en la compilación. Una vez que haya establecido que la ubicación funciona, ponga en segundo plano la aplicación y continúe cambiando de ubicación en Xcode o Android Studio. Aún debe ver las lecturas de la consola que indican el cambio de ubicación y también debería ver notificaciones locales en función de los criterios establecidos en el activador. (Puede haber un retraso de 1 a 2 segundos). | El resultado esperado es que se muestran las notificaciones locales cada vez que se cumplen los criterios coincidentes. |
 |  | **PUNTO** DE RESUMEN <br>En esta etapa, deberíamos ver entradas de puntos de interés en nuestro entorno local. También deberíamos ver mensajes de Campaign basados en el trabajo de POI. Si hay errores, compruebe si no se ha producido una notificación de demora. Si no hay ningún mensaje de demora, compruebe la consola de la aplicación, ya que es posible que no se haya grabado una nueva entrada de ubicación. Si los resultados son satisfactorios, podemos estar bastante seguros de que la aplicación está funcionando correctamente y que el servicio de mensajería Servicio de ubicación y Campaña también está funcionando correctamente. |  |
 |  | **PRUEBAS** EN EL SITIO <br>No hay mucho que cambiar al realizar pruebas en el lugar. Mantener el postback flojo activo debería ayudar a comprender si el dispositivo está obteniendo una entrada y salida para la ubicación. |  |
 | 18 | Lleve a cabo pruebas con dispositivos que empiecen por Wi-Fi y dispositivos móviles deshabilitados y, a continuación, active una vez en la región de POI. | Si se produce un error, tenga en cuenta si está recibiendo una entrada y una notificación de la valla geográfica en Slack. ¿Cuál es la marca de tiempo de la notificación Slack? |
@@ -72,7 +72,7 @@ Una vez validados correctamente los eventos de ubicación, se pueden probar las 
 
 ## Muestras de registro
 
-**** Paso 8: Registros esperados de iOS y Android durante una actualización de ubicación
+**Paso 8:** Registros esperados de iOS y Android durante una actualización de ubicación
 
 **iOS**
 
@@ -100,7 +100,7 @@ PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latit
 PlacesMonitor - Successfully added n fences for monitoring
 ```
 
-**** Paso 9: Registros esperados de iOS y Android durante un evento
+**Paso 9:** Registros esperados de iOS y Android durante un evento
 
 **iOS**
 
