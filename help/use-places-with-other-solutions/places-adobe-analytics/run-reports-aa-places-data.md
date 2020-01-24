@@ -2,7 +2,7 @@
 title: Agregar contexto de ubicación a solicitudes de Analytics
 description: Esta sección proporciona información sobre cómo agregar contexto de ubicación a solicitudes de Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,9 +11,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Este documento asume que tiene Adobe Places implementados en la aplicación. Para obtener más información sobre la implementación de Adobe Places, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
+>En este documento se asume que se ha implementado el servicio de lugares en la aplicación. Para obtener más información sobre la implementación del servicio de lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
 
-Después de que Places envíe los eventos de entrada y salida, puede crear reglas en Inicio de plataforma de experiencia y adjuntar los datos de Lugares a todos los eventos de Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
+Después de que el servicio de lugares envíe los eventos de entrada y salida, puede crear reglas en Inicio de plataforma de experiencia y adjuntar los datos del servicio de lugares a todos los eventos de Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
 
 ## 1. Crear una regla
 
@@ -27,7 +27,7 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
 1. Asigne un nombre significativo a la regla para que se pueda reconocer fácilmente en la lista de reglas.
 
-   En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
+   En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
 1. En la **[!UICONTROL Events]**sección, haga clic en**[!UICONTROL Add]**.
 
@@ -50,7 +50,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo par
 
 1. En la **[!UICONTROL Conditions]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTORL  Mobile Core]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Mobile Core]**.
 
 1. En la lista **[!UICONTROL Condition Type]**desplegable, seleccione**[!UICONTROL Carrier Name]**.
 
