@@ -2,7 +2,7 @@
 title: Definir elementos de datos
 description: Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Inicio de plataforma de experiencia para lugares.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
@@ -33,7 +33,7 @@ Cada punto de interés contiene las siguientes referencias de datos:
 * **[!UICONTROL Latitude]**:: latitud del punto de interés
 * **[!UICONTROL Longitude]**:: longitud del punto de interés
 * **[!UICONTROL Metadata]**:: metadatos personalizados del punto de interés
-* **[!UICONTROL Name]**:: región del POI
+* **[!UICONTROL Name]**:: nombre del punto de interés
 * **[!UICONTROL Radius]**:: radio del punto de interés
 * **[!UICONTROL Region ID]**:: ID del POI
 * **[!UICONTROL Region/State]**:: región, provincia o estado del POI
