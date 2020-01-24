@@ -2,12 +2,12 @@
 title: Leer todos los puntos de interés de una biblioteca
 description: Lea todos los puntos de interés de una biblioteca mediante las API de REST de Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Leer todos los puntos de interés de una biblioteca
+# Leer todos los puntos de interés de una biblioteca {#read-all-pois-library}
 
 Método GET que devuelve todos los puntos de interés de una biblioteca.
 
@@ -165,5 +165,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Reemplace '', `<API KEY>`, `<TOKEN>`, y `<ORGID>` por valores reales.
+>Reemplace &#39;&#39;, `<API KEY>`, `<TOKEN>`, y `<ORGID>` por valores reales.
 
