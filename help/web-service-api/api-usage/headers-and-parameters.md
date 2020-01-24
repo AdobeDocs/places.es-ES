@@ -1,15 +1,15 @@
 ---
 title: Encabezados y parámetros
-description: Encabezados y parámetros disponibles en las API de REST de Places.
+description: Encabezados y parámetros disponibles en las API de REST del servicio de lugares.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Encabezados y parámetros {#headers-and-parameters}
 
-A continuación se proporcionan detalles sobre los encabezados y parámetros disponibles en la API de REST de lugares:
+A continuación se proporcionan detalles sobre los encabezados y parámetros disponibles en la API de REST del servicio de lugares:
 
 ## Encabezados admitidos
 
