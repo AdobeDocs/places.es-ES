@@ -2,12 +2,12 @@
 title: Actualizar una biblioteca
 description: Actualice una biblioteca mediante la API de REST de lugares.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Actualizar una biblioteca
+# Actualizar una biblioteca {#update-a-library}
 
 Método PUT que permite actualizar una biblioteca.
 
