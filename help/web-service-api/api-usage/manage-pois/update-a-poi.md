@@ -2,12 +2,12 @@
 title: Actualizar un punto de interés
 description: Actualice un punto de interés mediante las API de REST de Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Actualizar un punto de interés
+# Actualizar un punto de interés {#update-a-poi}
 
 Método PUT que permite actualizar un punto de interés.
 
