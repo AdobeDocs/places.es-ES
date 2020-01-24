@@ -2,12 +2,12 @@
 title: Leer todos los puntos de interés de su organización
 description: Lea todos los puntos de interés de su organización mediante las API de Places REST.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Leer todos los puntos de interés de su organización
+# Leer todos los puntos de interés de su organización {#read-all-pois-org}
 
 Método GET que devuelve todos los puntos de interés de la organización.
 
