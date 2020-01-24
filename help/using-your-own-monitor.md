@@ -1,15 +1,15 @@
 ---
 title: Uso de su propio monitor
-description: También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places.
+description: También puede utilizar sus servicios de supervisión e integrarse con el servicio de lugares mediante las API de extensión del servicio de lugares.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Uso de su propio monitor {#using-your-monitor}
 
-También puede utilizar sus servicios de supervisión e integrarse con Places mediante las API de extensión Places.
+También puede utilizar sus servicios de supervisión e integrarse con el servicio de lugares mediante las API de extensión de lugares.
 
 ## Registro de geofences
 
