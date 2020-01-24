@@ -2,7 +2,7 @@
 title: Envío de datos de entrada y salida de puntos de interés a Analytics
 description: Esta sección proporciona información sobre cómo enviar datos de entrada y salida de puntos de interés a Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -12,9 +12,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->En esta sección se asume que tiene colocaciones implementadas en la aplicación. Para obtener más información sobre la implementación de Lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
+>En esta sección se asume que se ha implementado el servicio de lugares en la aplicación. Para obtener más información sobre la implementación del servicio de lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
 
-Después de que Places envíe los eventos de entrada y salida, puede crear reglas en Inicio de plataforma de experiencia para enviar datos de Lugares a Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
+Después de que el servicio de lugares envíe los eventos de entrada y salida, puede crear reglas en Inicio de plataforma de experiencia para enviar datos del servicio de lugares a Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
 
 ## 1. Crear una regla
 
@@ -33,7 +33,7 @@ Después de que Places envíe los eventos de entrada y salida, puede crear regla
 
 1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Places]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Places Service]**.
 
 1. En la lista **[!UICONTROL Event Type]**desplegable, seleccione**[!UICONTROL Enter POI]**.
 
@@ -52,7 +52,7 @@ En este ejemplo, se crea una condición que hace que la regla se active solo cua
 
 1. En la **[!UICONTROL Conditions]**sección, haga clic en**[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Places]**.
+1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Places Service]**.
 
 1. En la lista **[!UICONTROL Condition Type]**desplegable, seleccione**[!UICONTROL Name]**.
 
