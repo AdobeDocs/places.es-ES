@@ -2,7 +2,7 @@
 title: Extensión Places
 description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -22,7 +22,7 @@ La extensión Lugares permite actuar en función de la ubicación de los usuario
 
 1. Complete el proceso de publicación para actualizar la configuración del SDK.
 
-   Para obtener más información sobre la publicación en el lanzamiento de la plataforma de experiencia, consulte [Publicación](https://docs.adobelaunch.com/launch-reference/publishing).
+   Para obtener más información sobre la publicación en el lanzamiento de la plataforma de experiencia, consulte [Publicación](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -61,7 +61,7 @@ Para agregar la extensión Places a la aplicación mediante Objective-C o Swift:
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Como alternativa, si no utiliza Cocoapods, puede incluir manualmente las bibliotecas Mobile Core y Places de la página [de](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) versiones en Github.
+   Como alternativa, si no utiliza Cocoapods, puede incluir manualmente las bibliotecas Mobile Core y Places desde la página [de](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) versiones en Github.
 
 1. Actualice sus copápodos:
 
@@ -85,13 +85,13 @@ Para agregar la extensión Places a la aplicación mediante Objective-C o Swift:
    import ACPPlaces
    ```
 
-### Registrar lugares con Mobile Core {#register-places-mobile-core}
+### Registrar la extensión Places con Mobile Core {#register-places-mobile-core}
 
-Debe registrar los sitios con Mobile Core en Android e iOS.
+Debe registrar la extensión Places con Mobile Core en Android e iOS.
 
 #### Android
 
-En el `OnCreate` método de la aplicación, registre las extensiones de los servicios de ubicación:
+En el `OnCreate` método de la aplicación, registre las extensiones de lugares:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -137,10 +137,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Claves de configuración
 
-Para actualizar la configuración del SDK mediante programación en tiempo de ejecución, utilice la siguiente información para cambiar los valores de configuración de Places. Para obtener más información, consulte Referencia [de API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuración.
+Para actualizar la configuración del SDK mediante programación en tiempo de ejecución, utilice la siguiente información para cambiar los valores de configuración de la extensión Places. Para obtener más información, consulte Referencia [de API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuración.
 
 | Clave | Requerido | Descripción |
 | :--- | :--- | :--- |
-| `places.libraries` | Sí | Coloca bibliotecas para la aplicación móvil. Especifica el ID de biblioteca y el nombre de la biblioteca que admite la aplicación móvil. |
-| `places.endpoint` | Sí | Extremo predeterminado del servicio de consulta de ubicación de la plataforma de experiencias, que se utiliza para obtener información sobre bibliotecas y puntos de interés. |
+| `places.libraries` | Sí | Bibliotecas de extensiones Places para la aplicación móvil. Especifica el ID de biblioteca y el nombre de la biblioteca que admite la aplicación móvil. |
+| `places.endpoint` | Sí | Extremo predeterminado del servicio de consulta de lugares, que se utiliza para obtener información sobre bibliotecas y puntos de interés. |
 
