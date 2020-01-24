@@ -1,27 +1,27 @@
 ---
-title: 'Acceso al servicio de ubicación de Adobe Experience Platform '
-description: En esta sección se proporciona información sobre cómo agregar un usuario al servicio de ubicación y al inicio de la plataforma de experiencia para que el usuario pueda acceder al servicio de ubicación.
+title: 'Obtener acceso al servicio de lugares '
+description: En esta sección se proporciona información sobre cómo agregar un usuario al servicio de lugares y al inicio de la plataforma de experiencia, de modo que el usuario pueda acceder al servicio de lugares.
 translation-type: tm+mt
-source-git-commit: e5d6c7f9ad1e2c9c37c1537aadc309ee20757156
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
-# Obtener acceso al servicio de ubicación {#adding-user-launch-places}
+# Obtener acceso al servicio de lugares {#adding-user-launch-places}
 
-Puede acceder al servicio de ubicación de plataforma desde el menú de acceso rápido de la página principal de [Adobe Experience Cloud](https://experience.adobe.com).
-Si su ID de usuario tiene acceso, verá el icono del servicio de ubicación como se indica a continuación:
+Puede acceder al servicio de lugares desde el menú de acceso rápido de la página principal de [Adobe Experience Cloud](https://experience.adobe.com).
+Si su ID de usuario tiene acceso, verá el icono Servicio de lugares como se indica a continuación:
 
 ![menú de acceso rápido](/help/assets/quick-access.png)
 
-También puede acceder al servicio de ubicación de plataforma desde el menú Adobe Experience Platform:
+También puede acceder al servicio de lugares desde el menú Adobe Experience Platform:
 
 ![Menú Plataforma de experiencia](/help/assets/exp-platform-menu-sm.png)
 
-Si no ve el servicio de ubicación de plataforma en ninguno de estos menús, deberá ponerse en contacto con un administrador de su organización para agregar su ID de usuario al servicio principal de lugares en la Consola de administración.
+Si no ve el servicio de lugares en ninguno de estos menús, póngase en contacto con un administrador de su organización para agregar su ID de usuario al servicio principal de lugares en la Consola de administración.
 
-## Adición de un usuario al servicio de ubicación y al inicio de la plataforma de experiencia
+## Adición de un usuario al lanzamiento del servicio de lugares y de la plataforma de experiencia
 
-Para permitir que los usuarios tengan acceso a la interfaz de usuario [del servicio de](https://places.adobe.com)inicio, deben agregarse a Places Core Service en Admin Console como usuarios. Para permitir que los usuarios tengan acceso al lanzamiento de la plataforma de experiencia, configurar propiedades móviles y utilizar Lugares con el SDK de la plataforma de experiencia de Adobe, deben agregarse al inicio de la plataforma de experiencia en Admin Console y se les deben otorgar los siguientes permisos para el lanzamiento de la plataforma de experiencia:
+Para permitir que los usuarios tengan acceso a la interfaz de usuario [de inicio de la plataforma de](https://launch.adobe.com)experiencia, deben agregarse a Places Core Service en Admin Console como usuarios. Para permitir que los usuarios tengan acceso al lanzamiento de la plataforma de experiencia, configurar propiedades móviles y utilizar Lugares con el SDK de la plataforma de experiencia de Adobe, deben agregarse al inicio de la plataforma de experiencia en Admin Console y se les deben otorgar los siguientes permisos para el lanzamiento de la plataforma de experiencia:
 
 * Todos los derechos de propiedad:
    * Desarrollo
@@ -37,9 +37,7 @@ Si es la primera vez que agrega un usuario, complete los siguientes pasos para a
 >
 >Solo los administradores de organización pueden acceder a Admin Console y agregar los usuarios.
 
-### 1. Compruebe que el servicio de ubicación y el inicio de la plataforma de experiencia están aprovisionados
-
-Para verificar que el servicio de ubicación y el inicio de la plataforma de experiencia están aprovisionados:
+### 1. Verifique que se aprovisionen el servicio de lugares y el inicio de la plataforma de experiencia
 
 1. Inicie sesión en su organización de Experience Cloud.
 1. En la parte superior derecha, haga clic en el conmutador de shell de Experience Cloud.
@@ -64,12 +62,10 @@ Para verificar que el servicio de ubicación y el inicio de la plataforma de exp
 
    ![](/help/assets/places_provisioned1.png)
 
-   Si se muestran, el servicio de ubicación y el inicio de la plataforma de experiencia se han aprovisionado para su organización. Si no se muestran, deben aprovisionarse para su organización.
+   Si se muestran, el servicio de lugares y el inicio de la plataforma de experiencia se han aprovisionado para su organización. Si no se muestran, deben aprovisionarse para su organización.
 
 
 ### 2. Configure el perfil y agregue los permisos
-
-Para configurar el perfil y agregar los permisos:
 
 1. Configure un perfil de inicio de plataforma de experiencia, que permite a los usuarios que se han agregado al perfil utilizar Inicio de plataforma de experiencia y sus propiedades móviles con el SDK de plataforma de experiencia.
 
@@ -102,17 +98,17 @@ Para configurar el perfil y agregar los permisos:
 
 >[!IMPORTANT]
 >
->Para el servicio de ubicación, hay un perfil predeterminado, pero no tiene que agregar permisos.
+>Para el servicio de lugares, hay un perfil predeterminado, pero no es necesario agregar permisos.
 
 Ha agregado permisos correctamente al perfil que ha creado.
 
-### 3. Agregue un usuario o un desarrollador a sus perfiles Servicio de ubicación y Inicio de plataforma de experiencia
+### 3. Agregue un usuario o un desarrollador a sus perfiles Servicio de lugares y Inicio de plataforma de experiencia
 
-Puede agregar un usuario y/o un desarrollador a sus perfiles de Servicio de ubicación e Inicio de plataforma de experiencia.
+Puede agregar un usuario y/o un desarrollador a sus perfiles Servicio de lugares y Inicio de plataforma de experiencia.
 
 ### Agregación de un usuario
 
-Para agregar un usuario a sus perfiles de Servicio de ubicación y Inicio de plataforma de experiencia:
+Para agregar un usuario a sus perfiles Servicio de lugares y Inicio de plataforma de experiencia:
 
 1. Agregue un usuario al perfil Inicio de plataforma de experiencia.
 
@@ -140,7 +136,7 @@ Para agregar un usuario a sus perfiles de Servicio de ubicación y Inicio de pla
 
    >[!TIP]
    >
-   >Actualmente, todos los usuarios del servicio de ubicación tienen los mismos permisos, por lo que no es necesario editarlos.
+   >Actualmente, todos los usuarios de Places Service tienen los mismos permisos, por lo que no es necesario editar los permisos.
 
    a. En la **[!UICONTROL Places Core Services]**tarjeta, compruebe lo siguiente:
 
@@ -178,8 +174,8 @@ Para agregar un desarrollador:
    * Si va a agregar un usuario nuevo, haga clic en **[!UICONTROL New user]**y escriba el nombre y los apellidos del usuario.
    * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
 
-1. En la lista **[!UICONTROL Please select a profile for this product]**desplegable, seleccione el perfil del servicio de ubicación.
+1. En la lista **[!UICONTROL Please select a profile for this product]**desplegable, seleccione el perfil de Servicio de lugares.
 
 1. Haga clic en **Guardar**.
 
-Los usuarios reciben un correo electrónico que les informa de que tienen acceso a Experience Platform Launch. Pueden iniciar sesión en [Experience Platform Launch](https://launch.adobe.com) o en las IU de [Places](https://places.adobe.com) de esta organización. Si completa el paso 4 del procedimiento **Añadir un desarrollador**, el usuario también puede iniciar sesión en la [consola de Adobe I/O](https://console.adobe.io) para crear una integración de Places y utilizar la API de REST de Places.
+Los usuarios reciben un correo electrónico que les informa de que tienen acceso a Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. Si completa el paso 4 del procedimiento **Añadir un desarrollador**, el usuario también puede iniciar sesión en la [consola de Adobe I/O](https://console.adobe.io) para crear una integración de Places y utilizar la API de REST de Places.
