@@ -1,15 +1,15 @@
 ---
 title: 'Información general sobre la API de servicios Web '
-description: Places es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Experience Cloud y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada en el momento y en el lugar adecuados.
+description: El servicio de lugares es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Experience Cloud y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada en el momento y en el lugar adecuados.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Información general sobre la API de servicios Web {#places-web-services-api}
 
-Places es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Cloud Platform y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada en el momento y en el lugar adecuados.
+El servicio de lugares es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Cloud Platform y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada en el momento y en el lugar adecuados.
 
 Las API de servicios Web le permiten hacer lo siguiente:
 
@@ -21,17 +21,17 @@ Esta sección proporciona información sobre cómo utilizar las API de REST y la
 
 ## API de REST
 
-La API de Places REST le permite trabajar mediante programación con los puntos de interés de su organización. Estas API le permiten crear, actualizar y eliminar sus bibliotecas y los puntos de interés de dichas bibliotecas. Estas API utilizan los estándares de notación de objetos JavaScript (JSON) para dar formato a los datos que se envían y reciben. Una de las principales ventajas de JSON es que hace que las consultas de API sean fáciles de escribir, leer y analizar por parte de desarrolladores y equipos.
+La API de REST del servicio de lugares le permite trabajar mediante programación con los puntos de interés de su organización. Estas API le permiten crear, actualizar y eliminar sus bibliotecas y los puntos de interés de dichas bibliotecas. Estas API utilizan los estándares de notación de objetos JavaScript (JSON) para dar formato a los datos que se envían y reciben. Una de las principales ventajas de JSON es que hace que las consultas de API sean fáciles de escribir, leer y analizar por parte de desarrolladores y equipos.
 
 Antes de utilizar la API de servicios Web, asegúrese de que se cumplen los siguientes requisitos:
 
-* Los lugares están aprovisionados en su organización y usted tiene acceso adecuado como usuario.
+* El servicio de lugares está aprovisionado en su organización y tiene el acceso adecuado como usuario.
 
    Para obtener más información, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
 
-* Después de aprovisionar Lugares en su organización y de tener acceso, cree una integración de Adobe para Lugares.
+* Una vez que el servicio de lugares esté aprovisionado en su organización y tenga acceso, cree una integración de Adobe para el servicio de lugares.
 
-   Para obtener más información, consulte *Creación de la integración* de lugares en la descripción general [de la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
+   Para obtener más información, consulte *Creación de una integración* de servicio de lugares en Información general y requisitos previos [de](/help/web-service-api/adobe-i-o-integration.md)integración.
 
 Información adicional:
 
