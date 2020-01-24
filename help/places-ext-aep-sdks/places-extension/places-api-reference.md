@@ -2,18 +2,18 @@
 title: Referencia de la API de lugares
 description: Información sobre las referencias de API en Lugares.
 translation-type: tm+mt
-source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Referencia de la API de lugares {#places-api-reference}
 
-Esta es la información sobre las referencias de API en Lugares:
+Esta es la información sobre las referencias de API en la extensión Places:
 
 ## Procesamiento de un evento de región
 
-Cuando un dispositivo cruza uno de los límites predefinidos de la región Lugares de la aplicación, la región y el tipo de evento se pasan al SDK para su procesamiento.
+Cuando un dispositivo cruza uno de los límites predefinidos de la región del servicio de lugares de la aplicación, la región y el tipo de evento se pasan al SDK para su procesamiento.
 
 ### ProcessGeofence (Android)
 
@@ -309,7 +309,7 @@ Este es un ejemplo de código para este método:
 
 ### Borrar (Android)
 
-Borra los datos del lado del cliente para los lugares en estado compartido, almacenamiento local y en memoria.
+Borra los datos del lado del cliente para la extensión Places en el estado compartido, el almacenamiento local y la memoria.
 
 **Sintaxis**
 
@@ -329,7 +329,7 @@ Places.clear();
 
 ### clear (iOS)
 
-Borra los datos del lado del cliente para los lugares en estado compartido, almacenamiento local y en memoria.
+Borra los datos del lado del cliente para la extensión Places en estado compartido, almacenamiento local y en memoria.
 
 **Sintaxis**
 
