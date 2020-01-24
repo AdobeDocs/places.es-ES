@@ -1,15 +1,15 @@
 ---
-title: 'Usar el servicio de ubicación con Adobe Campaign Standard '
-description: 'Esta sección es una descripción general de cómo utilizar el servicio de ubicación con Campaign Standard. '
+title: 'Utilizar el servicio de lugares con Adobe Campaign Standard '
+description: 'Esta sección es una descripción general de cómo utilizar el servicio de lugares con Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Usar el servicio de ubicación con Adobe Campaign Standard {#location-service-acs}
+# Utilizar el servicio de lugares con Adobe Campaign Standard {#location-service-acs}
 
-Cuando utiliza el servicio de ubicación con Campaign Standard, puede utilizar los siguientes tipos de mensaje:
+Al utilizar el servicio de lugares con Campaign Standard, puede utilizar los siguientes tipos de mensajes:
 
-* [Notificaciones push con el servicio de ubicación](/help/use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
-* [Mensajería en la aplicación con el servicio de ubicación](/help/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
+* [Notificaciones push con el servicio de lugares](/help/use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
+* [Mensajería en la aplicación con el servicio de lugares](/help/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
