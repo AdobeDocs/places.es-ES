@@ -1,21 +1,21 @@
 ---
-title: Servicio de ubicación de Adobe Experience Platform
-description: 'El servicio de ubicación es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
+title: Servicio de lugares
+description: 'El servicio de lugares es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
+source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ---
 
 
-# Descripción general del servicio de ubicación de Adobe Experience Platform {#home}
+# Servicio de lugares {#home}
 
-![&quot;Servicio de ubicación de Adobe Experience Platform&quot;](/help/assets/LocationHeader.png)
+![&quot;Servicio de lugares&quot;](/help/assets/LocationHeader.png)
 
 La ubicación es un contexto importante para comprender y relacionarse con los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva.
 
-El servicio de ubicación de la plataforma de experiencia de Adobe (servicio de ubicación) es un servicio de ubicación geográfica que permite a las aplicaciones móviles con conocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
+Places Service, anteriormente conocido como Adobe Experience Platform Location Service, es un servicio de ubicación geográfica que permite a las aplicaciones móviles con reconocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
 
-El servicio de ubicación le permite lograr lo siguiente:
+El servicio de lugares le permite lograr lo siguiente:
 
 * Cree y administre una base de datos de puntos de interés que se puede aprovechar con otras soluciones de Adobe Experience Cloud.
 * Adjunte metadatos personalizados a los puntos de interés para hacerlos más ricos y significativos mediante la especificación de atributos adicionales.
@@ -32,9 +32,9 @@ Estas son algunas de las formas en que puede utilizar Lugares:
 * Segmente una audiencia según su comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Diríjase a un usuario con una experiencia en la tienda cuando sea pertinente.
 
-## Componentes del servicio de ubicación
+## Componentes de Places Service
 
-El servicio de ubicación comprende los siguientes componentes:
+El servicio de lugares comprende los siguientes componentes:
 
 * **Servicio Web**
 
