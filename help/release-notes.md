@@ -1,8 +1,8 @@
 ---
 title: Notas de la versión
-description: Notas de la versión del servicio de ubicación de Adobe Experience Platform.
+description: Notas de la versión de Servicio de lugares.
 translation-type: tm+mt
-source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **Android**
 
-      * Se ha agregado una nueva API `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para los servicios de ubicación. El valor se almacena y utiliza en el estado compartido Lugares.
+      * Se ha agregado una nueva API `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para los servicios de lugares. El valor se almacena y utiliza en el estado compartido Lugares.
 
 
 ## 3 de diciembre de 2019
@@ -24,7 +24,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **iOS**
 
-      * Se ha agregado una nueva API `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para los servicios de ubicación. El valor se almacena y utiliza en el estado compartido Lugares.
+      * Se ha agregado una nueva API `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para los servicios de lugares. El valor se almacena y utiliza en el estado compartido Lugares.
 
 ## 22 de noviembre de 2019
 
@@ -211,13 +211,13 @@ El monitor de lugares administra las API de ubicación de nivel de SO y se comun
 
 ### Versión beta
 
-Esta es la primera versión de Places, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación en el mundo real. Para la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen en función de esos datos a través de Adobe Experience Platform Launch.
+Esta es la primera versión de Places Service, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación en el mundo real. Para la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen en función de esos datos a través de Adobe Experience Platform Launch.
 
 ### Funciones principales
 
 Estas son las funciones clave de esta versión:
 
-#### Interfaz de usuario del servicio de ubicación
+#### Interfaz de usuario del servicio de lugares
 
 Hemos lanzado una interfaz de usuario de administración en la que puede ver y administrar sus puntos de interés (POI). También puede organizar sus puntos de interés en bibliotecas. Además de los metadatos estándar como ciudad, estado y categoría, también se admite la capacidad de agregar metadatos personalizados a los puntos de interés.
 
@@ -226,7 +226,7 @@ Hemos lanzado una interfaz de usuario de administración en la que puede ver y a
 
 #### Extensión de lugares
 
-Con la extensión de lugares, puede añadir las bibliotecas de lugares a su aplicación móvil y actuar en función de sus puntos de interés. Con el generador de reglas en Inicio de plataforma de experiencia, puede activar acciones para que se activen cuando los usuarios entren y salgan de puntos de interés.
+Con la extensión de lugares, puede agregar sus bibliotecas de servicio de lugares a la aplicación móvil y actuar en sus puntos de interés. Con el generador de reglas en Inicio de plataforma de experiencia, puede activar acciones para que se activen cuando los usuarios entren y salgan de puntos de interés.
 
 En la extensión Places:
 
@@ -252,4 +252,4 @@ Para obtener más información sobre las API de lugares, consulte API [de servic
 
 #### Analytics  de CRM
 
-La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación de la base de datos de lugares a todas las llamadas salientes de Analytics cuando un usuario se encuentra dentro de un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente en la entrada o salida del punto de interés (llamadas activas).
+La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación desde la base de datos de Places Service a todas las llamadas salientes de Analytics cuando un usuario está en un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente en la entrada o salida del punto de interés (llamadas activas).
