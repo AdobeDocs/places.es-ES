@@ -2,14 +2,14 @@
 title: Preguntas frecuentes
 description: Este tema proporciona información adicional sobre algunas preguntas más frecuentes.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Preguntas frecuentes
 
-A continuación encontrará información y preguntas más frecuentes sobre el servicio de ubicación.
+A continuación encontrará información y preguntas más frecuentes sobre el servicio de lugares.
 
 ## Tamaño y fiabilidad
 
