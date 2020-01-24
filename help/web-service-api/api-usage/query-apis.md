@@ -2,7 +2,7 @@
 title: Información general
 description: Explicación y uso de las API de consulta.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -20,7 +20,7 @@ GET https://query.places.adobe.com/placesedgequery
 
 Con la siguiente entrada, el servicio devuelve una lista de los puntos de interés más cercanos al llamador:
 
-* La posición del llamador \(latitud, longitud\).
+* Posición del llamador (latitud, longitud).
 * ID de las bibliotecas de puntos de interés que se incluirán en la búsqueda.
 * Número máximo de puntos de interés que se van a devolver.  El valor predeterminado es 100.
 
