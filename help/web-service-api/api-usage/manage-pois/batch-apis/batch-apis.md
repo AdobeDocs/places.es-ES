@@ -2,7 +2,7 @@
 title: API por lotes
 description: Con las API por lotes, puede crear, actualizar y eliminar varios puntos de interés.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Las API por lotes permiten crear, actualizar o eliminar varios puntos de interés al mismo tiempo.
 
-Para ayudarle a completar la importación por lotes de sus puntos de interés desde un `.csv` archivo a la base de datos de lugares de su organización, utilice el conjunto de secuencias de comandos Python. Puede descargar el archivo zip de estos scripts [aquí](https://github.com/adobe/places-scripts). Para obtener instrucciones sobre cómo utilizar las secuencias de comandos, consulte el archivo README incluido.
+Para ayudarle a completar la importación por lotes de sus puntos de interés desde un `.csv` archivo a la base de datos de lugares de su organización, utilice el conjunto de secuencias de comandos Python. Puede descargar el archivo zip de estos scripts [aquí](https://github.com/adobe/places-scripts). Para obtener instrucciones sobre cómo utilizar los scripts, consulte el archivo README en la repo.
 
 Puede utilizar las API por lotes para completar las siguientes tareas:
 
