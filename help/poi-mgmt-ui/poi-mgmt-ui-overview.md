@@ -1,15 +1,15 @@
 ---
 title: Visión general de la interfaz de administración de puntos de interés
-description: Esta sección proporciona información sobre cómo crear y administrar bibliotecas y puntos de interés mediante la interfaz de usuario del servicio de ubicación.
+description: Esta sección proporciona información sobre cómo crear y administrar bibliotecas y puntos de interés mediante la interfaz de usuario del servicio de lugares.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
-# Visión general de la interfaz de administración de puntos de interés {#management-ui-overview}
+# Información general sobre la interfaz de usuario de Places Service {#management-ui-overview}
 
-Los puntos de interés y las bibliotecas se crean y administran en la base de datos del servicio de ubicación mediante la interfaz de usuario del servicio de ubicación.
+Los puntos de interés y las bibliotecas se crean y administran en la base de datos del servicio de lugares mediante la interfaz de usuario del servicio de lugares.
 
 * Para crear una biblioteca o administrar varias bibliotecas, consulte [Administrar bibliotecas](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
 * Para crear un punto de interés, consulte [Creación de un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md).
