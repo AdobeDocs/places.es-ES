@@ -2,7 +2,7 @@
 title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -47,15 +47,15 @@ Esta es una lista de las columnas y los valores que debe utilizar:
 
 ### Valores de columna
 
-Los valores de las siguientes columnas se utilizan en la interfaz de usuario del servicio de ubicación:
+Los valores de las siguientes columnas se utilizan en la interfaz de usuario del servicio de lugares:
 
-* color, que se utiliza como color del pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de ubicación.
+* color, que se utiliza como color del pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario de Places Service.
    * Los valores válidos son &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, y #3DC8DE, y &quot;&quot;.
-   * Si el valor se deja en blanco, la interfaz de usuario del servicio de ubicación utiliza el azul como color predeterminado.
+   * Si el valor se deja en blanco, la interfaz de usuario del servicio de lugares utiliza el azul como color predeterminado.
 
       Los valores corresponden a azul (#3E76D0), púrpura (#AA99E8), fuschia (#DC2ABA), naranja (#FC685B), naranja claro (#FC962E), amarillo (#F6C436), verde claro (#BECE5D), verde (#61E 56B) y azul claro (#3DC8DE), respectivamente.
 
-* icono, que se utiliza como icono en el pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de ubicación
+* , que se utiliza como icono en el pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario de Places Service.
 
    * Los valores válidos son &quot;&quot;, tienda, hotelbed, auto, avión, tren, barco, estadio, parque de atracciones, anclaje, panadero, campana, puja, libro, caja, maletín, examinar, cepillo, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promoción, cinta comprasCarro, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave.
 
