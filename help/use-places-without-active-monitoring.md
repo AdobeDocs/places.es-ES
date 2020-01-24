@@ -1,15 +1,15 @@
 ---
-title: Usar el servicio de ubicación sin supervisión de región activa
-description: En esta sección se proporciona información sobre cómo utilizar Location ServicePlaces sin supervisión de región activa.
+title: Usar el servicio de lugares sin supervisión de región activa
+description: Esta sección proporciona información sobre cómo utilizar el servicio de lugares sin supervisión de región activa.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Usar el servicio de ubicación sin supervisión de región activa {#use-places-without-active-monitoring}
+# Usar el servicio de lugares sin supervisión de región activa {#use-places-without-active-monitoring}
 
-Es posible que los casos de uso de la aplicación no requieran supervisión de región activa. Adobe Places se puede seguir utilizando para integrar los datos de ubicación de los usuarios con otros productos de la plataforma de experiencias.
+Es posible que los casos de uso de la aplicación no requieran supervisión de región activa. El servicio de lugares aún se puede utilizar para integrar los datos de ubicación de los usuarios con otros productos de la plataforma de experiencias.
 
 En esta sección se explica cómo completar una comprobación de pertenencia a un punto de interés solo en el momento de recopilar la ubicación del usuario (latitud y longitud).
 
@@ -19,9 +19,9 @@ El desarrollador recopilará la ubicación del dispositivo mediante las API prop
 
 >[!TIP]
 >
->Si los casos de uso de la aplicación requieren supervisión de región activa, lea [con la extensión](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)de monitor de lugares.
+>Si los casos de uso de la aplicación requieren una supervisión de región activa, consulte [Uso de la extensión](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)del monitor de lugares.
 
-Para utilizar lugares sin supervisión de región activa:
+Para utilizar el servicio de lugares sin supervisión de región activa:
 
 ## 1. Recopilar la ubicación del usuario
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Además de activar los eventos de entrada Places en el SDK, debido a los eventos de entrada activadores, el resto del SDK puede utilizar todos los datos que definen los puntos de interés `data elements` en Launch. Con Launch `rules`, puede adjuntar dinámicamente los datos de Places a los eventos entrantes que el SDK procesa. Por ejemplo, puede adjuntar los metadatos de un punto de interés en el que se encuentre el usuario y enviar los datos a Analytics como datos de contexto.
+Además de activar los eventos de entrada del servicio de lugares en el SDK, debido a los eventos de entrada de activación, el resto del SDK puede utilizar todos los datos que definen los puntos de interés `data elements` en el inicio de la plataforma de experiencia. Con Inicio de plataforma de experiencia `rules`, puede adjuntar dinámicamente los datos del servicio de lugares a los eventos entrantes que el SDK procesa. Por ejemplo, puede adjuntar los metadatos de un punto de interés en el que se encuentre el usuario y enviar los datos a Analytics como datos de contexto.
 
-Para obtener más información, consulte [Uso de lugares con otras soluciones](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)de Adobe.
+Para obtener más información, consulte [Uso del servicio de lugares con otras soluciones](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)de Adobe.
