@@ -1,8 +1,8 @@
 ---
 title: Administrar puntos de interés existentes
-description: En la interfaz de usuario del servicio de ubicación, puede editar, eliminar o filtrar los puntos de interés existentes.
+description: En la interfaz de usuario del servicio de lugares, puede editar, eliminar o filtrar los puntos de interés existentes.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -32,7 +32,7 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 
 ![filtrar un punto de interés](/help/assets/filter_poi.png)
 
-1. Inicie sesión en la interfaz de usuario del servicio de ubicación con su Adobe ID.
+1. Inicie sesión en la interfaz de usuario del servicio de lugares con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono de filtrado.
 1. Puede filtrar los puntos de interés de una de las siguientes formas:
 
@@ -61,6 +61,7 @@ Las geofences son un tipo de punto de interés y se definen en la base de datos 
 | ID | Identificador único asignado a cada punto de interés | Sí |
 | Nombre | Nombre práctico dado al punto de interés. | Sí |
 | Biblioteca | A cada punto de interés se le debe asignar una biblioteca para la organización. | Sí |
+| Radio | El radio de su POI en metros. | Sí |
 | Icono | Ayudar con visualizaciones de los puntos de interés. | Sí (valor predeterminado asignado) |
 | Color | Ayudar con visualizaciones de los puntos de interés. | Sí (valor predeterminado asignado) |
 | Categoría | Asigne un marco común de categorías que sean comunes a todos los puntos de interés de todas las bibliotecas. | No |
