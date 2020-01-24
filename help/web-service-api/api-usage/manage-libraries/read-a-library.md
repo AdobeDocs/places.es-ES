@@ -2,13 +2,13 @@
 title: Leer una biblioteca
 description: Lea una biblioteca mediante la API de Places REST.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
 
-# Leer una biblioteca
+# Leer una biblioteca {#read-a-library}
 
 Método GET que devuelve los detalles de una biblioteca.
 
