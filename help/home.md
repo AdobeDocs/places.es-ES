@@ -2,14 +2,14 @@
 title: Servicio de lugares
 description: 'El servicio de lugares es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
-source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
+source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
 
 ---
 
 
 # Servicio de lugares {#home}
 
-![&quot;Servicio de lugares&quot;](/help/assets/LocationHeader.png)
+![&quot;Servicio de lugares&quot;](/help/assets/places-service-header.png)
 
 La ubicación es un contexto importante para comprender y relacionarse con los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva.
 
