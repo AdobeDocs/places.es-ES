@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Notas de la versión de Servicio de lugares.
 translation-type: tm+mt
-source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
+source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ---
 
@@ -170,7 +170,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 * Se ha corregido un problema que, después de un primer inicio, a veces provocaba que los eventos de Lugares se perdieran debido a las malas condiciones de la red.
 * Se corrigió un problema en el cual, al procesar eventos de entrada de puntos de interés en una sucesión rápida, el reemplazo de tokens mediante el motor de reglas a veces hacía referencia al punto de interés incorrecto.
 
-## 30 de mayo de 2019 (Lugares)
+## 30 de mayo de 2019
 
 **Monitor de lugares de Android 1.0.1**
 
@@ -185,7 +185,7 @@ Se han corregido los siguientes problemas en la interfaz de usuario de Lugares:
 * Se ha aumentado el radio mínimo permitido en la interfaz de usuario a 10 metros.
 * Se corrigió un problema en el cual, si se eliminan todos los números del campo, el campo de radio se restablecía a 20 metros.
 
-## 17 de mayo de 2019 (Lugares)
+## 17 de mayo de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
