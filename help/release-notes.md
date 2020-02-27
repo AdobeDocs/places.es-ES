@@ -2,12 +2,25 @@
 title: Notas de la versión
 description: Notas de la versión de Servicio de lugares.
 translation-type: tm+mt
-source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
 
 # Notas de la versión {#release-notes}
+
+## miércoles, 20 de febrero de 2020
+
+* **ACPPlaces 1.3.1 (iOS)**
+
+   * La extensión coloca ahora la información de la versión en el centro de eventos del SDK principal.
+   * La información de pertenencia al punto de interés del dispositivo ahora tiene un tiempo de vida predeterminado de una hora a partir del momento en que se recopila. Para obtener más información, consulte [Modificación del tiempo de permanencia de los lugares](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
+
+* **Places 1.4.1 (Android)**
+
+   * La extensión coloca ahora la información de la versión en el centro de eventos del SDK principal.
+   * La información de pertenencia al punto de interés del dispositivo ahora tiene un tiempo de vida predeterminado de una hora a partir del momento en que se recopila. Para obtener más información, consulte [Modificación del tiempo de permanencia de los lugares](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 de enero de 2020
 
@@ -20,7 +33,7 @@ source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ## 9 de enero de 2020
 
-* **ACPPlaces 1.4.0**
+* **Places 1.4.0**
 
    * **Android**
 
@@ -120,7 +133,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Se ha actualizado el uso de la `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
 
-## jueves, 25 de julio de 2019
+## 25 de julio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
@@ -132,7 +145,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Se ha actualizado el uso de la API de ACPPlaces `getNearbyPointsOfInterest` para gestionar los escenarios de error de forma más eficaz.
 
-## jueves, 22 de julio de 2019
+## 22 de julio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
@@ -143,7 +156,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 * Se corrigió un error en el que `getNearbyPointsOfInterest` la llamada de retorno devolvía código de error `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` en Internet.
 * `getNearbyPointsOfInterest` La API (sin errorCallback) tendrá la `successCallback` llamada con una lista poi vacía, en caso de error al recuperar los puntos de interés cercanos.
 
-## jueves, 19 de julio de 2019
+## 19 de julio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
