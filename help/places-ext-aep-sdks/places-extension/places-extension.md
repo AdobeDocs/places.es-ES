@@ -2,7 +2,7 @@
 title: Extensión Places
 description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
@@ -13,8 +13,8 @@ La extensión Lugares permite actuar en función de la ubicación de los usuario
 
 ## Instalación de la extensión Places en Adobe Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. En la **[!UICONTROL Catalog]**ficha, ubique la**[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. En la **[!UICONTROL Catalog]** ficha, ubique la **[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
 1. Seleccione las bibliotecas Lugares que desee utilizar en esta propiedad. Estas son las bibliotecas a las que se podrá acceder desde la aplicación.
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -135,6 +135,88 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+### Modificación del tiempo de permanencia de Places {#places-ttl}
+
+Los datos de ubicación pueden quedar obsoletos rápidamente, especialmente si el dispositivo no recibe actualizaciones de ubicación en segundo plano.
+
+Controle el tiempo de vida útil de los datos de pertenencia a Places en el dispositivo estableciendo la configuración `places.membershipttl` . El valor pasado representa el número de segundos que el estado Lugares seguirá siendo válido para el dispositivo.
+
+#### Android
+
+Dentro de la llamada de retorno de `MobileCore.start()` actualizar la configuración con los cambios necesarios antes de llamar `lifecycleStart`:
+
+```java
+public class PlacesTestApp extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        MobileCore.setApplication(this);
+
+        try {
+            Places.registerExtension();
+            MobileCore.start(new AdobeCallback() {
+                @Override
+                public void call(Object o) {
+                    // switch to your App ID from Launch
+                    MobileCore.configureWithAppID("my-app-id");
+
+                    final Map<String, Object> config = new HashMap<>();
+                    config.put("places.membershipttl", 30);
+                    MobileCore.updateConfiguration(config);
+
+                    MobileCore.lifecycleStart(null);
+                }
+            });
+        } catch (Exception e) {
+            Log.e("PlacesTestApp", e.getMessage());
+        }
+    }
+}
+```
+
+#### iOS
+
+En la primera línea de la rellamada del `ACPCore`método `start:` de `updateConfiguration:`
+
+**Objective-C**
+
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // make other sdk registration calls
+
+    const UIApplicationState appState = application.applicationState;
+    [ACPCore start:^{
+        [ACPCore updateConfiguration:@{@"places.membershipttl":@(30)}];
+
+        if (appState != UIApplicationStateBackground) {
+            [ACPCore lifecycleStart:nil];            
+        }
+    }];
+
+    return YES;
+}
+```
+
+**Swift**
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    // make other sdk registration calls
+
+    let appState = application.applicationState;            
+    ACPCore.start {
+        ACPCore.updateConfiguration(["places.membershipttl" : 30])
+
+        if appState != .background {
+            ACPCore.lifecycleStart(nil)
+        }    
+    }
+
+    return true;
+}
+```
+
 ## Claves de configuración
 
 Para actualizar la configuración del SDK mediante programación en tiempo de ejecución, utilice la siguiente información para cambiar los valores de configuración de la extensión Places. Para obtener más información, consulte Referencia [de API de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)configuración.
@@ -143,4 +225,4 @@ Para actualizar la configuración del SDK mediante programación en tiempo de ej
 | :--- | :--- | :--- |
 | `places.libraries` | Sí | Bibliotecas de extensiones Places para la aplicación móvil. Especifica el ID de biblioteca y el nombre de la biblioteca que admite la aplicación móvil. |
 | `places.endpoint` | Sí | Extremo predeterminado del servicio de consulta de lugares, que se utiliza para obtener información sobre bibliotecas y puntos de interés. |
-
+| `places.membershipttl` | No | Valor predeterminado de 3600 (segundos en una hora). Indica cuánto tiempo, en segundos, seguirá siendo válida la información de pertenencia de Places para el dispositivo. |
