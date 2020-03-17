@@ -2,7 +2,7 @@
 title: Usar el servicio de lugares sin supervisión de región activa
 description: Esta sección proporciona información sobre cómo utilizar el servicio de lugares sin supervisión de región activa.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 
 ---
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Además de activar los eventos de entrada del servicio de lugares en el SDK, debido a los eventos de entrada de activación, el resto del SDK puede utilizar todos los datos que definen los puntos de interés `data elements` en el inicio de la plataforma de experiencia. Con Inicio de plataforma de experiencia `rules`, puede adjuntar dinámicamente los datos del servicio de lugares a los eventos entrantes que el SDK procesa. Por ejemplo, puede adjuntar los metadatos de un punto de interés en el que se encuentre el usuario y enviar los datos a Analytics como datos de contexto.
+Además de activar los eventos de entrada del servicio de lugares en el SDK, debido a los eventos de entrada de activación, el resto del SDK puede utilizar todos los datos que definen los puntos de interés `data elements` en Experience Platform Launch. Con Experience Platform Launch `rules`, puede adjuntar dinámicamente los datos del servicio de lugares a los eventos entrantes que el SDK procesa. Por ejemplo, puede adjuntar los metadatos de un punto de interés en el que se encuentre el usuario y enviar los datos a Analytics como datos de contexto.
 
-Para obtener más información, consulte [Uso del servicio de lugares con otras soluciones](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)de Adobe.
+Para obtener más información, consulte [Uso del servicio de lugares con otras soluciones](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)de Adobe.
