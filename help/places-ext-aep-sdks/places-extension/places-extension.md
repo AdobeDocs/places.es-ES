@@ -2,14 +2,17 @@
 title: Extensión Places
 description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
 
 # Extensión Places {#places-extension}
 
-La extensión Lugares permite actuar en función de la ubicación de los usuarios. Esta extensión es la interfaz de las API de servicio de consulta de lugares. Al escuchar eventos que contienen coordenadas GPS y eventos de región de geofence, esta extensión distribuye nuevos eventos que son procesados por el motor de reglas. La extensión Places también recupera y entrega una lista del punto de interés más cercano para los datos de la aplicación que se recuperan de las API. Las regiones devueltas por las API se almacenan en caché y en persistencia, lo que permite un procesamiento sin conexión limitado.
+La extensión Lugares permite actuar en función de la ubicación de los usuarios. Esta extensión es la interfaz de las API de servicio de Consulta de lugares. Al escuchar eventos que contienen coordenadas GPS y eventos de región de geofencia, esta extensión distribuye nuevos eventos que son procesados por el motor de reglas. La extensión Places también recupera y entrega una lista del punto de interés más cercano para los datos de la aplicación que se recuperan de las API. Las regiones devueltas por las API se almacenan en caché y en persistencia, lo que permite un procesamiento sin conexión limitado.
 
 ## Instalación de la extensión Places en Adobe Experience Platform Launch
 
@@ -22,21 +25,25 @@ La extensión Lugares permite actuar en función de la ubicación de los usuario
 
 1. Complete el proceso de publicación para actualizar la configuración del SDK.
 
-   Para obtener más información sobre la publicación en el lanzamiento de la plataforma de experiencia, consulte [Publicación](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Para obtener más información sobre la publicación en Experience Platform Launch, consulte [Publicación](https://docs.adobe.com/content/help/es-ES/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
 ![](//help/assets/places-extension.png)
 
-## Agregar la extensión Places a la aplicación {#add-places-to-app}
+## Añadir la extensión Places en la aplicación {#add-places-to-app}
 
-Puede agregar la extensión Lugares a sus aplicaciones de Android e iOS.
+Puede agregar la extensión Lugares a sus aplicaciones de Android e iOS. A continuación se muestran los pasos para agregar Lugares a la aplicación de iOS o Android. Los lugares también están disponibles para Cordova y React Native. Para agregar Lugares a la aplicación cuando se desarrolle con una de estas plataformas, consulte los vínculos correspondientes:
+
+**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+
+**Reaccione los lugares** nativos de ACPP: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
 
 ### Android
 
 Para agregar la extensión Places a la aplicación mediante Java:
 
-1. Agregue la extensión Lugares al proyecto mediante el archivo de gradle de la aplicación.
+1. Añada la extensión Places al proyecto mediante el archivo de gradle de la aplicación.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -54,7 +61,7 @@ Para agregar la extensión Places a la aplicación mediante Java:
 
 Para agregar la extensión Places a la aplicación mediante Objective-C o Swift:
 
-1. Añada las bibliotecas principales [de lugares y](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) móviles al proyecto. Deberá agregar los siguientes pods a su `Podfile`:
+1. Añada las bibliotecas principales [de lugares y](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) móviles en su proyecto. Deberá agregar los siguientes pods a su `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
@@ -139,7 +146,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Los datos de ubicación pueden quedar obsoletos rápidamente, especialmente si el dispositivo no recibe actualizaciones de ubicación en segundo plano.
 
-Controle el tiempo de vida útil de los datos de pertenencia a Places en el dispositivo estableciendo la configuración `places.membershipttl` . El valor pasado representa el número de segundos que el estado Lugares seguirá siendo válido para el dispositivo.
+Controle el tiempo de vida útil de los datos de pertenencia a Places en el dispositivo estableciendo la configuración del `places.membershipttl` . El valor pasado representa el número de segundos que el estado Lugares seguirá siendo válido para el dispositivo.
 
 #### Android
 
@@ -224,5 +231,5 @@ Para actualizar la configuración del SDK mediante programación en tiempo de ej
 | Clave | Requerido | Descripción |
 | :--- | :--- | :--- |
 | `places.libraries` | Sí | Bibliotecas de extensiones Places para la aplicación móvil. Especifica el ID de biblioteca y el nombre de la biblioteca que admite la aplicación móvil. |
-| `places.endpoint` | Sí | Extremo predeterminado del servicio de consulta de lugares, que se utiliza para obtener información sobre bibliotecas y puntos de interés. |
+| `places.endpoint` | Sí | Extremo predeterminado del servicio de Consulta de lugares, que se utiliza para obtener información sobre bibliotecas y puntos de interés. |
 | `places.membershipttl` | No | Valor predeterminado de 3600 (segundos en una hora). Indica cuánto tiempo, en segundos, seguirá siendo válida la información de pertenencia de Places para el dispositivo. |
