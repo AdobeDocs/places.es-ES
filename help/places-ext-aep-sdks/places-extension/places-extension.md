@@ -2,9 +2,9 @@
 title: Extensión Places
 description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
 translation-type: tm+mt
-source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 5%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 5%
 
 La extensión Lugares permite actuar en función de la ubicación de los usuarios. Esta extensión es la interfaz de las API de servicio de Consulta de lugares. Al escuchar eventos que contienen coordenadas GPS y eventos de región de geofencia, esta extensión distribuye nuevos eventos que son procesados por el motor de reglas. La extensión Places también recupera y entrega una lista del punto de interés más cercano para los datos de la aplicación que se recuperan de las API. Las regiones devueltas por las API se almacenan en caché y en persistencia, lo que permite un procesamiento sin conexión limitado.
 
-## Instalación de la extensión Places en Adobe Experience Platform Launch
+## Instalación de la extensión Places en Inicio de Adobe Experience Platform
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. En la **[!UICONTROL Catalog]** ficha, ubique la **[!UICONTROL Places]** extensión y haga clic en **[!UICONTROL Install]**.
 1. Seleccione las bibliotecas Lugares que desee utilizar en esta propiedad. Estas son las bibliotecas a las que se podrá acceder desde la aplicación.
 1. Haga clic en **[!UICONTROL Save]**.
 
-   Al hacer clic en **[!UICONTROL Save]**, el SDK de la plataforma de experiencia busca en los servicios de lugares puntos de interés en las bibliotecas seleccionadas. Los datos de puntos de interés no se incluyen en la descarga de la biblioteca al compilar la aplicación, pero se descarga un subconjunto de puntos de interés basado en la ubicación en el dispositivo del usuario final en tiempo de ejecución y se basa en las coordenadas de GPS del usuario.
+   Al hacer clic en **[!UICONTROL Save]**, el SDK de Experience Platform busca en los servicios de lugares puntos de interés en las bibliotecas seleccionadas. Los datos de puntos de interés no se incluyen en la descarga de la biblioteca al compilar la aplicación, pero se descarga un subconjunto de puntos de interés basado en la ubicación en el dispositivo del usuario final en tiempo de ejecución y se basa en las coordenadas de GPS del usuario.
 
 1. Complete el proceso de publicación para actualizar la configuración del SDK.
 
@@ -35,9 +35,9 @@ La extensión Lugares permite actuar en función de la ubicación de los usuario
 
 Puede agregar la extensión Lugares a sus aplicaciones de Android e iOS. A continuación se muestran los pasos para agregar Lugares a la aplicación de iOS o Android. Los lugares también están disponibles para Cordova y React Native. Para agregar Lugares a la aplicación cuando se desarrolle con una de estas plataformas, consulte los vínculos correspondientes:
 
-**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+**[Complemento Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**Reaccione los lugares** nativos de ACPP: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
+**[Complemento React Native Places](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
 ### Android
 
