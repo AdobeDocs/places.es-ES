@@ -2,15 +2,31 @@
 title: Notas de la versión
 description: Notas de la versión de Servicio de lugares.
 translation-type: tm+mt
-source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1503'
 ht-degree: 3%
 
 ---
 
 
 # Notas de la versión {#release-notes}
+
+## 8 de julio de 2020
+
+* **Extensiones de monitor de lugares y lugares**
+
+   * Se han agregado extensiones de monitor de lugares y lugares para aplicaciones nativas de [React](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Se han agregado extensiones de monitor de lugares y lugares para las aplicaciones de [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Para obtener más información, consulte: [Uso de la extensión de lugares](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+
+
+## 12 de mayo de 2020
+
+* **Places Service**
+
+   * Importación masiva de puntos de interés desde un archivo CSV mediante el botón &quot;Importar puntos de interés&quot;
+   * Seleccione varios puntos de interés y edite o agregue valores de metadatos de forma masiva
 
 ## 6 de mayo de 2020
 
@@ -65,7 +81,7 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Llame a la API de lugares para recopilar CLAuthorizationStatus desde el dispositivo cuando cambie.
+      * Llame a la API Places para recopilar CLAuthorizationStatus desde el dispositivo cuando cambie.
 
 ## 3 de diciembre de 2019
 
@@ -92,7 +108,7 @@ ht-degree: 3%
       * El monitor ahora reconoce el inicio de un dispositivo Android y, si es necesario, vuelve a registrar las geofences con el sistema operativo en función de la ubicación actual del dispositivo.
       * Se corrigió una condición de carrera que en ocasiones causaba que se descartaran los eventos de entrada y salida.
 
-## viernes, 9 de octubre de 2019
+## 9 de octubre de 2019
 
 * **PlacesMonitor 2.1.0**
 
@@ -213,7 +229,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 Se han corregido los siguientes problemas en la interfaz de usuario de Lugares:
 
-* Se ha actualizado el conmutador de soluciones en lugares para que se alinee con el resto de Experience Cloud.
+* Se ha actualizado el conmutador de soluciones en lugares para alinearlo con el resto del Experience Cloud.
 * Se corrigió un problema en el cual la clasificación se guardaba en instancias en las que no se realizaban cambios de clasificación.
 * Se ha aumentado el radio mínimo permitido en la interfaz de usuario a 10 metros.
 * Se corrigió un problema en el cual, si se eliminan todos los números del campo, el campo de radio se restablecía a 20 metros.
@@ -268,7 +284,7 @@ El monitor de lugares administra las API de ubicación de nivel de SO y se comun
 
 ### Versión beta
 
-Esta es la primera versión de Places Service, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación en el mundo real. Para la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen sobre esos datos a través de Adobe Experience Platform Launch.
+Esta es la primera versión de Places Service, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación en el mundo real. Para la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen en función de esos datos a través de Adobe Experience Platform Launch.
 
 ### Funciones principales
 
@@ -309,4 +325,4 @@ Para obtener más información sobre las API de lugares, consulte API [de servic
 
 #### Analytics  de CRM
 
-La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación desde la base de datos de Places Service a todas las llamadas salientes de Analytics cuando un usuario está en un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente en la entrada o salida del punto de interés (llamadas activas).
+La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación desde la base de datos de Places Service a todas las llamadas de Analytics salientes cuando un usuario está en un punto de interés (llamadas pasivas). Esta actualización también permitirá que la creación de reglas active las llamadas de seguimiento de Analytics directamente en la entrada o salida del punto de interés (llamadas activas).
