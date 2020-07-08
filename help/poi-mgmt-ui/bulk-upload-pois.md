@@ -2,12 +2,25 @@
 title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 0%
 
 ---
 
 
 # Carga masiva de puntos de interés {#bulk-upload-pois}
+
+El botón **Importar puntos de interés** del servicio de lugares se puede utilizar para cargar masivamente nuevos puntos de interés mediante un archivo CSV. Se proporciona una plantilla de hoja de cálculo de ejemplo para mostrar qué columnas de datos son necesarias y cómo agregar metadatos personalizados opcionales.
+
+![Pantalla de importación masiva](/help/assets/Bulk-import.png)
+
+A continuación se muestra un vídeo que muestra el proceso de importación masiva y edición masiva:
+
+>[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+
+## Secuencias de comandos de la API de Python
 
 Se ha creado un conjunto de secuencias de comandos Python para simplificar la importación por lotes de puntos de interés desde un archivo .csv a una base de datos de puntos de interés mediante las API de servicios Web. Estos scripts se pueden descargar desde esta repo [git](https://github.com/adobe/places-scripts)de código abierto.
 
@@ -57,7 +70,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
 * , que se utiliza como icono en el pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario de Places Service.
 
-   * Los valores válidos son &quot;&quot;, tienda, hotelbed, auto, avión, tren, barco, estadio, parque de atracciones, anclaje, panadero, campana, puja, libro, caja, maletín, examinar, cepillo, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promoción, cinta comprasCarro, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave.
+   * Los valores válidos son &quot;&quot;, tienda, hotelbed, auto, avión, tren, barco, estadio, parque de atracciones, anclaje, panadero, campana, puja, libro, caja, maletín, examinar, cepillo, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promoción, cinta comprasCarro, estrella, destinatario, tetera, thumbDown, thumbUp, trampa, trofeo, llave.
 
       Los valores de los iconos se muestran en el orden en que aparecen en la siguiente ilustración:
 
@@ -70,7 +83,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 ## Ejecución de la secuencia de comandos
 
 1. Descargue archivos de la repo [git](https://github.com/adobe/places-scripts) en su directorio local.
-1. En un editor de texto, abra el `config.py` archivo y realice las siguientes tareas:
+1. En un editor de texto, abra el `config.py` archivo y complete las siguientes tareas:
 
    a. Edite los siguientes valores de variables como cadenas:
 
@@ -84,7 +97,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `org_id`
 
-      El identificador de organización de Experience Cloud en el que se importarán los puntos de interés. Para obtener información sobre cómo obtener el ID de organización, consulte *Requisitos previos para el acceso* del usuario en la descripción general de [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
+      El identificador de organización del Experience Cloud en el que se importarán los puntos de interés. Para obtener información sobre cómo obtener el ID de organización, consulte *Requisitos previos para el acceso* del usuario en la descripción general de [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
@@ -92,7 +105,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
    b. Guarde los cambios.
 
 1. En una ventana de terminal, vaya al `…/places-scripts/import/` directorio.
-1. Introduzca `python ./places_import.py` y pulse la **[!UICONTROL enter]**(**[!UICONTROL return]**) tecla.
+1. Introduzca `python ./places_import.py` y pulse la **[!UICONTROL enter]** (**[!UICONTROL return]**) tecla.
 
 
 ## Comprobaciones CSV previas a la importación
