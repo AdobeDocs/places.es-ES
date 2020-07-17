@@ -2,9 +2,9 @@
 title: Extensión Places
 description: La extensión Lugares permite actuar en función de la ubicación de los usuarios.
 translation-type: tm+mt
-source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
+source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '694'
 ht-degree: 5%
 
 ---
@@ -33,11 +33,16 @@ La extensión Lugares permite actuar en función de la ubicación de los usuario
 
 ## Añadir la extensión Places en la aplicación {#add-places-to-app}
 
-Puede agregar la extensión Lugares a sus aplicaciones de Android e iOS. A continuación se muestran los pasos para agregar Lugares a la aplicación de iOS o Android. Los lugares también están disponibles para Cordova y React Native. Para agregar Lugares a la aplicación cuando se desarrolle con una de estas plataformas, consulte los vínculos correspondientes:
+Puede agregar la extensión Lugares a sus aplicaciones de Android e iOS. A continuación se muestran los pasos para agregar Lugares a la aplicación de iOS o Android. Las extensiones de lugares también están disponibles para las siguientes plataformas. Para agregar Lugares a la aplicación cuando se desarrolle con una de estas plataformas, consulte los vínculos correspondientes:
 
 **[Complemento Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
 **[Complemento React Native Places](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+
+**[Complemento Lutter Places](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Complemento Xamarin Places](https://github.com/adobe/xamarin-acpcore)**
+
 
 ### Android
 
