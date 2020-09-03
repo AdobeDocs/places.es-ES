@@ -1,8 +1,11 @@
 ---
 title: Primeros pasos
-description: Introducción a Places Service.
+description: Primeros pasos con el servicio de lugares.
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: 30650c1e11a52f6bbc118d374b8ff6050b5d80ce
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 4%
 
 ---
 
@@ -11,19 +14,23 @@ source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 Este es un vídeo útil para obtener una descripción general de los servicios de lugares:
 
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+<!--
+Test of different youtube link for exl
+-->
+
+>[!VIDEO](https://youtu.be/aV6i_ayxWCw)
 
 ## Uso del servicio de lugares
 
-Para utilizar el servicio de lugares, realice las siguientes tareas:
+Para utilizar el servicio de lugares, complete las siguientes tareas:
 
 ### 1. Asegúrese de que el usuario esté aprovisionado para utilizar el servicio de lugares
 
-El contexto del producto Servicio de lugares está disponible en todas las organizaciones de Experience Cloud.
+El contexto del producto Servicio de lugares está disponible en todas las organizaciones Experience Cloud.
 
-* Asegúrese de que aparece como usuario en los contextos de producto Servicio de lugares e Inicio de plataforma de experiencia en Admin Console.
+* Asegúrese de que aparece como un usuario en los contextos de productos del Servicio de lugares y Experience Platform Launch del Admin Console.
 
-   Para obtener más información, consulte *Adición de un usuario al servicio* de inicio y ubicación de la plataforma de experiencia en preguntas [más](/help/places-gain-access.md)frecuentes.
+   Para obtener más información, consulte *Añadir un usuario al Experience Platform Launch y al servicio* de lugares en preguntas [](/help/places-gain-access.md)más frecuentes.
 
 
 ### 2. Crear sus puntos de interés
