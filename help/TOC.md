@@ -1,20 +1,20 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Servicio de Places
+user-guide-title: Guía de servicio de lugares
 user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 13%
 
 ---
 
 
 # Servicio de Places {#using}
 
-+ [Visión general del servicio de lugares](home.md)
++ [Información general del servicio de lugares](home.md)
 + [Notas de la versión](release-notes.md)
 + [Primeros pasos](getting-started.md)
 + [Obtener acceso al servicio de lugares](places-gain-access.md)
@@ -53,7 +53,7 @@ ht-degree: 14%
             + [Crear varios puntos de interés](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
             + [Actualizar varios puntos de interés](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [Eliminar varios puntos de interés](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-      + [API de Consulta](web-service-api/api-usage/query-apis.md)
+      + [API de consulta](web-service-api/api-usage/query-apis.md)
 + Extensiones para los SDK móviles {#places-ext-aep-sdks}
    + Extensión Places {#places-extension}
       + [Extensión Places](places-ext-aep-sdks/places-extension/places-extension.md)
@@ -85,7 +85,7 @@ ht-degree: 14%
       + [Notificaciones push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Mensajes en la aplicación](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Usar el servicio de lugares con Adobe Destinatario](use-places-with-other-solutions/places-target/places-target.md)
+      + [Usar el servicio de lugares con Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Pruebas y validación {#places-testing-validation}
    + [Probar y validar el servicio de lugares](places-testing-validation/test-validate-places.md)
 + [Preguntas frecuentes](places-faqs.md)
