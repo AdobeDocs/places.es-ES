@@ -2,9 +2,9 @@
 title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar los puntos de interés de forma masiva.
 translation-type: tm+mt
-source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ El botón **Importar puntos de interés** del servicio de lugares se puede utili
 
 ![Pantalla de importación masiva](/help/assets/Bulk-import.png)
 
-A continuación se muestra un vídeo que muestra el proceso de importación masiva y edición masiva:
+Consulte este vídeo que muestra el proceso de importación masiva y edición masiva:
 
->[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[Importación masiva de servicios de lugares y edición de puntos de interés](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Secuencias de comandos de la API de Python
 
@@ -93,7 +95,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `access_code`
 
-      Este es el código de acceso que obtuvo de la llamada a Adobe IMS. Para obtener información sobre cómo obtener este código de acceso, consulte *Requisitos previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
+      Este es su código de acceso que se obtuvo de la llamada a Adobe IMS. Para obtener información sobre cómo obtener este código de acceso, consulte *Requisitos previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
@@ -101,7 +103,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `api_key`
 
-      Ésta es la clave de API de Places REST que se obtiene de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
+      Ésta es la clave de API de Places REST que obtuvo de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte Requisitos *previos para el acceso* del usuario en Información general sobre [la integración y requisitos previos](/help/web-service-api/adobe-i-o-integration.md).
    b. Guarde los cambios.
 
 1. En una ventana de terminal, vaya al `…/places-scripts/import/` directorio.
