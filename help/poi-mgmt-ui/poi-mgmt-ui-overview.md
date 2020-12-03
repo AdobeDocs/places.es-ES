@@ -3,6 +3,9 @@ title: Visión general de la interfaz de administración de puntos de interés
 description: Esta sección proporciona información sobre cómo crear y administrar bibliotecas y puntos de interés mediante la interfaz de usuario del servicio de lugares.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
