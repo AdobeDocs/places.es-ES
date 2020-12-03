@@ -1,13 +1,16 @@
 ---
-title: Referencia de eventos de lugares
+title: Coloca la referencia del evento
 description: 'Lista de los eventos que gestiona la extensión Places. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 24%
 
 ---
 
 
-# Referencia de eventos de lugares {#places-event-reference}
+# Coloca la referencia del evento {#places-event-reference}
 
 Esta es una lista de los eventos que gestiona la extensión Places.
 
@@ -21,11 +24,11 @@ Esta es una lista de los eventos que gestiona la extensión Places.
 
 **Descripción del evento**
 
-Este evento es una solicitud para recuperar los puntos de interés en los que se encuentra el dispositivo.
+Este evento es una solicitud para recuperar los puntos de interés en los que se encuentra actualmente el dispositivo.
 
 **Definición de carga de datos**
 
-n.d.
+n/a
 
 ## GetNearbyPointsOfInterest
 
@@ -43,9 +46,9 @@ Este evento es una solicitud para obtener los puntos de interés cercanos tenien
 
 | Clave | Tipo de valor | Requerido | Valor predeterminado | Descripción |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | double | true | n.d. | Contiene el valor de latitud para el centro de la búsqueda de puntos de interés cercanos. |
-| longitud | double | true | n.d. | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
-| radio | integer | false | n.d. | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
+| latitude | doble | true | n/a | Contiene el valor de latitud para el centro de la búsqueda de puntos de interés cercanos. |
+| longitude | doble | true | n/a | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
+| radio | integer | false | n/a | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
 | count | integer | false | 10 | Número máximo de puntos de interés que se devuelven en el evento de respuesta resultante. |
 
 ## ProcessRegionEvent
@@ -65,7 +68,7 @@ Este evento hace que la extensión Places procese un evento de entrada o salida 
 | Clave | Tipo de valor | Requerido | Descripción |
 | :--- | :--- | :--- | :--- |
 | regionid | string | true | ID de la región que genera el evento. |
-| regioneventtype | int | true | Tipo de evento de región que se está generando. 1 para la entrada y 2 para la salida. |
+| regioneventtype | int | true | Tipo de evento de región que se genera. 1 para la entrada y 2 para la salida. |
 
 ## Eventos enviados por la extensión Places
 
