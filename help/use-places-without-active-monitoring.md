@@ -3,13 +3,16 @@ title: Usar el servicio de lugares sin supervisión de región activa
 description: Esta sección proporciona información sobre cómo utilizar el servicio de lugares sin supervisión de región activa.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 1%
 
 ---
 
 
 # Usar el servicio de lugares sin supervisión de región activa {#use-places-without-active-monitoring}
 
-Es posible que los casos de uso de la aplicación no requieran supervisión de región activa. El servicio de lugares aún se puede utilizar para integrar los datos de ubicación de los usuarios con otros productos de la plataforma de experiencias.
+Es posible que los casos de uso de la aplicación no requieran supervisión de región activa. El servicio de lugares aún se puede utilizar para integrar los datos de ubicación de los usuarios con otros productos de Experience Platform.
 
 ## Requisitos previos
 
