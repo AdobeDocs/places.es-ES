@@ -3,6 +3,9 @@ title: Preguntas frecuentes
 description: Este tema proporciona información adicional sobre algunas preguntas más frecuentes.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
