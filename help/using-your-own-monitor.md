@@ -3,6 +3,9 @@ title: Uso de su propio monitor
 description: También puede utilizar sus servicios de supervisión e integrarse con el servicio de lugares mediante las API de extensión del servicio de lugares.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +34,7 @@ En iOS, complete los siguientes pasos:
    }
    ```
 
-1. Extraiga la información de los `ACPPlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
+1. Extraiga la información de los `ACPPlacesPOI` objetos obtenidos y el inicio que supervisa dichos puntos de interés.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -57,7 +60,7 @@ En iOS, complete los siguientes pasos:
 
 1. Pase las actualizaciones de ubicación obtenidas de los servicios Google Play o de los servicios de ubicación de Android a Places Extension.
 
-1. Utilice la API de `getNearbyPointsOfInterest` ubicación para obtener la lista de `PlacesPoi` objetos alrededor de la ubicación actual.
+1. Utilice la `getNearbyPointsOfInterest` API de extensión de lugares para obtener la lista de `PlacesPoi` objetos en la ubicación actual.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -75,7 +78,7 @@ En iOS, complete los siguientes pasos:
    };
    ```
 
-1. Extraiga los datos de los `PlacesPOI` objetos obtenidos y comience a monitorear dichos puntos de interés.
+1. Extraiga los datos de los `PlacesPOI` objetos obtenidos y el inicio que supervisa dichos puntos de interés.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -106,7 +109,7 @@ Al llamar a la `getNearbyPointsOfInterest` API se produce una llamada de red que
 >
 >Debe llamar a la API con moderación o solo cuando haya un cambio significativo en la ubicación del usuario.
 
-## Anuncio de eventos de geofencia
+## Eventos de geofencia de contabilización
 
 ### iOS
 
@@ -124,7 +127,7 @@ En iOS, llame a la API de `processGeofenceEvent` lugares en el `CLLocationManage
 
 ### Android
 
-En Android, llame al `processGeofence` método junto con el evento de transición correspondiente en el receptor de difusión de Geofence. Es posible que desee depurar la lista de geofences recibidas para evitar entradas/salidas duplicadas.
+En Android, llame al `processGeofence` método junto con el evento de transición adecuado en el receptor de difusión de Geofence. Es posible que desee depurar la lista de geofences recibidas para evitar entradas/salidas de duplicado.
 
 ```java
 void onGeofenceReceived(final Intent intent) {
