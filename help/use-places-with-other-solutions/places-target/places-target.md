@@ -1,21 +1,24 @@
 ---
 title: Adobe Target
-description: Esta sección proporciona información sobre cómo utilizar el servicio de lugares con Adobe Destinatario.
+description: Esta sección proporciona información sobre cómo utilizar el servicio de lugares con Adobe Target.
 translation-type: tm+mt
 source-git-commit: d33e4e2d798c7048bdd275cdf6c0aabf3434f789
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
 
-# Usar el servicio de lugares con Adobe Destinatario {#places-target}
+# Usar el servicio de lugares con Adobe Target {#places-target}
 
 Este documento supone que tiene implementada la extensión Places en la aplicación. Si necesita ayuda para implementar la extensión Lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
 
-Una vez que la extensión Places envía eventos para entradas y salidas, puede aprovechar las reglas de Launch para adjuntar los datos del servicio de lugares a sus eventos del SDK de Adobe Destinatario. Con la propiedad que desee seleccionada en Iniciar, puede crear este tipo de regla completando las siguientes tareas:
+Una vez que la extensión Places envía eventos para entradas y salidas, puede aprovechar las reglas de Launch para adjuntar los datos del servicio de lugares a sus eventos del SDK de Adobe Target. Con la propiedad que desee seleccionada en Iniciar, puede crear este tipo de regla completando las siguientes tareas:
 
 ## 1. Crear una regla
 
-1. En la **[!UICONTROL Rules]** ficha, haga clic en **[!UICONTROL Create New Rule]**.
+1. On the **[!UICONTROL Rules]** tab, click **[!UICONTROL Create New Rule]**.
 
    Recuerde la información siguiente:
 
@@ -28,7 +31,7 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
    En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
-1. En la **[!UICONTROL Events]** sección, haga clic en **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Target]**.
 1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Content Requested]**.
 1. Haga clic en **[!UICONTROL Keep Changes]**.
@@ -43,7 +46,7 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
 En el ejemplo siguiente, se crea una condición que hace que la regla se active solo para los usuarios que han iniciado la aplicación cinco o más veces.
 
-1. En la **[!UICONTROL Conditions]** sección, haga clic en **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
 1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Launches]**.
 1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición se lea **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
@@ -53,7 +56,7 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se active 
 
 ## 4. Definir la acción
 
-1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
 1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
 1. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este Evento.
@@ -67,7 +70,7 @@ En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` a la **[!UICON
 >
 >Esta carga útil JSON utiliza una notación especial para el `request` objeto. En el evento original, `request` es una matriz de objetos anónimos. Cuando se adjuntan datos a todos los objetos de una matriz mediante Adjuntar datos, la `[*]` anotación en una clave que contenga una matriz hace que la carga útil se aplique a todos los objetos de esa matriz.
 >
->La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la`request`matriz_.
+>La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la `request` matriz_.
 
 ![definir la acción](/help/assets/ad-setAction-target.png)
 
