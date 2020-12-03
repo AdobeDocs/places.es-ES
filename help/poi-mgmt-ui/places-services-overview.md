@@ -1,13 +1,16 @@
 ---
-title: Visión general del servicio de lugares
+title: Información general del servicio de lugares
 description: 'Esta sección proporciona información sobre la creación y el uso de puntos de interés (POI). '
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 
-# Visión general del servicio de lugares {#places-service-overview}
+# Información general del servicio de lugares {#places-service-overview}
 
 Los puntos de interés se crean y administran en la base de datos del servicio de lugares mediante la interfaz de usuario del servicio de lugares.
 
