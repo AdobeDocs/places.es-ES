@@ -3,13 +3,16 @@ title: Establecer una clasificación en las bibliotecas
 description: Defina una clasificación en las bibliotecas mediante la API de REST de lugares.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 
 # Establecer una clasificación en las bibliotecas {#set-rank-on-libraries}
 
-Método PUT que permite definir un orden de clasificación en todas las bibliotecas.
+Método PUT que permite establecer un orden de clasificación en todas las bibliotecas.
 
 ## Solicitud
 
@@ -24,7 +27,7 @@ Método PUT que permite definir un orden de clasificación en todas las bibliote
 -H 'Accept-Language: en-US'
 ```
 
-## Datos PUT
+## Datos del PUT
 
 ```
 "library_rank_order": ["dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b","ea45781f-26af-44b1-b4f8-43baf5f0fe28"]  
