@@ -3,13 +3,16 @@ title: Leer todas las bibliotecas de su organización
 description: Lea todas las bibliotecas de su organización mediante la API de Places REST.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
 
 # Leer todas las bibliotecas de su organización {#read-all-lib-in-org}
 
-Método GET que devuelve los detalles de todas las bibliotecas de la organización.
+Método de GET que devuelve los detalles de todas las bibliotecas de la organización.
 
 ## Solicitud
 
