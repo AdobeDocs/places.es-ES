@@ -1,23 +1,26 @@
 ---
-title: Servicio de lugares
+title: Servicio de Places
 description: 'El servicio de lugares es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva. '
 translation-type: tm+mt
 source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
-# Servicio de lugares {#home}
+# Servicio de Places {#home}
 
-![&quot;Servicio de lugares&quot;](/help/assets/places-service-header.png)
+![&quot;Servicio de Places&quot;](/help/assets/places-service-header.png)
 
 La ubicación es un contexto importante para comprender y relacionarse con los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva.
 
-Places Service, anteriormente conocido como Adobe Experience Platform Location Service, es un servicio de ubicación geográfica que permite a las aplicaciones móviles con reconocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces de SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
+Places Service, anteriormente conocido como Adobe Experience Platform Location Service, es un servicio de ubicación geográfica que permite a las aplicaciones móviles con reconocimiento de ubicación comprender el contexto de ubicación mediante el uso de interfaces SDK enriquecidas y fáciles de usar, acompañadas de una base de datos flexible de puntos de interés (POI).
 
 El servicio de lugares le permite lograr lo siguiente:
 
-* Cree y administre una base de datos de puntos de interés que se puede aprovechar con otras soluciones de Adobe Experience Cloud.
+* Cree y administre una base de datos de puntos de interés que se pueda aprovechar con otras soluciones de Adobe Experience Cloud.
 * Adjunte metadatos personalizados a los puntos de interés para hacerlos más ricos y significativos mediante la especificación de atributos adicionales.
 * Visualice los puntos de interés en un mapa para comprender fácilmente el contexto espacial y añadir/editar atributos de metadatos.
 * Configure el SDK en Adobe Experience Platform Launch para definir las reglas activadas por la ubicación y las condiciones basadas en metadatos.
@@ -28,9 +31,9 @@ Esto le permitirá realizar acciones desde las señales de ubicación en tiempo 
 Estas son algunas de las formas en que puede utilizar Lugares:
 
 * Enviar una notificación en tiempo real cuando alguien entre en un POI, *&quot;Oye...bienvenidos al estadio&quot;.*
-* Analizar el tráfico de pies de sus propias tiendas en comparación con las de su competidor.
-* Segmente una audiencia según su comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
-* Diríjase a un usuario con una experiencia en la tienda cuando sea pertinente.
+* Analice el tráfico de pies de sus propias tiendas en comparación con las tiendas de competidoras.
+* Segmentar una audiencia según el comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
+* Destinatario a un usuario con una experiencia en el almacén cuando sea pertinente.
 
 ## Componentes de Places Service
 
@@ -74,13 +77,13 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
 * Una **biblioteca** es una recopilación de puntos de interés, que se agrupan para adjuntar fácilmente reglas a un conjunto en lugar de un punto de interés.
 
-* Una **extensión** es la extensión Inicio de plataforma de experiencia necesaria para integrar el SDK de lugares en las aplicaciones móviles.
+* Una **extensión** es la extensión de Experience Platform Launch necesaria para integrar el SDK de Places en sus aplicaciones móviles.
 
    Extensión utilizada con otros SDK móviles para añadir contexto de ubicación a sus experiencias.
 
 * Una **organización** es la entidad de Adobe que identifica a su compañía en Adobe Experience Cloud.
 
-   Normalmente, una organización es el nombre de su empresa. Sin embargo, una empresa puede tener más de una organización. El administrador de la organización puede configurar grupos y usuarios y la funcionalidad de inicio de sesión único.
+   Normalmente, una organización es el nombre de su compañía. Sin embargo, una compañía puede tener más de una organización. El administrador de la organización puede configurar grupos y usuarios y la funcionalidad de inicio de sesión único.
 
 * El **orgID** es el ID que representa a su organización en Adobe Experience Platform.
 
@@ -88,4 +91,4 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
-   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+   Para obtener más información, consulte [Información general](https://docs.adobe.com/content/help/es-ES/id-service/using/intro/overview.html).
