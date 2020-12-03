@@ -1,13 +1,16 @@
 ---
-title: Crear un POI
+title: Crear un punto de interés
 description: Cree un punto de interés mediante las API de REST de Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
 
-# Crear un POI {#create-a-poi}
+# Crear un punto de interés {#create-a-poi}
 
 Método POST que permite crear un punto de interés.
 
