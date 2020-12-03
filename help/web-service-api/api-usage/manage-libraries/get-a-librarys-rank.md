@@ -3,13 +3,16 @@ title: Obtener la clasificación de una biblioteca
 description: Obtenga la clasificación de una biblioteca mediante la API de REST de lugares.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 7%
 
 ---
 
 
 # Obtener la clasificación de una biblioteca {#get-library-rank}
 
-Método GET que permite clasificar las bibliotecas.
+Método de GET que permite clasificar las bibliotecas.
 
 ## Solicitud
 
