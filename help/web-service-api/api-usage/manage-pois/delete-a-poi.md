@@ -3,6 +3,9 @@ title: Eliminar un punto de interés
 description: Elimine un punto de interés mediante las API de Places REST.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
