@@ -1,8 +1,11 @@
 ---
 title: Información general
-description: Explicación y uso de las API de consulta.
+description: Explicación y uso de las API de Consulta.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -10,7 +13,7 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 # API de consulta
 
-Método GET que permite consultar los puntos de interés más cercanos al llamador.
+Método de GET que permite realizar consultas de los puntos de interés más cercanos al llamador.
 
 ## Solicitud
 
@@ -41,7 +44,7 @@ Los argumentos se proporcionan como los siguientes parámetros de consulta:
 
 * (**Requerido**) `library`
 
-   ID de la biblioteca que se va a consultar. Para consultar varias bibliotecas, asegúrese de incluir varias copias del parámetro library en la consulta.
+   ID de la biblioteca que se va a consulta. Para realizar la consulta de varias bibliotecas, asegúrese de incluir varias copias del parámetro library en la consulta.
 
 Este es un ejemplo del formato JSON devuelto correctamente:
 
