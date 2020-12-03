@@ -3,13 +3,16 @@ title: Leer todos los puntos de interés de una biblioteca
 description: Lea todos los puntos de interés de una biblioteca mediante las API de REST de Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
 
 # Leer todos los puntos de interés de una biblioteca {#read-all-pois-library}
 
-Método GET que devuelve todos los puntos de interés de una biblioteca.
+Método de GET que devuelve todos los puntos de interés de una biblioteca.
 
 ## Solicitud
 
