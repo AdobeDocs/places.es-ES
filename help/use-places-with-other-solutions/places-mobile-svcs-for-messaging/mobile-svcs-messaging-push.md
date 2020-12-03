@@ -3,6 +3,9 @@ title: Notificaciones push
 description: Esta sección muestra cómo utilizar el servicio de lugares con notificaciones push.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 8%
 
 ---
 
@@ -27,10 +30,10 @@ Antes de comenzar, asegúrese de haber completado las siguientes tareas:
 
 ## Enviar una notificación
 
-En la **[!UICONTROL Audience]**ficha del flujo de trabajo *Crear notificación*push, puede crear la audiencia para este mensaje de una de las siguientes formas:
+En la **[!UICONTROL Audience]** ficha del flujo de trabajo *Crear notificación* push, puede crear la audiencia para este mensaje de una de las siguientes formas:
 
-* En la lista **[!UICONTROL Analytics Segments]**desplegable, seleccione un segmento de Adobe Analytics creado anteriormente.
+* En la lista **[!UICONTROL Analytics Segments]** desplegable, seleccione un segmento de Adobe Analytics creado anteriormente.
 
-* En la **[!UICONTROL Custom Segment]**sección, cree una audiencia utilizando los parámetros de segmento personalizados disponibles.
+* En la **[!UICONTROL Custom Segment]** sección, genere una audiencia utilizando los parámetros de segmento personalizados disponibles.
 
 ![configuración de un mensaje push](/help/assets/push-set-up.png)
