@@ -3,6 +3,9 @@ title: Envío de datos de entrada y salida de puntos de interés a Analytics
 description: Esta sección proporciona información sobre cómo enviar datos de entrada y salida de puntos de interés a Analytics.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
 
@@ -14,35 +17,35 @@ source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 >
 >En esta sección se asume que se ha implementado el servicio de lugares en la aplicación. Para obtener más información sobre la implementación del servicio de lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
 
-Después de que el servicio de lugares envíe los eventos de entrada y salida, puede crear reglas en Inicio de plataforma de experiencia para enviar datos del servicio de lugares a Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
+Después de que el servicio de lugares envíe los eventos de entrada y salida, puede crear reglas en Experience Platform Launch para enviar datos del servicio de lugares a Adobe Analytics. Para crear este tipo de regla, seleccione su propiedad en Iniciar y complete los siguientes pasos:
 
 ## 1. Crear una regla
 
-1. En la **[!UICONTROL Rules]**ficha, haga clic en**[!UICONTROL Create New Rule]**.
+1. On the **[!UICONTROL Rules]** tab, click **[!UICONTROL Create New Rule]**.
 
    Recuerde la información siguiente:
 
-   * Si no tiene reglas existentes para esta propiedad, el **[!UICONTROL Create New Rule]**botón estará en medio de la pantalla.
-   * Si la propiedad tiene reglas, el **[!UICONTROL Create New Rule]**botón estará en la parte superior derecha de la pantalla.
+   * Si no tiene reglas existentes para esta propiedad, el **[!UICONTROL Create New Rule]** botón estará en medio de la pantalla.
+   * Si la propiedad tiene reglas, el **[!UICONTROL Create New Rule]** botón estará en la parte superior derecha de la pantalla.
 
 ## 2. Seleccionar un evento
 
 1. Escriba un nombre significativo para la regla.
 
-   De este modo, la regla será fácilmente reconocible en la lista de reglas. En este ejemplo, el nombre de la regla es **[!UICONTROL Send Data to Analytics]**.
+   De esta manera, la regla será fácilmente reconocible en su lista de reglas. En este ejemplo, el nombre de la regla es **[!UICONTROL Send Data to Analytics]**.
 
-1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
+1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Places Service]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places Service]**.
 
-1. En la lista **[!UICONTROL Event Type]**desplegable, seleccione**[!UICONTROL Enter POI]**.
+1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Enter POI]**.
 
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 
    ![&quot;seleccionar un evento&quot;](/help/assets/pt-selectEvent.png)
 
 
-## 3. Agregar condiciones
+## 3. Añadir condiciones
 
 >[!IMPORTANT]
 >
@@ -50,11 +53,11 @@ Después de que el servicio de lugares envíe los eventos de entrada y salida, p
 
 En este ejemplo, se crea una condición que hace que la regla se active solo cuando el nombre del punto de interés actual es igual a **[!UICONTROL My POI]**.
 
-1. En la **[!UICONTROL Conditions]**sección, haga clic en**[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Places Service]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Places Service]**.
 
-1. En la lista **[!UICONTROL Condition Type]**desplegable, seleccione**[!UICONTROL Name]**.
+1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Name]**.
 
 1. En el panel derecho, en el campo de texto, introduzca **[!UICONTROL My POI]**.
 
@@ -65,11 +68,11 @@ En este ejemplo, se crea una condición que hace que la regla se active solo cua
 
 ## 4. Definir la acción
 
-1. En la **[!UICONTROL Actions]**sección, haga clic en**[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. En la lista **[!UICONTROL Extension]**desplegable, seleccione**[!UICONTROL Adobe Analytics]**.
+1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Analytics]**.
 
-1. En la lista **[!UICONTROL Action Type]**desplegable, seleccione**[!UICONTROL Track]**.
+1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Track]**.
 
 1. En el panel derecho, agregue la acción o el estado que desee enviar a Analytics.
 
