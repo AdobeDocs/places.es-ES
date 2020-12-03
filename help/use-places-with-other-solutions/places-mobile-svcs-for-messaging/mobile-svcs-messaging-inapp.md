@@ -3,6 +3,9 @@ title: Notificaciones en la aplicación
 description: Esta sección muestra cómo utilizar el servicio de lugares con la mensajería en la aplicación.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +20,7 @@ La siguiente información muestra cómo configurar los mensajes en la aplicació
 
 ## Mensaje en la aplicación
 
-Mobile Services le permite utilizar los datos de ubicación que se envían a Analytics como evento o condición desencadenador de un mensaje en la aplicación. Si los mensajes en la aplicación se activan desde el SDK y no es necesario esperar a que Analytics procese los datos, los mensajes pueden aparecer en tiempo real en cuanto se produce el activador.
+Mobile Services le permite utilizar los datos de ubicación que se envían a Analytics como eventos desencadenadores o condición para un mensaje en la aplicación. Si los mensajes en la aplicación se activan desde el SDK y no es necesario esperar a que Analytics procese los datos, los mensajes pueden aparecer en tiempo real en cuanto se produce el activador.
 
 ### Notificaciones locales
 
@@ -29,30 +32,30 @@ Esta es una lista de los tipos de mensajería en la aplicación disponibles:
 
 Estos tipos son mensajes en la aplicación porque los activa el SDK. Las notificaciones locales parecen notificaciones push porque aparecen cuando la aplicación está en segundo plano. Estas notificaciones también envían notificaciones en tiempo real cuando los usuarios entran o salen de los puntos de interés mientras la aplicación está en segundo plano. Para obtener más información, consulte [Extensión](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)del monitor de lugares.
 
-### Requisitos previos
+### Requisitos previos 
 
 Antes de empezar, debe saber cómo enviar y crear un mensaje en la aplicación en Mobile Services y cómo funcionan los activadores. Para obtener más información, consulte [Crear un mensaje en la aplicación.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
 ## Reglas en Experience Platform Launch
 
-Puede crear reglas de inicio de plataforma de experiencia que envíen a Analytics los datos que desea poder usar como parte de las reglas de activación de mensajes en la aplicación. Puede utilizar los datos de las extensiones Lugares en las reglas de inicio de la plataforma de experiencia como eventos y/o condiciones según el caso de uso.
+Puede crear reglas de Experience Platform Launch que envíen a Analytics los datos que desea poder utilizar como parte de las reglas de activación de mensajes en la aplicación. Puede utilizar los datos de las extensiones Lugares en las reglas de Experience Platform Launch como eventos y/o condiciones según el caso de uso.
 
-* Uso de los datos de ubicación como evento desencadenador.
+* Uso de datos de ubicación como evento de activación.
 
    Por ejemplo, puede enviar datos a Analytics cuando un usuario introduce un punto de interés.
 
 * Uso de datos de ubicación como condición para un evento de activación.
 
-   Por ejemplo, si ha creado una etiqueta de metadatos personalizada en el servicio de lugares para el tiempo en diferentes puntos de interés, puede utilizar esos metadatos como parámetro para la condición Regla. Aunque puede utilizar esta condición con un evento de entrada de puntos de interés descrito anteriormente, también puede usar la condición como contexto para cualquier evento.
+   Por ejemplo, si ha creado una etiqueta de metadatos personalizada en el servicio de lugares para el tiempo en diferentes puntos de interés, puede utilizar esos metadatos como parámetro para la condición Regla. Aunque puede usar esta condición con un evento de entrada de puntos de interés descrito anteriormente, también puede usar la condición como contexto para cualquier evento.
 
-Una vez configurada la regla con los parámetros de condición y evento adecuados, complete la configuración de la regla configurando la acción para enviar datos a Analytics.
+Una vez configurada la regla con el evento y los parámetros de condición adecuados, complete la configuración de la regla configurando la acción para enviar datos a Analytics.
 
 ## Creación de una acción
 
 Para crear una acción:
 
 1. Seleccione la extensión **[!UICONTROL Adobe Analytics]**.
-1. En la lista **[!UICONTROL Action type]**desplegable, seleccione**[!UICONTROL Track.]**
+1. En la lista **[!UICONTROL Action type]** desplegable, seleccione **[!UICONTROL Track.]**
 1. Escriba un nombre para la acción.
 1. En el panel derecho, en **[!UICONTROL Context Data]**, seleccione el par clave-valor para establecer los datos de contexto que se enviarán a Analytics.
 
@@ -70,14 +73,14 @@ Este es un ejemplo de la regla completa:
 
 ## Creación de un mensaje en la aplicación en Mobile Services
 
-Como parte de los parámetros de activador, puede crear la audiencia del mensaje con datos del servicio de lugares de una de las siguientes formas:
+Como parte de los parámetros de activador, puede crear la audiencia para el mensaje con datos del servicio de lugares de una de las siguientes maneras:
 
 * Uso de acciones específicas de la ubicación, como una entrada o una salida.
-* Uso de metadatos de puntos de interés que se envían como datos de contexto para reducir el destino de la audiencia.
+* Uso de metadatos de puntos de interés que se envían como datos de contexto para reducir el destinatario de la audiencia.
 
-   Esta opción se puede utilizar con una acción específica de una ubicación, como entrada, o bien como contexto para otro evento, como un inicio o un clic de botón.
+   Esta opción se puede utilizar con una acción específica de la ubicación, como la entrada, o bien como contexto para otro evento, como un inicio o un clic en un botón.
 
-   A continuación se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que especifican un punto de interés que tiene **[!UICONTROL Adobe]**el nombre:
+   A continuación se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que especifican un punto de interés que tiene **[!UICONTROL Adobe]** el nombre:
 
    ![parámetros desencadenadores](/help/assets/trigger-parameters.png)
 
