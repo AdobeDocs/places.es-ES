@@ -14,7 +14,7 @@ ht-degree: 2%
 
 En esta sección, aprenderá a utilizar la información de ubicación geográfica histórica para las notificaciones push de destinatario que se envían a través de Adobe Campaign Standard.
 
-## Requisitos previos
+## Requisitos previos 
 
 Antes de comenzar, complete las siguientes tareas:
 
@@ -53,14 +53,14 @@ Las reglas de Experience Platform Launch le permiten crear flujos de trabajo com
 
 1. En la propiedad móvil del Experience Platform Launch, en la **[!UICONTROL Rules]** ficha, haga clic en **[!UICONTROL Add Rule]**.
 1. En la **[!UICONTROL Events]** sección, haga clic **[!UICONTROL +]** y seleccione **[!UICONTROL Places Service]** como extensión.
-1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
+1. Para **[!UICONTROL Event Type]**, seleccione **[!UICONTROL Enter POI]**.
 1. Asigne un nombre a la regla; por ejemplo, **el usuario ha introducido un punto de interés**.
 1. Haga clic en **[!UICONTROL Keep Changes]**.
 1. Deje la **[!UICONTROL Conditions]** sección en blanco.
 
    Esta sección le permite filtrar o aplicar restricciones en el momento en que esta regla debe activarse.
 
-1. En la **[!UICONTROL Actions]** sección, haga clic en **[!UICONTROL +]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL +]**.
 1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]** y, en la **[!UICONTROL Action Type]** lista desplegable, seleccione **[!UICONTROL Send Postback]**.
 1. En **[!UICONTROL URL]**, debe construir el punto final de ubicaciones de Campaign Standard.
 
