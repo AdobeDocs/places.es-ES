@@ -3,6 +3,9 @@ title: Referencia de la API de Places Monitor
 description: Una lista de las API para el Monitor de lugares.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 2%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ## Extensión del monitor de lugares de registro
 
-Registra la extensión del monitor de lugares con el centro de eventos principal.
+Registra la extensión del monitor de lugares con el concentrador de Evento principal.
 
 ### RegisterExtension (Android)
 
@@ -27,7 +30,7 @@ public static void registerExtension();
 
 #### Ejemplo
 
-Llame a este método en el `onCreate` método donde se inicializa el resto del SDK de la plataforma de experiencia.
+Llame a este método en el `onCreate` método donde se inicializa el resto del SDK de Experience Platform.
 
 ```java
 public class MobileApp extends Application {
@@ -111,7 +114,7 @@ Esta es la sintaxis y el código de ejemplo de esta API:
 NSString *placesMonitorVersion = [ACPPlacesMonitor extensionVersion];
 ```
 
-## Iniciar supervisión de dispositivos
+## Supervisión de dispositivos de inicio
 
 Comience el seguimiento de la ubicación del dispositivo y la supervisión de lugares cercanos.
 
@@ -145,7 +148,7 @@ PlacesMonitor.start();
 
 >[!CAUTION]
 >
->Si la llamada para iniciar la supervisión se realiza antes de que el SDK haya terminado de inicializarse, puede que se ignore.
+>Si la llamada a la supervisión de inicio se realiza antes de que el SDK haya terminado de inicializarse, puede que se ignore.
 
 Puede asegurarse de que el SDK ha finalizado la inicialización llamando `start` desde la llamada de retorno proporcionada a `ACPCore::start:`.
 
@@ -279,7 +282,7 @@ El permiso de ubicación se puede establecer en uno de los siguientes valores:
 
 >[!IMPORTANT]
 >
->Si se concede el permiso al usuario de la aplicación, las geofences no se registrarán en el sistema operativo. `WHILE_USING_APP` Como resultado, la extensión del monitor de lugares no activará eventos de entrada y salida en las regiones que están teniendo lugar en segundo plano.
+>Si al usuario de la aplicación se le concede el permiso, las geofences no se registrarán en el sistema operativo. `WHILE_USING_APP` Como resultado, la extensión Monitor de lugares no activará eventos de entrada y salida en las regiones que están teniendo lugar en segundo plano.
 
 Esta es la sintaxis y el código de ejemplo de esta API:
 
@@ -311,7 +314,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 Esta API establece el tipo de solicitud de autorización de ubicación para la que se solicitará al usuario.
 
-Para configurar que el mensaje de autorización correspondiente se muestre al usuario, llame `SetRequestAuthorizationLevel` antes de llamar `[ACPPlacesMonitor start]`. Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame a esta API antes del `[ACPPlacesMonitor start]`. Al llamar a este método mientras se supervisa activamente, se actualizará el nivel de autorización de ubicación al valor de autorización solicitado. Si el nivel de autorización solicitado ya ha sido proporcionado o denegado por el usuario de la aplicación o si hay una rebaja del permiso de `ACPPlacesRequestAuthorizationLevelAlways` `ACPPlacesRequestAuthorizationLevelWhenInUse` a la autorización, este método no tiene ningún efecto.
+Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame `SetRequestAuthorizationLevel` antes de llamar `[ACPPlacesMonitor start]`. Para configurar el mensaje de autorización adecuado para que se muestre al usuario, llame a esta API antes del `[ACPPlacesMonitor start]`. Al llamar a este método mientras se supervisa activamente, se actualizará el nivel de autorización de ubicación al valor de autorización solicitado. Si el nivel de autorización solicitado ya ha sido proporcionado o denegado por el usuario de la aplicación o si se produce una rebaja del permiso de `ACPPlacesRequestAuthorizationLevelAlways` a la `ACPPlacesRequestAuthorizationLevelWhenInUse` autorización, este método no tiene ningún efecto.
 
 El nivel de autorización se puede establecer en uno de los siguientes valores:
 
