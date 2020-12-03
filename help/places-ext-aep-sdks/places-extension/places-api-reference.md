@@ -3,6 +3,9 @@ title: Referencia de la API de lugares
 description: Información sobre las referencias de API en Lugares.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 32%
 
 ---
 
@@ -17,7 +20,7 @@ Cuando un dispositivo cruza uno de los límites predefinidos de la región del s
 
 ### ProcessGeofence (Android)
 
-Procesar un evento de `Geofence` región para el `transitionType`.
+Procesar un evento de `Geofence` región para el proporcionado `transitionType`.
 
 Pasa el `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Actualmente `Geofence.GEOFENCE_TRANSITION_ENTER` y `Geofence.GEOFENCE_TRANSITION_EXIT` son compatibles.
 
@@ -309,7 +312,7 @@ Este es un ejemplo de código para este método:
 
 ### Borrar (Android)
 
-Borra los datos del lado del cliente para la extensión Places en el estado compartido, el almacenamiento local y la memoria.
+Borra los datos del lado del cliente para la extensión Places en el estado compartido, el almacenamiento local y en la memoria.
 
 **Sintaxis**
 
