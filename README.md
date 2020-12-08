@@ -1,16 +1,12 @@
 ---
-source-git-commit: ca711e5f9d05ff01ab87a39377b09fad258fbb90
+source-git-commit: 8688bd4a613b71f205909588bd2a3391e1cc8793
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 82%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
-
-| EXL-PR | EXL | Vista previa | Activar | Publicadas | Ayuda |
-|--- |--- |--- |--- |--- |--- |
-| [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_pr-exl/lastBuild/) | [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_exl/lastBuild/lastBuild) | [URL de previsualización](https://experienceleague.corp.adobe.com/docs/places/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Dirección URL en directo](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | [Guía de creación](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Agradecemos las contribuciones de contenido de nuestra comunidad y de los empleados de Adobe que no forman parte de los equipos de documentación.
 
@@ -24,7 +20,7 @@ Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/en
 
 La manera en que contribuye depende de quién es usted y del tipo de cambios con los que desee contribuir:
 
-### Cambios menores o solicitudes
+### Cambios menores  o solicitudes
 
 Si desea enviar una solicitud, haga clic en el vínculo **Registrar un problema** de un artículo para crear un caso en GitHub. Especifique un título y una descripción y, a continuación, haga clic en **Enviar nuevo problema**.
 
@@ -42,7 +38,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Cambios importantes de los empleados de Adobe
 
-Si es redactor técnico, administrador de programas o desarrollador del equipo de producto de una solución de [!UICONTROL Adobe Experience Cloud] y debe contribuir a redactar o ampliar artículos técnicos, utilice el repositorio privado que hay en `https://git.corp.adobe.com/AdobeDocs`. Consulte la Guía [de colaboración](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html)interna.
+Si es redactor técnico, administrador de programas o desarrollador del equipo de producto de una solución de [!UICONTROL Adobe Experience Cloud] y debe contribuir a redactar o ampliar artículos técnicos, utilice el repositorio privado que hay en `https://git.corp.adobe.com/AdobeDocs`. Consulte la [Guía de colaboración interna](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
