@@ -60,7 +60,7 @@ ht-degree: 19%
       + [Referencia de la API de lugares](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Coloca la referencia del evento](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Objetos de lugares personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Extensión de monitor de lugares {#places-monitor-extension}
+   + Coloca la extensión del monitor {#places-monitor-extension}
       + [Extensión de monitor de lugares](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
       + [Uso de la extensión Monitor de lugares](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
       + [Referencia de la API de Places Monitor](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
@@ -70,7 +70,7 @@ ht-degree: 19%
    + [Utilizar el servicio de lugares como parte del flujo de trabajo del Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definir elementos de datos](use-places-launch-workflow/define-data-elements.md)
    + [Crear reglas de entrada y salida](use-places-launch-workflow/create-rule-places-property.md)
-+ Usar el servicio de lugares con otras soluciones de Adobe {#use-places-with-other-solutions}
++ Utilizar el servicio de lugares con otras soluciones de Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Usar el servicio de lugares con Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Envío de datos de entrada y salida de puntos de interés a Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
