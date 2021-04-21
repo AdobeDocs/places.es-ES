@@ -1,17 +1,18 @@
 ---
-title: Objetos de lugares personalizados
+title: Objetos de Lugares personalizados
+description: Información sobre las clases nativas personalizadas utilizadas con las API de Places.
+exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 2f666081fa01c11e832b94c83f2fe2c66eb51766
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 7%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
+# Objetos de ubicaciones personalizados {#places-objects}
 
-# Objetos de lugares personalizados {#places-objects}
-
-Estas son las clases nativas personalizadas que se utilizarán con las API de lugares:
+Estas son las clases nativas personalizadas que se utilizarán con las API de Places:
 
 ## iOS
 
