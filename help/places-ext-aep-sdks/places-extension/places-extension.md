@@ -4,8 +4,8 @@ description: La extensión Places permite actuar en función de la ubicación de
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ Para añadir la extensión Places a la aplicación mediante Java:
 
 Para añadir la extensión Places a la aplicación mediante Objective-C o Swift:
 
-1. Agregue los Places y [Núcleo móvil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) bibliotecas en el proyecto. Tendrá que agregar los siguientes pods a su `Podfile`:
+1. Agregue los Places y [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) bibliotecas en el proyecto. Tendrá que agregar los siguientes pods a su `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
