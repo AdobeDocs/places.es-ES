@@ -1,187 +1,97 @@
 ---
-title: 'Obtener acceso al servicio Places '
+title: Obtener acceso al servicio Places
 description: En esta sección se proporciona información sobre cómo agregar un usuario al servicio y al Experience Platform Launch de Places para que el usuario pueda acceder al servicio de Places.
-translation-type: tm+mt
-source-git-commit: ecf50d67d4c08e79d9c3be64480f27d435fd7fcb
+exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
+source-git-commit: c9058e9b70c2ef97151078f43913963471730bd2
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 9%
+source-wordcount: '913'
+ht-degree: 1%
 
 ---
 
 # Obtener acceso al servicio Places {#adding-user-launch-places}
 
-Puede acceder al servicio Places desde el menú de acceso rápido de [Adobe Experience Cloud home](https://experience.adobe.com).
-Si su ID de usuario tiene acceso, verá el icono del servicio de Places como se indica a continuación:
+El servicio de Places ya está disponible en la interfaz de usuario de la recopilación de datos. Puede acceder a la Recopilación de datos desde el menú de acceso rápido situado en [Inicio de Adobe Experience Cloud](https://experience.adobe.com).
 
 ![menú acceso rápido](/help/assets/quickaccess.png)
 
-También puede acceder al servicio Places desde el menú de Adobe Experience Platform:
+También puede acceder a la Recopilación de datos desde el menú de Adobe Experience Platform:
 
 ![menú Experience Platform](/help/assets/solutionaccessmenu.png)
 
-Si no ve el servicio de Places en ninguno de estos menús, póngase en contacto con un administrador de su organización para agregar su ID de usuario al servicio principal de Places en el Admin Console.
+Si su ID de usuario tiene acceso, verá el icono Servicio de Places en el panel izquierdo, en Gestión de datos, en Recopilación de datos, como se indica a continuación:
 
-## Adición de un usuario al servicio y al Experience Platform Launch de Places
+![Panel izquierdo de recopilación de datos](/help/assets/places_in_data_collection.png)
 
-Para permitir que los usuarios accedan a la [IU del Experience Platform Launch](https://launch.adobe.com), deben agregarse al servicio principal de Places en el Admin Console como usuario. Para permitir que los usuarios tengan acceso al Experience Platform Launch, configurar propiedades móviles y utilizar Places con el SDK de Adobe Experience Platform, deben agregarse al Experience Platform Launch en el Admin Console y recibir los siguientes permisos para el Experience Platform Launch:
+Si no ve el servicio de Places en esta ubicación, póngase en contacto con un administrador de su organización para agregar su ID de usuario a Adobe Experience Platform en el Admin Console.
 
-* Todos los derechos de propiedad:
-   * Desarrollo
+## Añadir un usuario para acceder al servicio Places y a la recopilación de datos de Experience Adobe Experience Platform
+
+Places ahora se incluye con Adobe Experience Platform. Para permitir que los usuarios accedan al [Servicio de Places](https://experience.adobe.com/#/recopilación de datos/lugares), deben añadirse a Adobe Experience Platform en el Admin Console como usuario. Para permitir que los usuarios tengan acceso a la recopilación de datos de Experience Platform con los permisos necesarios para configurar propiedades móviles y utilizar Places con el SDK de Adobe Experience Platform, también deben agregarse a la recopilación de datos de Adobe Experience Platform en el Admin Console y se les deben otorgar los siguientes permisos para la recopilación de datos de Adobe Experience Platform:
+
+* Todos los permisos en Derechos de propiedad:
    * Aprobar
-   * Publicar
-   * Administrar extensiones
+   * Desarrollo
+   * Editar propiedad
    * Administrar entornos
+   * Administrar extensiones
+   * Publicar
 * Permiso Administrar propiedades en Derechos de compañía
 
-Si es la primera vez que agrega un usuario, complete los siguientes pasos para agregar usuarios a Experience Platform Launch y Servicio de Places. Si ha añadido usuarios anteriormente, es posible que se muestren varios perfiles, por lo que debe seleccionar el perfil correcto.
+Si es la primera vez que agrega un usuario, complete los siguientes pasos para agregar usuarios a la recopilación de datos de Adobe Experience Platform y Adobe Experience Platform. Si ha añadido usuarios anteriormente, es posible que se muestren varios perfiles, por lo que debe seleccionar el perfil correcto.
 
 >[!IMPORTANT]
 >
 >Solo los administradores de organización pueden acceder al Admin Console y añadir a los usuarios.
 
-### 1. Compruebe que el servicio y el Experience Platform Launch de Places están aprovisionados
+### 1. Compruebe que la recopilación de datos de Adobe Experience Platform y Adobe Experience Platform esté aprovisionada
 
-1. Inicie sesión en su organización Experience Cloud.
-1. En el lado superior derecho, haga clic en el selector de shell del Experience Cloud.
+1. Inicie sesión en su organización de Experience Cloud. [Inicio de Adobe Experience Cloud](https://experience.adobe.com).
+1. En el lado superior derecho, haga clic en el selector de shell del Experience Cloud para mostrar un menú desplegable.
 
    ![alternador de shell](/help/assets/places_shell_switcher1.png)
 
-1. En **[!UICONTROL Platform]**, haga clic en **[!UICONTROL Administration]**.
+1. En la parte inferior de la lista, haga clic en **[!UICONTROL Admin Console]**. (Un vínculo a la **[!UICONTROL Admin Console]** también se encuentra en la sección Acceso rápido ).
 
-   Si no ve **[!UICONTROL Administration]** en la lista, no es administrador. Debe ponerse en contacto con el administrador de organización para completar este procedimiento.
-
-1. En la página Administración del Experience Cloud, en la tarjeta **[!UICONTROL Admin Console]**, haga clic en **[!UICONTROL Llévame allí]**.
+   Si no ve **[!UICONTROL Admin Console]** en la lista, no es administrador. Debe ponerse en contacto con el administrador de organización para completar este procedimiento.
 
 1. En el Admin Console, si tiene acceso a varias organizaciones, compruebe que la organización correcta esté seleccionada en la parte superior derecha de la página.
 
-   Esta es la organización a la que agregará a los usuarios. Si no se ha seleccionado la organización correcta, haga clic en la organización y seleccione la organización en la lista desplegable.
+   Esta es la organización a la que agregará a los usuarios. Si no se ha seleccionado la organización correcta, haga clic en la organización y seleccione la organización correcta en la lista desplegable.
 
    >[!IMPORTANT]
    >
-   >Si no tiene acceso a una organización, significa que no tiene acceso de administrador a esa organización.
+   >Si la organización deseada no está en la lista desplegable, significa que no tiene acceso de administrador a esa organización.
 
-1. Compruebe que se muestran las tarjetas de **[!UICONTROL Adobe Experience Platform Launch]** y **[!UICONTROL Servicios principales de Places]**.
+1. En el Admin Console, haga clic en la pestaña Productos y compruebe que las tarjetas de **[!UICONTROL Recopilación de datos de Adobe Experience Platform]** y **[!UICONTROL Adobe Experience Platform]** se muestran.
 
    ![](/help/assets/places_provisioned1.png)
 
-   Si se muestran, el servicio de Places y el Experience Platform Launch se han aprovisionado para su organización. Si no se muestran, deben aprovisionarse para su organización.
+   Estos 2 productos se aprovisionan automáticamente a todas las organizaciones, por lo que deben estar presentes.
 
 
-### 2. Configure el perfil y añada los permisos
+### 2. Agregar usuario a estos productos
 
-1. Configure un perfil de Experience Platform Launch, que permite a los usuarios añadidos al perfil utilizar Experience Platform Launch y sus propiedades móviles con el SDK de Experience Platform.
+#### Agregar usuario para proporcionar acceso a la interfaz de usuario del servicio de Places
 
-   a. En la barra de menús, haga clic en **[!UICONTROL Product]**.
+1. En la pestaña Productos , haga clic en el **[!UICONTROL Adobe Experience Platform]** tarjeta.
+2. Se puede agregar un usuario a cualquier perfil dentro de **[!UICONTROL Adobe Experience Platform]** para obtener acceso a Places, no es necesario configurar ningún permiso específico.
+3. Elija un perfil (si hay más de uno) y haga clic en él para abrirlo.
+4. Haga clic en el icono azul **Agregar usuario** , rellene el usuario con su Adobe ID y nombre y, a continuación, haga clic en Guardar para completar la adición.
 
-   b. En el panel izquierdo, en la lista de productos, haga clic en **[!UICONTROL Adobe Experience Platform Launch]**.
+#### Agregar usuario a la recopilación de datos
 
-   * Los perfiles del Experience Platform Launch aparecen a la derecha.
-   * El Experience Platform Launch tiene un perfil predeterminado llamado *Launch - (nombre de organización)* .
+1. En la pestaña Productos , haga clic en el **[!UICONTROL Recopilación de datos de Adobe Experience Platform]** tarjeta.
+2. De forma predeterminada, un perfil denominado **Acceso a la recopilación de datos predeterminada** se habrá creado. Al agregar un usuario a este perfil, se asegurará de que tenga los permisos adecuados para trabajar con el servicio de Places y la recopilación de datos. Si se elige un perfil diferente, asegúrese de que se incluyen los permisos mencionados anteriormente.
+3. Elija un perfil (si hay más de uno) y haga clic en él para abrirlo.
+4. Haga clic en el icono azul **Agregar usuario** , rellene el usuario con su Adobe ID y nombre y, a continuación, haga clic en Guardar para completar la adición.
 
-      Si agregó usuarios anteriormente a Experience Platform Launch, es posible que vea varios perfiles en la lista.
+#### Agregue un usuario como desarrollador para el servicio Places.
 
-1. Seleccione el perfil correcto:
+Para los usuarios que también necesitan acceso a la API de REST del servicio Places, debe agregarlos como Desarrollador.
+1. En la pestaña Productos , haga clic en el **[!UICONTROL Adobe Experience Platform]** tarjeta.
+2. Si el usuario ya se ha agregado a **[!UICONTROL Adobe Experience Platform]** a través de las instrucciones anteriores, elija el mismo perfil utilizado anteriormente y haga clic en él.
+3. Dentro del perfil, haga clic en el **Desarrolladores** ficha
+4. Haga clic en el icono azul **Agregar desarrollador** , rellene el usuario con su Adobe ID y nombre y, a continuación, haga clic en Guardar para completar la adición.
 
-   a. Haga clic en el nombre del perfil predeterminado.
-
-   b. Haga clic en la pestaña **[!UICONTROL Permissions]**.
-
-   c. Haga clic en **[!UICONTROL Editar]** junto a **[!UICONTROL Derechos de propiedad]**.
-
-   d. En el panel izquierdo, haga clic en **[!UICONTROL + Agregar todo]**.
-
-   Este paso mueve todos los permisos disponibles a la lista de permisos incluidos.
-
-   e. Haga clic en **[!UICONTROL Derechos de compañía]**.
-
-   f. En el panel izquierdo, haga clic en **[!UICONTROL + Administrar propiedades]**.
-
-   g. Haga clic en **[!UICONTROL Guardar]**.
-
->[!IMPORTANT]
->
->Para el servicio de Places, hay un perfil predeterminado, pero no tiene que añadir permisos.
-
-Ha agregado correctamente permisos al perfil que ha creado.
-
-### 3. Agregue un usuario o un desarrollador a sus perfiles de Servicio de Places y Experience Platform Launch
-
-Puede agregar un usuario o un desarrollador a sus perfiles de Experience Platform Launch y servicio de Places.
-
-### Agregar un usuario
-
-Para agregar un usuario a sus perfiles de Servicio de Places y Experience Platform Launch:
-
-1. Agregue un usuario al perfil del Experience Platform Launch.
-
-   a. En la barra de menús, haga clic en **[!UICONTROL Información general]**.
-
-   b. En la tarjeta **[!UICONTROL Adobe Experience Platform Launch]**, compruebe lo siguiente:
-
-   * En la parte inferior de la tarjeta se muestran dos puntos.
-   * El punto de la izquierda es negro.
-
-      Si el punto del lado derecho es negro, solo puede añadir desarrolladores. Para agregar un usuario, haga clic en el punto de la izquierda.
-   c. Haga clic en **[!UICONTROL + Agregar usuarios]**.
-
-   d. Introduzca el Adobe ID del usuario.
-
-   e. Complete uno de los siguientes pasos:
-
-   * Si va a agregar un nuevo usuario, haga clic en **[!UICONTROL Nuevo usuario]** e introduzca el nombre y los apellidos del usuario.
-   * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
-
-   f. En la lista desplegable **[!UICONTROL Seleccione un perfil para este producto]**, seleccione el perfil que ha editado anteriormente.
-
-   g. Haga clic en **[!UICONTROL Guardar]**.
-
-1. Agregue un usuario a **[!UICONTROL Servicios principales de Places]**.
-
-   >[!TIP]
-   >
-   >Actualmente, todos los usuarios del Servicio de Places tienen los mismos permisos, por lo que no es necesario que edite los permisos.
-
-   a. En la tarjeta **[!UICONTROL Places Core Services]**, compruebe lo siguiente:
-
-   * En la parte inferior de la tarjeta se muestran dos puntos.
-   * El punto de la izquierda es negro.
-
-   b. Haga clic en **[!UICONTROL + Asignar usuarios]**.
-
-   c. Introduzca el Adobe ID del usuario.
-
-   d. Complete uno de los siguientes pasos:
-
-   * Si va a agregar un nuevo usuario, haga clic en **[!UICONTROL Nuevo usuario]** e introduzca el nombre y los apellidos del usuario.
-   * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
-
-   e. En la lista desplegable **[!UICONTROL Seleccione un perfil para este producto]**, seleccione el perfil Places .
-
-   f. Haga clic en **[!UICONTROL Guardar]**.
-
-### Agregar un desarrollador
-
-Para los usuarios que también necesitan acceso a la API de servicio web, debe agregarlos como Desarrollador.
-
-Para agregar un desarrollador:
-
-1. En la tarjeta **[!UICONTROL Servicios principales de Places]**, compruebe lo siguiente:
-
-   * En la parte inferior de la tarjeta se muestran dos puntos.
-   * Haga clic en el punto de la derecha para que **[!UICONTROL Assign Developers]** aparezca en la parte inferior de la tarjeta.
-
-1. Haga clic en **[!UICONTROL + Asignar desarrolladores]**.
-
-1. Introduzca el Adobe ID del usuario.
-
-1. Complete uno de los siguientes pasos:
-
-   * Si va a agregar un nuevo usuario, haga clic en **[!UICONTROL Nuevo usuario]** e introduzca el nombre y los apellidos del usuario.
-   * Si va a agregar un usuario existente, haga clic en el nombre del usuario que se muestra.
-
-1. En la lista desplegable **[!UICONTROL Seleccione un perfil para este producto]**, seleccione el perfil del servicio de Places.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-
-Los usuarios reciben un correo electrónico que les informa de que tienen acceso a Experience Platform Launch. Pueden iniciar sesión en la [Experience Platform Launch](https://launch.adobe.com) o en las [IU del servicio Places](https://places.adobe.com) de esta organización. Si completa el paso 4 del procedimiento **[!UICONTROL Añadir un desarrollador]**, el usuario también puede iniciar sesión en la [consola de Adobe I/O](https://console.adobe.io) para crear una integración de Places y utilizar la API de REST de Places.
+Después de completar los pasos anteriores, el usuario recibirá un correo electrónico que le notifica que tiene acceso a **[!UICONTROL Adobe Experience Platform]** y **[!UICONTROL Recopilación de datos de Adobe Experience Platform]**. A continuación, pueden iniciar sesión en el [Adobe Experience Cloud](https://experience.adobe.com) para esta organización y acceda a Servicio de Places y Recopilación de datos. Si también completa los pasos **[!UICONTROL Agregar un desarrollador]**, el usuario también puede iniciar sesión en la [Consola de Adobe Developer](https://developer.adobe.com/console/home) para crear un proyecto que proporcione acceso a la API de REST del servicio Places.
