@@ -2,9 +2,9 @@
 title: Servicio de Places
 description: El servicio de Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirla en una experiencia más personalizada y atractiva.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: c13da9ea3dc0cd574f2f9a496405867f7d36eae0
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '673'
 ht-degree: 10%
 
 ---
@@ -51,10 +51,6 @@ El servicio de Places consta de los siguientes componentes:
 * **Reglas de Launch**
 
    Reglas de Launch geointeligentes que permiten almacenar en déclencheur acciones con eventos de entrada y salida. Las reglas también permiten utilizar atributos geográficos en condiciones para personalizar la experiencia.
-
-* **Extensión de seguimiento de Places**
-
-   El SDK móvil multiplataforma que se puede incrustar en la aplicación móvil para supervisar automáticamente los cambios de ubicación del usuario y las reglas de déclencheur Places. Para obtener más información, consulte [Extensión de seguimiento de Places](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminología
 

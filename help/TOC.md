@@ -2,11 +2,10 @@
 audience: end-user
 user-guide-title: Guía del servicio de Places
 user-guide-description: El servicio de Places es un sistema de localización geográfica que permite a las aplicaciones móviles con funciones de ubicación conocer el contexto de la ubicación de los usuarios.
-translation-type: tm+mt
-source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 19%
+source-wordcount: '301'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 19%
 
 + [Información general del servicio Places](home.md)
 + [Notas de la versión](release-notes.md)
-+ [Introducción](getting-started.md)
++ [Primeros pasos](getting-started.md)
 + [Obtener acceso al servicio Places](places-gain-access.md)
 + Interfaz de usuario del servicio de Places {#poi-mgmt-ui}
    + [Información general sobre la interfaz de usuario del servicio de Places](poi-mgmt-ui/poi-mgmt-ui-overview.md)
@@ -24,7 +23,7 @@ ht-degree: 19%
    + [Estrategias para usar metadatos con puntos de interés](poi-mgmt-ui/metadata-with-pois.md)
    + [Carga masiva de puntos de interés](poi-mgmt-ui/bulk-upload-pois.md)
    + [Administrar varias bibliotecas](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ API de servicio Web {#web-service-api}
++ API de servicio web {#web-service-api}
    + [Información general sobre la API del servicio web](web-service-api/places-web-services.md)
    + [Requisitos previos de integración](web-service-api/adobe-i-o-integration.md)
    + Uso de API {#api-usage}
@@ -59,10 +58,6 @@ ht-degree: 19%
       + [Referencia de la API de Places](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Referencia de evento de Places](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Objetos de Lugares personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Extensión de monitor de Places {#places-monitor-extension}
-      + [Extensión de seguimiento de Places](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
-      + [Uso de la extensión del monitor Places](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
-      + [Referencia de la API de Places Monitor](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Utilice Places Service con su propia solución de monitorización](using-your-own-monitor.md)
 + [Usar el servicio Places sin supervisión de región activa](use-places-without-active-monitoring.md)
 + Utilizar el servicio Places como parte del flujo de trabajo del Experience Platform Launch {#use-places-launch-workflow}
