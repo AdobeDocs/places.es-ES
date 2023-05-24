@@ -1,19 +1,17 @@
 ---
 title: Información general
-description: Explicación y uso de las API de Consulta.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: Explicación y uso de las API de consulta.
+exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-
-
 # API de consulta
 
-Método de GET que permite realizar consultas de los puntos de interés más cercanos al llamador.
+Método de GET que le permite consultar los puntos de interés más cercanos al llamador.
 
 ## Solicitud
 
@@ -23,17 +21,17 @@ GET https://query.places.adobe.com/placesedgequery
 
 Con la siguiente entrada, el servicio devuelve una lista de los puntos de interés más cercanos al llamador:
 
-* Posición del llamador (latitud, longitud).
-* ID de las bibliotecas de puntos de interés que se incluirán en la búsqueda.
+* La posición de quien llama (latitud, longitud).
+* Los ID de las bibliotecas de PDI que se incluirán en la búsqueda.
 * Número máximo de puntos de interés que se van a devolver.  El valor predeterminado es 100.
 
-   La distancia entre el llamante y el punto de interés se define como la distancia desde el llamante hasta el borde de la geofence del punto de interés. En la respuesta, los puntos de interés que contengan el llamador se marcarán como si tuvieran el llamador.
+   La distancia entre el autor de la llamada y el punto de interés se define como la distancia desde el autor de la llamada hasta el borde de la geovalla del punto de interés. En la respuesta, los puntos de interés que contienen al llamador se marcan como teniendo al llamador.
 
 Los argumentos se proporcionan como los siguientes parámetros de consulta:
 
 * (**Requerido**) `latitude`
 
-   La latitud del llamador, que debe estar entre -85 y 85.
+   Latitud del llamador, que debe estar entre -85 y 85.
 * (**Requerido**) `longitude`
 
    Longitud del llamador, que debe estar entre -180 y 180.
@@ -44,7 +42,7 @@ Los argumentos se proporcionan como los siguientes parámetros de consulta:
 
 * (**Requerido**) `library`
 
-   ID de la biblioteca que se va a consulta. Para realizar la consulta de varias bibliotecas, asegúrese de incluir varias copias del parámetro library en la consulta.
+   El ID de la biblioteca que se va a consultar. Para consultar varias bibliotecas, asegúrese de incluir varias copias del parámetro de biblioteca en la consulta.
 
 Este es un ejemplo del formato JSON devuelto correctamente:
 
@@ -109,11 +107,11 @@ Este es un ejemplo del formato JSON devuelto correctamente:
 }
 ```
 
-Los puntos de interés en `places.pois` se ordenan por distancia desde el llamador hasta el borde de los puntos de interés. Los puntos de interés de debajo `places.userWithin` contienen el llamador y estos puntos de interés se ordenan por clasificación y, a continuación, por radio creciente.
+Puntos de interés en `places.pois` se ordenan por la distancia desde el llamador hasta el borde de los puntos de interés. Puntos de interés en `places.userWithin` contiene el llamador, y estos puntos de interés se ordenan por rango y luego por radio creciente.
 
-## Llamada de muestra
+## Llamada de ejemplo
 
-Este es un ejemplo de la llamada:
+A continuación, se muestra un ejemplo de la llamada de:
 
 ```text
 GET https://query.places.adobe.com/placesedgequery?latitude=<userLatitude>&longitude=<userLongitude>&library=<libID1>&library=<libID2>&limit=20

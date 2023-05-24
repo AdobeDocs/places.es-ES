@@ -1,28 +1,27 @@
 ---
-title: Referencia de la API de lugares
-description: Información sobre las referencias de API en Lugares.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Referencia de API de Places
+description: Información sobre las referencias de la API en Places.
+exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 32%
 
 ---
 
-
-# Referencia de la API de lugares {#places-api-reference}
+# Referencia de API de Places {#places-api-reference}
 
 Esta es la información sobre las referencias de API en la extensión Places:
 
 ## Procesamiento de un evento de región
 
-Cuando un dispositivo cruza uno de los límites predefinidos de la región del servicio de lugares de la aplicación, la región y el tipo de evento se pasan al SDK para su procesamiento.
+Cuando un dispositivo cruza uno de los límites de región del servicio Places predefinidos de la aplicación, la región y el tipo de evento se pasan al SDK para su procesamiento.
 
-### ProcessGeofence (Android)
+### ProcessGeoperimetral (Android)
 
-Procesar un evento de `Geofence` región para el proporcionado `transitionType`.
+Proceso a `Geofence` evento de región para `transitionType`.
 
-Pasa el `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Actualmente `Geofence.GEOFENCE_TRANSITION_ENTER` y `Geofence.GEOFENCE_TRANSITION_EXIT` son compatibles.
+Pase el `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Actualmente `Geofence.GEOFENCE_TRANSITION_ENTER` y `Geofence.GEOFENCE_TRANSITION_EXIT` son compatibles.
 
 **Sintaxis**
 
@@ -34,7 +33,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **Ejemplo**
 
-Llame a este método en el `IntentService` que esté registrado para recibir eventos de geofence de Android.
+Llame a este método en su `IntentService` que está registrado para recibir eventos de geovalla de Android.
 
 Este es un ejemplo de código para este método:
 
@@ -85,9 +84,9 @@ Este es un ejemplo de código para este método:
 }
 ```
 
-### ProcessGeofencingEvent (Android)
+### ProcessGeoperencingEvent (Android)
 
-Procesar todo `Geofences` al `GeofencingEvent` mismo tiempo.
+Procesar todo `Geofences` en el `GeofencingEvent` al mismo tiempo.
 
 **Sintaxis**
 
@@ -97,7 +96,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Ejemplo**
 
-Llame a este método en el `IntentService` que esté registrado para recibir eventos de geofence de Android
+Llame a este método en su `IntentService` que está registrado para recibir eventos de geovalla de Android
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -116,7 +115,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ## Recuperar puntos de interés cercanos
 
-Devuelve una lista ordenada de puntos de interés cercanos en una llamada de retorno. Una versión sobrecargada de este método devuelve un código de error si se ha producido algún problema con la llamada de red resultante.
+Devuelve una lista ordenada de puntos de interés cercanos en una llamada de retorno. Una versión sobrecargada de este método devuelve un código de error si algo salió mal con la llamada de red resultante.
 
 ### GetNearbyPointsOfInterest (Android)
 
@@ -203,7 +202,7 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
 ];
 ```
 
-## Recuperar puntos de interés actuales del dispositivo
+## Recuperar puntos de interés del dispositivo actual
 
 Solicita una lista de puntos de interés en los que se sabe que se encuentra el dispositivo y los devuelve en una llamada de retorno.
 
@@ -255,7 +254,7 @@ Este es un ejemplo de código para este método:
 
 ## Obtener la ubicación del dispositivo
 
-Solicita la ubicación del dispositivo, como se conoce anteriormente, mediante la extensión Places.
+Solicita la ubicación del dispositivo, como se conocía anteriormente, por la extensión Places.
 
 >[!TIP]
 >
@@ -312,7 +311,7 @@ Este es un ejemplo de código para este método:
 
 ### Borrar (Android)
 
-Borra los datos del lado del cliente para la extensión Places en el estado compartido, el almacenamiento local y en la memoria.
+Borra los datos del lado del cliente para la extensión Places en estado compartido, almacenamiento local y en memoria.
 
 **Sintaxis**
 
@@ -330,7 +329,7 @@ Este es un ejemplo de código para este método:
 Places.clear();
 ```
 
-### clear (iOS)
+### borrar (iOS)
 
 Borra los datos del lado del cliente para la extensión Places en estado compartido, almacenamiento local y en memoria.
 
@@ -358,8 +357,8 @@ Este es un ejemplo de código para este método:
 
 Establece el estado de autorización en la extensión Places.
 
-El estado proporcionado se almacena en el estado compartido Lugares y es solo para referencia.
-La llamada a este método no afecta al estado real de autorización de ubicación de este dispositivo.
+El estado proporcionado se almacena en el estado compartido de Places y es solo de referencia.
+Llamar a este método no afecta al estado real de autorización de ubicación de este dispositivo.
 
 **Sintaxis**
 
@@ -383,10 +382,10 @@ Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
 
 Establece el estado de autorización en la extensión Places.
 
-El estado proporcionado se almacena en el estado compartido Lugares y es solo para referencia.
-La llamada a este método no afecta al estado real de autorización de ubicación de este dispositivo.
+El estado proporcionado se almacena en el estado compartido de Places y es solo de referencia.
+Llamar a este método no afecta al estado real de autorización de ubicación de este dispositivo.
 
-Cuando cambia el estado de autorización del dispositivo, se invoca el `locationManager:didChangeAuthorizationStatus:` método de su `CLLocationManagerDelegate` . Desde este método, debe pasar el nuevo `CLAuthorizationStatus` valor a la API de ACPPlaces `setAuthorizationStatus:` .
+Cuando cambia el estado de autorización del dispositivo, la variable `locationManager:didChangeAuthorizationStatus:` método de su `CLLocationManagerDelegate` se invoca a. Desde este método, debe pasar el nuevo `CLAuthorizationStatus` valor para ACPPlaces `setAuthorizationStatus:` API.
 
 **Sintaxis**
 

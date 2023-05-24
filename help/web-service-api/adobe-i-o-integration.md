@@ -1,64 +1,63 @@
 ---
-title: Información general sobre la integración de Adobe I/O
+title: Resumen de integración de Adobe I/O
 description: Información sobre la creación de una integración de Adobe I/O.
-translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 5%
 
 ---
 
+# Requisitos previos y descripción general de integración {#integration-prereqs}
 
-# Integration overview and prerequisites {#integration-prereqs}
+Esta información muestra cómo crear un Adobe I/O y una integración de Places Service.
 
-Esta información le muestra cómo crear una integración de Adobe I/O y un servicio de lugares.
-
-## Requisitos previos para el acceso de los usuarios
+## Requisitos previos para el acceso de usuarios
 
 Compruebe con el administrador del sistema de su organización que se han completado las siguientes tareas:
 
-* Los lugares de servicio principal aparecen en la consola de administración de la organización.
-* Ha sido agregado a la organización.
-* Se le ha agregado como usuario al servicio principal de lugares de su organización.
+* El servicio principal de Places aparece en Admin Console de su organización.
+* Se le ha añadido a la organización.
+* Se le ha añadido como usuario al servicio principal Places de su organización.
 
-   Para obtener más información, consulte *Añadir un usuario o un desarrollador a los perfiles* del servicio de lugares y Experience Platform Launch en [Obtener acceso al servicio](/help/places-gain-access.md)de lugares.
+   Para obtener más información, consulte *Añadir un usuario o un desarrollador a los perfiles de Experience Platform Launch y del servicio Places* in [Obtener acceso al servicio Places](/help/places-gain-access.md).
 
-* Se le ha agregado como desarrollador a los servicios principales de lugares de su organización.
+* Se le ha añadido como desarrollador al servicio principal Places de su organización.
 
-   Para obtener más información sobre cómo agregar desarrolladores, consulte *Añadir un usuario o un desarrollador a sus perfiles* de Servicio de lugares y Experience Platform Launch en [Obtener acceso a Servicio](/help/places-gain-access.md)de lugares.
+   Para obtener más información sobre cómo añadir desarrolladores, consulte *Añadir un usuario o un desarrollador a los perfiles de Experience Platform Launch y del servicio Places* in [Obtener acceso al servicio Places](/help/places-gain-access.md).
 
-   Para obtener más información sobre la función de desarrollador, consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html).
+   Para obtener más información sobre la función de desarrollador, consulte [Administración de desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html).
 
-### Solicitudes de API REST
+### Solicitudes de API de REST
 
-Cada solicitud a la API de REST del servicio de lugares requiere los siguientes elementos:
+Cada solicitud a la API de REST del servicio Places requiere los siguientes elementos:
 
-* Un ID de organización
-* Clave de API
-* Un distintivo al portador
+* ID de organización de
+* Una clave de API
+* Un token de portador
 
-Una integración con Adobe I/O proporciona estos elementos y una manera de solicitar el token del portador mediante un token web JSON (JWT).
+Una integración con Adobe I/O de proporciona estos elementos y una forma de solicitar el token de portador mediante un token web JSON (JWT).
 
-* Para obtener más información sobre JWT, consulte [Introducción a los tokens](https://jwt.io/introduction/)web JSON.
-* Para crear una integración para el servicio de lugares, consulte la sección *Creación de una integración* del servicio de lugares más abajo.
-* Para comprender la integración de claves de API, la generación de un JWT y los certificados de claves públicas, consulte [Adobe I/O Authentication Overview](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
+* Para obtener más información sobre los JWT, consulte [Introducción a los tokens web JSON](https://jwt.io/introduction/).
+* Para crear una integración para el servicio de Places, consulte la *Creación de una integración de Places Service* más abajo.
+* Para comprender la integración de claves API, la generación de un JWT y los certificados de claves públicas, consulte [Resumen de autenticación de Adobe I/O](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
 
 >[!IMPORTANT]
 >
->Si no puede iniciar sesión en la consola de Adobe I/O o si el servicio de lugares no es una opción de la página ** Crear integraciones, consulte Requisitos *de* organización en Información general [de la API de servicios](/help/web-service-api/places-web-services.md)Web.
+>Si no puede iniciar sesión en la consola de Adobe I/O o si Places Service no es una opción de *Página Crear Integraciones*, consulte *Requisitos de organización* in [Información general sobre API de servicios web](/help/web-service-api/places-web-services.md).
 
-## Crear una integración de servicio de lugares
+## Creación de una integración de Places Service
 
-Para crear una integración de servicio de lugares, complete las siguientes tareas:
+Para crear una integración de servicios de Places, complete las siguientes tareas:
 
 ### Generar un par de claves pública y privada
 
-Para crear una integración de servicio de lugares, necesita un par de claves pública y privada. Estos pares se pueden comprar o puede generar sus propias claves con firma personal.
+Para crear una integración de servicios de Places, necesita un par de claves pública y privada. Estos pares se pueden comprar o puede generar sus propias claves autofirmadas.
 
-Para generar sus propias claves con firma personal:
+Para generar sus propias claves autofirmadas:
 
-1. En una ventana de terminal, copie y pegue cada una de las líneas siguientes y pulse **[!UICONTROL Enter]** después de pegar cada línea:
+1. En una ventana de terminal, copie y pegue cada una de las siguientes líneas y pulse **[!UICONTROL Entrar]** después de pegar cada línea:
 
    ```text
       mkdir keys
@@ -68,9 +67,9 @@ Para generar sus propias claves con firma personal:
 
    >[!IMPORTANT]
    >
-   >Le recomendamos que asigne un nombre a las claves para facilitar su consulta y almacenarlas en una carpeta. Si crea varias integraciones, puede identificar y administrar fácilmente qué claves pertenecen a cada integración.
+   >Le recomendamos que asigne un nombre a las claves para facilitar la referencia y que las almacene en una carpeta. Si crea varias integraciones, puede identificar y administrar fácilmente qué claves pertenecen a cada integración.
 
-1. Escriba la información solicitada por OpenSSL:
+1. Escriba la información que solicita OpenSSL:
 
    ```text
    Country Name (2 letter code:  // Example: US
@@ -86,67 +85,67 @@ Para generar sus propias claves con firma personal:
 
    >[!IMPORTANT]
    >
-   >La información proporcionada se incorpora a las claves.
+   >La información que proporcione se incorpora a las claves.
 
-1. Desplácese al directorio donde se encuentran los `.key` archivos y `.crt` los archivos.
+1. Vaya al directorio en el que la variable `.key` y `.crt` se encuentran los archivos.
 
-   Por ejemplo, en MacOS, vaya a **[!UICONTROL Macintosh HD]** > **[!UICONTROL users]** > **[!UICONTROL (your user name)]** > **[!UICONTROL Keys]**.
+   Por ejemplo, en MacOS, vaya a **[!UICONTROL Macintosh HD]** > **[!UICONTROL usuarios]** > **[!UICONTROL (su nombre de usuario)]** > **[!UICONTROL Claves]**.
 
 El siguiente vídeo le guía a través del proceso de generación del par de claves:
 
 ![vídeo de integración](/help/assets/places_integration_video.gif)
 
-### Creación de una integración de servicio de lugares en la consola de Adobe I/O
+### Creación de una integración de servicios de Places en la consola de Adobe I/O
 
-Para crear una integración de servicio de lugares:
+Para crear una integración de Places Service:
 
-1. Vaya a [https://console.adobe.io](https://console.adobe.io) e inicie sesión con su Adobe ID.
-1. En la sección Inicio **** rápido, haga clic en **Crear integración**.
-1. Seleccione **[!UICONTROL Access an API]** y haga clic en **[!UICONTROL Continue]**.
+1. Ir a [https://console.adobe.io](https://console.adobe.io) e inicie sesión con su Adobe ID.
+1. En el **Inicio rápido** , haga clic en **Crear integración**.
+1. Seleccionar **[!UICONTROL Acceso a una API]** y haga clic en **[!UICONTROL Continuar]**.
 
-   **[!UICONTROL Access an API]** es la ubicación predeterminada.
+   **[!UICONTROL Acceso a una API]** es la ubicación predeterminada.
 
 1. Si tiene acceso a más de una organización Experience Cloud, seleccione la organización en la lista desplegable de la parte superior derecha.
-1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places Service]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
-1. Seleccione **[!UICONTROL New integration]** y haga clic en **[!UICONTROL Continue]**.
-1. En la pantalla Crear una nueva integración, escriba un nombre y una descripción.
-1. Arrastre y suelte el `xxxx_public.crt` archivo que ha creado arriba en la zona de **[!UICONTROL Public keys certificates]** colocación.
+1. En **[!UICONTROL Experience Cloud]**, seleccione **[!UICONTROL Servicio de lugares]** como el servicio de Adobe al que desea integrar y haga clic en **[!UICONTROL Continuar]**.
+1. Seleccionar **[!UICONTROL Nueva integración]** y haga clic en **[!UICONTROL Continuar]**.
+1. En la pantalla Crear una nueva integración, introduzca un nombre y una descripción.
+1. Arrastre y suelte su `xxxx_public.crt` , que creó anteriormente, a la variable **[!UICONTROL Certificados de claves públicas]** zona de colocación.
 1. Seleccione un perfil de producto.
 
-   Si no está seguro de qué perfil seleccionar, póngase en contacto con el administrador del sistema.
-1. En la parte inferior de la página, haga clic en **[!UICONTROL Create integration]**.
-1. Después de unos segundos, en la pantalla *Integración creada* , compruebe que aparece el siguiente mensaje:
+   Si no está seguro del perfil que desea seleccionar, póngase en contacto con el administrador del sistema.
+1. En la parte inferior de la página, haga clic en **[!UICONTROL Crear integración]**.
+1. Después de unos segundos, en el *Integración creada* , compruebe que aparece el siguiente mensaje:
 
    `Your integration has been created.`
 
 1. La página de detalles de la integración aparece con el nombre de la integración en la parte superior.
 
-   La ficha **[!UICONTROL Overview]** aparece de forma predeterminada y muestra la clave de API, el ID de organización, el ID de cuenta técnica y otros detalles sobre las integraciones.
+   El **[!UICONTROL Información general]** Esta pestaña aparece de forma predeterminada y muestra la clave de API, su ID de organización, el ID de cuenta técnica y otros detalles acerca de sus integraciones.
 
-### Registrar el ID de organización y la clave de API
+### Registre el ID de organización y la clave de API
 
-1. En la página de detalles de la integración, haga clic en la **[!UICONTROL Services]** ficha y confirme que **[!UICONTROL Places Service]** se muestra en **[!UICONTROL Configured Services]**.
-1. En la **[!UICONTROL Overview]** ficha, busque y registre la clave de API (ID de cliente) y el identificador de organización.
+1. En la página de detalles de la integración, haga clic en **[!UICONTROL Servicios]** y confirme que **[!UICONTROL Servicio de lugares]** se muestra debajo de **[!UICONTROL Servicios configurados]**.
+1. En el **[!UICONTROL Información general]** , busque y registre la clave de API (ID de cliente) y el ID de organización.
 
-   Estos ID son necesarios para cada solicitud de API de REST del servicio de lugares.
+   Estos ID son necesarios para cada solicitud de API de REST del servicio Places.
 
 ![](/help/assets/places_orgid_api-key.png)
 
-### Generar un token de JWT
+### Generar un token JWT
 
-En la página de detalles de la integración, haga clic en la **[!UICONTROL JWT]** ficha para poder probar la integración generando un JWT y proporcionando la URL de intercambio.
+En la página de detalles de la integración, haga clic en **[!UICONTROL JWT]** para que pueda probar la integración generando un JWT y proporcionando la URL de intercambio.
 
-Para generar un token de JWT:
+Para generar un token JWT:
 
-1. En un editor de texto, abra el `private.key` archivo creado anteriormente.
-1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
-1. Haga clic en **[!UICONTROL Generate JWT]**.
-1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-1. Ejecute el comando presionando **[!UICONTROL Enter]** el teclado.
-1. Localice el `"token_type": "bearer"` y el `"access_token"` .
+1. En un editor de texto, abra su `private.key` archivo creado que creó anteriormente.
+1. En la pestaña **[!UICONTROL JWT]**, copie el contenido de la clave y péguela en el campo **[!UICONTROL Pegar clave privada]**.
+1. Clic **[!UICONTROL Generar JWT]**.
+1. En la sección **[!UICONTROL Ejemplo de comando CURL]**, haga clic en **[!UICONTROL Copiar]** y pegue el contenido en el símbolo del sistema o en la ventana de terminal.
+1. Ejecute el comando pulsando **[!UICONTROL Entrar]** en el teclado.
+1. Busque el `"token_type": "bearer"` y el `"access_token"` valor.
 
-   El valor del token de acceso al portador es lo que utilizará en las solicitudes de la API de servicio de lugares.
+   El valor del token de acceso al portador es el que utilizará en las solicitudes de la API del servicio de Places.
 
 >[!IMPORTANT]
 >
->Los tokenes de acceso de Adobe **solo** son válidos durante 24 horas, por lo que guarde el comando CURL de ejemplo (paso 5). Si el token de acceso ya no es válido, debe volver a generar el token.
+>Los tokens de acceso de Adobe son válidos **solamente** durante 24 horas, guarde el ejemplo de comando CURL (paso 5). Si el token de acceso ya no es válido, debe volver a generarlo.

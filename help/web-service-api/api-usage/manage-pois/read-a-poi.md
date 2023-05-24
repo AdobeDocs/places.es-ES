@@ -1,18 +1,17 @@
 ---
-title: Leer un punto de interés
-description: Lea un punto de interés mediante las API de Places REST.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Leer un POI
+description: Lea un punto de interés mediante las API de REST de Places.
+exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
+# Leer un POI {#read-a-poi}
 
-# Leer un punto de interés {#read-a-poi}
-
-Método de GET que devuelve los detalles de un punto de interés.
+Método de GET que devuelve los detalles de un punto de interés (POI).
 
 ## Solicitud
 
@@ -70,5 +69,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Reemplazar `<POIID>`, `<API KEY>`, `<TOKEN>`y `<ORIGIN>` por valores reales.
-
+>Reemplazar `<POIID>`, `<API KEY>`, `<TOKEN>`, y `<ORIGIN>` con valores reales.

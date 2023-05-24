@@ -1,18 +1,17 @@
 ---
-title: Obtener la clasificación de una biblioteca
-description: Obtenga la clasificación de una biblioteca mediante la API de REST de lugares.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Obtener el rango de una biblioteca
+description: Obtenga la clasificación de una biblioteca mediante la API de REST de Places.
+exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
+# Obtener el rango de una biblioteca {#get-library-rank}
 
-# Obtener la clasificación de una biblioteca {#get-library-rank}
-
-Método de GET que permite clasificar las bibliotecas.
+Un método de GET que le permite clasificar bibliotecas.
 
 ## Solicitud
 
@@ -42,5 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->Reemplazar variables como `<API KEY>`, `<TOKEN>`, y `<ORGID>` con valores reales.
-
+>Reemplace variables como `<API KEY>`, `<TOKEN>`, y `<ORGID>` con valores reales.

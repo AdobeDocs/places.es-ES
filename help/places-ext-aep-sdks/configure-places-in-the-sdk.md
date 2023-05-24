@@ -1,6 +1,6 @@
 ---
-title: Configurar el SDK con la extensión Places
-description: Puede configurar el SDK con la extensión Places para habilitar la identificación de ubicación en la aplicación móvil.
+title: Configuración del SDK con la extensión Places
+description: Puede configurar el SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil.
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
 source-wordcount: '123'
@@ -19,12 +19,12 @@ Para configurar la extensión Places:
 
 1. Configure la extensión Places en Launch.
 
-   Para obtener más información, consulte *Configurar la extensión Places en Launch* en [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obtener más información, consulte *Configuración de la extensión Places en Launch* in [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-1. Agregue la extensión Places a la aplicación móvil.
+1. Añada la extensión Places a su aplicación móvil.
 
-   Para obtener más información, consulte *Añada la extensión Places a la aplicación* en [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obtener más información, consulte *Añada la extensión Places a la aplicación* in [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-1. Registre Places con la extensión principal de Mobile.
+1. Registre Places con la extensión móvil principal.
 
-   Para obtener más información, consulte *Registrar lugares con núcleo móvil* en [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obtener más información, consulte *Registrar lugares con el núcleo móvil* in [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).

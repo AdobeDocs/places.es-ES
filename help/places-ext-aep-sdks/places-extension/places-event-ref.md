@@ -1,16 +1,15 @@
 ---
-title: Coloca la referencia del evento
-description: 'Lista de los eventos que gestiona la extensión Places. '
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+title: Referencia de evento de Places
+description: Una lista de los eventos que gestiona la extensión Places.
+exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
-
-# Coloca la referencia del evento {#places-event-reference}
+# Referencia de evento de Places {#places-event-reference}
 
 Esta es una lista de los eventos que gestiona la extensión Places.
 
@@ -28,7 +27,7 @@ Este evento es una solicitud para recuperar los puntos de interés en los que se
 
 **Definición de carga de datos**
 
-n/a
+N/D
 
 ## GetNearbyPointsOfInterest
 
@@ -40,16 +39,16 @@ n/a
 
 **Descripción del evento**
 
-Este evento es una solicitud para obtener los puntos de interés cercanos teniendo en cuenta la ubicación actual del dispositivo y las bibliotecas de lugares configuradas.
+Este evento es una solicitud para obtener los puntos de interés cercanos teniendo en cuenta la ubicación actual del dispositivo y las bibliotecas de Places configuradas.
 
 **Definición de carga de datos**
 
 | Clave | Tipo de valor | Requerido | Valor predeterminado | Descripción |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | doble | true | n/a | Contiene el valor de latitud para el centro de la búsqueda de puntos de interés cercanos. |
-| longitude | doble | true | n/a | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
-| radio | integer | false | n/a | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
-| count | integer | false | 10 | Número máximo de puntos de interés que se devuelven en el evento de respuesta resultante. |
+| latitude | doble | true | N/D | Contiene el valor de latitud del centro de la búsqueda de puntos de interés cercanos. |
+| longitude | doble | true | N/D | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
+| radio | entero | false | N/D | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
+| count | entero | false | 10 | Número máximo de puntos de interés que se devolverán en el evento de respuesta resultante. |
 
 ## ProcessRegionEvent
 
@@ -61,16 +60,15 @@ Este evento es una solicitud para obtener los puntos de interés cercanos tenien
 
 **Descripción del evento**
 
-Este evento hace que la extensión Places procese un evento de entrada o salida de geofence.
+Este evento hace que la extensión Places procese un evento de entrada o salida de geovalla.
 
 **Definición de carga de datos**
 
 | Clave | Tipo de valor | Requerido | Descripción |
 | :--- | :--- | :--- | :--- |
 | regionid | string | true | ID de la región que genera el evento. |
-| regioneventtype | int | true | Tipo de evento de región que se genera. 1 para la entrada y 2 para la salida. |
+| regioneventtype | int | true | Tipo de evento de región que se genera. 1 para entrada y 2 para salida. |
 
-## Eventos enviados por la extensión Places
+## Eventos distribuidos por la extensión Places
 
-Esta información está en curso.
-
+Esta información está actualmente en curso.

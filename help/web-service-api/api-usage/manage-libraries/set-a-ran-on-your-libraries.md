@@ -1,18 +1,17 @@
 ---
-title: Establecer una clasificación en las bibliotecas
-description: Defina una clasificación en las bibliotecas mediante la API de REST de lugares.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Establezca una clasificación en sus bibliotecas
+description: Establezca una clasificación en sus bibliotecas mediante la API de REST de Places.
+exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
+# Establezca una clasificación en sus bibliotecas {#set-rank-on-libraries}
 
-# Establecer una clasificación en las bibliotecas {#set-rank-on-libraries}
-
-Método PUT que permite establecer un orden de clasificación en todas las bibliotecas.
+Método de PUT que le permite establecer un orden en todas las bibliotecas.
 
 ## Solicitud
 
@@ -27,7 +26,7 @@ Método PUT que permite establecer un orden de clasificación en todas las bibli
 -H 'Accept-Language: en-US'
 ```
 
-## Datos del PUT
+## datos del PUT
 
 ```
 "library_rank_order": ["dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b","ea45781f-26af-44b1-b4f8-43baf5f0fe28"]  
@@ -48,5 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->Reemplazar variables como `<API KEY>`, `<TOKEN>`, y `<ORGID>` con valores reales.
-
+>Reemplace variables como `<API KEY>`, `<TOKEN>`, y `<ORGID>` con valores reales.

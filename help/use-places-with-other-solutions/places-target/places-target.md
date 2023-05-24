@@ -1,84 +1,83 @@
 ---
 title: Adobe Target
-description: Esta sección proporciona información sobre cómo utilizar el servicio de lugares con Adobe Target.
-translation-type: tm+mt
-source-git-commit: d33e4e2d798c7048bdd275cdf6c0aabf3434f789
+description: Esta sección proporciona información sobre cómo utilizar el servicio Places con Adobe Target.
+exl-id: 6ee91fca-ea48-4de2-8dcf-87981813c678
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 3%
 
 ---
 
+# Uso del servicio Places con Adobe Target {#places-target}
 
-# Usar el servicio de lugares con Adobe Target {#places-target}
+Este documento supone que la extensión Places está implementada en la aplicación. Si necesita ayuda para implementar la extensión Places, consulte [Extensiones de Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Este documento supone que tiene implementada la extensión Places en la aplicación. Si necesita ayuda para implementar la extensión Lugares, consulte [Extensiones](/help/places-ext-aep-sdks/places-extension/places-extension.md)de lugares.
-
-Una vez que la extensión Places envía eventos para entradas y salidas, puede aprovechar las reglas de Launch para adjuntar los datos del servicio de lugares a sus eventos del SDK de Adobe Target. Con la propiedad que desee seleccionada en Iniciar, puede crear este tipo de regla completando las siguientes tareas:
+Una vez que la extensión Places envía eventos para entradas y salidas, puede aprovechar Reglas en Launch para adjuntar los datos del servicio Places a los eventos del SDK de Adobe Target. Con la propiedad deseada seleccionada en Launch, puede crear este tipo de regla realizando las siguientes tareas:
 
 ## 1. Crear una regla
 
-1. On the **[!UICONTROL Rules]** tab, click **[!UICONTROL Create New Rule]**.
+1. En el **[!UICONTROL Reglas]** pestaña, haga clic en **[!UICONTROL Crear nueva regla]**.
 
    Recuerde la información siguiente:
 
    * Si no tiene reglas existentes para esta propiedad, el botón estará en medio de la pantalla.
-   * Si la propiedad tiene reglas, el botón estará en la parte superior derecha de la pantalla.
+   * Si la propiedad tiene reglas, el botón se encuentra en la parte superior derecha de la pantalla.
 
-## 2. Seleccionar un Evento
+## 2. Seleccionar un evento
 
-1. Asigne un nombre significativo a la regla para que sea fácilmente reconocible en su lista de reglas.
+1. Asigne un nombre significativo a la regla para que sea fácilmente reconocible en la lista de reglas.
 
-   En este ejemplo, el nombre de la regla es **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
+   En este ejemplo, la regla se denomina **[!UICONTROL Adjuntar datos de servicio de Places al contenido de destino solicitado]**.
 
-1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Adobe Target]**.
-1. En la lista **[!UICONTROL Event Type]** desplegable, seleccione **[!UICONTROL Content Requested]**.
-1. Haga clic en **[!UICONTROL Keep Changes]**.
+1. En el **[!UICONTROL Eventos]** , haga clic en **[!UICONTROL Añadir]**.
+1. Desde el **[!UICONTROL Extensión]** , seleccione la opción **[!UICONTROL Adobe Target]**.
+1. Desde el **[!UICONTROL Tipo de evento]** , seleccione la opción **[!UICONTROL Contenido solicitado]**.
+1. Haga clic en **[!UICONTROL Mantener cambios]**.
 
-![agregar un evento](/help/assets/ad-setEvent_target.png)
+![añadir un evento](/help/assets/ad-setEvent_target.png)
 
 ## 3. Añadir condiciones
 
 >[!IMPORTANT]
 >
->Complete este paso si desea agregar Condiciones a la regla. De lo contrario, vaya a *Definir la acción* a continuación.
+>Complete este paso si desea agregar condiciones a la regla. De lo contrario, vaya al *Defina la acción* más abajo.
 
-En el ejemplo siguiente, se crea una condición que hace que la regla se active solo para los usuarios que han iniciado la aplicación cinco o más veces.
+En el ejemplo siguiente, se crea una condición que hace que la regla se almacene en déclencheur solo para los usuarios que han iniciado la aplicación cinco veces o más.
 
-1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
-1. En la lista **[!UICONTROL Condition Type]** desplegable, seleccione **[!UICONTROL Launches]**.
-1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición se lea **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
-1. Haga clic en **[!UICONTROL Keep Changes]**.
+1. En el **[!UICONTROL Condiciones]** , haga clic en **[!UICONTROL Añadir]**.
+1. Desde el **[!UICONTROL Extensión]** , seleccione la opción **[!UICONTROL Mobile Core]**.
+1. Desde el **[!UICONTROL Tipo de condición]** , seleccione la opción **[!UICONTROL Lanzamientos]**.
+1. En el panel derecho, modifique la lista desplegable y los controles numéricos para que la condición se lea **[!UICONTROL El usuario ha iniciado la aplicación un número bueno o igual a 5 veces]**.
+1. Haga clic en **[!UICONTROL Mantener cambios]**.
 
-![agregar una condición](/help/assets/ad-setCondition_target.png)
+![añadir una condición](/help/assets/ad-setCondition_target.png)
 
-## 4. Definir la acción
+## 4. Defina la acción
 
-1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
-1. En la lista **[!UICONTROL Extension]** desplegable, seleccione **[!UICONTROL Mobile Core]**.
-1. En la lista **[!UICONTROL Action Type]** desplegable, seleccione **[!UICONTROL Attach Data]**.
-1. En el panel derecho, en el **[!UICONTROL JSON Payload]** campo, escriba los datos que se agregarán a este Evento.
-1. Haga clic en **[!UICONTROL Keep Changes]**.
+1. En el **[!UICONTROL Acciones]** , haga clic en **[!UICONTROL Añadir]**.
+1. Desde el **[!UICONTROL Extensión]** , seleccione la opción **[!UICONTROL Mobile Core]**.
+1. Desde el **[!UICONTROL Tipo de acción]** , seleccione la opción **[!UICONTROL Adjuntar datos]**.
+1. En el panel derecho, en el **[!UICONTROL Carga útil JSON]** , escriba los datos que se agregarán a este evento.
+1. Haga clic en **[!UICONTROL Mantener cambios]**.
 
-En el panel derecho, puede agregar una carga útil JSON de forma libre que agregue datos a un evento SDK antes de que las extensiones que escuchen este evento lo oigan.
+En el panel derecho, puede añadir una carga útil JSON de forma libre que añada datos a un evento del SDK antes de que las extensiones que escuchan este evento lo oigan.
 
-En el siguiente ejemplo, `poiCity` se agregan valores y `poiName` a la **[!UICONTROL mboxparameters]** para cada solicitud procesada en el evento de Destinatario. Los valores de las nuevas claves son determinados dinámicamente por el SDK en el momento en que se procesa este evento.
+En el ejemplo siguiente, `poiCity` y `poiName` Los valores de se añaden a **[!UICONTROL mboxparameters]** para cada solicitud que se procesa en el evento de Target. El SDK determina dinámicamente los valores de las nuevas claves en el momento en que se procesa este evento.
 
 >[!TIP]
 >
->Esta carga útil JSON utiliza una notación especial para el `request` objeto. En el evento original, `request` es una matriz de objetos anónimos. Cuando se adjuntan datos a todos los objetos de una matriz mediante Adjuntar datos, la `[*]` anotación en una clave que contenga una matriz hace que la carga útil se aplique a todos los objetos de esa matriz.
+>Esta carga útil JSON utiliza una notación especial para `request` objeto. En el evento original, `request` es una matriz de objetos anónimos. Al adjuntar datos a todos los objetos de una matriz mediante Adjuntar datos, la variable `[*]` La notación en una clave que se sabe que contiene una matriz hace que la carga útil se aplique a todos los objetos de esa matriz.
 >
->La notación de `request[*]` puede leerse en voz alta como _para cada objeto de la `request` matriz_.
+>La notación de `request[*]` puede leerse en voz alta como _para cada objeto de `request` matriz_.
 
 ![definir la acción](/help/assets/ad-setAction-target.png)
 
-## 5. Guarde la regla y vuelva a crear la propiedad
+## 5. Guarde la regla y vuelva a generar la propiedad
 
-Después de completar la configuración, compruebe que la regla tenga el aspecto de la siguiente imagen:
+Una vez completada la configuración, compruebe que la regla tiene el aspecto siguiente:
 
 ![regla completada](/help/assets/ad-ruleComplete-target.png)
 
-1. Haga clic en **[!UICONTROL Save]**
-1. Vuelva a compilar la propiedad Launch e impleméntelo en el Entorno correcto.
+1. Haga clic en **[!UICONTROL Guardar]**.
+1. Vuelva a compilar la propiedad de Launch e impleméntela en el entorno correcto.

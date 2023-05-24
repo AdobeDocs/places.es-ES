@@ -1,18 +1,17 @@
 ---
-title: Actualizar un punto de interés
-description: Actualice un punto de interés mediante las API de REST de Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Actualización de un POI
+description: Actualizar un punto de interés mediante las API de REST de Places.
+exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
+# Actualización de un POI {#update-a-poi}
 
-# Actualizar un punto de interés {#update-a-poi}
-
-Método PUT que permite actualizar un punto de interés.
+Método de PUT que permite actualizar un punto de interés (POI).
 
 ## Solicitud
 
@@ -48,4 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Reemplazar `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`y `<SINGLEPOIDATA>` por valores reales.
+>Reemplazar `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`, y `<SINGLEPOIDATA>` con valores reales.

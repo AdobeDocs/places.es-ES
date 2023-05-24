@@ -1,22 +1,21 @@
 ---
 title: Uso de su propio monitor
-description: También puede utilizar sus servicios de supervisión e integrarse con el servicio de lugares mediante las API de extensión del servicio de lugares.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: También puede utilizar los servicios de monitorización e integrarse con el servicio de Places mediante las API de extensión del servicio de Places.
+exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
-
 # Uso de su propio monitor {#using-your-monitor}
 
-También puede utilizar sus servicios de supervisión e integrarse con el servicio de lugares mediante las API de extensión de lugares.
+También puede utilizar los servicios de monitorización e integrarse con el servicio de Places mediante las API de extensión de Places.
 
-## Registro de geofences
+## Registro de geoperímetros
 
-Si decide utilizar sus servicios de monitoreo, registre las geofences de los puntos de interés en su ubicación actual siguiendo estos pasos:
+Si decide utilizar los servicios de monitorización, registre las geovallas de los puntos de interés alrededor de su ubicación actual completando los siguientes pasos:
 
 ### iOS
 
@@ -24,7 +23,7 @@ En iOS, complete los siguientes pasos:
 
 1. Pase las actualizaciones de ubicación obtenidas de los servicios de ubicación principales de iOS a la extensión Places.
 
-1. Utilice la API de extensión `getNearbyPointsOfInterest` Places para obtener la matriz de `ACPPlacesPoi` objetos alrededor de la ubicación actual.
+1. Utilice el `getNearbyPointsOfInterest` Coloca la API de extensión para obtener la matriz de `ACPPlacesPoi` objetos alrededor de la ubicación actual.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -34,7 +33,7 @@ En iOS, complete los siguientes pasos:
    }
    ```
 
-1. Extraiga la información de los `ACPPlacesPOI` objetos obtenidos y el inicio que supervisa dichos puntos de interés.
+1. Extraer la información de los datos obtenidos `ACPPlacesPOI` y empiece a monitorizar esos puntos de interés.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -58,9 +57,9 @@ En iOS, complete los siguientes pasos:
 
 ### Android
 
-1. Pase las actualizaciones de ubicación obtenidas de los servicios Google Play o de los servicios de ubicación de Android a Places Extension.
+1. Pase las actualizaciones de ubicación obtenidas de los servicios de Google Play o de los servicios de ubicación de Android a la extensión Places.
 
-1. Utilice la `getNearbyPointsOfInterest` API de extensión de lugares para obtener la lista de `PlacesPoi` objetos en la ubicación actual.
+1. Utilice el `getNearbyPointsOfInterest` API de extensión de Places para obtener la lista de `PlacesPoi` objetos alrededor de la ubicación actual.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -78,7 +77,7 @@ En iOS, complete los siguientes pasos:
    };
    ```
 
-1. Extraiga los datos de los `PlacesPOI` objetos obtenidos y el inicio que supervisa dichos puntos de interés.
+1. Extraer los datos de los datos obtenidos `PlacesPOI` y empiece a monitorizar esos puntos de interés.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -103,17 +102,17 @@ En iOS, complete los siguientes pasos:
    ```
 
 
-Al llamar a la `getNearbyPointsOfInterest` API se produce una llamada de red que obtiene la ubicación alrededor de la ubicación actual.
+Llamar a `getNearbyPointsOfInterest` El resultado de la API es una llamada de red que obtiene la ubicación alrededor de la ubicación actual.
 
 >[!IMPORTANT]
 >
->Debe llamar a la API con moderación o solo cuando haya un cambio significativo en la ubicación del usuario.
+>Debe llamar a la API con moderación o solo cuando haya un cambio de ubicación significativo del usuario.
 
-## Eventos de geofencia de contabilización
+## Contabilización de eventos de geoperímetro
 
 ### iOS
 
-En iOS, llame a la API de `processGeofenceEvent` lugares en el `CLLocationManager` delegado. Esta API le notifica si el usuario ha entrado o salido de una región específica.
+En iOS, llame a la función `processGeofenceEvent` Coloca la API en `CLLocationManager` delegado. Esta API le notifica si el usuario ha entrado o salido de una región específica.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -127,7 +126,7 @@ En iOS, llame a la API de `processGeofenceEvent` lugares en el `CLLocationManage
 
 ### Android
 
-En Android, llame al `processGeofence` método junto con el evento de transición adecuado en el receptor de difusión de Geofence. Es posible que desee depurar la lista de geofences recibidas para evitar entradas/salidas de duplicado.
+En Android, llame al método `processGeofence` junto con el evento de transición adecuado en el receptor de difusión de Geoperimetraje. Es posible que desee depurar la lista de geovallas recibidas para evitar entradas/salidas duplicadas.
 
 ```java
 void onGeofenceReceived(final Intent intent) {
