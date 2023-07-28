@@ -2,9 +2,9 @@
 title: Servicio de Places
 description: El servicio de Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirlo en una experiencia más personalizada y atractiva.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Esto le permitirá realizar acciones a partir de señales de ubicación en tiemp
 A continuación se indican algunas formas de utilizar Places:
 
 * Enviar una notificación en tiempo real cuando alguien entre en un punto de interés, *&quot;Oye..bienvenidos al estadio&quot;.*
-* Analice el tráfico de sus propias tiendas en comparación con las tiendas de la competencia.
+* Analice el tráfico de sus propias tiendas en comparación con las de su competencia.
 * Segmente una audiencia en función del comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Segmente a un usuario con una experiencia en la tienda cuando sea relevante.
 
@@ -38,19 +38,19 @@ El servicio de Places consta de los siguientes componentes:
 
 * **Servicio web**
 
-   Puede crear y administrar puntos de interés mediante las API de REST de Places. Para obtener más información sobre las API de REST, consulte [Administrar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) y [Administrar POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  Puede crear y administrar puntos de interés mediante las API de REST de Places. Para obtener más información sobre las API de REST, consulte [Administrar bibliotecas](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) y [Administrar POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interfaz de gestión de PDI**
 
-   Visualice los puntos de interés en un mapa para comprender el contexto espacial y añadir o editar puntos de interés y sus metadatos personalizados.
+  Visualice los puntos de interés en un mapa para comprender el contexto espacial y añadir o editar puntos de interés y sus metadatos personalizados.
 
 * **Extensión Places**
 
-   Interfaz de API móvil multiplataforma para integrar el contexto de ubicación en sus aplicaciones móviles. Para obtener más información sobre los SDK, consulte [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  Interfaz de API móvil multiplataforma para integrar el contexto de ubicación en sus aplicaciones móviles. Para obtener más información sobre los SDK, consulte [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Reglas de Launch**
 
-   Reglas de Launch geo-inteligentes que permiten almacenar en déclencheur las acciones con eventos de entrada y salida. Las reglas también le permiten utilizar atributos geográficos en condiciones para personalizar la experiencia.
+  Reglas de Launch geo-inteligentes que permiten almacenar en déclencheur las acciones con eventos de entrada y salida. Las reglas también le permiten utilizar atributos geográficos en condiciones para personalizar la experiencia.
 
 ## Terminología
 
@@ -58,30 +58,30 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
 * A **punto de interés (PDI)** es una ubicación geográfica que resulta de interés para su organización.
 
-   Puede definir puntos de interés con atributos como nombre, radio, dirección, categoría y etiquetas de metadatos.
+  Puede definir puntos de interés con atributos como nombre, radio, dirección, categoría y etiquetas de metadatos.
 
 * A **geovalla** es un tipo de PDI.
 
-   Este tipo de punto de interés es un límite geográfico virtual definido por las coordenadas de latitud y longitud.
+  Este tipo de punto de interés es un límite geográfico virtual definido por las coordenadas de latitud y longitud.
 
 * A **baliza** es un tipo de PDI.
 
-   Este tipo de punto de interés es un dispositivo físico que representa una ubicación emitiendo una señal Bluetooth de baja potencia. La compatibilidad con señalizaciones estará disponible en una versión futura.
+  Este tipo de punto de interés es un dispositivo físico que representa una ubicación emitiendo una señal Bluetooth de baja potencia. La compatibilidad con señalizaciones estará disponible en una versión futura.
 
 * Una **biblioteca** es una recopilación de puntos de interés, que se agrupan para adjuntar fácilmente reglas a un conjunto en lugar de un punto de interés.
 
 * Un **extensión** es la extensión de Experience Platform Launch necesaria para integrar el SDK de Places en sus aplicaciones móviles.
 
-   Extensión utilizada con otros SDK móviles para añadir contexto de ubicación a las experiencias.
+  Extensión utilizada con otros SDK móviles para añadir contexto de ubicación a las experiencias.
 
 * Una **organización** es la entidad de Adobe que identifica a su compañía en Adobe Experience Cloud.
 
-   Normalmente, la organización es el nombre de la empresa. Sin embargo, una compañía puede tener más de una organización. El administrador de la organización puede configurar grupos y usuarios, así como la funcionalidad de inicio de sesión único.
+  Normalmente, la organización es el nombre de la empresa. Sin embargo, una compañía puede tener más de una organización. El administrador de la organización puede configurar grupos y usuarios, así como la funcionalidad de inicio de sesión único.
 
 * El **orgID** es el ID que representa a su organización en Adobe Experience Platform.
 
-   Para obtener más información, consulte [Búsqueda del orgID](https://forums.adobe.com/thread/2339895).
+  Para obtener más información, consulte [Búsqueda del orgID](https://forums.adobe.com/thread/2339895).
 
 * El **ID de Experience Cloud** proporciona un ID universal y persistente que identifica a los visitantes en todas las soluciones del Experience Cloud.
 
-   Para obtener más información, consulte [Información general](https://docs.adobe.com/content/help/es-ES/id-service/using/intro/overview.html).
+  Para obtener más información, consulte [Información general](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es).

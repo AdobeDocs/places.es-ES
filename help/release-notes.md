@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Notas de la versión de Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: 2b5c53887c9ed0f2a672c377121a39537ee58f01
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 3%
+source-wordcount: '1490'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
    * Se han añadido extensiones de Monitor de lugares y lugares para [Aplicaciones nativas de React](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * Se han añadido extensiones de Monitor de lugares y lugares para [Aplicaciones Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Para obtener más información, consulte: [Uso de la extensión Places](https://docs.adobe.com/content/help/es-ES/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * Para obtener más información, consulte: [Uso de la extensión Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 12 de mayo de 2020
@@ -114,12 +114,12 @@ ht-degree: 3%
    * **iOS**
 
       * Se ha añadido una nueva API, `setRequestAuthorizationLevel`, para establecer el tipo de solicitud de autorización de ubicación que se solicitará al usuario.
+
+
    * **Android**
 
       * Se ha añadido una nueva API, `setLocationPermission`, para establecer el tipo de solicitud de permiso de ubicación que se solicitará al usuario.
       * El Monitor de Places ahora es compatible con Android 10.
-
-
 
 ## 8 de agosto de 2019
 
@@ -162,9 +162,9 @@ En esta versión se realizaron las siguientes actualizaciones:
 * La administración de la llamada de retorno, que resultó de una solicitud de permiso de ubicación, ya no requiere que amplíe PlacesActivity.
 * Se ha cambiado una API existente, lo que permite a los desarrolladores borrar todos los datos de Places del dispositivo:
 
-   API antigua: `public static void stop();`
+  API antigua: `public static void stop();`
 
-   Nueva API: `public static void stop (final boolean clearData);`
+  Nueva API: `public static void stop (final boolean clearData);`
 
 * Se ha actualizado el uso del `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
 
@@ -176,7 +176,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Para borrar todos los datos de Places del dispositivo,
 
-   en ACPlacesMonitor, reemplazó una API existente `+ (void) stop;` con`+ (void) stop: (BOOL) clearData;`.
+  en ACPlacesMonitor, reemplazó una API existente `+ (void) stop;` con`+ (void) stop: (BOOL) clearData;`.
 
 * Se ha actualizado el uso de las API de Places `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
 
@@ -316,7 +316,7 @@ Puede utilizar las API de Places para lo siguiente:
 * Cree su propia interfaz de usuario o integre con una base de datos de puntos de interés existente.
 * Utilice los extremos del lote de la API de Places para realizar una importación masiva de puntos de interés.
 
-   Puede utilizar la utilidad Python que se proporciona para completar la importación masiva.
+  Puede utilizar la utilidad Python que se proporciona para completar la importación masiva.
 
 Para obtener más información sobre las API de Places, consulte [API de servicio web](/help/web-service-api/places-web-services.md).
 

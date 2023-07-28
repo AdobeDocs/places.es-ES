@@ -2,10 +2,10 @@
 title: Creación de una regla para la propiedad del servicio de Places
 description: El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y realiza un seguimiento de los eventos de entrada y salida de estos puntos de interés.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 15%
+source-wordcount: '922'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +54,7 @@ Las acciones definen qué hará la aplicación en respuesta a la condición de q
 
 >[!CAUTION]
 >
->En este ejemplo se entiende que ha creado una biblioteca de puntos de interés de todos los cafés de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Crear un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Crear una biblioteca* in [Administrar varias bibliotecas](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>En este ejemplo se entiende que ha creado una biblioteca de puntos de interés de todos los cafés de Estados Unidos. Para obtener más información sobre la creación de puntos de interés y bibliotecas, consulte [Crear un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Crear una biblioteca* in [Administrar varias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 El siguiente procedimiento es un ejemplo de cómo crear una regla que devuelve una publicación a Slack cuando se entra en una cafetería de San Francisco.
 
@@ -124,7 +124,7 @@ Para crear un elemento de datos en Experience Platform Launch:
 
 ### Publicación de la regla
 
-1. Para activar la regla, debe publicarla. Para obtener más información sobre cómo publicar la regla en Experience Platform Launch, consulte [Publicación](https://docs.adobe.com/content/help/es-ES/launch/using/reference/publish/overview.html).
+1. Para activar la regla, debe publicarla. Para obtener más información sobre cómo publicar la regla en Experience Platform Launch, consulte [Publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es).
 
 ### Pensar más allá de entradas y salidas
 

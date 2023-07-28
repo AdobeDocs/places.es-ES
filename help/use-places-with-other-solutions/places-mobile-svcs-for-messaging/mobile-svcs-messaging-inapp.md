@@ -2,9 +2,9 @@
 title: Notificaciones en la aplicación
 description: Esta sección muestra cómo utilizar el servicio de Places con la mensajería en la aplicación.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Estos tipos son mensajes en la aplicación porque los activa el SDK. Las notific
 
 ### Requisitos previos
 
-Antes de empezar, debe saber cómo enviar y crear un mensaje en la aplicación en Mobile Services y cómo funcionan los déclencheur. Para obtener más información, consulte [Crear un mensaje en la aplicación.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+Antes de empezar, debe saber cómo enviar y crear un mensaje en la aplicación en Mobile Services y cómo funcionan los déclencheur. Para obtener más información, consulte [Crear un mensaje en la aplicación.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 ## Reglas en Experience Platform Launch
 
@@ -41,11 +41,11 @@ Puede crear reglas de Experience Platform Launch que envíen a Analytics los dat
 
 * Usar datos de ubicación como evento de activación.
 
-   Por ejemplo, puede enviar datos a Analytics cuando un usuario introduzca un punto de interés (POI).
+  Por ejemplo, puede enviar datos a Analytics cuando un usuario introduzca un punto de interés (POI).
 
 * El uso de datos de ubicación como condición para un evento de activación.
 
-   Por ejemplo, si ha creado una etiqueta de metadatos personalizada en el servicio Places para el tiempo en diferentes puntos de interés, puede utilizar esos metadatos como parámetro para la condición de regla. Aunque puede utilizar esta condición con un evento de entrada de punto de interés descrito anteriormente, también puede utilizar la condición como contexto para cualquier evento.
+  Por ejemplo, si ha creado una etiqueta de metadatos personalizada en el servicio Places para el tiempo en diferentes puntos de interés, puede utilizar esos metadatos como parámetro para la condición de regla. Aunque puede utilizar esta condición con un evento de entrada de punto de interés descrito anteriormente, también puede utilizar la condición como contexto para cualquier evento.
 
 Una vez configurada la regla con los parámetros de evento y condición adecuados, complete la configuración de reglas configurando la acción para enviar datos a Analytics.
 
@@ -62,7 +62,7 @@ Por ejemplo, puede seleccionar `poiname` como clave y `{%%Last Entered POI Name}
 
 >[!TIP]
 >
->Se pueden configurar reglas de procesamiento de Analytics para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará el `poiname` como el contexto para describir el evento de entrada de punto de interés que se envía a Analytics.
+>Se pueden configurar reglas de procesamiento de Analytics para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará el `poiname` como el contexto para describir el evento de entrada de punto de interés que se envía a Analytics.
 
 ![creación de una acción](/help/assets/configure-action.png)
 
@@ -77,12 +77,12 @@ Como parte de los parámetros de Déclencheur, puede crear la audiencia del mens
 * Uso de acciones específicas de la ubicación, como una entrada o una salida.
 * El uso de metadatos de puntos de interés que se envían como datos de contexto para reducir el destinatario de la audiencia.
 
-   Esta opción se puede utilizar con una acción específica de la ubicación, como una entrada, o se puede utilizar como contexto para otro evento, como un inicio o un clic en un botón.
+  Esta opción se puede utilizar con una acción específica de la ubicación, como una entrada, o se puede utilizar como contexto para otro evento, como un inicio o un clic en un botón.
 
-   A continuación, se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que introduzcan un punto de interés que tenga **[!UICONTROL Adobe]** en el nombre:
+  A continuación, se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que introduzcan un punto de interés que tenga **[!UICONTROL Adobe]** en el nombre:
 
-   ![Parámetros de déclencheur](/help/assets/trigger-parameters.png)
+  ![Parámetros de déclencheur](/help/assets/trigger-parameters.png)
 
 * Parámetros en los encabezados de servicio de Places en la variable *Déclencheur y características* Las páginas de en Mobile Services no funcionan con datos del servicio Places.
 
-   Estos parámetros solo son para la base de datos heredada de Places Service que se creó en Mobile Services.
+  Estos parámetros solo son para la base de datos heredada de Places Service que se creó en Mobile Services.

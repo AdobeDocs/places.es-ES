@@ -2,9 +2,9 @@
 title: Extensión Places
 description: La extensión Places le permite actuar en función de la ubicación de los usuarios.
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ La extensión Places le permite actuar en función de la ubicación de los usuar
 
 1. Complete el proceso de publicación para actualizar la configuración del SDK.
 
-   Para obtener más información sobre la publicación en Experience Platform Launch, consulte [Publicación](https://docs.adobe.com/content/help/es-ES/launch/using/reference/publish/overview.html).
+   Para obtener más información sobre la publicación en Experience Platform Launch, consulte [Publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es).
 
 ### Configuración de la extensión Places {#configure-places-extension}
 

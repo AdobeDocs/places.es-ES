@@ -2,10 +2,10 @@
 title: Informar sobre datos de ubicación en Analytics Workspace
 description: Esta sección proporciona información sobre cómo informar sobre los datos de ubicación en Analytics Workspace.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 8%
+source-wordcount: '451'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Este documento supone lo siguiente:
 
 1. El usuario de Adobe Analytics es administrador y tiene acceso a las reglas de procesamiento.
 
-   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 1. En la propiedad de Launch, se han creado elementos de datos para las variables del servicio de Places que desee.
 
@@ -44,7 +44,7 @@ En este ejemplo, la acción de la regla tiene los siguientes valores definidos p
 
 ## 2. Crear variables de Analytics
 
-Para asignar los datos de contexto (enviados en el paso 1), primero se deben crear variables para el grupo de informes de Analytics. Para obtener más información sobre la creación de variables en Analytics, consulte [Variables de conversión (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Para asignar los datos de contexto (enviados en el paso 1), primero se deben crear variables para el grupo de informes de Analytics. Para obtener más información sobre la creación de variables en Analytics, consulte [Variables de conversión (eVars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=es).
 
 En este ejemplo, una variable de conversión, **[!UICONTROL Evar2]**, se ha creado y se le ha dado nombre **[!UICONTROL Nombre del PDI de lugares]**. Se deberán crear variables adicionales para cada variable de ubicación que desee exponer en los informes.
 
@@ -52,7 +52,7 @@ En este ejemplo, una variable de conversión, **[!UICONTROL Evar2]**, se ha crea
 
 ## 3. Crear reglas de procesamiento
 
-Este paso es necesario para asignar datos de contexto (paso 1) a variables de Analytics (paso 2). Para obtener más información sobre la creación de reglas de procesamiento, consulte [Resumen de reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Este paso es necesario para asignar datos de contexto (paso 1) a variables de Analytics (paso 2). Para obtener más información sobre la creación de reglas de procesamiento, consulte [Resumen de reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 En este ejemplo, se ha creado una regla de procesamiento para asignar el valor de datos de contexto **[!UICONTROL poi.name]** en **[!UICONTROL Nombre del punto de interés de Places (eVar 2)]**. Será necesario crear reglas de procesamiento adicionales para cada variable de ubicación creada.
 
@@ -60,7 +60,7 @@ En este ejemplo, se ha creado una regla de procesamiento para asignar el valor d
 
 ## 4. Generar un informe en Workspace
 
-Este paso muestra un informe básico en Analytics Workspace para ver los datos recopilados en los pasos 1-3. Para obtener más información sobre cómo utilizar Analytics Workspace, consulte [Información general de Analytics Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html).
+Este paso muestra un informe básico en Analytics Workspace para ver los datos recopilados en los pasos 1-3. Para obtener más información sobre cómo utilizar Analytics Workspace, consulte [Información general de Analytics Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es).
 
 En este ejemplo, el informe tiene la siguiente configuración:
 
