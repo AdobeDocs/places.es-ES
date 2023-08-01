@@ -2,7 +2,8 @@
 audience: end-user
 user-guide-title: Guía del servicio de Places
 user-guide-description: El servicio de Places es un sistema de localización geográfica que permite a las aplicaciones móviles con funciones de ubicación conocer el contexto de la ubicación de los usuarios.
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+feature: Places
+source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 20%
@@ -14,7 +15,7 @@ ht-degree: 20%
 
 + [Información general del servicio Places](home.md)
 + [Notas de la versión](release-notes.md)
-+ [Primeros pasos](getting-started.md)
++ [Introducción](getting-started.md)
 + [Obtener acceso al servicio Places](places-gain-access.md)
 + IU del servicio Places {#poi-mgmt-ui}
    + [Información general de IU del servicio Places](poi-mgmt-ui/poi-mgmt-ui-overview.md)
