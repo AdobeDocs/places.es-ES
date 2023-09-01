@@ -2,9 +2,9 @@
 title: Usar el servicio de Places sin supervisión de región activa
 description: Esta sección proporciona información sobre cómo utilizar el servicio Places sin una monitorización activa de la región.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -126,9 +126,9 @@ Consulte [Añadir contexto de ubicación a las solicitudes de Analytics](use-pla
 >
 >La forma recomendada de capturar los datos de Places es [Adjuntar datos de Places a las solicitudes de Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Si el caso de uso requiere un [evento de entrada de región](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) para que el SDK lo active, deberá hacerse manualmente como se indica a continuación.
+>Si el caso de uso requiere un [evento de entrada de región](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) para que el SDK lo active, deberá hacerse manualmente como se indica a continuación.
 
-La lista devuelta por el `getNearbyPointsOfInterest` API contiene [objetos personalizados](places-ext-aep-sdks/places-extension/cust-places-objects.md) que indican si el usuario se encuentra actualmente en un punto de interés (POI). Si el usuario se encuentra en un punto de interés, puede hacer que el déclencheur del SDK cree un evento de entrada para esa región.
+La lista devuelta por el `getNearbyPointsOfInterest` API contiene [objetos personalizados](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) que indican si el usuario se encuentra actualmente en un punto de interés (POI). Si el usuario se encuentra en un punto de interés, puede hacer que el déclencheur del SDK cree un evento de entrada para esa región.
 
 >[!IMPORTANT]
 >
