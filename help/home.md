@@ -2,10 +2,10 @@
 title: Servicio de Places
 description: El servicio de Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirlo en una experiencia más personalizada y atractiva.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+source-git-commit: e78e3c5ee6623d6cdf2a33c0582667a70283fdc6
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 9%
 
 ---
 
@@ -85,3 +85,4 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 * El **ID de Experience Cloud** proporciona un ID universal y persistente que identifica a los visitantes en todas las soluciones del Experience Cloud.
 
   Para obtener más información, consulte [Información general](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es).
+
