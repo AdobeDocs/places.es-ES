@@ -4,8 +4,8 @@ description: Esta sección muestra cómo utilizar el servicio de Places con la m
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 4%
+source-wordcount: '644'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Estos tipos son mensajes en la aplicación porque los activa el SDK. Las notific
 
 ### Requisitos previos
 
-Antes de empezar, debe saber cómo enviar y crear un mensaje en la aplicación en Mobile Services y cómo funcionan los déclencheur. Para obtener más información, consulte [Crear un mensaje en la aplicación.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Antes de empezar, debe saber cómo enviar y crear un mensaje en la aplicación en Mobile Services y cómo funcionan los déclencheur. Para obtener más información, consulte [Crear un mensaje en la aplicación.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es)
 
 ## Reglas en Experience Platform Launch
 
@@ -53,18 +53,18 @@ Una vez configurada la regla con los parámetros de evento y condición adecuado
 
 Para crear una acción:
 
-1. Seleccione el **[!UICONTROL Adobe Analytics]** extensión.
-1. En el **[!UICONTROL Tipo de acción]** , seleccione la opción **[!UICONTROL Seguimiento.]**
+1. Seleccione la extensión **[!UICONTROL Adobe Analytics]**.
+1. En la lista desplegable **[!UICONTROL Tipo de acción]**, seleccione **[!UICONTROL Rastrear.]**
 1. Escriba un nombre para la acción.
 1. En el panel derecho, en **[!UICONTROL Datos de contexto]**, seleccione el par clave-valor para establecer los datos de contexto que se enviarán a Analytics.
 
-Por ejemplo, puede seleccionar `poiname` como clave y `{%%Last Entered POI Name}` como el valor.
+Por ejemplo, puede seleccionar `poiname` como clave y `{%%Last Entered POI Name}` como valor.
 
 >[!TIP]
 >
->Se pueden configurar reglas de procesamiento de Analytics para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará el `poiname` como el contexto para describir el evento de entrada de punto de interés que se envía a Analytics.
+>Se pueden configurar reglas de procesamiento de Analytics para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará `poiname` como contexto para describir el evento de entrada de punto de interés que se envía a Analytics.
 
-![creación de una acción](/help/assets/configure-action.png)
+![creando una acción](/help/assets/configure-action.png)
 
 Este es un ejemplo de la regla completa:
 
@@ -79,10 +79,10 @@ Como parte de los parámetros de Déclencheur, puede crear la audiencia del mens
 
   Esta opción se puede utilizar con una acción específica de la ubicación, como una entrada, o se puede utilizar como contexto para otro evento, como un inicio o un clic en un botón.
 
-  A continuación, se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que introduzcan un punto de interés que tenga **[!UICONTROL Adobe]** en el nombre:
+  A continuación se muestra un ejemplo de cómo configurar un mensaje en la aplicación para dar la bienvenida a los usuarios que introduzcan un punto de interés que tenga **[!UICONTROL Adobe]** en el nombre:
 
-  ![Parámetros de déclencheur](/help/assets/trigger-parameters.png)
+  ![parámetros de déclencheur](/help/assets/trigger-parameters.png)
 
-* Parámetros en los encabezados de servicio de Places en la variable *Déclencheur y características* Las páginas de en Mobile Services no funcionan con datos del servicio Places.
+* Los parámetros de los encabezados del servicio Places en la página *Déclencheur y características* de Mobile Services no funcionan con los datos del servicio Places.
 
   Estos parámetros solo son para la base de datos heredada de Places Service que se creó en Mobile Services.

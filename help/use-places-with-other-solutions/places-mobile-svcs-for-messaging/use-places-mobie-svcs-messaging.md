@@ -4,7 +4,7 @@ description: Esta sección muestra cómo utilizar Places Service con Mobile Serv
 exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 Antes de poder usar la extensión de Mobile Services para la mensajería, revise los siguientes requisitos previos:
 
-* Se han creado puntos de interés en Places Service. Para obtener más información, consulte [Crear un POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
+* Se han creado puntos de interés en Places Service. Para obtener más información, consulte [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
   >[!IMPORTANT]
   >
-  >El servicio Places incluye una base de datos de puntos de interés nueva y mejorada para su organización que existe fuera de la interfaz de usuario heredada de Mobile Services. Puntos de interés ubicados en Mobile Service *Administrar lugares* La navegación por páginas solo funcionará para la versión 4 del SDK.
+  >El servicio Places incluye una base de datos de puntos de interés nueva y mejorada para su organización que existe fuera de la interfaz de usuario heredada de Mobile Services. Los puntos de interés que se encuentran en la navegación de páginas de *Administrar lugares* de Mobile Services solo funcionarán para la versión 4 del SDK.
 
-* Aquí está la *Administrar lugares* Página de administración de puntos de interés en la interfaz de usuario heredada de Mobile Services para versiones anteriores del SDK:
+* Esta es la página de administración de puntos de interés *Administrar lugares* en la interfaz de usuario heredada de Mobile Services para versiones anteriores del SDK:
 
   ![IU heredada](/help/assets/legacy-location-v4-ui.png)
 
@@ -45,11 +45,11 @@ Antes de poder usar los informes, complete los siguientes requisitos previos:
 
 * Los datos del servicio de Places se han enviado correctamente al grupo de informes de Adobe Analytics.
 
-  Para obtener más información, consulte [Uso del servicio Places con Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+  Para obtener más información, consulte [Usar el servicio Places con Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
 * Familiarícese con los informes de Mobile Services.
 
-  Para obtener más información, consulte [Informes](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Para obtener más información, consulte [Informes](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es).
 
 ## Visualización de informes
 

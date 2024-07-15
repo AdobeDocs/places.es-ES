@@ -6,7 +6,7 @@ feature: Places
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 + [Notas de la versión](release-notes.md)
 + [Introducción](getting-started.md)
 + [Obtener acceso al servicio Places](places-gain-access.md)
-+ IU del servicio Places {#poi-mgmt-ui}
++ IU del servicio de Places {#poi-mgmt-ui}
    + [Información general de IU del servicio Places](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Crear un POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Administrar puntos de interés creados anteriormente](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
@@ -53,15 +53,15 @@ ht-degree: 20%
             + [Actualizar varios POI](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [Eliminar varios POI](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [API de consulta](web-service-api/api-usage/query-apis.md)
-+ Extensiones para los SDK de Mobile {#places-ext-aep-sdks}
++ Extensiones para los SDK móviles {#places-ext-aep-sdks}
    + [Extensión Places](places-ext-aep-sdks/places-extension/places-extension.md)
 + [Utilice el servicio Places con su propia solución de monitorización](using-your-own-monitor.md)
 + [Usar el servicio de Places sin supervisión de región activa](use-places-without-active-monitoring.md)
-+ Usar el servicio Places como parte del flujo de trabajo del Experience Platform Launch {#use-places-launch-workflow}
++ Usar el servicio Places como parte del flujo de trabajo de Experience Platform Launch {#use-places-launch-workflow}
    + [Usar el servicio Places como parte del flujo de trabajo del Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definición de elementos de datos](use-places-launch-workflow/define-data-elements.md)
    + [Crear reglas de entrada y salida](use-places-launch-workflow/create-rule-places-property.md)
-+ Uso del servicio Places con otras soluciones de Adobe {#use-places-with-other-solutions}
++ Usar el servicio Places con otras soluciones de Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Uso del servicio Places con Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Envío de datos de entrada y salida de puntos de interés a Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)

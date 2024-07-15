@@ -1,15 +1,15 @@
 ---
-title: Primeros pasos
+title: Introducción
 description: Introducción al servicio Places.
 exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
-# Primeros pasos {#getting-started}
+# Introducción {#getting-started}
 
 Este es un vídeo útil para obtener información general sobre los servicios de Places:
 
@@ -29,7 +29,7 @@ El contexto del producto Servicio de Places está disponible con todas las organ
 
 * Asegúrese de que aparece como un usuario en los contextos de producto de servicio de Places y Experience Platform Launch en el Admin Console.
 
-   Para obtener más información, consulte *Adición de un usuario a Experience Platform Launch y Places Service* in [Preguntas más frecuentes](/help/places-gain-access.md).
+  Para obtener más información, consulte *Agregar un usuario al Experience Platform Launch y Servicio de Places* en [Preguntas más frecuentes](/help/places-gain-access.md).
 
 
 ### 2. Cree sus puntos de interés
@@ -38,11 +38,11 @@ Los puntos de interés (POI) son geovallas que crea para sus organizaciones y pu
 
 * Uso de la interfaz de usuario del servicio Places.
 
-   Para obtener más información, consulte [Información general del servicio Places](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
+  Para obtener más información, consulte [Descripción general del servicio Places](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
 * Usar las API del servicio web de Places.
 
-   Para obtener más información, consulte [API de servicio web](/help/web-service-api/places-web-services.md).
+  Para obtener más información, consulte [API de servicio web](/help/web-service-api/places-web-services.md).
 
 
 ### 3. Configurar la extensión Places
@@ -55,6 +55,6 @@ Para obtener más información sobre cómo configurar la extensión Places, cons
 
 Si planea realizar una monitorización de región activa, deberá implementar directamente con el sistema operativo. Para obtener más información, consulte los siguientes documentos:
 
-* IOS - [Documentación de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+* iOS - [Documentación de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
 
 * Android - [Documentación de ubicación](https://developer.android.com/training/location/geofencing)

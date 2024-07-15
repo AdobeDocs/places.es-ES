@@ -4,7 +4,7 @@ description: Explicación y uso de las API de consulta.
 exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 3%
 
 ---
@@ -25,24 +25,24 @@ Con la siguiente entrada, el servicio devuelve una lista de los puntos de inter�
 * Los ID de las bibliotecas de PDI que se incluirán en la búsqueda.
 * Número máximo de puntos de interés que se van a devolver.  El valor predeterminado es 100.
 
-   La distancia entre el autor de la llamada y el punto de interés se define como la distancia desde el autor de la llamada hasta el borde de la geovalla del punto de interés. En la respuesta, los puntos de interés que contienen al llamador se marcan como teniendo al llamador.
+  La distancia entre el autor de la llamada y el punto de interés se define como la distancia desde el autor de la llamada hasta el borde de la geovalla del punto de interés. En la respuesta, los puntos de interés que contienen al llamador se marcan como teniendo al llamador.
 
 Los argumentos se proporcionan como los siguientes parámetros de consulta:
 
 * (**Requerido**) `latitude`
 
-   Latitud del llamador, que debe estar entre -85 y 85.
+  Latitud del llamador, que debe estar entre -85 y 85.
 * (**Requerido**) `longitude`
 
-   Longitud del llamador, que debe estar entre -180 y 180.
+  Longitud del llamador, que debe estar entre -180 y 180.
 
 * (**Opcional**) `limit`
 
-   Número máximo de puntos de interés que se van a devolver.
+  Número máximo de puntos de interés que se van a devolver.
 
 * (**Requerido**) `library`
 
-   El ID de la biblioteca que se va a consultar. Para consultar varias bibliotecas, asegúrese de incluir varias copias del parámetro de biblioteca en la consulta.
+  El ID de la biblioteca que se va a consultar. Para consultar varias bibliotecas, asegúrese de incluir varias copias del parámetro de biblioteca en la consulta.
 
 Este es un ejemplo del formato JSON devuelto correctamente:
 
@@ -107,7 +107,7 @@ Este es un ejemplo del formato JSON devuelto correctamente:
 }
 ```
 
-Puntos de interés en `places.pois` se ordenan por la distancia desde el llamador hasta el borde de los puntos de interés. Puntos de interés en `places.userWithin` contiene el llamador, y estos puntos de interés se ordenan por rango y luego por radio creciente.
+Los puntos de interés bajo `places.pois` se ordenan por la distancia desde el llamador hasta el borde de los puntos de interés. Los puntos de interés de menos de `places.userWithin` contienen el llamador, que se ordenan por rango y luego por radio de aumento.
 
 ## Llamada de ejemplo
 

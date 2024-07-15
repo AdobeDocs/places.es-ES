@@ -5,7 +5,7 @@ exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Método de PUT que le permite establecer un orden en todas las bibliotecas.
 }
 ```
 
-## Respuesta de ejemplo
+## Respuesta de muestra
 
 ```
 {"library_rank_order" ["dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b","ea45781f-26af-44b1-b4f8-43baf5f0fe28"]}
@@ -47,4 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->Reemplace variables como `<API KEY>`, `<TOKEN>`, y `<ORGID>` con valores reales.
+>Reemplace variables como `<API KEY>`, `<TOKEN>` y `<ORGID>` por valores reales.

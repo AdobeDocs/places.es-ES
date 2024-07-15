@@ -14,6 +14,6 @@ ht-degree: 0%
 Los puntos de interés y las bibliotecas se crean y administran en la base de datos del servicio Places mediante la interfaz de usuario del servicio Places.
 
 * Para crear una biblioteca o administrar varias, consulte [Administrar bibliotecas](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
-* Para crear un POI, consulte [Crear un POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
+* Para crear un punto de interés, consulte [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md).
 * Para administrar varios puntos de interés, consulte [Administrar puntos de interés creados anteriormente](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
 * Para realizar una importación masiva de puntos de interés, consulte [Importación masiva de puntos de interés](/help/poi-mgmt-ui/bulk-upload-pois.md).

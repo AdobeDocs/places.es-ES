@@ -20,9 +20,9 @@ Cuando un dispositivo cruza uno de los límites de región del servicio Places p
 
 ### ProcessGeoperimetral (Android)
 
-Proceso a `Geofence` evento de región para `transitionType`.
+Procesar un evento de región `Geofence` para el elemento `transitionType` proporcionado.
 
-Pase el `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Actualmente `Geofence.GEOFENCE_TRANSITION_ENTER` y `Geofence.GEOFENCE_TRANSITION_EXIT` son compatibles.
+Pasar `transitionType` de `GeofencingEvent.getGeofenceTransition()`. Actualmente `Geofence.GEOFENCE_TRANSITION_ENTER` y `Geofence.GEOFENCE_TRANSITION_EXIT` son compatibles.
 
 **Sintaxis**
 
@@ -34,7 +34,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **Ejemplo**
 
-Llame a este método en su `IntentService` que está registrado para recibir eventos de geovalla de Android.
+Llame a este método en su `IntentService` que esté registrado para recibir eventos de geovalla de Android.
 
 Este es un ejemplo de código para este método:
 
@@ -60,7 +60,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
-Se debe llamar a este método en el `CLLocationManager` delegado, que indica si el usuario ha entrado o salido de una región específica.
+Se debe llamar a este método en el delegado `CLLocationManager`, que indica si el usuario ha entrado o salido de una región específica.
 
 **Sintaxis**
 
@@ -87,7 +87,7 @@ Este es un ejemplo de código para este método:
 
 ### ProcessGeoperencingEvent (Android)
 
-Procesar todo `Geofences` en el `GeofencingEvent` al mismo tiempo.
+Procesar todos(as) los/las `Geofences` en `GeofencingEvent` al mismo tiempo.
 
 **Sintaxis**
 
@@ -97,7 +97,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Ejemplo**
 
-Llame a este método en su `IntentService` que está registrado para recibir eventos de geovalla de Android
+Llame a este método en su `IntentService` que esté registrado para recibir eventos de geovalla de Android
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -379,14 +379,14 @@ Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
 
 ### setAuthorizationStatus (iOS)
 
-*Disponible a partir de ACPPlaces v1.3.0*
+*Disponible a partir de CAPPlaces v1.3.0*
 
 Establece el estado de autorización en la extensión Places.
 
 El estado proporcionado se almacena en el estado compartido de Places y es solo de referencia.
 Llamar a este método no afecta al estado real de autorización de ubicación de este dispositivo.
 
-Cuando cambia el estado de autorización del dispositivo, la variable `locationManager:didChangeAuthorizationStatus:` método de su `CLLocationManagerDelegate` se invoca a. Desde este método, debe pasar el nuevo `CLAuthorizationStatus` valor para ACPPlaces `setAuthorizationStatus:` API.
+Cuando cambia el estado de autorización del dispositivo, se invoca el método `locationManager:didChangeAuthorizationStatus:` de su `CLLocationManagerDelegate`. Desde este método, debe pasar el nuevo valor `CLAuthorizationStatus` a la API `setAuthorizationStatus:` de ACPlaces.
 
 **Sintaxis**
 

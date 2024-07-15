@@ -19,12 +19,12 @@ Para configurar la extensión Places:
 
 1. Configure la extensión Places en Launch.
 
-   Para obtener más información, consulte *Configuración de la extensión Places en Launch* in [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obtener más información, consulte *Configurar la extensión Places en Launch* en [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Añada la extensión Places a su aplicación móvil.
 
-   Para obtener más información, consulte *Añada la extensión Places a la aplicación* in [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obtener más información, consulte *Agregar la extensión Places a tu aplicación* en [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Registre Places con la extensión móvil principal.
 
-   Para obtener más información, consulte *Registrar lugares con el núcleo móvil* in [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Para obtener más información, consulte *Registrar lugares con el núcleo móvil* en la extensión [Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).

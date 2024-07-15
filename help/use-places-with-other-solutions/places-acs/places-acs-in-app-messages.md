@@ -4,8 +4,8 @@ description: Esta sección proporciona información sobre cómo utilizar la mens
 exl-id: c80727b8-20c9-4ca0-9f2c-20ec646bb7fa
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 4%
+source-wordcount: '362'
+ht-degree: 0%
 
 ---
 
@@ -17,20 +17,20 @@ Esta información le ayuda a comprender cómo puede utilizar la información del
 
 Antes de empezar, complete las siguientes tareas:
 
-* Tener una aplicación móvil configurada con el SDK de Adobe Experience Platform Mobile, incluido el [Extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+* Tenga una aplicación móvil configurada con el SDK de Adobe Experience Platform Mobile, incluida la [extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-* Integración de [SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) en la aplicación.
-* Añada el [Extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) a la configuración de su aplicación móvil.
+* Integre el [SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) en su aplicación.
+* Agregue la [extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) a la configuración de su aplicación móvil.
 
-* [Crear un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) en la interfaz de administración de puntos de interés de Places Service.
+* [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) en la interfaz de administración de puntos de interés del servicio Places.
 
-* Instalación y configuración de [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md) y una solución de monitorización de regiones ([Documentación de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) para iOS, o [Documentación de ubicación de Android](https://developer.android.com/training/location/geofencing)) en su aplicación móvil.
+* Instale y configure la [extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md) y una solución de supervisión de región ([Documentación de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) para iOS o [Documentación de ubicación de Android](https://developer.android.com/training/location/geofencing)) en su aplicación móvil.
 
 ## Envío de un mensaje en la aplicación en función de una entrada o salida de geoperímetro
 
-1. En la instancia de Adobe Campaign Standard, haga clic en **[!UICONTROL Crear mensaje en la aplicación]**.
-1. Para el tipo de mensaje, seleccione **[!UICONTROL Segmentar a todos los usuarios de una aplicación móvil]**.
-1. Clic **[!UICONTROL Siguiente]** y escriba los detalles generales.
+1. En su instancia de Adobe Campaign Standard, haga clic en **[!UICONTROL Crear mensaje en la aplicación]**.
+1. Para el tipo de mensaje, seleccione **[!UICONTROL Segmentar todos los usuarios de una aplicación móvil]**.
+1. Haga clic en **[!UICONTROL Siguiente]** y escriba los detalles generales.
 1. En el panel izquierdo, compruebe que puede utilizar varios déclencheur relacionados con Places Services.
 
    * Puede elegir que se muestre el mensaje en la aplicación si el usuario ha introducido un límite geográfico de puntos de interés.
@@ -38,7 +38,7 @@ Antes de empezar, complete las siguientes tareas:
 
    En el siguiente ejemplo, puede almacenar en déclencheur un mensaje en la aplicación que se muestra solo a los usuarios que entran en uno de los centros turísticos que participan en un programa de bebidas gratuitas y que desea enviar a esos usuarios un cupón cuando lleguen.
 
-   ![&quot;Metadatos de lugares de mensajes en la aplicación&quot;](/help/assets/last-entered-vacation.png)
+   ![&quot;El mensaje en la aplicación coloca los metadatos&quot;](/help/assets/last-entered-vacation.png)
 
 1. Haga clic en **[!UICONTROL Siguiente]** para terminar de crear el mensaje en la aplicación para la entrega.
 
@@ -52,4 +52,4 @@ El uso de Servicios de Places con Adobe Campaign Standard le ofrece una potente 
 
 <!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
 
-[Servicio de ubicación de Adobe Experience Platform con mensajería de Campaign](https://www.youtube.com/watch?v=ikiTTQw9c-o)
+[Servicio de ubicación de Adobe Experience Platform con mensajes de Campaign](https://www.youtube.com/watch?v=ikiTTQw9c-o)

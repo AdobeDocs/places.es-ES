@@ -4,7 +4,7 @@ description: Cree un punto de interés con la interfaz de usuario del servicio P
 exl-id: 16df61e3-5a18-4de4-a284-a5d394dc73af
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Un punto de interés (PDI) es una ubicación o un punto de un mapa que es import
 
    El radio es la distancia mínima y el valor recomendado es de 100 metros.
 
-   ![definir un POI](/help/assets/define_poi.png)
+   ![definir un punto de interés](/help/assets/define_poi.png)
 
 1. Pasos opcionales:
 1. Los siguientes pasos son opcionales:
@@ -29,22 +29,22 @@ Un punto de interés (PDI) es una ubicación o un punto de un mapa que es import
    1. Seleccione un color para el icono.
    1. Especifique una categoría para el punto de interés (POI).
 
-1. Expanda el **[!UICONTROL Ubicación]** sección.
+1. Expanda la sección **[!UICONTROL Ubicación]**.
 
    1. Escriba una dirección.
    1. Escriba la ciudad.
    1. Escriba el nombre del estado.
    1. Escriba el nombre del país.
    1. Seleccione o introduzca una latitud o longitud (obligatorio).
-   1. Clic **[!UICONTROL Soltar pin en el mapa]**.
+   1. Haga clic en **[!UICONTROL Soltar anclaje en el mapa]**.
 
    Si no sabe la latitud y longitud exactas, soltar un alfiler es útil.
 
-1. Expanda el **[!UICONTROL Metadatos]** y haga clic en **[!UICONTROL Añadir metadatos]**.
+1. Expanda la sección **[!UICONTROL Metadatos]** y haga clic en **[!UICONTROL Agregar metadatos]**.
 
    Los metadatos pueden ayudarle a definir una ubicación y se pueden utilizar en otros flujos de trabajo de soluciones de Adobe para refinar aún más la audiencia.
 
    1. Escriba el nombre de la clave.
    1. Escriba el valor clave.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL para guardar]**.

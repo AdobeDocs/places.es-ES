@@ -4,7 +4,7 @@ description: En este tema se proporciona información adicional acerca de alguna
 exl-id: cee9f447-5e50-4ed8-b37b-baecbc0e9b7b
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ A continuación encontrará información y las preguntas más frecuentes sobre e
 
 ## Migración desde trackLocation en el SDK v4
 
-Si está migrando desde el SDK v4 y busca un reemplazo al `trackLocation` API, consulte el tema [Usar el servicio de Places sin supervisión de región activa](use-places-without-active-monitoring.md).
+Si está migrando desde el SDK v4 y busca un reemplazo a la API `trackLocation`, consulte el tema [Usar el servicio Places sin supervisión de región activa](use-places-without-active-monitoring.md).
 
 ## Tamaño y fiabilidad
 
@@ -39,4 +39,4 @@ La monitorización de una región geográfica comienza inmediatamente después d
 
 Tenga cuidado al especificar el conjunto de regiones que desea supervisar. Las regiones son un recurso compartido del sistema y el número total de regiones disponibles en todo el sistema es limitado. Por este motivo, la ubicación principal limita a 20 el número de regiones que una sola aplicación puede monitorizar simultáneamente. Para solucionar este límite, considere la posibilidad de registrar solo aquellas regiones en las inmediaciones del usuario.
 
-[Consulte información adicional en el sitio para desarrolladores de Apple] (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)
+[Vea información adicional en el sitio para desarrolladores de Apple] (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)

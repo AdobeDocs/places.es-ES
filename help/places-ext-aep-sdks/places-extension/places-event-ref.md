@@ -5,8 +5,8 @@ feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 28%
+source-wordcount: '247'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ Esta es una lista de los eventos que gestiona la extensión Places.
 
 **Detalles del evento**
 
-| Tipo | Fuente | Nombre | Emparejados |
+| Tipo | Fuente | Nombre | Emparejado |
 | :--- | :--- | :--- | :--- |
 | LUGARES | REQUEST_CONTENT | `requestgetuserwithinplaces` | True |
 
@@ -28,13 +28,13 @@ Este evento es una solicitud para recuperar los puntos de interés en los que se
 
 **Definición de carga de datos**
 
-N/D
+n/a
 
 ## GetNearbyPointsOfInterest
 
 **Detalles del evento**
 
-| Tipo | Fuente | Nombre | Emparejados |
+| Tipo | Fuente | Nombre | Emparejado |
 | :--- | :--- | :--- | :--- |
 | LUGARES | REQUEST_CONTENT | `requestgetnearbyplaces` | True |
 
@@ -46,16 +46,16 @@ Este evento es una solicitud para obtener los puntos de interés cercanos tenien
 
 | Clave | Tipo de valor | Requerido | Valor predeterminado | Descripción |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | doble | true | N/D | Contiene el valor de latitud del centro de la búsqueda de puntos de interés cercanos. |
-| longitude | doble | true | N/D | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
-| radio | entero | false | N/D | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
-| count | entero | false | 10 | Número máximo de puntos de interés que se devolverán en el evento de respuesta resultante. |
+| latitude | doble | true | n/a | Contiene el valor de latitud del centro de la búsqueda de puntos de interés cercanos. |
+| longitud | doble | true | n/a | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
+| radio | entero | false | n/a | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
+| recuento | entero | false | 10 | Número máximo de puntos de interés que se devolverán en el evento de respuesta resultante. |
 
 ## ProcessRegionEvent
 
 **Detalles del evento**
 
-| Tipo | Fuente | Nombre | Emparejados |
+| Tipo | Fuente | Nombre | Emparejado |
 | :--- | :--- | :--- | :--- |
 | LUGARES | REQUEST_CONTENT | `requestprocessregionevent` | False |
 
@@ -67,7 +67,7 @@ Este evento hace que la extensión Places procese un evento de entrada o salida 
 
 | Clave | Tipo de valor | Requerido | Descripción |
 | :--- | :--- | :--- | :--- |
-| regionid | string | true | ID de la región que genera el evento. |
+| regionid | cadena | true | ID de la región que genera el evento. |
 | regioneventtype | int | true | Tipo de evento de región que se genera. 1 para entrada y 2 para salida. |
 
 ## Eventos distribuidos por la extensión Places

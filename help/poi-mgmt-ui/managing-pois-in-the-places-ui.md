@@ -5,7 +5,7 @@ exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 1. Inicie sesión en el servicio de Places con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono que parece una lista con viñetas.
 1. Busque el punto de interés que desee editar.
-1. Clic **[!UICONTROL ...]** y seleccione **[!UICONTROL Ver detalles]**.
+1. Haga clic en **[!UICONTROL ...]** y seleccione **[!UICONTROL Ver detalles]**.
 1. Actualice la información y haga clic en **[!UICONTROL Guardar]**.
 
 ## Eliminar un POI
@@ -28,11 +28,11 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 1. Inicie sesión en el servicio de Places con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono que parece una lista con viñetas.
 1. Busque el punto de interés que desee eliminar.
-1. Clic **[!UICONTROL ...]** y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en **[!UICONTROL ...]** y seleccione **[!UICONTROL Eliminar]**.
 
 ## Filtrar puntos de interés por ciudad, estado, país o metadatos
 
-![filtrar un POI](/help/assets/filter_poi.png)
+![filtrar un punto de interés](/help/assets/filter_poi.png)
 
 1. Inicie sesión en la interfaz de usuario del servicio de Places con su Adobe ID.
 1. En la parte superior derecha, haga clic en el icono de filtrado.
@@ -40,25 +40,25 @@ Los puntos de interés y las bibliotecas se crean y administran en la base de da
 
    * Por biblioteca:
 
-      a. Seleccione una biblioteca.
+     a. Seleccione una biblioteca.
 
    * Por propiedad:
 
-      a. En la lista desplegable Propiedad, seleccione **[!UICONTROL País]**, **[!UICONTROL Estado]**, o **[!UICONTROL Ciudad]**.
+     a. En la lista desplegable Propiedad, seleccione **[!UICONTROL País]**, **[!UICONTROL Estado]** o **[!UICONTROL Ciudad]**.
 
-      b. En la línea siguiente, introduzca un valor.
+     b. En la línea siguiente, introduzca un valor.
 
-      Por ejemplo, puede seleccionar **[!UICONTROL Estado]** y tipo **[!UICONTROL California]**.
+     Por ejemplo, puede seleccionar **[!UICONTROL Estado]** y escribir **[!UICONTROL California]**.
 
    * Con metadatos:
 
-      a. Introduzca una clave y un valor.
+     a. Introduzca una clave y un valor.
 
 ## Definición de un punto de interés geográfico
 
 Las geovallas son un tipo de punto de interés y se definen en la base de datos en función de las siguientes claves:
 
-| Claves | Descripción | Requerido? |
+| Claves | Descripción | ¿Requerido? |
 | :--- | :--- | :--- |
 | ID | Identificador único asignado a cada POI | Sí |
 | Nombre | Nombre descriptivo proporcionado al PDI. | Sí |
@@ -67,7 +67,7 @@ Las geovallas son un tipo de punto de interés y se definen en la base de datos 
 | Icono | Ayude con las visualizaciones de los puntos de interés. | Sí (asignado de forma predeterminada) |
 | Color | Ayude con las visualizaciones de los puntos de interés. | Sí (asignado de forma predeterminada) |
 | Categoría | Asigne un marco común de categorías que sean comunes en todos los puntos de interés de todas las bibliotecas. | No |
-| Dirección | Dirección. | No |
+| Dirección | Dirección de la calle. | No |
 | Ciudad | Ciudad del PDI. | No |
 | Estado/Región | Estado o región del PDI. | No |
 | País | País del PDI. | No |

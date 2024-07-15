@@ -4,8 +4,8 @@ description: Notas de la versión de Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1525'
+ht-degree: 1%
 
 ---
 
@@ -13,10 +13,10 @@ ht-degree: 2%
 
 ## 8 de julio de 2020
 
-* **Extensiones de supervisión de Places y Places**
+* **Extensiones de supervisión de lugares y lugares**
 
-   * Se han añadido extensiones de Monitor de lugares y lugares para [Aplicaciones nativas de React](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * Se han añadido extensiones de Monitor de lugares y lugares para [Aplicaciones Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Se han agregado extensiones de supervisión de Places y Places para [aplicaciones de React Native](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Se han agregado extensiones de supervisión de Places y Places para [aplicaciones Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
    * Para obtener más información, consulte: [Uso de la extensión Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## 20 de febrero de 2020
 
-* **ACPlaces 1.3.1 (iOS)**
+* **ACPPlaces 1.3.1 (iOS)**
 
    * La extensión Places ahora informa de la información de la versión al centro de eventos en el SDK principal.
    * La información de pertenencia al punto de interés del dispositivo ahora tiene un tiempo de vida predeterminado de una hora desde el momento en que se recopila. Para obtener más información, consulte [Modificación del tiempo de vida de la pertenencia a Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
@@ -72,7 +72,7 @@ ht-degree: 2%
 
    * **Android**
 
-      * Se ha añadido una nueva API, `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para Servicios de Places. El valor se almacena y utiliza en el estado compartido de Places.
+      * Se ha agregado una nueva API, `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para Places Services. El valor se almacena y utiliza en el estado compartido de Places.
 
 ## 4 de diciembre de 2019
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    * **iOS**
 
-      * Se ha añadido una nueva API, `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para Servicios de Places. El valor se almacena y utiliza en el estado compartido de Places.
+      * Se ha agregado una nueva API, `setAuthorizationStatus`, para establecer el estado de autorización del dispositivo para Places Services. El valor se almacena y utiliza en el estado compartido de Places.
 
 ## 25 de noviembre de 2019
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 
       * Se corrigieron instrucciones de importación para proyectos de Cocoapods que utilizan la opción de varios proyectos de pod.
 
-## 22 de noviembre de 2019
+## sábado, 22 de noviembre de 2019
 
 * **PlacesMonitor 2.1.1**
 
@@ -113,12 +113,12 @@ ht-degree: 2%
 
    * **iOS**
 
-      * Se ha añadido una nueva API, `setRequestAuthorizationLevel`, para establecer el tipo de solicitud de autorización de ubicación que se solicitará al usuario.
+      * Se agregó una nueva API, `setRequestAuthorizationLevel`, para establecer el tipo de solicitud de autorización de ubicación que se solicitará al usuario.
 
 
    * **Android**
 
-      * Se ha añadido una nueva API, `setLocationPermission`, para establecer el tipo de solicitud de permiso de ubicación que se solicitará al usuario.
+      * Se agregó una nueva API, `setLocationPermission`, para establecer el tipo de solicitud de permiso de ubicación que se solicitará al usuario.
       * El Monitor de Places ahora es compatible con Android 10.
 
 ## 8 de agosto de 2019
@@ -166,7 +166,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
   Nueva API: `public static void stop (final boolean clearData);`
 
-* Se ha actualizado el uso del `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
+* Se ha actualizado el uso de la API `getNearbyPointsOfInterest` para gestionar los escenarios de error de forma más eficaz.
 
 ## 25 de julio de 2019
 
@@ -176,9 +176,9 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Para borrar todos los datos de Places del dispositivo,
 
-  en ACPlacesMonitor, reemplazó una API existente `+ (void) stop;` con`+ (void) stop: (BOOL) clearData;`.
+  en ACPPlacesMonitor, reemplazó una API existente `+ (void) stop;` con `+ (void) stop: (BOOL) clearData;`.
 
-* Se ha actualizado el uso de las API de Places `getNearbyPointsOfInterest` API para gestionar los escenarios de error de forma más eficaz.
+* Se ha actualizado el uso de la API `getNearbyPointsOfInterest` de ACPlaces para gestionar los escenarios de error de forma más eficaz.
 
 ## 22 de julio de 2019
 
@@ -188,8 +188,8 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 * Se ha añadido una nueva API que borra todos los datos relacionados con Places del estado compartido, la memoria en la aplicación y las preferencias compartidas.
 * Se ha corregido un problema en el cual el estado compartido no se actualizaba durante el inicio de la aplicación.
-* Se ha corregido un error por el que `getNearbyPointsOfInterest` la llamada de retorno devolvía el código de error `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` no hay internet.
-* `getNearbyPointsOfInterest` API (sin errorCallback) tendrá el `successCallback` se llama con la lista de puntos de interés vacía en caso de error al recuperar los puntos de interés cercanos.
+* Se corrigió un error en el cual la llamada de retorno `getNearbyPointsOfInterest` devolvía el código de error `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sin conexión a Internet.
+* Se llamará a la API `getNearbyPointsOfInterest` (sin errorCallback) con la lista de puntos de interés vacía si se produce un error al recuperar los puntos de interés cercanos.`successCallback`
 
 ## 19 de julio de 2019
 
@@ -197,13 +197,13 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 **iOS Places 1.2.0**
 
-Se ha añadido una nueva API que borra todos los datos relacionados con Places del estado compartido, la memoria en la aplicación y `NSUserDefaults`.
+Se ha agregado una nueva API que borra todos los datos relacionados con Places del estado compartido, la memoria en la aplicación y `NSUserDefaults`.
 
 ## 25 de junio de 2019
 
 En esta versión se realizaron las siguientes actualizaciones:
 
-**iOS Places Monitor 1.0.2**
+**Monitor de lugares iOS 1.0.2**
 
 * Mejoras en la calidad de vida, incluida una mejor documentación en el código y registro.
 
@@ -220,7 +220,7 @@ En esta versión se realizaron las siguientes actualizaciones:
 
 ## 30 de mayo de 2019
 
-**Android Places Monitor 1.0.1**
+**Monitor de lugares Android 1.0.1**
 
 * Se ha corregido un problema que impedía un evento de entrada para puntos de interés cuando se iniciaba la monitorización de Places.
 
@@ -242,9 +242,9 @@ En esta versión se realizaron las siguientes actualizaciones:
 * Se ha añadido una nueva API para procesar un geoperímetro individual.
 * Se han corregido errores para evitar varios eventos de entrada consecutivos.
 
-**Android Places Monitor 1.0.0**
+**Monitor de lugares Android 1.0.0**
 
-Lanzamiento inicial del monitor Places para Android.
+Versión inicial del Monitor de Places para Android.
 
 El Monitor de lugares administra las API de ubicación de nivel del sistema operativo y se comunica directamente con la extensión Places. Con ambas extensiones instaladas, los clientes pueden tener una monitorización de región predeterminada en su aplicación.
 Para obtener más información sobre el Monitor de Places, haga clic aquí.
@@ -265,7 +265,7 @@ Para obtener más información sobre el Monitor de Places, haga clic aquí.
 
 En esta versión se realizaron las siguientes actualizaciones:
 
-**iOS Places Monitor 1.0.1**
+**Monitor de lugares iOS 1.0.1**
 
 * Se agregó la cobertura de prueba unitaria completa.
 * Integración de CI (CircleCI)
@@ -281,7 +281,7 @@ El Monitor de lugares administra las API de ubicación de nivel del sistema oper
 
 ## 28 de febrero de 2019
 
-### Lanzamiento beta
+### Versión de Beta
 
 Esta es la primera versión de Places Service, un conjunto de herramientas que permite a los clientes enriquecer las experiencias de sus usuarios con datos de ubicación del mundo real. En la primera versión, nuestro caso de uso principal es permitir que las aplicaciones móviles recuperen datos de ubicación personalizados y actúen con esos datos a través de Adobe Experience Platform Launch.
 
@@ -293,8 +293,8 @@ Estas son las funciones clave de esta versión:
 
 Hemos lanzado una interfaz de usuario de administración donde puede ver y administrar sus puntos de interés (POI). También puede organizar los puntos de interés en bibliotecas. Además de los metadatos estándar, como ciudad, estado y categoría, también podemos añadir metadatos personalizados a sus puntos de interés.
 
-* Para ver la IU de, vaya a [https://places.adobe.com](https://places.adobe.com).
-* Para empezar con la interfaz de usuario de, consulte [Primeros pasos](/help/getting-started.md).
+* Para ver la interfaz de usuario, ve a [https://places.adobe.com](https://places.adobe.com).
+* Para comenzar con la interfaz de usuario, vea [Introducción](/help/getting-started.md).
 
 #### Extensión de Places
 
@@ -322,6 +322,6 @@ Para obtener más información sobre las API de Places, consulte [API de servici
 
 ### Próximamente
 
-#### Analytics  de CRM
+#### Integración de Analytics
 
 La extensión de Analytics se está actualizando para agregar automáticamente datos de contexto de ubicación de la base de datos del servicio Places a todas las llamadas de Analytics salientes cuando un usuario está en un punto de interés (llamadas pasivas). Esta actualización también permite crear reglas para activar llamadas de seguimiento de Analytics directamente a la entrada o salida de puntos de interés (llamadas activas).

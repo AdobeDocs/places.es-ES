@@ -4,8 +4,8 @@ description: Esta sección muestra cómo utilizar el servicio de Places con noti
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,18 @@ Antes de empezar, asegúrese de haber completado las siguientes tareas:
 
 * El canal de notificaciones push de Mobile Services está configurado.
 
-  Para obtener más información, consulte [Crear un mensaje en la aplicación](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Para obtener más información, consulte [Crear un mensaje en la aplicación](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es).
 
 * Obtenga información sobre cómo enviar una notificación push a un segmento de Analytics en Mobile Services.
 
-  Para obtener más información, consulte [Crear un mensaje en la aplicación](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Para obtener más información, consulte [Crear un mensaje en la aplicación](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es).
 
 ## Enviar una notificación
 
-En el **[!UICONTROL Audiencia]** de la pestaña *Crear notificación push* flujo de trabajo, puede crear la audiencia para este mensaje de una de las siguientes maneras:
+En la ficha **[!UICONTROL Audiencia]** del flujo de trabajo *Crear notificación push*, puede crear la audiencia para este mensaje de una de las siguientes maneras:
 
-* En el **[!UICONTROL Segmentos de Analytics]** , seleccione un segmento de Adobe Analytics creado anteriormente.
+* En la lista desplegable **[!UICONTROL Segmentos de Analytics]**, seleccione un segmento de Adobe Analytics creado anteriormente.
 
-* En el **[!UICONTROL Segmento personalizado]** , cree una audiencia utilizando los parámetros de segmento personalizados disponibles.
+* En la sección **[!UICONTROL Segmento personalizado]**, cree una audiencia utilizando los parámetros de segmento personalizados disponibles.
 
-![configuración de un mensaje push](/help/assets/push-set-up.png)
+![configurando un mensaje push](/help/assets/push-set-up.png)
