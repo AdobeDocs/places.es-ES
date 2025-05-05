@@ -56,12 +56,12 @@ Para crear un proyecto para la API del servicio Places, complete lo siguiente:
 11. Haga clic en **[!UICONTROL Guardar y configurar API]**.
 12. En el panel izquierdo, haga clic en el vínculo **[!UICONTROL Servidor a servidor de OAuth]** en CREDENCIALES
 13. Esta página proporciona lo siguiente:
-   * Una forma de generar un token de acceso para utilizarlo en las solicitudes de API de REST del servicio de Places.
-   * Vea un comando curl para ver un ejemplo de cómo puede generar un token de acceso a partir de su propio código.
-   * Ver el ID de cliente (también denominado clave de API)
-   * Ver el secreto del cliente
-   * Visualización del ID de organización
-   * Todos ellos son obligatorios en las solicitudes a la API de REST del servicio Places.
+    * Una forma de generar un token de acceso para utilizarlo en las solicitudes de API de REST del servicio de Places.
+    * Vea un comando curl para ver un ejemplo de cómo puede generar un token de acceso a partir de su propio código.
+    * Ver el ID de cliente (también denominado clave de API)
+    * Ver el secreto del cliente
+    * Visualización del ID de organización
+    * Todos ellos son obligatorios en las solicitudes a la API de REST del servicio Places.
 14. Puede cambiar el nombre del proyecto por otro más descriptivo haciendo clic en el nombre del proyecto en la ruta de la parte superior izquierda de la ventana
 15. A continuación, haga clic en el botón **[!UICONTROL Editar proyecto]** en la parte superior derecha de la página.
 
