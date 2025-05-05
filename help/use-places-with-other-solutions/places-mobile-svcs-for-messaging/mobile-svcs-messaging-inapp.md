@@ -62,7 +62,7 @@ Por ejemplo, puede seleccionar `poiname` como clave y `{%%Last Entered POI Name}
 
 >[!TIP]
 >
->Se pueden configurar reglas de procesamiento de Analytics para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). En el ejemplo de *Crear una acción*, la acción enviará `poiname` como contexto para describir el evento de entrada de punto de interés que se envía a Analytics.
+>Se pueden configurar reglas de procesamiento de Analytics para recoger estos datos de contexto. Para obtener más información, consulte [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=es). En el ejemplo de *Crear una acción*, la acción enviará `poiname` como contexto para describir el evento de entrada de punto de interés que se envía a Analytics.
 
 ![creando una acción](/help/assets/configure-action.png)
 

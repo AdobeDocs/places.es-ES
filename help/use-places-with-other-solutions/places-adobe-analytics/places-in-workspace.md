@@ -23,7 +23,7 @@ Este documento supone lo siguiente:
 
 1. El usuario de Adobe Analytics es administrador y tiene acceso a las reglas de procesamiento.
 
-   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=es).
 
 1. En la propiedad de Launch, se han creado elementos de datos para las variables del servicio de Places que desee.
 
@@ -52,7 +52,7 @@ En este ejemplo, se ha creado una variable de conversión **[!UICONTROL Evar2]**
 
 ## 3. Crear reglas de procesamiento
 
-Este paso es necesario para asignar datos de contexto (paso 1) a variables de Analytics (paso 2). Para obtener más información sobre la creación de reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+Este paso es necesario para asignar datos de contexto (paso 1) a variables de Analytics (paso 2). Para obtener más información sobre la creación de reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=es).
 
 En este ejemplo, se ha creado una regla de procesamiento para asignar el valor de datos de contexto **[!UICONTROL poi.name]** a **[!UICONTROL Places POI Name (eVar 2)]**. Será necesario crear reglas de procesamiento adicionales para cada variable de ubicación creada.
 
