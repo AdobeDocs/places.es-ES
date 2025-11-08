@@ -36,7 +36,7 @@ El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la 
 | tutorials-title | Apenas se utiliza, no es adecuado para los Tutoriales |
 | tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de helpx o tutoriales KT |
 | mini-toc-levels | Determina el número de niveles de encabezados que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | https://github.com/AdobeDocs/places.en |
+| git-repo | https://github.com/AdobeDocs/places.es-ES |
 | índice | establecer índice=no es para inicio flexible |
 
 En el archivo TOC.md
