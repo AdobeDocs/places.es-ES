@@ -2,16 +2,21 @@
 title: Información general sobre API de servicios web
 description: Places Service es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones de Adobe Experience Cloud y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada, en el momento y en el lugar adecuados.
 exl-id: 9e7358d1-3ba0-4304-aeb2-fed7162afb57
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/jP7iQH7X85UZROjsa3XzuN0bJZjjKffODFGGji7XZfQ
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 336
 ht-degree: 1%
 
 ---
 
 # Información general de API de servicios web {#places-web-services-api}
 
-Places Service es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones de Adobe Cloud Platform y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada, en el momento y en el lugar adecuados.
+Places Service es el conjunto de servicios que facilita a los clientes de Adobe la hidratación de las soluciones Adobe Cloud Platform y Adobe Experience Platform con datos de ubicación y la experiencia adecuada para la persona adecuada, en el momento y en el lugar adecuados.
 
 Las API de servicios web le permiten hacer lo siguiente:
 

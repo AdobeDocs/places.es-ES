@@ -2,9 +2,14 @@
 title: Definición de elementos de datos
 description: Esta sección proporciona información sobre cómo crear, utilizar y publicar elementos de datos en Experience Platform Launch para Places.
 exl-id: 57e88a37-0b0b-4064-ab72-382a36a0d01d
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/NQ83uUZJtNglAcxD6HNl4Gw1Y8-0-uqfu-hH8H0EITg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cfid: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 486
 ht-degree: 1%
 
 ---
@@ -17,7 +22,7 @@ La siguiente información le ayuda a comprender los elementos de datos y cómo c
 
 Los elementos de datos son los componentes básicos del diccionario de datos de la aplicación y se utilizan para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad.
 
-Un elemento de datos es una variable en la que el valor se puede asignar a un ID de visitante, un nombre de operador, un ID de Advertising, un ID push, etc. En Experience Platform Launch, puede hacer referencia a este valor por su nombre de variable. Esta colección de elementos de datos se convierte en el diccionario de los datos definidos que puede utilizar para crear reglas (eventos, condiciones y acciones). Este Experience Platform Launch se comparte en un entorno de, donde se puede utilizar con cualquier extensión de la propiedad.
+Un elemento de datos es una variable en la que el valor se puede asignar a un ID de visitante, un nombre de operador, un ID de Advertising, un ID push, etc. En Experience Platform Launch, puede hacer referencia a este valor por su nombre de variable. Esta colección de elementos de datos se convierte en el diccionario de los datos definidos que puede utilizar para crear reglas (eventos, condiciones y acciones). Este diccionario se comparte en Experience Platform Launch, donde se puede utilizar con cualquier extensión de la propiedad.
 
 Con la extensión Places, puede hacer referencia a valores de los siguientes destinos:
 
@@ -69,6 +74,6 @@ Si un selector de elementos de datos no está presente en el componente de regla
 Por ejemplo, si el nombre del elemento de datos es **[!UICONTROL Última ciudad del punto de interés]**, puede agregar **[!UICONTROL ÚLTIMA ciudad del punto de interés]** a una entrada de texto.
 
 
-## Elementos de datos Publish
+## Publicación de elementos de datos
 
 Si los elementos de datos se utilizan en cualquiera de los componentes de regla, estos elementos de datos también deben incluirse en la biblioteca y publicarse.

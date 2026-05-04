@@ -2,9 +2,14 @@
 title: Puntos de interés de carga masiva
 description: Esta sección proporciona información sobre cómo cargar de forma masiva los puntos de interés.
 exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2: id: bef6f891-2e8a-425e-8f99-7ddf22070daaid: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 854
 ht-degree: 0%
 
 ---
@@ -98,11 +103,11 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `org_id`
 
-     El orgID del Experience Cloud en el que se importarán los POI. Para obtener información sobre cómo obtener el identificador de organización, consulte *Requisitos previos para el acceso de usuarios* en [Información general y requisitos previos de la integración](/help/web-service-api/adobe-i-o-integration.md).
+     El orgID de Experience Cloud en el que se importarán los POI. Para obtener información sobre cómo obtener el identificador de organización, consulte *Requisitos previos para el acceso de usuarios* en [Información general y requisitos previos de la integración](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-     Esta es la clave de API de REST de Places que se obtiene de la integración de Places de Adobe I/O. Para obtener información sobre cómo obtener la clave de API, consulte *Requisitos previos para el acceso de usuarios* en [Información general y requisitos previos de la integración](/help/web-service-api/adobe-i-o-integration.md).
+     Esta es la clave de API de REST de Places que se obtiene de la integración de Adobe I/O Places. Para obtener información sobre cómo obtener la clave de API, consulte *Requisitos previos para el acceso de usuarios* en [Información general y requisitos previos de la integración](/help/web-service-api/adobe-i-o-integration.md).
 
    b. Guarde los cambios.
 

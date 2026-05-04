@@ -2,10 +2,15 @@
 title: Envío de datos de entrada y salida de puntos de interés a Analytics
 description: Esta sección proporciona información sobre cómo enviar datos de entrada y salida de puntos de interés a Analytics.
 exl-id: 69e96261-4902-47dd-a930-a8f3d19c179c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/H-NkwK7KNSGPjEKYuWNc8F0f3MIu3wBr5FGjypxnqng
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 1%
 
 Después de que el servicio Places envíe los eventos de entrada y salida, puede crear reglas en Experience Platform Launch para enviar los datos del servicio Places a Adobe Analytics. Para crear este tipo de regla, seleccione la propiedad en Launch y complete los siguientes pasos:
 
-## 1. Crear una regla
+## &#x200B;1. Crear una regla
 
 1. En la ficha **[!UICONTROL Reglas]**, haga clic en **[!UICONTROL Crear nueva regla]**.
 
@@ -27,7 +32,7 @@ Después de que el servicio Places envíe los eventos de entrada y salida, puede
    * Si no tiene reglas existentes para esta propiedad, el botón **[!UICONTROL Crear nueva regla]** estará en medio de la pantalla.
    * Si su propiedad tiene reglas, el botón **[!UICONTROL Crear nueva regla]** estará en la parte superior derecha de la pantalla.
 
-## 2. Seleccione un evento
+## &#x200B;2. Seleccione un evento
 
 1. Escriba un nombre significativo para la regla.
 
@@ -44,7 +49,7 @@ Después de que el servicio Places envíe los eventos de entrada y salida, puede
    ![&quot;seleccionar un evento&quot;](/help/assets/pt-selectEvent.png)
 
 
-## 3. Añadir condiciones
+## &#x200B;3. Adición de condiciones
 
 >[!IMPORTANT]
 >
@@ -65,7 +70,7 @@ En este ejemplo, se crea una condición que hace que la regla entre en déclench
    ![&quot;estableció una condición&quot;](/help/assets/pt-setCondition.png)
 
 
-## 4. Defina la acción
+## &#x200B;4. Defina la acción
 
 1. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Agregar]**.
 
@@ -75,7 +80,7 @@ En este ejemplo, se crea una condición que hace que la regla entre en déclench
 
 1. En el panel derecho, añada la acción o el estado que desee enviar a Analytics.
 
-   También puede añadir datos de contexto adicionales a esta solicitud. Recuerde que puede utilizar elementos de datos para obtener estos datos de forma dinámica desde el SDK.
+   También puede añadir datos de contexto adicionales a esta solicitud. Recuerde que puede utilizar elementos de datos para obtener estos datos de forma dinámica desde SDK.
 
 1. Haga clic en **[!UICONTROL Conservar cambios]**.
 
@@ -83,12 +88,12 @@ En este ejemplo, se crea una condición que hace que la regla entre en déclench
 
    ![&quot;estableció una acción&quot;](/help/assets/pt-setAction.png)
 
-## 5. Guarde la regla y vuelva a generar la propiedad
+## &#x200B;5. Guarde la regla y vuelva a generar la propiedad
 
 Una vez completada la configuración, compruebe que la regla tiene el aspecto siguiente:
 
 ![&quot;Se ha creado la regla&quot;](/help/assets/pt-ruleComplete.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar]**
 
 1. Vuelva a compilar la propiedad de Launch e impleméntela en el entorno correcto.
