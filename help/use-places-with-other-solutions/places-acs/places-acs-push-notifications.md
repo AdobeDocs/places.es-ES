@@ -2,9 +2,22 @@
 title: Notificaciones push con el servicio Places
 description: Esta sección proporciona información sobre cómo utilizar el servicio Places con notificaciones push en Campaign Standard.
 exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -17,9 +30,9 @@ En esta sección, aprenderá a utilizar la información de ubicación geográfic
 
 Antes de empezar, complete las siguientes tareas:
 
-* Tenga una aplicación móvil configurada con el SDK de Adobe Experience Platform Mobile, incluida la [extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+* Tenga una aplicación móvil configurada con Adobe Experience Platform Mobile SDK, incluida la [extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-* Integre el [SDK de Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) en su aplicación.
+* Integre [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) en su aplicación.
 * Agregue la [extensión de Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) a la configuración de su aplicación móvil.
 
 * [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) en la interfaz de administración de puntos de interés del servicio Places.
@@ -27,30 +40,30 @@ Antes de empezar, complete las siguientes tareas:
 * Habilite e instale la extensión [Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
-## Creación de elementos de datos en un Experience Platform Launch
+## Creación de elementos de datos en Experience Platform Launch
 
-Después de comprobar que la extensión Places y una solución de supervisión de región ([Documentación de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) para iOS o [Documentación de ubicación de Android](https://developer.android.com/training/location/geofencing)) funcionan correctamente en la aplicación, debe crear elementos de datos en Experience Platform Launch. Los elementos de datos permiten leer la información proporcionada por las extensiones a través del centro de eventos del SDK móvil y actuar como un alias para recuperar datos de la aplicación cliente. Para recuperar datos de las extensiones de Places y enviar la información del servicio de Places a Campaign, debe crear algunos elementos de datos.
+Después de comprobar que la extensión Places y una solución de supervisión de región ([Documentación de CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) para iOS o [Documentación de ubicación de Android](https://developer.android.com/training/location/geofencing)) funcionan correctamente en la aplicación, debe crear elementos de datos en Experience Platform Launch. Los elementos de datos permiten leer la información proporcionada por las extensiones a través del centro de eventos de Mobile SDK y actuar como un alias para recuperar datos de la aplicación cliente. Para recuperar datos de las extensiones de Places y enviar la información del servicio de Places a Campaign, debe crear algunos elementos de datos.
 
 Para crear un elemento de datos:
 
-1. En la propiedad móvil del Experience Platform Launch, haga clic en la ficha **[!UICONTROL Elementos de datos]** y luego en **[!UICONTROL Agregar elemento de datos]**.
+1. En su propiedad de Experience Platform Launch Mobile, haga clic en la pestaña **[!UICONTROL Elementos de datos]** y luego en **[!UICONTROL Agregar elemento de datos]**.
 1. En la lista desplegable **[!UICONTROL Extensión]**, seleccione **[!UICONTROL Servicio Places]**.
 1. En la lista desplegable **[!UICONTROL Tipo de elemento de datos]**, seleccione **[!UICONTROL Nombre]**.
 1. En el panel lateral derecho, puede seleccionar **[!UICONTROL Punto de interés actual]** que recupera el nombre del punto de interés en el que se encuentra el usuario.
 
    **[!UICONTROL Última entrada]** recupera el nombre del punto de interés que el usuario especificó por última vez, y **[!UICONTROL Última salida]** proporciona el nombre del punto de interés que el usuario dejó por última vez. En este ejemplo, seleccionamos **[!UICONTROL Última entrada]** y escribimos un nombre para el elemento de datos, como **[!UICONTROL Último nombre de punto de interés]** y hacemos clic en **[!UICONTROL Guardar]**.
 
-   ![&quot;Mensajería push en el Campaign Standard&quot;](/help/assets/ACS_Push1.png)
+   ![&quot;Mensajería push en Campaign Standard&quot;](/help/assets/ACS_Push1.png)
 
 1. Repita los pasos del 1 al 4 anteriores y cree elementos de datos para *Última latitud de punto de interés*, *Última longitud de punto de interés* y *Último radio de punto de interés*.
 
-Además de los elementos de datos para el servicio Places, asegúrese de crear elementos de datos principales móviles para *App ID* y *ID de Experience Cloud*.
+Además de los elementos de datos del servicio Places, asegúrese de crear elementos de datos principales móviles para *App ID* y *Experience Cloud ID*.
 
 ## Creación de una regla para enviar datos de ubicación a Adobe Campaign Standard
 
-Las reglas de Experience Platform Launch permiten crear flujos de trabajo complejos de varias soluciones basados en déclencheur de eventos. Con las reglas, puede crear nuevas reglas o modificar las existentes y hacer que las actualizaciones se implementen dinámicamente en las aplicaciones móviles. En el ejemplo siguiente, la regla se activará cuando un usuario introduzca un punto de interés delimitado geográficamente. Una vez activada la regla, se envía una actualización al Campaign Standard para registrar una entrada en un punto de interés específico para un usuario en particular en función del ID de Experience Cloud.
+Las reglas de Experience Platform Launch le permiten crear flujos de trabajo complejos de varias soluciones basados en déclencheur de eventos. Con las reglas, puede crear nuevas reglas o modificar las existentes y hacer que las actualizaciones se implementen dinámicamente en las aplicaciones móviles. En el ejemplo siguiente, la regla se activará cuando un usuario introduzca un punto de interés delimitado geográficamente. Una vez activada la regla, se envía una actualización a Campaign Standard para registrar una entrada en un punto de interés específico para un usuario en particular en función del ID de Experience Cloud.
 
-1. En la propiedad móvil del Experience Platform Launch, en la ficha **[!UICONTROL Reglas]**, haga clic en **[!UICONTROL Agregar regla]**.
+1. En su propiedad móvil de Experience Platform Launch, en la ficha **[!UICONTROL Reglas]**, haga clic en **[!UICONTROL Agregar regla]**.
 1. En la sección **[!UICONTROL Events]**, haga clic en **[!UICONTROL +]** y seleccione **[!UICONTROL Places Service]** como extensión.
 1. Para el **[!UICONTROL Tipo de evento]**, seleccione **[!UICONTROL Introducir punto de interés]**.
 1. Asigne un nombre a la regla como, por ejemplo, **El usuario ingresó el punto de interés**.
@@ -61,7 +74,7 @@ Las reglas de Experience Platform Launch permiten crear flujos de trabajo comple
 
 1. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL +]**.
 1. En la lista desplegable **[!UICONTROL Extension]**, selecciona **[!UICONTROL Mobile Core]** y en la lista desplegable **[!UICONTROL Action Type]**, selecciona **[!UICONTROL Send Postback]**.
-1. En **[!UICONTROL URL]**, debe construir el extremo de las ubicaciones del Campaign Standard.
+1. En **[!UICONTROL URL]**, debe construir su extremo de ubicaciones de Campaign Standard.
 
    La dirección URL debe ser similar a `https:///rest/head/mobileAppV5//locations/`.
 Asegúrese de utilizar los elementos de datos correctos creados anteriormente para el servidor de Campaign y la clave.
@@ -115,7 +128,7 @@ Ahora que los datos de ubicación se han rellenado en Campaign, podemos usar los
 1. Haga clic en **[!UICONTROL Confirmar]**.
 1. Vuelva a ejecutar el recuento en la parte superior para ver cómo cambia el tamaño de la audiencia.
 
-   Si no ve la actualización de su recuento, es posible que haya introducido un nombre de punto de interés para el cual ningún dispositivo haya activado una entrada. En esta situación, es útil tener el enlace web del Slack, ya que puede ver una lista de entradas de puntos de interés de varios dispositivos de prueba.
+   Si no ve la actualización de su recuento, es posible que haya introducido un nombre de punto de interés para el cual ningún dispositivo haya activado una entrada. En esta situación, es útil tener el enlace web de Slack, ya que puede ver una lista de entradas de puntos de interés de varios dispositivos de prueba.
 
 1. Puede arrastrar filtros de ubicación de puntos de interés adicionales para incluir varios puntos de interés en el mensaje.
 1. Haga clic en **[!UICONTROL Siguiente]** para terminar de crear la notificación push para la entrega.

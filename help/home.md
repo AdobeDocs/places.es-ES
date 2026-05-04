@@ -2,9 +2,23 @@
 title: Servicio de Places
 description: El servicio de Places es un contexto importante para comprender la participación de los usuarios móviles. Con este contexto, los desarrolladores de aplicaciones móviles pueden mejorar el diseño de la aplicación y convertirlo en una experiencia más personalizada y atractiva.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: e78e3c5ee6623d6cdf2a33c0582667a70283fdc6
+TQID: https://experienceleague.adobe.com/4kI1AuV2l-qfC3mOrcsoG9NDRcOPJBdkWPmKkQuDIJk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 684
 ht-degree: 9%
 
 ---
@@ -20,14 +34,14 @@ El servicio Places le permite lograr lo siguiente:
 * Cree y administre una base de datos de puntos de interés que se puedan aprovechar con otras soluciones de Adobe Experience Cloud.
 * Adjunte metadatos personalizados a los puntos de interés para que sean más completos y significativos especificando atributos adicionales.
 * Visualice los puntos de interés en un mapa para comprender fácilmente el contexto espacial y añadir o editar atributos de metadatos.
-* Configure el SDK en Adobe Experience Platform Launch para definir las reglas activadas por la ubicación y las condiciones basadas en metadatos.
+* Configure SDK en Adobe Experience Platform Launch para definir las reglas activadas por ubicación y las condiciones basadas en metadatos.
 * Reduzca el código que necesita escribir para supervisar la ubicación de un dispositivo y utilice la extensión Places para almacenar en déclencheur automáticamente las reglas específicas de la ubicación.
 
 Esto le permitirá realizar acciones a partir de señales de ubicación en tiempo real, cuando y donde sea importante. El contexto adecuado ofrece una experiencia de participación móvil más enriquecedora.
 
 A continuación se indican algunas formas de utilizar Places:
 
-* Enviar una notificación en tiempo real cuando alguien entre en un punto de interés, *&quot;Oye..bienvenido al estadio.&quot;*
+* Enviar una notificación en tiempo real cuando alguien entre en un punto de interés, *&quot;Bienvenido al estadio&quot;.*
 * Analice el tráfico de sus propias tiendas en comparación con las de su competencia.
 * Segmente una audiencia en función del comportamiento sin conexión mediante perfiles de audiencia con contexto de ubicación.
 * Segmente a un usuario con una experiencia en la tienda cuando sea relevante.
@@ -70,7 +84,7 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
 * Una **biblioteca** es una recopilación de puntos de interés, que se agrupan para adjuntar fácilmente reglas a un conjunto en lugar de un punto de interés.
 
-* Una **extensión** es la extensión de Experience Platform Launch necesaria para integrar el SDK de Places en tus aplicaciones móviles.
+* Una **extensión** es la extensión de Experience Platform Launch necesaria para integrar Places SDK en tus aplicaciones móviles.
 
   Extensión utilizada con otros SDK móviles para añadir contexto de ubicación a las experiencias.
 
@@ -82,7 +96,7 @@ Estos son algunos términos comunes que se utilizan en esta documentación:
 
   Para obtener más información, consulte [Búsqueda del orgID](https://forums.adobe.com/thread/2339895).
 
-* El servicio **ID de Experience Cloud** proporciona un identificador universal y persistente que identifica a los visitantes en todas las soluciones del Experience Cloud.
+* El servicio **Experience Cloud ID** ofrece un identificador universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud.
 
   Para obtener más información, consulte [Información general](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es).
 

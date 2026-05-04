@@ -2,9 +2,22 @@
 title: Creación de una regla para la propiedad del servicio de Places
 description: El SDK de Places realiza un seguimiento de la ubicación actual, supervisa los puntos de interés configurados en torno a la ubicación actual y realiza un seguimiento de los eventos de entrada y salida de estos puntos de interés.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: 939
 ht-degree: 12%
 
 ---
@@ -25,14 +38,14 @@ Puede configurar una regla, que está compuesta por un evento, una condición y 
 
 El servicio Places ofrece los siguientes eventos en los que puede ejecutar una regla:
 
-* **Especifique el punto de interés**, que el SDK de Places activa cuando el cliente introduce el punto de interés que configuró.
-* **Punto de interés de salida**, que se activa mediante el SDK de Places cuando el cliente sale del punto de interés que configuró.
+* **Especifique el punto de interés**, que se activa mediante la SDK de Places cuando el cliente introduce el punto de interés que configuró.
+* **Punto de interés de salida**, que se activa por el SDK de Places cuando el cliente sale del punto de interés que configuró.
 
 ### Condiciones del servicio de Places
 
 Las condiciones definen los criterios que deben cumplir los datos asociados con el evento o el estado compartido de una extensión en esa instancia para que se realice la acción. Por ejemplo, puede establecer una condición para almacenar en déclencheur una acción en una entrada a una cafetería solo en la ciudad de San Francisco.
 
-El SDK de Places mantiene los siguientes estados:
+La SDK de Places mantiene los siguientes estados:
 
 * Punto de interés actual, que hace referencia al punto de interés en el que se encuentra actualmente su cliente.
 * Último punto de interés de salida, que hace referencia al punto de interés más reciente del que salió su cliente.
@@ -56,13 +69,13 @@ Las acciones definen qué hará la aplicación en respuesta a la condición de q
 >
 >En este ejemplo se entiende que ha creado una biblioteca de puntos de interés de todos los cafés de Estados Unidos. Para obtener más información sobre cómo crear puntos de interés y bibliotecas, consulte [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Crear una biblioteca* en [Administrar varias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=es).
 
-El siguiente procedimiento es un ejemplo de cómo crear una regla que devuelve una publicación a Slack cuando se entra en una cafetería de San Francisco.
+El siguiente procedimiento es un ejemplo de cómo crear una regla que envíe una publicación a Slack cuando entre en una cafetería de San Francisco.
 
 El evento, la condición y la acción se definen de las siguientes maneras:
 
 * **Evento**: Evento de entrada de Places.
 * **Condición**: La ciudad del **Punto de interés actual** es San Francisco
-* **Acción**: envía un postback al Slack con el nombre de la cafetería que tu cliente ingresó.
+* **Acción**: envía un postback a Slack con el nombre de la cafetería que tu cliente ingresó.
 
 ### Requisito previo
 
@@ -78,7 +91,7 @@ Para crear un elemento de datos en Experience Platform Launch:
 1. En el panel derecho, seleccione **Punto de interés actual**.
 1. Haga clic en **Guardar**.
 
-### Creación de una regla en Experience Platform Launch para el servicio de Places
+### Creación de una regla en Experience Platform Launch para el servicio Places
 
 ![creando una regla](/help/assets/placesrule.png)
 
@@ -110,11 +123,11 @@ Para crear un elemento de datos en Experience Platform Launch:
 1. En la lista desplegable **[!UICONTROL Extension]**, deje seleccionada la opción predeterminada **[!UICONTROL Mobile Core]**.
 1. Seleccione un tipo de acción, por ejemplo, **[!UICONTROL Enviar postback]**.
 
-   a. En **[!UICONTROL URL]**, escriba la URL de postback para el Slack, por ejemplo, `https://hooks.slack.com/services/`.
+   a. En **[!UICONTROL URL]**, escriba la URL de postback para Slack, por ejemplo, `https://hooks.slack.com/services/`.
 
-   b. Para enviar un cuerpo de publicación, active la casilla **[!UICONTROL Agregar cuerpo de Post]**.
+   b. Para enviar un cuerpo de publicación, active la casilla **[!UICONTROL Agregar cuerpo de publicación]**.
 
-   c. En **[!UICONTROL Post Body]**, agregue el cuerpo del anuncio, por ejemplo: `{ "text": "A customer has entered" }`
+   c. En **[!UICONTROL Cuerpo del anuncio]**, agregue el cuerpo del anuncio, por ejemplo: `{ "text": "A customer has entered" }`
 
    c. Escriba un tipo de contenido, por ejemplo **[!UICONTROL application/json]**.
 
@@ -122,12 +135,12 @@ Para crear un elemento de datos en Experience Platform Launch:
 
 1. Haga clic en **[!UICONTROL Conservar cambios]**.
 
-### Publish la regla
+### Publicación de la regla
 
 1. Para activar la regla, debe publicarla. Para obtener más información sobre cómo publicar la regla en Experience Platform Launch, consulte [Publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es).
 
 ### Pensar más allá de entradas y salidas
 
-El uso de entradas y salidas de geoperímetro del servicio Places en las reglas de déclencheur en Experience Platform Launch es increíblemente eficaz, pero también puede utilizar los datos de ubicación como condición para que se activen otros eventos. Por ejemplo, puede tener un déclencheur de eventos de seguimiento de acciones principal móvil listo para activarse en función de un evento de llamada trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales al evento antes de que se realice una acción. Por ejemplo, abra una encuesta en la aplicación cuando se produzca un evento purchase `trackAction`, pero **solo** si la ubicación actual del usuario incluye metadatos específicos de Places Service.
+El uso de entradas y salidas del geoperímetro del servicio Places en las reglas de déclencheur en Experience Platform Launch es increíblemente eficaz, pero también puede utilizar los datos de ubicación como condición para que se activen otros eventos. Por ejemplo, puede tener un déclencheur de eventos de seguimiento de acciones principal móvil listo para activarse en función de un evento de llamada trackAction concreto dentro de la aplicación. En función de este evento, puede colocar condiciones de ubicación adicionales al evento antes de que se realice una acción. Por ejemplo, abra una encuesta en la aplicación cuando se produzca un evento purchase `trackAction`, pero **solo** si la ubicación actual del usuario incluye metadatos específicos de Places Service.
 
 ![crear una condición](/help/assets/places-condition.png)

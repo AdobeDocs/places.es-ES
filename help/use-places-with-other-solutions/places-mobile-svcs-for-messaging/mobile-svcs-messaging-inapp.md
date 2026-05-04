@@ -2,9 +2,23 @@
 title: Notificaciones en la aplicación
 description: Esta sección muestra cómo utilizar el servicio de Places con la mensajería en la aplicación.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/Z39ybIytDRlCbkMthWjvk5F-oexy0C9gtqgK1mmyMxM
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 689
 ht-degree: 2%
 
 ---
@@ -19,7 +33,7 @@ La siguiente información muestra cómo configurar los mensajes en la aplicació
 
 ## Mensaje en la aplicación
 
-Mobile Services le permite utilizar datos de ubicación que se envían a Analytics como eventos de déclencheur o condiciones para un mensaje en la aplicación. Si los mensajes en la aplicación se activan desde el SDK y no necesitan esperar a que Analytics procese los datos, los mensajes pueden aparecer en tiempo real en cuanto se produce el déclencheur.
+Mobile Services le permite utilizar datos de ubicación que se envían a Analytics como eventos de déclencheur o condiciones para un mensaje en la aplicación. Si los mensajes en la aplicación se activan desde SDK y no necesitan esperar a que Analytics procese los datos, los mensajes pueden aparecer en tiempo real en cuanto se produce el déclencheur.
 
 ### Notificaciones locales
 
@@ -29,7 +43,7 @@ Esta es una lista de los tipos de mensajería en la aplicación disponibles:
 * Alerta
 * Notificaciones locales
 
-Estos tipos son mensajes en la aplicación porque los activa el SDK. Las notificaciones locales tienen el aspecto de notificaciones push, ya que aparecen cuando la aplicación se encuentra en segundo plano. Estas notificaciones también envían notificaciones en tiempo real a medida que los usuarios entran o salen de sus puntos de interés mientras la aplicación se encuentra en segundo plano.
+Estos tipos son mensajes en la aplicación porque se activan mediante SDK. Las notificaciones locales tienen el aspecto de notificaciones push, ya que aparecen cuando la aplicación se encuentra en segundo plano. Estas notificaciones también envían notificaciones en tiempo real a medida que los usuarios entran o salen de sus puntos de interés mientras la aplicación se encuentra en segundo plano.
 
 ### Requisitos previos
 
@@ -37,7 +51,7 @@ Antes de empezar, debe saber cómo enviar y crear un mensaje en la aplicación e
 
 ## Reglas en Experience Platform Launch
 
-Puede crear reglas de Experience Platform Launch que envíen a Analytics los datos que desea poder utilizar como parte de las reglas de Déclencheur de mensajes en la aplicación. Puede utilizar los datos de las extensiones Places en las reglas de Experience Platform Launch como eventos o condiciones, según el caso de uso.
+Puede crear reglas de Experience Platform Launch que envíen a Analytics los datos que desea poder utilizar como parte de las reglas de Déclencheur de mensajes en la aplicación. Puede utilizar los datos de las extensiones Places en las reglas de Experience Platform Launch como eventos o condiciones según el caso de uso.
 
 * Usar datos de ubicación como evento de activación.
 

@@ -2,6 +2,8 @@
 cloud: Experience Cloud
 product: places service
 solution: Data Collection, Experience Platform
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 landing-page-name: mobile
 landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
@@ -14,10 +16,10 @@ tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/es#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.es-ES
 index: true
-source-git-commit: 4fb4fa8bbf060afaf6a42a31c2936f42ec1044f2
+source-git-commit: c34560100defb53b29dc8121405bfa51058c69a4
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 98%
+source-wordcount: 167
+ht-degree: 80%
 
 ---
 
@@ -26,24 +28,24 @@ ht-degree: 98%
 
 # Metadatos para uso interno
 
-El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la guía del usuario de los archivos TOC.md en el repositorio. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo de TOC.md.
+El archivo metadata.md incluye metadatos a nivel del repositorio que transfieren a los archivos TOC.md de la guía del usuario en el repositorio. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
 
-| metadatos | qué hace |
+| metadatos | para qué sirven |
 |--- |--- |
 | solution-title | Se utiliza como vínculo en el encabezado del artículo |
-| solution-hub-url | Abrir la página helpx hub |
+| solution-hub-url | Abre la página del centro de ayuda helpx |
 | solution-icon | Muestra el icono de la solución junto al título de la solución. Aún no se ha implementado |
-| getting-started-title | Apenas se utiliza, no es adecuado para los Tutoriales |
-| getting-started-url | Vínculo a la página de inicio de helpx |
-| tutorials-title | Apenas se utiliza, no es adecuado para los Tutoriales |
-| tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de helpx o tutoriales KT |
-| mini-toc-levels | Determina el número de niveles de encabezados que aparecen en el carril derecho. el valor predeterminado es 2 |
+| getting-started-title | Apenas se utiliza, no es adecuado para los tutoriales |
+| getting-started-url | Vínculo a la página de introducción a helpx |
+| tutorials-title | Apenas se utiliza, no es adecuado para los tutoriales |
+| tutorials-url | Vínculo a tutoriales de vídeo: tutoriales helpx o tutoriales de KT |
+| mini-toc-levels | Determina el número de niveles de encabezado que aparecen en el carril derecho. el valor predeterminado es 2 |
 | git-repo | https://github.com/AdobeDocs/places.es-ES |
 | índice | establecer índice=no es para inicio flexible |
 
 En el archivo TOC.md
 
-| metadatos | qué hace |
+| metadatos | para qué sirven |
 |--- |--- |
 | user-guide-title | Se utiliza como vínculo en el encabezado del artículo |
-| user-guide-url | Abrir la página helpx hub |
+| user-guide-url | Abre la página del centro de ayuda helpx |

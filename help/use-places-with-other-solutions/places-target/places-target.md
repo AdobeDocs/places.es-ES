@@ -2,10 +2,21 @@
 title: Adobe Target
 description: Esta sección proporciona información sobre cómo utilizar el servicio Places con Adobe Target.
 exl-id: 6ee91fca-ea48-4de2-8dcf-87981813c678
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/WsfkEJD0mN5aYKETjcnqiC13dVe5NPYeKfOCTOK82uE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 2%
 
 ---
 
@@ -13,9 +24,9 @@ ht-degree: 1%
 
 Este documento supone que la extensión Places está implementada en la aplicación. Si necesita ayuda para implementar la extensión Places, consulte [Extensiones Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Una vez que la extensión Places envía eventos para entradas y salidas, puede aprovechar Reglas en Launch para adjuntar los datos del servicio Places a los eventos del SDK de Adobe Target. Con la propiedad deseada seleccionada en Launch, puede crear este tipo de regla realizando las siguientes tareas:
+Una vez que la extensión Places envía eventos para entradas y salidas, puede aprovechar Reglas en Launch para adjuntar los datos del servicio Places a los eventos de Adobe Target SDK. Con la propiedad deseada seleccionada en Launch, puede crear este tipo de regla realizando las siguientes tareas:
 
-## 1. Crear una regla
+## &#x200B;1. Creación de reglas
 
 1. En la ficha **[!UICONTROL Reglas]**, haga clic en **[!UICONTROL Crear nueva regla]**.
 
@@ -24,7 +35,7 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
    * Si no tiene reglas existentes para esta propiedad, el botón estará en medio de la pantalla.
    * Si la propiedad tiene reglas, el botón se encuentra en la parte superior derecha de la pantalla.
 
-## 2. Seleccionar un evento
+## &#x200B;2. Seleccionar un evento
 
 1. Asigne un nombre significativo a la regla para que sea fácilmente reconocible en la lista de reglas.
 
@@ -37,7 +48,7 @@ Una vez que la extensión Places envía eventos para entradas y salidas, puede a
 
 ![agregar un evento](/help/assets/ad-setEvent_target.png)
 
-## 3. Añadir condiciones
+## &#x200B;3. Agregar condiciones
 
 >[!IMPORTANT]
 >
@@ -53,7 +64,7 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se almacen
 
 ![agregar una condición](/help/assets/ad-setCondition_target.png)
 
-## 4. Defina la acción
+## &#x200B;4. Defina la acción
 
 1. En la sección **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Agregar]**.
 1. En la lista desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**.
@@ -61,9 +72,9 @@ En el ejemplo siguiente, se crea una condición que hace que la regla se almacen
 1. En el panel derecho, en el campo **[!UICONTROL Carga útil JSON]**, escriba los datos que se agregarán a este evento.
 1. Haga clic en **[!UICONTROL Conservar cambios]**.
 
-En el panel derecho, puede añadir una carga útil JSON de forma libre que añada datos a un evento del SDK antes de que las extensiones que escuchan este evento lo oigan.
+En el panel derecho, puede añadir una carga útil JSON de forma libre que añada datos a un evento de SDK antes de que las extensiones que escuchan este evento lo oigan.
 
-En el ejemplo siguiente, los valores `poiCity` y `poiName` se agregan a los **[!UICONTROL mboxparameters]** para cada solicitud que se procesa en el evento Target. El SDK determina dinámicamente los valores de las nuevas claves en el momento en que se procesa este evento.
+En el ejemplo siguiente, los valores `poiCity` y `poiName` se agregan a los **[!UICONTROL mboxparameters]** para cada solicitud que se procesa en el evento Target. Los valores de las nuevas claves los determina dinámicamente SDK en el momento en que se procesa este evento.
 
 >[!TIP]
 >
@@ -73,11 +84,11 @@ En el ejemplo siguiente, los valores `poiCity` y `poiName` se agregan a los **[!
 
 ![definir la acción](/help/assets/ad-setAction-target.png)
 
-## 5. Guarde la regla y vuelva a generar la propiedad
+## &#x200B;5. Guarde la regla y vuelva a generar la propiedad
 
 Una vez completada la configuración, compruebe que la regla tiene el aspecto siguiente:
 
 ![regla completada](/help/assets/ad-ruleComplete-target.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Guardar]**
 1. Vuelva a compilar la propiedad de Launch e impleméntela en el entorno correcto.
