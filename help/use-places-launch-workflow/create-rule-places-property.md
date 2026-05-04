@@ -67,7 +67,7 @@ Las acciones definen qué hará la aplicación en respuesta a la condición de q
 
 >[!CAUTION]
 >
->En este ejemplo se entiende que ha creado una biblioteca de puntos de interés de todos los cafés de Estados Unidos. Para obtener más información sobre cómo crear puntos de interés y bibliotecas, consulte [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Crear una biblioteca* en [Administrar varias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>En este ejemplo se entiende que ha creado una biblioteca de puntos de interés de todos los cafés de Estados Unidos. Para obtener más información sobre cómo crear puntos de interés y bibliotecas, consulte [Crear un punto de interés](/help/poi-mgmt-ui/create-a-poi-ui.md) y *Crear una biblioteca* en [Administrar varias bibliotecas](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=es).
 
 El siguiente procedimiento es un ejemplo de cómo crear una regla que envíe una publicación a Slack cuando entre en una cafetería de San Francisco.
 
@@ -137,7 +137,7 @@ Para crear un elemento de datos en Experience Platform Launch:
 
 ### Publicación de la regla
 
-1. Para activar la regla, debe publicarla. Para obtener más información sobre cómo publicar la regla en Experience Platform Launch, consulte [Publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+1. Para activar la regla, debe publicarla. Para obtener más información sobre cómo publicar la regla en Experience Platform Launch, consulte [Publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es).
 
 ### Pensar más allá de entradas y salidas
 
