@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 5%
-
 ---
-
 # Información general sobre Administrar bibliotecas {#manage-libraries}
 
 Puede utilizar las API de REST del servicio Places para completar las siguientes tareas:
