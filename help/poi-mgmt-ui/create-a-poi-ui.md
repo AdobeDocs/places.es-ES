@@ -4,11 +4,9 @@ description: Cree un punto de interés con la interfaz de usuario del servicio P
 exl-id: 16df61e3-5a18-4de4-a284-a5d394dc73af
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # Crear un POI {#create-a-poi}
 
 Un punto de interés (PDI) es una ubicación o un punto de un mapa que es importante para su organización o compañía. Puede incluir ubicaciones como cafeterías, restaurantes, tiendas minoristas, estadios, etc. Las empresas pueden definir puntos de interés para ayudar a personalizar la experiencia móvil de un usuario cuando este haya entrado en una región delimitada geográficamente para un punto de interés determinado. Más allá de las experiencias personalizadas, las empresas también pueden crear puntos de interés para ayudarles a analizar y comprender mejor los patrones de tráfico de ubicación. Una gran cadena minorista puede optar por crear puntos de interés para todas sus ubicaciones de tiendas a fin de obtener análisis de los usuarios que tienen su aplicación móvil Y visitar una ubicación de tienda.
@@ -42,7 +40,7 @@ Un punto de interés (PDI) es una ubicación o un punto de un mapa que es import
 
 1. Expanda la sección **[!UICONTROL Metadatos]** y haga clic en **[!UICONTROL Agregar metadatos]**.
 
-   Los metadatos pueden ayudarle a definir una ubicación y se pueden utilizar en otros flujos de trabajo de soluciones de Adobe para refinar aún más la audiencia.
+   Los metadatos pueden ayudarle a definir una ubicación aún más y se pueden utilizar en otros flujos de trabajo de soluciones de Adobe para refinar aún más la audiencia.
 
    1. Escriba el nombre de la clave.
    1. Escriba el valor clave.
