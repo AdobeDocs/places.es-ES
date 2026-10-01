@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 19%
-
 ---
-
 # Encabezados y parámetros {#headers-and-parameters}
 
 Estos son los detalles sobre los encabezados y los parámetros disponibles en la API de REST del servicio Places:

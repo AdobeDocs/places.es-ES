@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
-
 ---
-
 # Uso de su propio monitor {#using-your-monitor}
 
 También puede utilizar los servicios de monitorización e integrarse con el servicio de Places mediante las API de extensión de Places.

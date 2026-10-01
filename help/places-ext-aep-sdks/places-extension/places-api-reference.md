@@ -5,18 +5,16 @@ feature: Mobile SDK
 exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '589'
 ht-degree: 32%
-
 ---
-
 # Referencia de API de Places {#places-api-reference}
 
 Esta es la información sobre las referencias de API en la extensión Places:
 
 ## Procesamiento de un evento de región
 
-Cuando un dispositivo cruza uno de los límites de región del servicio Places predefinidos de la aplicación, la región y el tipo de evento se pasan al SDK para su procesamiento.
+Cuando un dispositivo cruza uno de los límites de región del servicio Places predefinidos de la aplicación, la región y el tipo de evento se pasan a SDK para su procesamiento.
 
 ### ProcessGeoperimetral (Android)
 
