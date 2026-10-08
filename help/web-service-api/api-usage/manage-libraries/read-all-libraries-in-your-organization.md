@@ -2,16 +2,17 @@
 title: Leer todas las bibliotecas de su organización
 description: Lea todas las bibliotecas de su organización mediante la API de REST de Places.
 exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 3%
-
 ---
-
 # Leer todas las bibliotecas de su organización {#read-all-lib-in-org}
 
-Un método de GET que devuelve los detalles de todas las bibliotecas de su organización.
+Un método GET que devuelve los detalles de todas las bibliotecas de su organización.
 
 ## Solicitud
 

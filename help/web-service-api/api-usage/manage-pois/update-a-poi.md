@@ -2,16 +2,17 @@
 title: Actualización de un POI
 description: Actualizar un punto de interés mediante las API de REST de Places.
 exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 6%
-
 ---
-
 # Actualización de un POI {#update-a-poi}
 
-Método de PUT que permite actualizar un punto de interés (POI).
+Un método PUT que le permite actualizar un POI.
 
 ## Solicitud
 
