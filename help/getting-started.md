@@ -5,21 +5,25 @@ exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
 TQID: https://experienceleague.adobe.com/NjssmuGH8672GGroi6sil5e0INPIDAcJl7Uz623-Vts
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: '216'
 ht-degree: 3%
-
 ---
-
 # Introducción {#getting-started}
 
 Este es un vídeo útil para obtener información general sobre los servicios de Places:
@@ -28,7 +32,7 @@ Este es un vídeo útil para obtener información general sobre los servicios de
 Test of different youtube link for exl
 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3455115?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/41647)
 
 ## Uso del servicio Places
 
@@ -36,7 +40,7 @@ Para utilizar el servicio Places, complete las siguientes tareas:
 
 ### &#x200B;1. Asegúrese de que el usuario esté aprovisionado para utilizar el servicio Places
 
-El contexto del producto Servicio de Places está disponible con todas las organizaciones de Experience Cloud.
+El contexto del producto de Servicio de Places está disponible con todas las organizaciones de Experience Cloud.
 
 * Asegúrese de que aparece como un usuario en los contextos de producto de Places Service y Experience Platform Launch en Admin Console.
 

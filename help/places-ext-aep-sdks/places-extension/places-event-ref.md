@@ -3,13 +3,17 @@ title: Referencia de evento de Places
 description: Una lista de los eventos que gestiona la extensión Places.
 feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
-source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a8a79b8d-fdca-499c-a5ef-f88a099d8eb9
+    internal-label: Mobile SDK
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 13%
-
+ht-degree: 17%
 ---
-
 # Referencia de evento de Places {#places-event-reference}
 
 Esta es una lista de los eventos que gestiona la extensión Places.
@@ -46,10 +50,10 @@ Este evento es una solicitud para obtener los puntos de interés cercanos tenien
 
 | Clave | Tipo de valor | Requerido | Valor predeterminado | Descripción |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | doble | true | n/a | Contiene el valor de latitud del centro de la búsqueda de puntos de interés cercanos. |
-| longitud | doble | true | n/a | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
-| radio | entero | false | n/a | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
-| recuento | entero | false | 10 | Número máximo de puntos de interés que se devolverán en el evento de respuesta resultante. |
+| latitude | doble | verdadero | n/a | Contiene el valor de latitud del centro de la búsqueda de puntos de interés cercanos. |
+| longitud | doble | verdadero | n/a | Contiene el valor de longitud del centro de la búsqueda de puntos de interés cercanos. |
+| radio | entero | falso | n/a | Radio, en metros, utilizado por la búsqueda de puntos de interés cercanos. |
+| recuento | entero | falso | 10 | Número máximo de puntos de interés que se devolverán en el evento de respuesta resultante. |
 
 ## ProcessRegionEvent
 
@@ -67,8 +71,8 @@ Este evento hace que la extensión Places procese un evento de entrada o salida 
 
 | Clave | Tipo de valor | Requerido | Descripción |
 | :--- | :--- | :--- | :--- |
-| regionid | cadena | true | ID de la región que genera el evento. |
-| regioneventtype | int | true | Tipo de evento de región que se genera. 1 para entrada y 2 para salida. |
+| regionid | cadena | verdadero | ID de la región que genera el evento. |
+| regioneventtype | int | verdadero | Tipo de evento de región que se genera. 1 para entrada y 2 para salida. |
 
 ## Eventos distribuidos por la extensión Places
 

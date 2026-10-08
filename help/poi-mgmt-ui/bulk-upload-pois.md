@@ -5,24 +5,31 @@ exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # Carga masiva de puntos de interés {#bulk-upload-pois}
 
 El botón **Importar puntos de interés** del servicio Places se puede usar para cargar nuevos puntos de interés de forma masiva mediante un archivo CSV. Se proporciona una plantilla de hoja de cálculo de ejemplo para mostrar qué columnas de datos son necesarias y cómo agregar metadatos personalizados opcionales.
@@ -78,20 +85,20 @@ Esta es una lista de las columnas y los valores que debe utilizar:
 Los valores de las siguientes columnas se utilizan en la interfaz de usuario del servicio de Places:
 
 * color, que se utiliza como el color del pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de Places.
-   * Los valores válidos son &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B y #3DC8DE, y &quot;&quot;.
-   * Si se deja en blanco, la interfaz de usuario del servicio de Places utiliza el azul como color predeterminado.
+  * Los valores válidos son &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B y #3DC8DE, y &quot;&quot;.
+  * Si se deja en blanco, la interfaz de usuario del servicio de Places utiliza el azul como color predeterminado.
 
-     Los valores corresponden a azul (#3E76D0), púrpura (#AA99E8), fucsia (#DC2ABA), naranja (#FC685B), naranja claro (#FC962E), amarillo (#F6C436), verde claro (#BECE5D), verde (#61B56B) y azul claro (#3DC8DE), respectivamente.
+    Los valores corresponden a azul (#3E76D0), púrpura (#AA99E8), fucsia (#DC2ABA), naranja (#FC685B), naranja claro (#FC962E), amarillo (#F6C436), verde claro (#BECE5D), verde (#61B56B) y azul claro (#3DC8DE), respectivamente.
 
 * , que se utiliza como icono en el pin que representa la ubicación del punto de interés en el mapa de la interfaz de usuario del servicio de Places.
 
-   * Los valores válidos son &quot;&quot;, tienda, cama de hotel, coche, avión, tren, barco, estadio, parque de atracciones, ancla, vaso de precipitados, campana, oferta, libro, caja, maletín, examinar, pincel, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promover, cinta, carro de compras, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave inglesa.
+  * Los valores válidos son &quot;&quot;, tienda, cama de hotel, coche, avión, tren, barco, estadio, parque de atracciones, ancla, vaso de precipitados, campana, oferta, libro, caja, maletín, examinar, pincel, edificio, calculadora, cámara, reloj, educación, linterna, seguir, juego, mujer, hombre, regalo, martillo, corazón, hogar, llave, lanzamiento, bombilla, buzón, dinero, pin, promover, cinta, carro de compras, estrella, objetivo, tetera, thumbDown, thumbUp, trampa, trofeo, llave inglesa.
 
-     Los valores de icono se muestran en el orden en que aparecen en la siguiente ilustración:
+    Los valores de icono se muestran en el orden en que aparecen en la siguiente ilustración:
 
-     ![iconos en la interfaz de usuario](/help/assets/UI_icons.png)
+    ![iconos en la interfaz de usuario](/help/assets/UI_icons.png)
 
-   * Si se deja en blanco, la interfaz de usuario utiliza asterisco como icono predeterminado.
+  * Si se deja en blanco, la interfaz de usuario utiliza asterisco como icono predeterminado.
 
 * Las columnas que no se mencionan pueden dejarse en blanco.
 
@@ -112,7 +119,7 @@ Los valores de las siguientes columnas se utilizan en la interfaz de usuario del
 
    * `org_id`
 
-     El orgID de Experience Cloud en el que se importarán los POI. Para obtener información sobre cómo obtener el identificador de organización, consulte *Requisitos previos para el acceso de usuarios* en [Información general y requisitos previos de la integración](/help/web-service-api/adobe-i-o-integration.md).
+     El orgID de Experience Cloud en el que se deben importar los POI. Para obtener información sobre cómo obtener el identificador de organización, consulte *Requisitos previos para el acceso de usuarios* en [Información general y requisitos previos de la integración](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 

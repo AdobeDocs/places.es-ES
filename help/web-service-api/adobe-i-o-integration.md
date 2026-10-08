@@ -2,13 +2,14 @@
 title: Información general del proyecto Adobe Developer
 description: Información sobre la creación de un proyecto de API de Adobe Developer.
 exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
-source-git-commit: 3d477c6133b74a7e6380d0db1af5125aaa844035
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 1%
-
+source-wordcount: '504'
+ht-degree: 2%
 ---
-
 # Requisitos previos y descripción general del acceso a API Places {#developer-prereqs}
 
 Esta información muestra cómo crear un proyecto en Adobe Developer Console y generar un token de acceso para utilizarlo en las solicitudes de API de Places.
@@ -20,7 +21,7 @@ Compruebe con el administrador del sistema de su organización que se han comple
 * Se le ha añadido a la organización.
 * Se le ha añadido a un perfil dentro de Adobe Experience Platform.
 
-  Para obtener más información, consulte *Agregar un usuario o un desarrollador a los perfiles del servicio y del Experience Platform Launch de Places* en [Obtener acceso al servicio de Places](/help/places-gain-access.md).
+  Para obtener más información, consulte *Agregar un usuario o un desarrollador a los perfiles del servicio Places y de Experience Platform Launch* en [Obtener acceso al servicio Places](/help/places-gain-access.md).
 
 ### Solicitudes de API de REST
 
@@ -67,4 +68,4 @@ Para crear un proyecto para la API del servicio Places, complete lo siguiente:
 
 >[!IMPORTANT]
 >
->Los tokens de acceso a la Adobe son válidos **solo** durante 24 horas, por lo que guarde el comando CURL de ejemplo (paso 5). Si el token de acceso ya no es válido, debe volver a generarlo.
+>Los tokens de acceso de Adobe son válidos **solo** durante 24 horas, así que guarde el ejemplo de comando CURL (paso 5). Si el token de acceso ya no es válido, debe volver a generarlo.

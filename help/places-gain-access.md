@@ -5,29 +5,38 @@ exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
 TQID: https://experienceleague.adobe.com/EYg1wjQJZeHqX7vPnJ1VUZzojqG6ANjS8-VBXV3y51c
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: b64298cc-90cc-46b7-8917-ee391f1c7516
+    internal-label: Data collection UI
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
   - id: f5efb499-54f9-432b-ac5c-599dbac103af
+    internal-label: Data management
   - id: f6ff4d13-7b5c-4533-8556-95e76673d4cb
+    internal-label: Properties
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data management
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: '919'
 ht-degree: 1%
-
 ---
-
 # Obtener acceso al servicio Places {#adding-user-launch-places}
 
-El servicio Places ya está disponible en la IU de recopilación de datos. Puede acceder a la recopilación de datos desde el menú de acceso rápido de [inicio de Adobe Experience Cloud](https://experience.adobe.com).
+El servicio Places ya está disponible en la IU de recopilación de datos. Puede acceder a la recopilación de datos desde el menú de acceso rápido de la [página principal de Adobe Experience Cloud](https://experience.adobe.com).
 
 ![menú de acceso rápido](/help/assets/quickaccess.png)
 
@@ -46,12 +55,12 @@ Si no ve el servicio Places en esta ubicación, póngase en contacto con un admi
 Places ahora se incluye con Adobe Experience Platform. Para permitir que los usuarios tengan acceso al [Servicio Places](https://experience.adobe.com/#/data-collection/places), deben agregarse a Adobe Experience Platform en Admin Console como usuarios. Para permitir que los usuarios tengan acceso a la recopilación de datos de Experience Platform con los permisos necesarios para configurar propiedades móviles y utilizar Places con Adobe Experience Platform SDK, también deben añadirse a la recopilación de datos de Adobe Experience Platform en Admin Console y se les deben otorgar los siguientes permisos para la recopilación de datos de Adobe Experience Platform:
 
 * Todos los permisos en Derechos de propiedad:
-   * Aprobar
-   * Desarrollo
-   * Editar propiedad
-   * Administrar entornos
-   * Administración de extensiones
-   * Publicación
+  * Aprobar
+  * Desarrollo
+  * Editar propiedad
+  * Administrar entornos
+  * Administración de extensiones
+  * Publicación
 * Permiso Administrar propiedades en Derechos de compañía
 
 Si es la primera vez que añade un usuario, complete los siguientes pasos para añadir usuarios a la recopilación de datos de Adobe Experience Platform y a Adobe Experience Platform. Si ya ha agregado usuarios anteriormente, es posible que se muestren varios perfiles, por lo que debe asegurarse de seleccionar el perfil correcto.
