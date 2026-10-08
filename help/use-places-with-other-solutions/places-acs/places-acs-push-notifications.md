@@ -5,23 +5,29 @@ exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
 TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 1%
-
 ---
-
 # Notificaciones push con el servicio Places {#push-notifications}
 
 En esta sección, aprenderá a utilizar la información de ubicación geográfica histórica para dirigirse a las notificaciones push que se envían a través de Adobe Campaign Standard.
@@ -57,11 +63,11 @@ Para crear un elemento de datos:
 
 1. Repita los pasos del 1 al 4 anteriores y cree elementos de datos para *Última latitud de punto de interés*, *Última longitud de punto de interés* y *Último radio de punto de interés*.
 
-Además de los elementos de datos del servicio Places, asegúrese de crear elementos de datos principales móviles para *App ID* y *Experience Cloud ID*.
+Además de los elementos de datos para el servicio Places, asegúrese de crear elementos de datos principales móviles para *App ID* y *Experience Cloud ID*.
 
 ## Creación de una regla para enviar datos de ubicación a Adobe Campaign Standard
 
-Las reglas de Experience Platform Launch le permiten crear flujos de trabajo complejos de varias soluciones basados en déclencheur de eventos. Con las reglas, puede crear nuevas reglas o modificar las existentes y hacer que las actualizaciones se implementen dinámicamente en las aplicaciones móviles. En el ejemplo siguiente, la regla se activará cuando un usuario introduzca un punto de interés delimitado geográficamente. Una vez activada la regla, se envía una actualización a Campaign Standard para registrar una entrada en un punto de interés específico para un usuario en particular en función del ID de Experience Cloud.
+Las reglas de Experience Platform Launch le permiten crear flujos de trabajo complejos de varias soluciones basados en déclencheur de eventos. Con las reglas, puede crear nuevas reglas o modificar las existentes y hacer que las actualizaciones se implementen dinámicamente en las aplicaciones móviles. En el ejemplo siguiente, la regla se activará cuando un usuario introduzca un punto de interés delimitado geográficamente. Una vez activada la regla, se envía una actualización a Campaign Standard para registrar una entrada en un punto de interés específico para un usuario en particular en función del Experience Cloud ID.
 
 1. En su propiedad móvil de Experience Platform Launch, en la ficha **[!UICONTROL Reglas]**, haga clic en **[!UICONTROL Agregar regla]**.
 1. En la sección **[!UICONTROL Events]**, haga clic en **[!UICONTROL +]** y seleccione **[!UICONTROL Places Service]** como extensión.
@@ -77,7 +83,7 @@ Las reglas de Experience Platform Launch le permiten crear flujos de trabajo com
 1. En **[!UICONTROL URL]**, debe construir su extremo de ubicaciones de Campaign Standard.
 
    La dirección URL debe ser similar a `https:///rest/head/mobileAppV5//locations/`.
-Asegúrese de utilizar los elementos de datos correctos creados anteriormente para el servidor de Campaign y la clave.
+   Asegúrese de utilizar los elementos de datos correctos creados anteriormente para el servidor de Campaign y la clave.
 
 1. Haga clic en el cuadro para añadir un cuerpo de publicación y enviar lo siguiente:
 

@@ -1,17 +1,18 @@
 ---
-title: Configuración del SDK con la extensión Places
-description: Puede configurar el SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil.
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+title: Configuración de SDK con la extensión Places
+description: Puede configurar SDK con la extensión Places para activar la identificación de la ubicación en la aplicación móvil.
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
-
 ---
 
+# Configuración de SDK con la extensión Places {#configure-sdk-places-extension}
 
-# Configuración del SDK con la extensión Places {#configure-sdk-places-extension}
-
-Para activar la identificación de la ubicación en la aplicación móvil, configure el SDK con la extensión Places. Para obtener más información, incluida la configuración del SDK, consulte [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Para activar la identificación de la ubicación en la aplicación móvil, configure SDK con la extensión Places. Para obtener más información, incluida la configuración de SDK, consulte [Extensión Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuración de la extensión Places
 
