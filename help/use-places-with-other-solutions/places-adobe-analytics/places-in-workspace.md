@@ -2,7 +2,7 @@
 title: Informar sobre datos de ubicación en Analytics Workspace
 description: Esta sección proporciona información sobre cómo informar sobre los datos de ubicación en Analytics Workspace.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-TQID: https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E
+TQID: 'https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -13,13 +13,8 @@ product_v2:
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
-  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
-    internal-label: Reporting
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
-subfeature_v2:
+    internal-label: Data collection tags
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
 topic_v2:
@@ -29,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 6%
@@ -48,7 +43,7 @@ Este documento supone lo siguiente:
 
 1. El usuario de Adobe Analytics es administrador y tiene acceso a las reglas de procesamiento.
 
-   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=es).
+   Para obtener más información sobre las reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 1. En la propiedad de Launch, se han creado elementos de datos para las variables del servicio de Places que desee.
 
@@ -77,7 +72,7 @@ En este ejemplo, se ha creado una variable de conversión **[!UICONTROL Evar2]**
 
 ## &#x200B;3. Creación de reglas de procesamiento
 
-Este paso es necesario para asignar datos de contexto (paso 1) a variables de Analytics (paso 2). Para obtener más información sobre la creación de reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=es).
+Este paso es necesario para asignar datos de contexto (paso 1) a variables de Analytics (paso 2). Para obtener más información sobre la creación de reglas de procesamiento, consulte [Información general sobre las reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 En este ejemplo, se ha creado una regla de procesamiento para asignar el valor de datos de contexto **[!UICONTROL poi.name]** a **[!UICONTROL Places POI Name (eVar2)]**. Será necesario crear reglas de procesamiento adicionales para cada variable de ubicación creada.
 

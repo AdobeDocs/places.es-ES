@@ -2,12 +2,12 @@
 title: Prueba y validación del servicio Places
 description: Esta sección proporciona información sobre cómo probar y validar el servicio de Places.
 exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
-TQID: https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk
+TQID: 'https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
-    internal-label: Adobe Sign
+    internal-label: Acrobat Sign
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
@@ -21,23 +21,23 @@ feature_v2:
     internal-label: Implementation
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-    internal-label: Integrations
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
     internal-label: Integrations
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
-  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-    internal-label: Places
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Integrations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Dado que las variables de entorno pueden ser un factor en la señal de ubicació
 |  | **Probando la mensajería en la aplicación de Adobe Campaign Standard con el servicio Places.** |  |
 | 12 | En el panel principal de Campaign, configure un nuevo mensaje en la aplicación (type = broadcast) |  |
 | 12a | En déclencheur, seleccione **Tipo de evento de lugares - Entrada como déclencheur**. |  |
-| 12b | Seleccione **[!UICONTROL Metadatos personalizados de Places]** como filtro adicional. Use el tipo de punto de interés = Último punto de interés (POI).<br>Utilizamos **[!UICONTROL Última entrada]** como tipo de punto de interés (POI) porque, en la mayoría de los casos, **[!UICONTROL Última entrada]** será igual que **[!UICONTROL Punto de interés actual]**. <br><br>**[!UICONTROL El punto de interés actual &#x200B;]**&#x200B;solo debe usarse en instancias donde haya geoperímetros de punto de interés superpuestos. En este caso, estos puntos de interés deben estar EN LA CLASIFICACIÓN y, a continuación, el&#x200B;**[!UICONTROL &#x200B; punto de interés actual &#x200B;]**&#x200B;mostrará el punto de interés de mayor clasificación de los 2 o 3 geoperímetros en los que podría estar un usuario en ese momento. |  |
+| 12b | Seleccione **[!UICONTROL Metadatos personalizados de Places]** como filtro adicional. Use el tipo de punto de interés = Último punto de interés (POI).<br>Utilizamos **[!UICONTROL Última entrada]** como tipo de punto de interés (POI) porque, en la mayoría de los casos, **[!UICONTROL Última entrada]** será igual que **[!UICONTROL Punto de interés actual]**. <br><br>**[!UICONTROL El punto de interés actual ]**solo debe usarse en instancias donde haya geoperímetros de punto de interés superpuestos. En este caso, estos puntos de interés deben estar EN LA CLASIFICACIÓN y, a continuación, el**[!UICONTROL  punto de interés actual ]**mostrará el punto de interés de mayor clasificación de los 2 o 3 geoperímetros en los que podría estar un usuario en ese momento. |  |
 | 12c | Seleccione una clave de metadatos personalizada que le ayude a reducir los puntos de interés que recibirán un mensaje. |  |
 | 12d | Para la frecuencia y la duración, manténgase a solo uno o dos días, de modo que si no le gustan los criterios, puede caducar el déclencheur en un período de tiempo más corto. |  |
 | 12e | Para Pulsaciones siempre/una vez o hasta, seleccione *SIEMPRE* para poder realizar pruebas en varias ubicaciones. | Se muestra SIEMPRE un mensaje en la aplicación cuando simula un cambio de ubicación que cumple los criterios de metadatos adecuados. |
